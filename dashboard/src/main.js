@@ -21,6 +21,7 @@ import { renderRecurringUnansweredPage } from './pages/RecurringUnanswered.js'
 import { renderSeasonalPage } from './pages/Seasonal.js'
 import { renderQuestionQualityPage } from './pages/QuestionQuality.js'
 import { renderEpisodeSummariesPage } from './pages/EpisodeSummaries.js'
+import { renderRayLiottaPage } from './pages/RayLiotta.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -44,6 +45,7 @@ function renderNav() {
     ['/trivia', 'Trivia'],
     ['/question-quality', 'Quality'],
     ['/summaries', 'Summaries'],
+    ['/ray-liotta', 'Ray Liotta'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -78,6 +80,7 @@ const routes = {
   '/trivia': renderTriviaPage,
   '/question-quality': renderQuestionQualityPage,
   '/summaries': renderEpisodeSummariesPage,
+  '/ray-liotta': renderRayLiottaPage,
 }
 
 function route() {

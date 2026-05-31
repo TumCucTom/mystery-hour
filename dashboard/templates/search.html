@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search — Mystery Hour</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root { --primary: #6c5ce7; }
+    body { margin: 0; padding: 0; }
+    nav { border-bottom: 1px solid #eee; padding: 0.5rem 1rem; display: flex; gap: 1rem; align-items: center; }
+    nav a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    nav .logo { font-size: 1.2rem; font-weight: 700; color: #222; margin-right: auto; }
+    .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    input#q { width: 100%; padding: 0.9rem; border: 2px solid #ddd; border-radius: 8px; font-size: 1.1rem; }
+    input#q:focus { border-color: var(--primary); outline: none; }
+    .result { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 0.9rem; margin: 0.6rem 0; }
+    .result .question { font-size: 0.95rem; color: #222; }
+    .result .meta { font-size: 0.75rem; color: #888; margin-top: 0.35rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.7rem; font-weight: 600; }
+    .badge-resolved { background: #d4edda; color: #155724; }
+    .badge-unresolved { background: #fff3cd; color: #856404; }
+    .hint { color: #888; font-size: 0.85rem; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+<nav>
+  <span class="logo">🔮 Mystery Hour</span>
+  <a href="/">Overview</a>
+  <a href="/clusters">Clusters</a>
+  <a href="/episodes">Episodes</a>
+  <a href="/search">Search</a>
+</nav>
+
+<div class="container">
+  <h1>🔎 Search Questions</h1>
+  <p>Find similar or related questions across all 601 episodes.</p>
+  <input type="text" id="q" placeholder="e.g. Why do we... What is the origin of..." autofocus>
+  <div id="results"></div>
+  <p class="hint">Try: "why do we take our hats off", "origin of the phrase", "why is the sky blue"</p>
+</div>
+
+<script>
+let debounceTimer;
+
+document.getElementById('q').oninput = e => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => search(e.target.value), 300);
+};
+
+async function search(q) {
+  const results = document.getElementById('results');
+  if (!q || q.length < 2) { results.innerHTML = ''; return; }
+  results.innerHTML = '<p style="color:#888">Searching...</p>';
+  const resp = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
+  const data = await resp.json();
+  if (!data.length) { results.innerHTML = '<p style="color:#888">No matches found.</p>'; return; }
+  results.innerHTML = `<p style="color:#666;font-size:0.85rem">${data.length} results</p>`;
+  data.forEach(r => {
+    const div = document.createElement('div');
+    div.className = 'result';
+    div.innerHTML = `
+      <div class="question">${r.question}</div>
+      <div class="meta">
+        <span>${r.caller || 'anonymous'}</span>
+        <span>${r.episode}</span>
+        <span class="badge ${r.resolved ? 'badge-resolved' : 'badge-unresolved'}">${r.resolved ? 'Resolved' : 'Unresolved'}</span>
+        <span>${r.n_answers} answers</span>
+      </div>
+    `;
+    results.appendChild(div);
+  });
+}
+</script>
+</body>
+</html>

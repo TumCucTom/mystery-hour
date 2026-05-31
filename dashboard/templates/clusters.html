@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Topic Clusters — Mystery Hour</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root { --primary: #6c5ce7; }
+    body { margin: 0; padding: 0; }
+    nav { border-bottom: 1px solid #eee; padding: 0.5rem 1rem; display: flex; gap: 1rem; align-items: center; }
+    nav a { color: var(--primary); text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    nav .logo { font-size: 1.2rem; font-weight: 700; color: #222; margin-right: auto; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 1rem; }
+    .controls { display: flex; gap: 1rem; align-items: center; margin: 1rem 0; flex-wrap: wrap; }
+    .controls select, .controls input { padding: 0.5rem 0.75rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; }
+    h1 { font-size: 1.5rem; margin: 1rem 0 0.5rem; }
+    .cluster-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.75rem; }
+    .cluster-card { background: white; border: 2px solid #e0e0e0; border-radius: 8px; padding: 1rem; cursor: pointer; transition: all 0.2s; }
+    .cluster-card:hover { border-color: var(--primary); box-shadow: 0 4px 20px rgba(108,92,231,0.15); }
+    .cluster-card.selected { border-color: var(--primary); background: #f8f7ff; }
+    .cluster-id { font-size: 0.7rem; color: #999; text-transform: uppercase; letter-spacing: 0.08em; }
+    .topic { font-weight: 700; font-size: 0.95rem; color: #222; margin: 0.4rem 0; }
+    .meta { font-size: 0.8rem; color: #666; display: flex; gap: 1rem; flex-wrap: wrap; }
+    .keywords { font-size: 0.75rem; color: var(--primary); margin-top: 0.4rem; font-weight: 600; }
+    .cluster-detail { margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem; }
+    .example { background: #f8f7ff; border-left: 3px solid var(--primary); padding: 0.75rem 1rem; border-radius: 4px; font-size: 0.85rem; margin: 0.5rem 0; color: #333; }
+    .example-caller { font-size: 0.75rem; color: #888; margin-top: 0.25rem; }
+    .question-item { background: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 0.75rem; margin: 0.4rem 0; }
+    .q-text { font-size: 0.88rem; }
+    .q-meta { font-size: 0.72rem; color: #888; margin-top: 0.2rem; }
+    .q-meta span { margin-right: 0.75rem; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.7rem; font-weight: 600; }
+    .badge-resolved { background: #d4edda; color: #155724; }
+    .badge-unresolved { background: #fff3cd; color: #856404; }
+    .questions-list { margin-top: 2rem; }
+    .questions-list h3 { font-size: 1rem; color: #555; }
+  </style>
+</head>
+<body>
+<nav>
+  <span class="logo">🔮 Mystery Hour</span>
+  <a href="/">Overview</a>
+  <a href="/clusters">Clusters</a>
+  <a href="/episodes">Episodes</a>
+  <a href="/search">Search</a>
+</nav>
+
+<div class="container">
+  <h1>🔍 Topic Clusters</h1>
+  <p>Questions grouped by semantic similarity using BAAI/bge-base-en-v1.5 embeddings + KMeans.</p>
+
+  <div class="controls">
+    <select id="kSelect">
+      <option value="80">k=80 clusters</option>
+      <option value="120">k=120 clusters</option>
+    </select>
+    <input type="text" id="searchFilter" placeholder="Filter by keyword (e.g. football, language...)" style="max-width:300px;">
+    <span id="clusterCount" style="color:#666;font-size:0.85rem;"></span>
+  </div>
+
+  <div id="clusterGrid" class="cluster-grid"></div>
+  <div id="clusterDetail" class="cluster-detail" style="display:none;"></div>
+</div>
+
+<script>
+let clustersData = [];
+let selectedCluster = null;
+
+async function loadClusters(k) {
+  const resp = await fetch(`/api/clusters?k=${k}`);
+  clustersData = await resp.json();
+  renderClusters(clustersData.clusters);
+}
+
+function renderClusters(clusters) {
+  const grid = document.getElementById('clusterGrid');
+  const search = document.getElementById('searchFilter').value.toLowerCase();
+  const filtered = clusters.filter(c =>
+    !search || (c.topic_label || '').toLowerCase().includes(search) ||
+    (c.keywords || []).some(k => k.toLowerCase().includes(search))
+  );
+  document.getElementById('clusterCount').textContent = `${filtered.length} clusters`;
+
+  grid.innerHTML = '';
+  filtered.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'cluster-card' + (selectedCluster === c.cluster_id ? ' selected' : '');
+    card.onclick = () => selectCluster(c);
+    card.innerHTML = `
+      <div class="cluster-id">Cluster ${c.cluster_id}</div>
+      <div class="topic">${c.topic_label || '—'}</div>
+      <div class="meta">
+        <span>${c.size} Qs</span>
+        <span>✅ ${c.resolved_pct || Math.round((c.resolved_rate||0)*100)}% resolved</span>
+        <span>avg ${c.avg_answers || 0} answers</span>
+      </div>
+      <div class="keywords">${(c.keywords || []).join(' · ')}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+async function selectCluster(c) {
+  selectedCluster = c.cluster_id;
+  document.querySelectorAll('.cluster-card').forEach(el => el.classList.remove('selected'));
+  renderClusters(clustersData.clusters);
+
+  const detail = document.getElementById('clusterDetail');
+  detail.style.display = 'block';
+  detail.innerHTML = `<h3>Cluster ${c.cluster_id}: ${c.topic_label || ''}</h3>
+    <p><strong>${c.size} questions</strong> · ${c.resolved_pct || Math.round((c.resolved_rate||0)*100)}% resolved · ${c.avg_answers || 0} avg answers</p>
+    <p class="keywords">${(c.keywords || []).join(' · ')}</p>
+    ${c.example ? `<div class="example"><strong>Representative question:</strong><br>${c.example}<div class="example-caller">— ${c.example_caller || 'anonymous'}</div></div>` : ''}
+    <div class="questions-list"><h3>All questions in this cluster</h3><div id="questionsList">Loading...</div></div>`;
+
+  // Fetch all questions in cluster
+  const k = document.getElementById('kSelect').value;
+  const resp = await fetch(`/api/cluster/${c.cluster_id}?k=${k}`);
+  const data = await resp.json();
+  const ql = document.getElementById('questionsList');
+  ql.innerHTML = data.questions.map(q => `
+    <div class="question-item">
+      <div class="q-text">${q.question}</div>
+      <div class="q-meta">
+        <span>${q.caller || 'anonymous'}</span>
+        <span>${q.episode}</span>
+        <span class="badge ${q.resolved ? 'badge-resolved' : 'badge-unresolved'}">${q.resolved ? 'Resolved' : 'Unresolved'}</span>
+        <span>${q.n_answers} answers</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+document.getElementById('kSelect').onchange = e => loadClusters(e.target.value);
+document.getElementById('searchFilter').oninput = () => renderClusters(clustersData.clusters);
+
+loadClusters(80);
+</script>
+</body>
+</html>
