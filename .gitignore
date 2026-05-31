@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.mp3
+*.failed.txt
+episode_urls.txt
+transcripts/
+logs/
+*.log
+slurm-*.out
+slurm-*.err
