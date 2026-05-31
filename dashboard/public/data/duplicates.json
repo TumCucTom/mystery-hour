@@ -1,0 +1,4163 @@
+[
+  {
+    "chain_size": 18,
+    "indices": [
+      1531,
+      1979,
+      3374,
+      3379,
+      3382,
+      3384,
+      3385,
+      3387,
+      3389,
+      3390,
+      3411,
+      3869,
+      3874,
+      3875,
+      4092,
+      4693,
+      4699,
+      5499
+    ],
+    "examples": [
+      {
+        "episode": "ep_164",
+        "question": null
+      },
+      {
+        "episode": "ep_210",
+        "question": null
+      },
+      {
+        "episode": "ep_355",
+        "question": null
+      }
+    ]
+  },
+  {
+    "chain_size": 7,
+    "indices": [
+      2646,
+      2648,
+      2651,
+      2652,
+      2653,
+      2654,
+      2655
+    ],
+    "examples": [
+      {
+        "episode": "ep_282",
+        "question": ""
+      },
+      {
+        "episode": "ep_282",
+        "question": ""
+      },
+      {
+        "episode": "ep_282",
+        "question": ""
+      }
+    ]
+  },
+  {
+    "chain_size": 6,
+    "indices": [
+      1088,
+      2129,
+      2693,
+      2716,
+      4308,
+      5240
+    ],
+    "examples": [
+      {
+        "episode": "ep_120",
+        "question": "What makes an assassination different from a murder? How important do you have to be to be 'assassinated'?"
+      },
+      {
+        "episode": "ep_228",
+        "question": "How important do you have to be to be assassinated rather than murdered? Is it political?"
+      },
+      {
+        "episode": "ep_287",
+        "question": "When does a murder become an assassination? How far up the pecking order do you have to be before you get assassinated, rather than a murder?"
+      }
+    ]
+  },
+  {
+    "chain_size": 6,
+    "indices": [
+      335,
+      2221,
+      2608,
+      4125,
+      4940,
+      5942
+    ],
+    "examples": [
+      {
+        "episode": "ep_038",
+        "question": "Why is the Army called 'British Army' and not 'Royal Army' when we have the Royal Navy and Royal Air Force?"
+      },
+      {
+        "episode": "ep_240",
+        "question": "Why do we have a Royal Air Force and a Royal Navy, but it's not called the Royal Army? Why is the British Army the only one of the armed forces that is not royal?"
+      },
+      {
+        "episode": "ep_278",
+        "question": "We have the Royal Navy and the Royal Air Force, but why is it just the British Army and not the Royal Army?"
+      }
+    ]
+  },
+  {
+    "chain_size": 5,
+    "indices": [
+      1716,
+      2364,
+      3524,
+      5089,
+      5541
+    ],
+    "examples": [
+      {
+        "episode": "ep_183",
+        "question": "Why do we clean our teeth with cold water when everything else we clean in everyday life is with hot or warm water?"
+      },
+      {
+        "episode": "ep_253",
+        "question": "Why do we brush your teeth with cold water and not hot?"
+      },
+      {
+        "episode": "ep_368",
+        "question": "Why do we brush our teeth with cold water when hot water is better for washing up? And would warm water improve tooth cleaning?"
+      }
+    ]
+  },
+  {
+    "chain_size": 5,
+    "indices": [
+      1472,
+      2187,
+      2511,
+      4004,
+      5997
+    ],
+    "examples": [
+      {
+        "episode": "ep_159",
+        "question": "With the exception of the 100 metres, every other running event in athletics goes anti-clockwise around the track. Why is it we go anti-clockwise?"
+      },
+      {
+        "episode": "ep_235",
+        "question": "In athletics, why are track events anti-clockwise?"
+      },
+      {
+        "episode": "ep_268",
+        "question": "Why is it whenever you see athletics on the television or go to a track, they always run anti-clockwise, never clockwise?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      2966,
+      3348,
+      4193,
+      5273
+    ],
+    "examples": [
+      {
+        "episode": "ep_314",
+        "question": "Why is a boxing ring called a ring if it's a square?"
+      },
+      {
+        "episode": "ep_352",
+        "question": "Why is a boxing ring square?"
+      },
+      {
+        "episode": "ep_429",
+        "question": "Why do they call it a boxing ring when it's square?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      3299,
+      3424,
+      4619,
+      5424
+    ],
+    "examples": [
+      {
+        "episode": "ep_347",
+        "question": "Why are traditional dusters coloured yellow?"
+      },
+      {
+        "episode": "ep_359",
+        "question": "Why are dusters traditionally yellow?"
+      },
+      {
+        "episode": "ep_472",
+        "question": "Why are dusters yellow?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      618,
+      1484,
+      3342,
+      4636
+    ],
+    "examples": [
+      {
+        "episode": "ep_069",
+        "question": "Why is a tea towel called a tea towel? Why not just a kitchen towel?"
+      },
+      {
+        "episode": "ep_160",
+        "question": "Why is a tea towel called a tea towel?"
+      },
+      {
+        "episode": "ep_351",
+        "question": "Why is a tea towel called a tea towel? A bath towel is for when you're in and out of the bath, but a tea towel is just for about the chin, not necessarily to do with tea."
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      1384,
+      1759,
+      3655,
+      3988
+    ],
+    "examples": [
+      {
+        "episode": "ep_149",
+        "question": "Why do we put candles on a birthday cake? What are the origins of candles on birthday cakes?"
+      },
+      {
+        "episode": "ep_188",
+        "question": "Why do we blow out candles on a birthday cake and not anything else?"
+      },
+      {
+        "episode": "ep_380",
+        "question": "Why do people put candles on a birthday cake and not anything else?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      148,
+      1910,
+      4020,
+      4177
+    ],
+    "examples": [
+      {
+        "episode": "ep_016",
+        "question": "Why is it incorrect etiquette to have your elbows on the table when dining?"
+      },
+      {
+        "episode": "ep_203",
+        "question": "Why is it perceived as rude to eat with your elbows at the table?"
+      },
+      {
+        "episode": "ep_413",
+        "question": "Why is it rude to put your elbows on the dining room table?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      1191,
+      1696,
+      2176,
+      4487
+    ],
+    "examples": [
+      {
+        "episode": "ep_131",
+        "question": "When someone has passed away, why are they referred to as being 'the late'? What exactly are you late for when you're no longer here?"
+      },
+      {
+        "episode": "ep_181",
+        "question": "Why do we refer to the recently deceased as 'the late'?"
+      },
+      {
+        "episode": "ep_234",
+        "question": "Why is it after someone has died, they're referred to as late?"
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      1469,
+      3200,
+      3933,
+      4918
+    ],
+    "examples": [
+      {
+        "episode": "ep_158",
+        "question": "Why don't we sneeze when we're asleep? As an allergic person I sneeze a lot when I wake up but never once have I startled myself awake sneezing."
+      },
+      {
+        "episode": "ep_337",
+        "question": "Why don't we sneeze when we sleep? When we're asleep, we never sneeze."
+      },
+      {
+        "episode": "ep_405",
+        "question": "Why don't we sneeze when we're asleep? I sneeze multiple times during the day but never at night."
+      }
+    ]
+  },
+  {
+    "chain_size": 4,
+    "indices": [
+      1393,
+      3903,
+      4412,
+      4945
+    ],
+    "examples": [
+      {
+        "episode": "ep_150",
+        "question": "Why are the numbers 1, 2, 3 on the top row of a telephone keypad but on the bottom row of a calculator and computer keyboard?"
+      },
+      {
+        "episode": "ep_402",
+        "question": "Why is the number one at the bottom left on a calculator but at the top left on a telephone keypad?"
+      },
+      {
+        "episode": "ep_450",
+        "question": "Why are numbers on a telephone keypad arranged 1-2-3 at the top and 7-8-9 at the bottom, while on a calculator it's the opposite - 7-8-9 at the top and 1-2-3 at the bottom?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      2444,
+      2448,
+      2449
+    ],
+    "examples": [
+      {
+        "episode": "ep_261",
+        "question": "What is the origin of the phrase 'cheesed off'?"
+      },
+      {
+        "episode": "ep_261",
+        "question": "Possible answer to 'cheesed off' origin"
+      },
+      {
+        "episode": "ep_261",
+        "question": "Possible answer to 'cheesed off' origin"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3984,
+      3985,
+      4935
+    ],
+    "examples": [
+      {
+        "episode": "ep_410",
+        "question": "Do animals get jet lag?"
+      },
+      {
+        "episode": "ep_410",
+        "question": "Do animals get jet lag?"
+      },
+      {
+        "episode": "ep_500",
+        "question": "Do animals, namely cats and dogs, get jet lag?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      4815,
+      4817,
+      5916
+    ],
+    "examples": [
+      {
+        "episode": "ep_489",
+        "question": "Why do they dim the cabin lights in aircraft during the hours of darkness to take off and landing?"
+      },
+      {
+        "episode": "ep_489",
+        "question": "Why do they dim the cabin lights in aircraft during the hours of darkness to take off and landing?"
+      },
+      {
+        "episode": "ep_588",
+        "question": "Why do they dim the cabin lights when landing at night? Surely more light is safer?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      2340,
+      4984,
+      4999
+    ],
+    "examples": [
+      {
+        "episode": "ep_251",
+        "question": "The Conservative Party nickname is the Tories. Why is that?"
+      },
+      {
+        "episode": "ep_505",
+        "question": "Why are Conservatives often referred to as Tories?"
+      },
+      {
+        "episode": "ep_506",
+        "question": "Why are Conservatives often referred to as Tories?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      1452,
+      3743,
+      5736
+    ],
+    "examples": [
+      {
+        "episode": "ep_156",
+        "question": "What does 'tog' mean on duvets? Is it a measurement of thickness, heat resistance, or something made up by duvet manufacturers?"
+      },
+      {
+        "episode": "ep_388",
+        "question": "What is a tog in terms of duvets?"
+      },
+      {
+        "episode": "ep_574",
+        "question": "What is a 'tog' in duvets?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      855,
+      3126,
+      4147
+    ],
+    "examples": [
+      {
+        "episode": "ep_094",
+        "question": "Why do you never, ever see baby pigeons?"
+      },
+      {
+        "episode": "ep_329",
+        "question": "Why do you never see any baby pigeons around?"
+      },
+      {
+        "episode": "ep_424",
+        "question": "Why do we never see baby pigeons?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      999,
+      1189,
+      4251
+    ],
+    "examples": [
+      {
+        "episode": "ep_111",
+        "question": "When does a war become a world war?"
+      },
+      {
+        "episode": "ep_131",
+        "question": "At what point does a war become a world war?"
+      },
+      {
+        "episode": "ep_434",
+        "question": "How many countries does it take for a war to become a world war?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      1800,
+      3483,
+      4741
+    ],
+    "examples": [
+      {
+        "episode": "ep_191",
+        "question": "Can what you eat before you go to sleep affect the type of dreams that you have? Does eating cheese really give you nightmares?"
+      },
+      {
+        "episode": "ep_365",
+        "question": "Does cheese before bed really give you nightmares, or is it just a myth?"
+      },
+      {
+        "episode": "ep_483",
+        "question": "Does eating cheese before you go to bed really give you nightmares?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3472,
+      3876,
+      5206
+    ],
+    "examples": [
+      {
+        "episode": "ep_364",
+        "question": "Why do coins have dates on them but banknotes don't?"
+      },
+      {
+        "episode": "ep_400",
+        "question": "Why don't British banknotes have a date on them unlike British coins?"
+      },
+      {
+        "episode": "ep_526",
+        "question": "Coins have the date of manufacture on them. Why don't banknotes have a date of manufacture on them?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      1117,
+      2760,
+      5203
+    ],
+    "examples": [
+      {
+        "episode": "ep_123",
+        "question": "Why can't you put metal into a microwave?"
+      },
+      {
+        "episode": "ep_293",
+        "question": "Why can't you put metal objects in a microwave if the inside of a microwave is made of metal?"
+      },
+      {
+        "episode": "ep_526",
+        "question": "Why can a microwave be made of metal and have metal trays and plates inside, but you're not allowed to put metal in the microwave to microwave food?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      2696,
+      2719,
+      5231
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why do babies and why you grow into adults as well, why the bottom lip comes out and quivers when they cry?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why do babies, and adults as well, stick their bottom lip out and quiver when they cry?"
+      },
+      {
+        "episode": "ep_528",
+        "question": "Why do babies, before they cry, their bottom lip quivers? Does this happen on grown-ups as well?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3108,
+      3184,
+      4198
+    ],
+    "examples": [
+      {
+        "episode": "ep_327",
+        "question": "Where does the origin of champagne bottle names come from? Why are they called Jeroboam, Methuselah, Nebuchadnezzar?"
+      },
+      {
+        "episode": "ep_335",
+        "question": "Why are champagne bottles named after ancient monarchs like Nebuchadnezzar, Methuselah, Jeroboam, and Rehoboam?"
+      },
+      {
+        "episode": "ep_429",
+        "question": "Why are champagne bottle sizes named after Old Testament kings like Jeroboam, Nebuchadnezzar, and Methuselah?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      2600,
+      3456,
+      4496
+    ],
+    "examples": [
+      {
+        "episode": "ep_277",
+        "question": "Why do golfers shout 'four' when doing a wayward shot?"
+      },
+      {
+        "episode": "ep_362",
+        "question": "Why do golfers shout 'four' when a ball goes astray? Why not one, two, three, or 'we all woo'?"
+      },
+      {
+        "episode": "ep_458",
+        "question": "Why do golfers shout 'Four!' when the ball goes left or right onto another fairway?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      277,
+      1705,
+      4660
+    ],
+    "examples": [
+      {
+        "episode": "ep_032",
+        "question": "Why do people say 'O' instead of 'zero' when reading out telephone numbers? There's no such thing as an O in a telephone number."
+      },
+      {
+        "episode": "ep_182",
+        "question": "Why do we say O in front of telephone numbers rather than 0 or zero?"
+      },
+      {
+        "episode": "ep_476",
+        "question": "Why have people started saying zero instead of O when reading out phone numbers?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3808,
+      5284,
+      5568
+    ],
+    "examples": [
+      {
+        "episode": "ep_394",
+        "question": "When, who, and why did we start clapping to show appreciation? Is it primeval and pre-verbal?"
+      },
+      {
+        "episode": "ep_534",
+        "question": "What are the origins of clapping? How did it start as a way to show approval?"
+      },
+      {
+        "episode": "ep_560",
+        "question": "What's the origin of clapping to show appreciation?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3060,
+      4319,
+      5111
+    ],
+    "examples": [
+      {
+        "episode": "ep_324",
+        "question": "When does a pond become a lake?"
+      },
+      {
+        "episode": "ep_441",
+        "question": "When does a pond become a lake? At what size does a puddle become a pond?"
+      },
+      {
+        "episode": "ep_517",
+        "question": "What's the difference between a pond and a lake? And if it's just size, when does a pond become a lake?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      1814,
+      3448,
+      3837
+    ],
+    "examples": [
+      {
+        "episode": "ep_193",
+        "question": "Are spiders scared of conkers? Are they repelled? Do conkers keep spiders away?"
+      },
+      {
+        "episode": "ep_361",
+        "question": "Do conkers really keep spiders away?"
+      },
+      {
+        "episode": "ep_397",
+        "question": "What is it with conkers that keeps spiders away? Is it gas?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      1277,
+      1996,
+      3909
+    ],
+    "examples": [
+      {
+        "episode": "ep_139",
+        "question": "Why do TV programs and films put copyright dates in Roman numerals at the end of credits?"
+      },
+      {
+        "episode": "ep_212",
+        "question": "Why are movie credits always dated in Roman numerals?"
+      },
+      {
+        "episode": "ep_403",
+        "question": "Why do film and TV credits at the end show the date in Roman numerals? Why not just use regular numbers?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      3588,
+      4326,
+      5594
+    ],
+    "examples": [
+      {
+        "episode": "ep_374",
+        "question": "Why do books come in hardback first?"
+      },
+      {
+        "episode": "ep_442",
+        "question": "When books are published, why are they first published as hardbacks and then later published as paperbacks?"
+      },
+      {
+        "episode": "ep_563",
+        "question": "Why are books released as hardback first rather than paperback? They're so much more expensive."
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      921,
+      1541,
+      2664
+    ],
+    "examples": [
+      {
+        "episode": "ep_102",
+        "question": "Why aren't there more left-handed people? Why is the population not more 50-50 split between left and right handed?"
+      },
+      {
+        "episode": "ep_165",
+        "question": "Why are only 10% of people left-handed? If you have two hands, shouldn't it be 50-50?"
+      },
+      {
+        "episode": "ep_283",
+        "question": "Why is it that there's so many more right-handed people in the world than left-handed? You would think it would be 50-50."
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      688,
+      1717,
+      4167
+    ],
+    "examples": [
+      {
+        "episode": "ep_077",
+        "question": "Where did the X at the end of texts come from? When did an X or cross start representing a kiss?"
+      },
+      {
+        "episode": "ep_183",
+        "question": "When did we start using an X to signify a kiss? What's the origin?"
+      },
+      {
+        "episode": "ep_426",
+        "question": "How did the X become the symbol for kisses?"
+      }
+    ]
+  },
+  {
+    "chain_size": 3,
+    "indices": [
+      122,
+      313,
+      5842
+    ],
+    "examples": [
+      {
+        "episode": "ep_013",
+        "question": "Why is Russia called Motherland and Germany called Fatherland? When was this decided?"
+      },
+      {
+        "episode": "ep_036",
+        "question": "Why are some countries referred to as the motherland while some countries are called the fatherland? Which countries are the motherland?"
+      },
+      {
+        "episode": "ep_583",
+        "question": "Why is the UK called the 'Motherland' while other countries like Russia, France and Germany are called the 'Fatherland'? Who decides this?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      73,
+      74
+    ],
+    "examples": [
+      {
+        "episode": "ep_007",
+        "question": "What happened to the bank vaults in former banks?"
+      },
+      {
+        "episode": "ep_007",
+        "question": "What happened to the bank vaults in former banks?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1045,
+      3149
+    ],
+    "examples": [
+      {
+        "episode": "ep_116",
+        "question": "Why don't you ever see a seagull in a tree?"
+      },
+      {
+        "episode": "ep_331",
+        "question": "Why don't you ever see a seagull in a tree?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1054,
+      1055
+    ],
+    "examples": [
+      {
+        "episode": "ep_116",
+        "question": "Answer about national anthem"
+      },
+      {
+        "episode": "ep_116",
+        "question": "Answer about national anthem"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1157,
+      1158
+    ],
+    "examples": [
+      {
+        "episode": "ep_127",
+        "question": "Why do we slow down as we get older?"
+      },
+      {
+        "episode": "ep_127",
+        "question": "Why do we slow down as we get older?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2071,
+      2072
+    ],
+    "examples": [
+      {
+        "episode": "ep_222",
+        "question": "(Answering the Bitcoin question)"
+      },
+      {
+        "episode": "ep_222",
+        "question": "(Answering the Bitcoin question)"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2420,
+      5723
+    ],
+    "examples": [
+      {
+        "episode": "ep_258",
+        "question": "Why is the cabinet called the cabinet?"
+      },
+      {
+        "episode": "ep_573",
+        "question": "Why is the cabinet called the cabinet?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2547,
+      4553
+    ],
+    "examples": [
+      {
+        "episode": "ep_272",
+        "question": "Why don't trains have seatbelts?"
+      },
+      {
+        "episode": "ep_465",
+        "question": "Why don't trains have seatbelts?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2568,
+      5028
+    ],
+    "examples": [
+      {
+        "episode": "ep_274",
+        "question": "Why do men have nipples?"
+      },
+      {
+        "episode": "ep_509",
+        "question": "Why do men have nipples?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2695,
+      2718
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why does crossing of fingers symbolise hopefulness?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why does crossing of fingers symbolise hopefulness?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2699,
+      2723
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why does it smell when we cut the grass?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why does it smell when we cut the grass?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2701,
+      2721
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why is a carpenter's pencil flat when a normal pencil is round?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why is a carpenter's pencil flat when a normal pencil is round?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3036,
+      3046
+    ],
+    "examples": [
+      {
+        "episode": "ep_322",
+        "question": "What causes bags under the eyes?"
+      },
+      {
+        "episode": "ep_322",
+        "question": "What causes bags under the eyes?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4428,
+      4432
+    ],
+    "examples": [
+      {
+        "episode": "ep_452",
+        "question": "Answer to: Why are there 360 degrees in a circle?"
+      },
+      {
+        "episode": "ep_452",
+        "question": "Answer to: Why are there 360 degrees in a circle?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4814,
+      4816
+    ],
+    "examples": [
+      {
+        "episode": "ep_489",
+        "question": "What determines the colour of an egg?"
+      },
+      {
+        "episode": "ep_489",
+        "question": "What determines the colour of an egg?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5891,
+      5892
+    ],
+    "examples": [
+      {
+        "episode": "ep_587",
+        "question": "Answer about pigeons nesting in trees"
+      },
+      {
+        "episode": "ep_587",
+        "question": "Answer about pigeons nesting in trees"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1392,
+      1851
+    ],
+    "examples": [
+      {
+        "episode": "ep_150",
+        "question": "Why do we blush when we get embarrassed?"
+      },
+      {
+        "episode": "ep_197",
+        "question": "Why do we blush when we're embarrassed?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2186,
+      2521
+    ],
+    "examples": [
+      {
+        "episode": "ep_235",
+        "question": "Why do kettles go quiet just before they boil?"
+      },
+      {
+        "episode": "ep_269",
+        "question": "Why do kettles go quiet before they boil?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2856,
+      4986
+    ],
+    "examples": [
+      {
+        "episode": "ep_303",
+        "question": "Why are cash registers called tills?"
+      },
+      {
+        "episode": "ep_505",
+        "question": "Why are cash registers known as tills?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4027,
+      4034
+    ],
+    "examples": [
+      {
+        "episode": "ep_413",
+        "question": "Can a giraffe cough?"
+      },
+      {
+        "episode": "ep_414",
+        "question": "Can giraffes cough?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2996,
+      4031
+    ],
+    "examples": [
+      {
+        "episode": "ep_317",
+        "question": "Why do your toenails grow slower than your fingernails?"
+      },
+      {
+        "episode": "ep_414",
+        "question": "Why do toenails grow so much slower than fingernails?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2593,
+      4886
+    ],
+    "examples": [
+      {
+        "episode": "ep_277",
+        "question": "Does a bee know that when it stings you, it will die?"
+      },
+      {
+        "episode": "ep_495",
+        "question": "Does a bee know it will die when it stings?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1457,
+      3969
+    ],
+    "examples": [
+      {
+        "episode": "ep_157",
+        "question": "If you're swimming in the sea and lightning strikes, how far away would you have to be for you not to get electrocuted?"
+      },
+      {
+        "episode": "ep_408",
+        "question": "If I'm swimming in the sea and lightning strikes, how far away do I need to be to not be electrocuted?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2305,
+      5352
+    ],
+    "examples": [
+      {
+        "episode": "ep_248",
+        "question": "Where did the 5-day working week come from?"
+      },
+      {
+        "episode": "ep_540",
+        "question": "Where does the five-day working week originate from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2308,
+      2377
+    ],
+    "examples": [
+      {
+        "episode": "ep_248",
+        "question": "Who was the first teacher?"
+      },
+      {
+        "episode": "ep_254",
+        "question": "Who taught the first teacher?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5477,
+      5479
+    ],
+    "examples": [
+      {
+        "episode": "ep_551",
+        "question": "How much saliva does the average human produce per day?"
+      },
+      {
+        "episode": "ep_552",
+        "question": "How much saliva does the average human body produce in a day?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3087,
+      3096
+    ],
+    "examples": [
+      {
+        "episode": "ep_326",
+        "question": "Do E numbers have an adverse effect on children's behaviour?"
+      },
+      {
+        "episode": "ep_326",
+        "question": "ANSWER - Do E numbers have adverse effects on children's behaviour?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1416,
+      5305
+    ],
+    "examples": [
+      {
+        "episode": "ep_152",
+        "question": "Why do cows lie down when it's raining or when it's about to rain?"
+      },
+      {
+        "episode": "ep_536",
+        "question": "Why do cows lie down when it's raining?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1249,
+      4400
+    ],
+    "examples": [
+      {
+        "episode": "ep_137",
+        "question": "Where did the word 'nickname' come from? What does it mean?"
+      },
+      {
+        "episode": "ep_449",
+        "question": "What is the origin of the word 'nickname'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1863,
+      4188
+    ],
+    "examples": [
+      {
+        "episode": "ep_198",
+        "question": "Can you get two colds at the same time?"
+      },
+      {
+        "episode": "ep_429",
+        "question": "Is it possible to have two colds at once?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1920,
+      4364
+    ],
+    "examples": [
+      {
+        "episode": "ep_204",
+        "question": "Why is a honeymoon called a honeymoon?"
+      },
+      {
+        "episode": "ep_446",
+        "question": "Why is it actually called a honeymoon?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2694,
+      2717
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "When I'm sat in my car and I look in my rearview mirror, the object seems further away. When I look in my wing mirrors, they seem closer. So which mirror is accurate?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "When I'm sat in my car and look in my rearview mirror, objects seem further away. When I look in my wing mirrors, they seem closer. Which mirror is accurate? Why do we have two different perspectives?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2690,
+      5282
+    ],
+    "examples": [
+      {
+        "episode": "ep_286",
+        "question": "Where does 'Luke' come from in the phrase 'lukewarm'?"
+      },
+      {
+        "episode": "ep_534",
+        "question": "Where does the word 'lukewarm' come from? What is the origin of the 'luke' part?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3199,
+      3208
+    ],
+    "examples": [
+      {
+        "episode": "ep_337",
+        "question": "How do new words like Brexit get into sign language?"
+      },
+      {
+        "episode": "ep_337",
+        "question": "Sign language question - how does sign language accommodate new words like Brexit?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4237,
+      4239
+    ],
+    "examples": [
+      {
+        "episode": "ep_432",
+        "question": "Why is an American gallon different in size to a British gallon?"
+      },
+      {
+        "episode": "ep_432",
+        "question": "Why is an American gallon smaller than a British gallon?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3668,
+      4356
+    ],
+    "examples": [
+      {
+        "episode": "ep_381",
+        "question": "Where did the phrase 'penny dropped' come from?"
+      },
+      {
+        "episode": "ep_445",
+        "question": "Where does the phrase 'the penny drops' originate from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2328,
+      4607
+    ],
+    "examples": [
+      {
+        "episode": "ep_250",
+        "question": "Why is blowing a raspberry called blowing a raspberry?"
+      },
+      {
+        "episode": "ep_471",
+        "question": "Why is blowing a raspberry called a raspberry? What is the origin of the term?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3084,
+      3094
+    ],
+    "examples": [
+      {
+        "episode": "ep_326",
+        "question": "Do flies sweat?"
+      },
+      {
+        "episode": "ep_326",
+        "question": "ANSWER - Do flies sweat?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2296,
+      2685
+    ],
+    "examples": [
+      {
+        "episode": "ep_247",
+        "question": "Why is a hen and a stag do called a hen and a stag do, because they're different species? Why isn't it a hen and a rooster or a stag and a doe?"
+      },
+      {
+        "episode": "ep_286",
+        "question": "Why is a hen's called a hen and a stag's called a stag? Why isn't it a hen and a cockerel or a stag and a doe?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2254,
+      4328
+    ],
+    "examples": [
+      {
+        "episode": "ep_243",
+        "question": "Why are car number plates white at the front when they're yellow at the back?"
+      },
+      {
+        "episode": "ep_442",
+        "question": "Why are number plates white at the front and yellow at the back, as opposed to other number places?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2616,
+      3185
+    ],
+    "examples": [
+      {
+        "episode": "ep_279",
+        "question": "When was the first canned laughter used?"
+      },
+      {
+        "episode": "ep_335",
+        "question": "When was canned laughter first used and who invented it?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4241,
+      5714
+    ],
+    "examples": [
+      {
+        "episode": "ep_433",
+        "question": "The very first leaf to fall off a tree in autumn - will that be the first leaf to grow back in spring?"
+      },
+      {
+        "episode": "ep_572",
+        "question": "Is the first leaf that falls off the tree in autumn the first leaf to grow back in spring?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2697,
+      2720
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Me and my wife are big gin fans but we're really annoyed that you can only get tonic bottles in one like dinky little one liter size. Why is that?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Me and my wife are big gin fans but we're annoyed that you can only get tonic water in one small one-litre size. Why is that when you can buy gin in larger bottles?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5088,
+      5093
+    ],
+    "examples": [
+      {
+        "episode": "ep_515",
+        "question": "Why are people who work on trees called tree surgeons?"
+      },
+      {
+        "episode": "ep_515",
+        "question": "Why are tree surgeons called that?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1052,
+      1204
+    ],
+    "examples": [
+      {
+        "episode": "ep_116",
+        "question": "Does any other animal apart from humans go through menopause?"
+      },
+      {
+        "episode": "ep_132",
+        "question": "Do other mammals go through menopause?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1680,
+      5092
+    ],
+    "examples": [
+      {
+        "episode": "ep_179",
+        "question": "What is the origin of OK?"
+      },
+      {
+        "episode": "ep_515",
+        "question": "What does OK mean? What is the origin of OK?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1182,
+      5395
+    ],
+    "examples": [
+      {
+        "episode": "ep_130",
+        "question": "Why do we cry when we're sad or happy?"
+      },
+      {
+        "episode": "ep_544",
+        "question": "Why do we cry when we're sad?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4002,
+      4003
+    ],
+    "examples": [
+      {
+        "episode": "ep_411",
+        "question": "Why do some houses have a sparkling little metal thing on their chimneys that looks like an upside-down colander?"
+      },
+      {
+        "episode": "ep_411",
+        "question": "Why do some houses have those metal upside-down colander things on their chimneys?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1588,
+      4199
+    ],
+    "examples": [
+      {
+        "episode": "ep_170",
+        "question": "Where does the word 'honeymoon' come from or what does it mean?"
+      },
+      {
+        "episode": "ep_430",
+        "question": "What is the origin of the phrase 'honeymoon'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1550,
+      4306
+    ],
+    "examples": [
+      {
+        "episode": "ep_166",
+        "question": "Why do priests wear dog collars? And why is it called a dog collar?"
+      },
+      {
+        "episode": "ep_440",
+        "question": "Why is a priest's neckwear called a dog collar?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      711,
+      909
+    ],
+    "examples": [
+      {
+        "episode": "ep_079",
+        "question": "What were electric eels referred to before electricity was invented? Did they have a different name?"
+      },
+      {
+        "episode": "ep_101",
+        "question": "What were electric eels called before electricity was discovered?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3401,
+      4714
+    ],
+    "examples": [
+      {
+        "episode": "ep_357",
+        "question": "Why are buildings called buildings when they're already built?"
+      },
+      {
+        "episode": "ep_481",
+        "question": "Why is a building called a building when it's already been built? Why isn't it called a built?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      56,
+      5393
+    ],
+    "examples": [
+      {
+        "episode": "ep_006",
+        "question": "Why is the bottom buttonhole on men's dress shirts always horizontal when all the others are vertical?"
+      },
+      {
+        "episode": "ep_544",
+        "question": "Why do men's shirts have all vertical buttonholes except the bottom one which is horizontal?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4611,
+      4627
+    ],
+    "examples": [
+      {
+        "episode": "ep_471",
+        "question": "Why is a lolly stuck in an ice cream called a Popeye?"
+      },
+      {
+        "episode": "ep_472",
+        "question": "Why is it called a 'Popeye' when you put a lolly in ice cream?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1620,
+      3908
+    ],
+    "examples": [
+      {
+        "episode": "ep_174",
+        "question": "Why does a British passport have French text on it alongside English?"
+      },
+      {
+        "episode": "ep_403",
+        "question": "Why do British passports still have French writing next to the details?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2774,
+      3105
+    ],
+    "examples": [
+      {
+        "episode": "ep_294",
+        "question": "Where did rock, paper, scissors originate?"
+      },
+      {
+        "episode": "ep_327",
+        "question": "What are the origins of rock, paper, scissors?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      22,
+      4321
+    ],
+    "examples": [
+      {
+        "episode": "ep_002",
+        "question": "Why are the metal zips on trousers called 'flies'?"
+      },
+      {
+        "episode": "ep_441",
+        "question": "Why do we call the zip at the front of trousers the 'flies'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3057,
+      4313
+    ],
+    "examples": [
+      {
+        "episode": "ep_324",
+        "question": "Where does the saying 'As happy as Larry' come from?"
+      },
+      {
+        "episode": "ep_441",
+        "question": "Why am I so happy? (What is the origin of the phrase 'happy as Larry'?)"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5592,
+      5612
+    ],
+    "examples": [
+      {
+        "episode": "ep_563",
+        "question": "If Jupiter and Saturn are gas planets all the way through with no solid surface, would it be possible to fly straight through the middle of them with a suitable spacecraft?"
+      },
+      {
+        "episode": "ep_564",
+        "question": "The gas giants Jupiter and Saturn don't have solid surfaces. If you had a suitable spaceship, could you actually fly straight through the middle of them?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1587,
+      4128
+    ],
+    "examples": [
+      {
+        "episode": "ep_170",
+        "question": "Why do we cry? Why do we produce tears?"
+      },
+      {
+        "episode": "ep_423",
+        "question": "Why do we cry? Why do we produce tears as a physical manifestation of emotion?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2592,
+      3905
+    ],
+    "examples": [
+      {
+        "episode": "ep_277",
+        "question": "Why do men's shirts have buttons on the right-hand side and women's shirts have buttons on the left?"
+      },
+      {
+        "episode": "ep_403",
+        "question": "Why does a men's shirt button left to right and a woman's shirt button right to left?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5732,
+      5922
+    ],
+    "examples": [
+      {
+        "episode": "ep_574",
+        "question": "Why do we say 'excuse my French' after swearing?"
+      },
+      {
+        "episode": "ep_589",
+        "question": "Why do we say 'excuse my French' after using profanity? Where does this come from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1306,
+      2236
+    ],
+    "examples": [
+      {
+        "episode": "ep_142",
+        "question": "In most of the world, left-wing parties are red and right-wing are blue. But in America, it's reversed - Democrats are blue and Republicans are red. Why?"
+      },
+      {
+        "episode": "ep_241",
+        "question": "In America, Democrats are red and Republicans are blue - opposite to the rest of the world where left-wing/communist parties are red. Why are the Democrats red?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      853,
+      2762
+    ],
+    "examples": [
+      {
+        "episode": "ep_094",
+        "question": "Why do we say 'quid' when talking about pounds? Where did that come from?"
+      },
+      {
+        "episode": "ep_293",
+        "question": "Why do we say the word 'quid' instead of 'pound'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1278,
+      5117
+    ],
+    "examples": [
+      {
+        "episode": "ep_139",
+        "question": "Why is it called chicken pox?"
+      },
+      {
+        "episode": "ep_518",
+        "question": "Why do they call chickenpox chickenpox?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1721,
+      4973
+    ],
+    "examples": [
+      {
+        "episode": "ep_184",
+        "question": "How did they measure the height of mountains before modern technology?"
+      },
+      {
+        "episode": "ep_503",
+        "question": "How did they measure the height of mountains before electronic devices like altimeters?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1353,
+      1354
+    ],
+    "examples": [
+      {
+        "episode": "ep_147",
+        "question": "N/A - Answer about egg colors"
+      },
+      {
+        "episode": "ep_147",
+        "question": "N/A - Answer expanding on egg color question"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3730,
+      4843
+    ],
+    "examples": [
+      {
+        "episode": "ep_387",
+        "question": "If we evolved from apes, why do apes still exist?"
+      },
+      {
+        "episode": "ep_492",
+        "question": "If humans evolved from apes, why are apes still around?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5243,
+      5253
+    ],
+    "examples": [
+      {
+        "episode": "ep_530",
+        "question": "Why do black plastic dustbin liners smell of bonfires?"
+      },
+      {
+        "episode": "ep_530",
+        "question": "Why do black bin liners smell of bonfires?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3538,
+      4980
+    ],
+    "examples": [
+      {
+        "episode": "ep_370",
+        "question": "When we have a nap, why do we say have 40 winks?"
+      },
+      {
+        "episode": "ep_504",
+        "question": "Why is a nap referred to as '40 winks'? Why not 20 or 50 winks?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2002,
+      6015
+    ],
+    "examples": [
+      {
+        "episode": "ep_213",
+        "question": "In England, banknotes are different sizes and have braille on them for blind people. But in America, dollar bills are all the same size with no braille and no raised bits. How does a blind person know what they've got?"
+      },
+      {
+        "episode": "ep_596",
+        "question": "How do blind people tell the difference between American banknotes when they're all the same size and have no Braille?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1606,
+      4024
+    ],
+    "examples": [
+      {
+        "episode": "ep_171",
+        "question": "Did we invent maths or discover maths?"
+      },
+      {
+        "episode": "ep_413",
+        "question": "Did humans invent maths or discover it?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2941,
+      3304
+    ],
+    "examples": [
+      {
+        "episode": "ep_311",
+        "question": "Who designed the dartboard? Why are the numbers arranged the way they are?"
+      },
+      {
+        "episode": "ep_347",
+        "question": "On a conventional dartboard, who and why designed where the numbers go?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1453,
+      2557
+    ],
+    "examples": [
+      {
+        "episode": "ep_156",
+        "question": "Who is Gordon Bennett? Did he ever exist?"
+      },
+      {
+        "episode": "ep_273",
+        "question": "Who was Gordon Bennett?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3298,
+      5593
+    ],
+    "examples": [
+      {
+        "episode": "ep_347",
+        "question": "Why is Scotland Yard called Scotland Yard?"
+      },
+      {
+        "episode": "ep_563",
+        "question": "Why is Scotland Yard called Scotland Yard when it's based in London?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2215,
+      3029
+    ],
+    "examples": [
+      {
+        "episode": "ep_239",
+        "question": "Why do men's bikes have the crossbar at the top and women's have the step through design?"
+      },
+      {
+        "episode": "ep_321",
+        "question": "Why do men's bikes have the crossbar and women's bikes don't?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1313,
+      1403
+    ],
+    "examples": [
+      {
+        "episode": "ep_143",
+        "question": "Why is it 'aid' at the end of lemonade, cherry aid, orange aid?"
+      },
+      {
+        "episode": "ep_151",
+        "question": "Why do we have the 'aid' at the end of lemonade, cherry aid, lime aid etc.? Where does the 'aid' come from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2095,
+      2746
+    ],
+    "examples": [
+      {
+        "episode": "ep_225",
+        "question": "Does the Queen have a will or does she have to write a will?"
+      },
+      {
+        "episode": "ep_291",
+        "question": "Does the Queen have a will?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4257,
+      5840
+    ],
+    "examples": [
+      {
+        "episode": "ep_434",
+        "question": "Where does the phrase 'Bob's your uncle' come from?"
+      },
+      {
+        "episode": "ep_583",
+        "question": "What does 'Bob's your uncle' refer to?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2594,
+      5068
+    ],
+    "examples": [
+      {
+        "episode": "ep_277",
+        "question": "Why are UK elections always held on Thursday and not Sunday like in Europe?"
+      },
+      {
+        "episode": "ep_513",
+        "question": "Why are all elections, parliamentary or European, always held on a Thursday?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      47,
+      52
+    ],
+    "examples": [
+      {
+        "episode": "ep_005",
+        "question": "When as a human race did we start laughing? What made us laugh for the first time? Was it a tickle?"
+      },
+      {
+        "episode": "ep_005",
+        "question": "When did human beings start laughing? What made us laugh for the first time?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      214,
+      609
+    ],
+    "examples": [
+      {
+        "episode": "ep_024",
+        "question": "How does our brain remember that we've forgotten something but not remember what we've forgotten? You know you've forgotten to do something but you can't remember what it is."
+      },
+      {
+        "episode": "ep_068",
+        "question": "Why can the brain remember that it's forgot something but not remember what it's forgot?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1112,
+      3753
+    ],
+    "examples": [
+      {
+        "episode": "ep_122",
+        "question": "Why are vinyl records specifically 45 RPM, 33 and a third RPM, and 78 RPM? Why those exact numbers?"
+      },
+      {
+        "episode": "ep_389",
+        "question": "Why are LP records 33 and a third RPM? Why not 30 or 40?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      657,
+      4061
+    ],
+    "examples": [
+      {
+        "episode": "ep_073",
+        "question": "Why do seagulls stand on one leg? They look precarious and it doesn't seem like the most efficient or comfortable position."
+      },
+      {
+        "episode": "ep_417",
+        "question": "Why do seagulls stand on one leg?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5277,
+      5796
+    ],
+    "examples": [
+      {
+        "episode": "ep_533",
+        "question": "Why do stars twinkle but planets and the moon don't twinkle?"
+      },
+      {
+        "episode": "ep_579",
+        "question": "Why do some stars twinkle and some stars don't?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4060,
+      5823
+    ],
+    "examples": [
+      {
+        "episode": "ep_417",
+        "question": "Why do we say 'raining cats and dogs'?"
+      },
+      {
+        "episode": "ep_582",
+        "question": "Where does the phrase 'raining cats and dogs' come from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1616,
+      2287
+    ],
+    "examples": [
+      {
+        "episode": "ep_173",
+        "question": "Can a spider get caught in another spider's web?"
+      },
+      {
+        "episode": "ep_246",
+        "question": "Can spiders get trapped in other spiders' webs?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2009,
+      3645
+    ],
+    "examples": [
+      {
+        "episode": "ep_214",
+        "question": "Who or what is Larry and what did he have to be so happy about?"
+      },
+      {
+        "episode": "ep_379",
+        "question": "Who is Larry and why is he 'happy as Larry'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3791,
+      4320
+    ],
+    "examples": [
+      {
+        "episode": "ep_393",
+        "question": "Why do people kiss under the mistletoe? Where does that tradition come from?"
+      },
+      {
+        "episode": "ep_441",
+        "question": "Why do we kiss underneath the mistletoe?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1655,
+      5259
+    ],
+    "examples": [
+      {
+        "episode": "ep_177",
+        "question": "If all the ships and boats and vessels around the world were taken out of the water, would there be a noticeable drop in the sea level?"
+      },
+      {
+        "episode": "ep_531",
+        "question": "If all the ships and boats in all the waters of the world were taken out, would the water level decrease?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2044,
+      4738
+    ],
+    "examples": [
+      {
+        "episode": "ep_219",
+        "question": "Why don't birds get electrocuted when they land on electric wires?"
+      },
+      {
+        "episode": "ep_483",
+        "question": "When a bird is on an overhead wire, why does it not become electrocuted like we would?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3332,
+      5895
+    ],
+    "examples": [
+      {
+        "episode": "ep_350",
+        "question": "Why do dogs roll in fox poo?"
+      },
+      {
+        "episode": "ep_587",
+        "question": "Why do dogs like rolling in horse, fox, and other animal poo?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2702,
+      2726
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "When I was doing my Duke of Edinburgh expedition I learned to do bell ringing in church. At the end of a bell rope, which is where you do the hand stroke, there's a piece of what was carpet then that was called the sally. I just want to know why it's called a sally."
+      },
+      {
+        "episode": "ep_289",
+        "question": "When I was doing my Duke of Edinburgh expedition, I learned bell ringing in church. At the end of the bell rope there's a piece of carpet called the 'sally'. Where does the word 'sally' come from?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3830,
+      3832
+    ],
+    "examples": [
+      {
+        "episode": "ep_396",
+        "question": "How long after Queen Elizabeth died will we see Prince Charles's ears on some coins? How long after becoming king will Prince Charles's face appear on our coinage?"
+      },
+      {
+        "episode": "ep_396",
+        "question": "[Answering: How long after the queen passes will Prince Charles's face appear on coins?]"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3823,
+      4340
+    ],
+    "examples": [
+      {
+        "episode": "ep_396",
+        "question": "The expression 'someone walked over my grave', when you get a shiver. Anyone know where that comes from? Why would we say someone's walked over my grave?"
+      },
+      {
+        "episode": "ep_443",
+        "question": "What's the meaning of when you get a chill down your spine and someone says 'someone just walked over my grave'? Why would that be a suitable response to a shivery feeling?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3986,
+      3992
+    ],
+    "examples": [
+      {
+        "episode": "ep_410",
+        "question": "When was the first puzzle created or discovered? What was the very first puzzle?"
+      },
+      {
+        "episode": "ep_410",
+        "question": "What was the first puzzle ever invented?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4807,
+      4813
+    ],
+    "examples": [
+      {
+        "episode": "ep_489",
+        "question": "Why is it traditionally good manners for men to take their hats off when they come indoors?"
+      },
+      {
+        "episode": "ep_489",
+        "question": "Why do men remove their hats when they come into a house? Why is it good manners?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4255,
+      5111
+    ],
+    "examples": [
+      {
+        "episode": "ep_434",
+        "question": "What's the difference between a lake and a pond?"
+      },
+      {
+        "episode": "ep_517",
+        "question": "What's the difference between a pond and a lake? And if it's just size, when does a pond become a lake?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1652,
+      4278
+    ],
+    "examples": [
+      {
+        "episode": "ep_177",
+        "question": "Why is the alphabet in the alphabetical order that it's in?"
+      },
+      {
+        "episode": "ep_437",
+        "question": "Is there any logic to the alphabetical order of the alphabet? Why are the letters in the order they are?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2974,
+      6089
+    ],
+    "examples": [
+      {
+        "episode": "ep_315",
+        "question": "Why do ice cream vans play Greensleeves?"
+      },
+      {
+        "episode": "ep_603",
+        "question": "Why is the jingle 'Greensleeves' so popular with ice cream vans?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1913,
+      4415
+    ],
+    "examples": [
+      {
+        "episode": "ep_204",
+        "question": "Why are we born with different blood types?"
+      },
+      {
+        "episode": "ep_451",
+        "question": "Why do human beings have different blood types? Is there an evolutionary reason for it?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5889,
+      5900
+    ],
+    "examples": [
+      {
+        "episode": "ep_587",
+        "question": "When and where did the term midwife originate?"
+      },
+      {
+        "episode": "ep_587",
+        "question": "Answer about the origin of the word midwife"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4384,
+      6053
+    ],
+    "examples": [
+      {
+        "episode": "ep_448",
+        "question": "Why do fingers and toes go wrinkly in the bath but not other parts of the body?"
+      },
+      {
+        "episode": "ep_599",
+        "question": "When you're in a bath, how come only your feet and hands go wrinkly and not the rest of your body?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2056,
+      3647
+    ],
+    "examples": [
+      {
+        "episode": "ep_221",
+        "question": "Do we actually swallow while we're asleep?"
+      },
+      {
+        "episode": "ep_379",
+        "question": "Do you continue swallowing when you're asleep?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2698,
+      2724
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Some churches have spires and some have kind of square turrets. I was driving back from Shropshire then I noticed it was more up north. The closer I got to London the more the church has had spires. Why do some church spires/towers have round steeples and some have square towers?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why are some church towers square and other churches have round spires?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      850,
+      4112
+    ],
+    "examples": [
+      {
+        "episode": "ep_094",
+        "question": "Why do we have two nostrils? We have two eyes for 3D vision, two ears to locate sound, but these two nostrils are so close together that... Do you know what I think? I think what you've done is you've focused entirely upon one function of the nasal passages, as opposed to the other one."
+      },
+      {
+        "episode": "ep_421",
+        "question": "Why do we have two nostrils? Two eyes give us depth perception, two ears let us locate sounds, but what benefit does having two nostrils give us?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2853,
+      4606
+    ],
+    "examples": [
+      {
+        "episode": "ep_302",
+        "question": "If you add 33 and 45 RPM for records, you get 78. Is that a complete coincidence or is there some kind of maths behind the speed involved?"
+      },
+      {
+        "episode": "ep_470",
+        "question": "Why are the speeds on old record players 33, 45 and 78? 33 plus 45 equals 78 - is this just a coincidence or is there a technical reason for this mathematical relationship?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1389,
+      5605
+    ],
+    "examples": [
+      {
+        "episode": "ep_150",
+        "question": "Why do we get a lump in our throat when we get upset?"
+      },
+      {
+        "episode": "ep_564",
+        "question": "Why do we get a lump in our throat when we're feeling very emotional or about to cry?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1521,
+      5726
+    ],
+    "examples": [
+      {
+        "episode": "ep_164",
+        "question": "Why are green screens green? Why not blue or red or purple?"
+      },
+      {
+        "episode": "ep_573",
+        "question": "Why is a green screen green?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4272,
+      4864
+    ],
+    "examples": [
+      {
+        "episode": "ep_436",
+        "question": "If someone is blind from birth, do they perceive images in their dreams?"
+      },
+      {
+        "episode": "ep_493",
+        "question": "Can a blind person from birth dream? And if they can, what do they see?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1441,
+      2434
+    ],
+    "examples": [
+      {
+        "episode": "ep_155",
+        "question": "You see goose fat for sale everywhere in the supermarkets. You never see goose meat. What happens to the rest of the goose?"
+      },
+      {
+        "episode": "ep_260",
+        "question": "Where does all the goose go? When you're in the supermarket, they sell goose fat in jars but I don't see any other product that contains goose meat. Where does the rest of the goose go?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2234,
+      3066
+    ],
+    "examples": [
+      {
+        "episode": "ep_241",
+        "question": "Do dogs get hay fever like humans do?"
+      },
+      {
+        "episode": "ep_324",
+        "question": "Do animals get hay fever?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2686,
+      5837
+    ],
+    "examples": [
+      {
+        "episode": "ep_286",
+        "question": "Why do road signs for eateries and pubs show a spoon and a fork instead of a knife and a fork?"
+      },
+      {
+        "episode": "ep_583",
+        "question": "Why do the signs for service stations on the motorway have a spoon and a fork and not a knife and fork?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3891,
+      4439
+    ],
+    "examples": [
+      {
+        "episode": "ep_402",
+        "question": "Where do we get the phrase 'hunky-dory'?"
+      },
+      {
+        "episode": "ep_453",
+        "question": "Where does the phrase 'hunky dory' originate from and what does it mean?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3086,
+      3089
+    ],
+    "examples": [
+      {
+        "episode": "ep_326",
+        "question": "Why do people say 'and I turned around and said to him'? Why would you start a conversation with your back turned?"
+      },
+      {
+        "episode": "ep_326",
+        "question": "ANSWER - Why do we say 'I turned around and said to him'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      9,
+      459
+    ],
+    "examples": [
+      {
+        "episode": "ep_000",
+        "question": "Do dogs have different blood types like humans do?"
+      },
+      {
+        "episode": "ep_051",
+        "question": "Do dogs have blood groups?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      67,
+      76
+    ],
+    "examples": [
+      {
+        "episode": "ep_007",
+        "question": "Is there a rise of the off-yellow, pale yellow kind of white daffodil in amongst the yellow daffodils? What determines the colour of the daffodil? Is it the bulb, the amount of water, or sunlight? Has there been an increase in the number of off-white, pale yellow daffodils?"
+      },
+      {
+        "episode": "ep_007",
+        "question": "What determines the colour of a daffodil? Why are there more pale/white daffodils appearing among yellow ones?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4059,
+      4064
+    ],
+    "examples": [
+      {
+        "episode": "ep_417",
+        "question": "Why do Americans drop the H in 'herb' when they don't do this with other words like helicopter, hospital, etc.?"
+      },
+      {
+        "episode": "ep_417",
+        "question": "Why do Americans drop the H for herb but not for hotel, hospital, and helicopter?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      852,
+      2808
+    ],
+    "examples": [
+      {
+        "episode": "ep_094",
+        "question": "Why are roses synonymous with romance? Why is it roses that are typically given for Valentine's Day?"
+      },
+      {
+        "episode": "ep_298",
+        "question": "Why are roses synonymous with love and Valentine's Day? Why not tulips or daisies?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1109,
+      4501
+    ],
+    "examples": [
+      {
+        "episode": "ep_122",
+        "question": "Why do we dance? What's the origin of dancing?"
+      },
+      {
+        "episode": "ep_459",
+        "question": "Why do we dance? What is the evolutionary reason why humans dance?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2436,
+      2885
+    ],
+    "examples": [
+      {
+        "episode": "ep_260",
+        "question": "Who was the first person to make up the word Brexit?"
+      },
+      {
+        "episode": "ep_305",
+        "question": "What was the first use of the word Brexit? Who coined it and when?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      373,
+      3026
+    ],
+    "examples": [
+      {
+        "episode": "ep_042",
+        "question": "Why don't we fall out of bed when we're sleeping? Why do we stay on the bed?"
+      },
+      {
+        "episode": "ep_321",
+        "question": "Why don't you fall out of bed?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2078,
+      5144
+    ],
+    "examples": [
+      {
+        "episode": "ep_223",
+        "question": "Can police legally commandeer a vehicle when pursuing a criminal?"
+      },
+      {
+        "episode": "ep_520",
+        "question": "Can police actually commandeer a vehicle?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2476,
+      2487
+    ],
+    "examples": [
+      {
+        "episode": "ep_265",
+        "question": "Why do we put a penny or coin in a Christmas pudding?"
+      },
+      {
+        "episode": "ep_265",
+        "question": "Why do we put pennies in Christmas puddings? (Answering John's earlier question)"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1379,
+      2340
+    ],
+    "examples": [
+      {
+        "episode": "ep_149",
+        "question": "Where does 'Tories' come from for the Conservative Party, and why haven't any of the other parties got nicknames?"
+      },
+      {
+        "episode": "ep_251",
+        "question": "The Conservative Party nickname is the Tories. Why is that?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2103,
+      4572
+    ],
+    "examples": [
+      {
+        "episode": "ep_226",
+        "question": "Why do cartoon characters typically have four fingers instead of five?"
+      },
+      {
+        "episode": "ep_467",
+        "question": "Why do cartoon characters only have three fingers and a thumb?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      226,
+      2682
+    ],
+    "examples": [
+      {
+        "episode": "ep_026",
+        "question": "Why do helicopter pilots sit on the right-hand side while airline captains sit on the left-hand side?"
+      },
+      {
+        "episode": "ep_286",
+        "question": "Why in aeroplanes does the pilot sit on the left-hand side and in the helicopter the pilot sits on the right-hand side?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1991,
+      4042
+    ],
+    "examples": [
+      {
+        "episode": "ep_212",
+        "question": "Why is Team GB called Team GB when Northern Ireland is included? Shouldn't it be Team UK?"
+      },
+      {
+        "episode": "ep_415",
+        "question": "Why in the Olympics is it Team GB and not Team UK? Northern Ireland is part of UK, not Great Britain."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      127,
+      5703
+    ],
+    "examples": [
+      {
+        "episode": "ep_014",
+        "question": "What happens to the metal after you've been cremated? After a knee replacement with titanium, what happens to that metal?"
+      },
+      {
+        "episode": "ep_571",
+        "question": "When someone's titanium knee replacement gets cremated, what happens to the titanium? Does it come out in the ashes? Is there a market for second-hand titanium?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      503,
+      1512
+    ],
+    "examples": [
+      {
+        "episode": "ep_056",
+        "question": "Can deaf people who lip read detect regional dialect?"
+      },
+      {
+        "episode": "ep_163",
+        "question": "Can deaf people who lip-read identify accents?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2499,
+      3819
+    ],
+    "examples": [
+      {
+        "episode": "ep_267",
+        "question": "When they build skyscrapers like the Shard in Dubai and other buildings, they've got a tower crane right on top. How do they get that crane back down when the job is finished? If they have a crane big enough to get it down, why didn't they use that crane in the first place?"
+      },
+      {
+        "episode": "ep_395",
+        "question": "When skyscrapers are built and cranes are put on top, when the building's done, how do they get the crane back down? They use another crane?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3062,
+      3762
+    ],
+    "examples": [
+      {
+        "episode": "ep_324",
+        "question": "Why do people stick their tongue out when they're concentrating?"
+      },
+      {
+        "episode": "ep_390",
+        "question": "Why do some people stick their tongue out when they concentrate? Like when playing pool, threading a needle, or ladies putting on mascara."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1233,
+      4417
+    ],
+    "examples": [
+      {
+        "episode": "ep_135",
+        "question": "Why do they have ashtrays in the toilets of modern airplanes when smoking's been banned on planes for at least 25 years?"
+      },
+      {
+        "episode": "ep_451",
+        "question": "Why do planes still have ashtrays on the inside and outside of toilet doors, even though smoking is banned on planes?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      113,
+      4947
+    ],
+    "examples": [
+      {
+        "episode": "ep_012",
+        "question": "Why when you kick a ball through someone's legs is it called a nutmeg?"
+      },
+      {
+        "episode": "ep_501",
+        "question": "What is the origin of the term nutmeg in football? When you knock the ball through someone's legs, why is it called a nutmeg?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3079,
+      3085
+    ],
+    "examples": [
+      {
+        "episode": "ep_326",
+        "question": "Why does mint make you feel coldness when you blow on it?"
+      },
+      {
+        "episode": "ep_326",
+        "question": "ANSWER - Why does mint make you cold?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      929,
+      2144
+    ],
+    "examples": [
+      {
+        "episode": "ep_103",
+        "question": "Why do we in English write I with a capital letter?"
+      },
+      {
+        "episode": "ep_230",
+        "question": "Why do we capitalise the letter I in English when no other languages do the same?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2700,
+      2725
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why do towns in different parts of the world twinning? Who does it and are there any perks?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why are some villages and towns twinned with other villages and towns in different parts of the world? Who does it and are there any perks?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1757,
+      4434
+    ],
+    "examples": [
+      {
+        "episode": "ep_187",
+        "question": "Why do you temporarily lose most of your hearing when you yawn?"
+      },
+      {
+        "episode": "ep_452",
+        "question": "Why do you go deaf when you yawn?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1807,
+      4349
+    ],
+    "examples": [
+      {
+        "episode": "ep_192",
+        "question": "Why did evolution result in male seahorses giving birth to babies instead of females?"
+      },
+      {
+        "episode": "ep_444",
+        "question": "Why do male seahorses carry the babies and give birth instead of the female?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2274,
+      3355
+    ],
+    "examples": [
+      {
+        "episode": "ep_245",
+        "question": "Why does your nose run when you cry? We understand the functions of crying - it demonstrates that you're unhappy socially and it cleans your eyes in case there's a predator. But why does your nose run when you cry?"
+      },
+      {
+        "episode": "ep_353",
+        "question": "Why does your nose run when you cry?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2835,
+      3977
+    ],
+    "examples": [
+      {
+        "episode": "ep_301",
+        "question": "Why does hair on your head grow forever but pubic hair or eyebrows only grow to a certain length?"
+      },
+      {
+        "episode": "ep_409",
+        "question": "Why do eyebrows only grow to a certain length, while head hair keeps growing?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2335,
+      3894
+    ],
+    "examples": [
+      {
+        "episode": "ep_250",
+        "question": "Why do judges wear wigs?"
+      },
+      {
+        "episode": "ep_402",
+        "question": "What's the origin of a judge's wig? Why do lawyers and judges wear wigs?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3146,
+      3147
+    ],
+    "examples": [
+      {
+        "episode": "ep_331",
+        "question": "Why is the snooze function on alarm clocks nine minutes?"
+      },
+      {
+        "episode": "ep_331",
+        "question": "Why is the snooze function on all timing devices limited to nine minutes?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      631,
+      1073
+    ],
+    "examples": [
+      {
+        "episode": "ep_070",
+        "question": "How do WhatsApp make their money?"
+      },
+      {
+        "episode": "ep_118",
+        "question": "How does WhatsApp make money if it's a free app?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2882,
+      4997
+    ],
+    "examples": [
+      {
+        "episode": "ep_305",
+        "question": "Do animals, specifically domestic animals like dogs and cats, have voices that break like humans do at puberty?"
+      },
+      {
+        "episode": "ep_506",
+        "question": "Do animals' voices break in the same way as humans do? Does a dog's voice break during puberty like a human boy's voice changes?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3204,
+      4897
+    ],
+    "examples": [
+      {
+        "episode": "ep_337",
+        "question": "Why don't we eat turkey eggs?"
+      },
+      {
+        "episode": "ep_496",
+        "question": "Why do we not eat turkey eggs? Are they poisonous?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4361,
+      5836
+    ],
+    "examples": [
+      {
+        "episode": "ep_445",
+        "question": "Why do migrating birds fly in V formation?"
+      },
+      {
+        "episode": "ep_583",
+        "question": "Why do geese fly in a V formation?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2378,
+      5106
+    ],
+    "examples": [
+      {
+        "episode": "ep_254",
+        "question": "Why don't small flying insects get knocked out when it's raining?"
+      },
+      {
+        "episode": "ep_517",
+        "question": "Why are insects not knocked out of the sky when it rains heavily?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      181,
+      2322
+    ],
+    "examples": [
+      {
+        "episode": "ep_021",
+        "question": "How does deja vu work?"
+      },
+      {
+        "episode": "ep_249",
+        "question": "How do we get d\u00e9j\u00e0 vu?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1311,
+      3273
+    ],
+    "examples": [
+      {
+        "episode": "ep_143",
+        "question": "When you're in the supermarket or pharmacy and there are different coloured shower gels and shampoos, why are the bubbles always white even though the liquids are coloured?"
+      },
+      {
+        "episode": "ep_344",
+        "question": "Why is shampoo and shower gel always white regardless of the color of the bottle, but the bubbles are always white too?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      152,
+      2061
+    ],
+    "examples": [
+      {
+        "episode": "ep_017",
+        "question": "When clearing bubbles from a bubble bath with the shower, why does cold water disperse bubbles much quicker than hot water?"
+      },
+      {
+        "episode": "ep_221",
+        "question": "Why does hot water dissipate bubbles in a bath more effectively than cold water?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2704,
+      2722
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "Why is an MP's regular opportunity to meet with constituents called a surgery?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "Why do MPs have surgeries? Why is it called a surgery when it's a political meeting?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3482,
+      5681
+    ],
+    "examples": [
+      {
+        "episode": "ep_365",
+        "question": "Why does the academic year start in September?"
+      },
+      {
+        "episode": "ep_570",
+        "question": "Why does the academic year start in September and finish in July, as opposed to starting in January like the calendar year?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      347,
+      3005
+    ],
+    "examples": [
+      {
+        "episode": "ep_039",
+        "question": "Why does it feel weird when you step off a broken escalator? I get a jolt like losing balance, even though I use them all the time when they're working fine."
+      },
+      {
+        "episode": "ep_318",
+        "question": "Why do I feel more out of balance stepping onto an escalator that's not working than one that is moving? I stumble off by the time I get to the end."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      103,
+      902
+    ],
+    "examples": [
+      {
+        "episode": "ep_011",
+        "question": "Why does hot water from a tap sound different to cold water? It just sounds thicker, deeper."
+      },
+      {
+        "episode": "ep_100",
+        "question": "Why does the sound of water from the tap change as it gets warmer? Hot water sounds softer than cold water."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      145,
+      5306
+    ],
+    "examples": [
+      {
+        "episode": "ep_016",
+        "question": "Why don't deer leave Richmond Park? There are no cattle grids on the gates, so they could just stroll out, but they don't. Why?"
+      },
+      {
+        "episode": "ep_536",
+        "question": "Why don't deer ever leave Richmond Park when there are no cattle grids or gates to stop them?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      158,
+      3099
+    ],
+    "examples": [
+      {
+        "episode": "ep_018",
+        "question": "Why does the Air Mail sticker have French text 'Par Avion' on it when sending from England? Why not Spanish, Italian, German, or other languages?"
+      },
+      {
+        "episode": "ep_327",
+        "question": "Why do we say 'par avion' on airmail stickers? Why French?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      448,
+      4324
+    ],
+    "examples": [
+      {
+        "episode": "ep_050",
+        "question": "What is the scientific explanation for 'red sky at night, shepherd's delight, red sky in the morning, shepherd's warning'?"
+      },
+      {
+        "episode": "ep_442",
+        "question": "Red sky at night, shepherd's delight. Red sky in the morning, shepherd's warning. Why does that always seem to work? What's the science behind it?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1488,
+      1490
+    ],
+    "examples": [
+      {
+        "episode": "ep_160",
+        "question": "Why does cold water taste colder after eating a mint? Why does water seem to have a cooling effect after mint?"
+      },
+      {
+        "episode": "ep_160",
+        "question": "Why does the water seem a lot colder after eating a mint?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1250,
+      2764
+    ],
+    "examples": [
+      {
+        "episode": "ep_137",
+        "question": "When is a bridge a tunnel?"
+      },
+      {
+        "episode": "ep_293",
+        "question": "When does a bridge turn into a tunnel?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3362,
+      4126
+    ],
+    "examples": [
+      {
+        "episode": "ep_353",
+        "question": "What is the origin of 'wolf whistling'? Why is it called that when it doesn't sound like a wolf howl?"
+      },
+      {
+        "episode": "ep_423",
+        "question": "Where did the term 'wolf whistle' come from? Why do we call it that?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1460,
+      1986
+    ],
+    "examples": [
+      {
+        "episode": "ep_157",
+        "question": "How does your body decide which end to produce gas from - burp or fart?"
+      },
+      {
+        "episode": "ep_211",
+        "question": "What happens inside your body that decides whether gas comes out of your mouth or the other end? What's the difference between a burp and a fart?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      521,
+      2021
+    ],
+    "examples": [
+      {
+        "episode": "ep_058",
+        "question": "How do seagulls know when a farmer is ploughing a field miles inland? They appear from nowhere even when no seagulls were visible before."
+      },
+      {
+        "episode": "ep_215",
+        "question": "When you plough a field, however far inland you are, it attracts hundreds of seagulls. They come from nowhere - you never see them in that area normally. But as soon as you start ploughing, hundreds appear. Where do they come from and how do they know?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      707,
+      714
+    ],
+    "examples": [
+      {
+        "episode": "ep_079",
+        "question": "Why can you go back to sleep after an alarm goes off on a work day, but if you wake up naturally minutes before your alarm on a weekend day, you can't get back to sleep even though you could sleep in?"
+      },
+      {
+        "episode": "ep_079",
+        "question": "Why is it that you can go back to sleep when you have an alarm set for work, but on your days off when you wake up naturally, you can't get back to sleep even though you've got more time to sleep? Why do we always want to lie in when we can't but not when we can?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1542,
+      1909
+    ],
+    "examples": [
+      {
+        "episode": "ep_166",
+        "question": "Why do you never forget how to ride a bike?"
+      },
+      {
+        "episode": "ep_203",
+        "question": "Why don't you forget how to ride a bicycle?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2875,
+      3763
+    ],
+    "examples": [
+      {
+        "episode": "ep_304",
+        "question": "Why does the radio not have a watershed moment like TV does? TV has colourful language allowed after 9pm, but radio never does. Clive Balle used to swear on his show - is that linked to the watershed?"
+      },
+      {
+        "episode": "ep_390",
+        "question": "Why is there a watershed on TV but not on radio? Why can you hear swearing after 9pm on TV but not necessarily on radio?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1966,
+      2797
+    ],
+    "examples": [
+      {
+        "episode": "ep_209",
+        "question": "Does the depth of the punt (indentation at the base of a wine bottle) indicate the quality of the wine?"
+      },
+      {
+        "episode": "ep_297",
+        "question": "Does the concaved bottom (punt) in wine bottles indicate better quality wine? Why do some bottles have punts and some don't?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      357,
+      2156
+    ],
+    "examples": [
+      {
+        "episode": "ep_041",
+        "question": "When did we start celebrating our birthdays annually?"
+      },
+      {
+        "episode": "ep_231",
+        "question": "When did celebrating birthdays become a thing?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2934,
+      4498
+    ],
+    "examples": [
+      {
+        "episode": "ep_310",
+        "question": "If road safety is so important, why are there not seatbelts on buses?"
+      },
+      {
+        "episode": "ep_458",
+        "question": "Why don't bus drivers have to wear seatbelts?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      690,
+      696
+    ],
+    "examples": [
+      {
+        "episode": "ep_077",
+        "question": "Why do we call our children 'kids' which are baby goats? We don't call them kittens or puppies."
+      },
+      {
+        "episode": "ep_077",
+        "question": "Why do we call children 'kids' when 'kid' also means baby goat? Why not puppies or kits (baby beavers)?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1821,
+      5529
+    ],
+    "examples": [
+      {
+        "episode": "ep_194",
+        "question": "Why do some parts of the body grow back, but others won't? Like bones vs skin vs nails - why can't we regrow fingers but can heal cuts?"
+      },
+      {
+        "episode": "ep_556",
+        "question": "Why do certain things on our body grow back - like hair if we cut it, nails if we cut them - but if I lose a limb like a finger, it doesn't grow back? How does the body tell certain parts not to grow back?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2551,
+      5026
+    ],
+    "examples": [
+      {
+        "episode": "ep_272",
+        "question": "Can a Boeing 747 physically do a loop-the-loop?"
+      },
+      {
+        "episode": "ep_509",
+        "question": "Can a Boeing 747 or large commercial airliner complete a loop-de-loop?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2703,
+      2727
+    ],
+    "examples": [
+      {
+        "episode": "ep_287",
+        "question": "What is the kind of origin, or when did we start sleeping in bed? When did we start sleeping with a duvet and a fluffy pillow?"
+      },
+      {
+        "episode": "ep_289",
+        "question": "When did we start sleeping in bed? When did we start sleeping with a duvet and fluffy pillow? What is the first recorded incident of a bed?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      5461,
+      5464
+    ],
+    "examples": [
+      {
+        "episode": "ep_550",
+        "question": "Why is it that when you're at the British seaside, you get that wonderful salty sea air smell, but when you're on holiday abroad, you don't get that same salty sea air smell?"
+      },
+      {
+        "episode": "ep_550",
+        "question": "Why does the British seaside smell different from foreign seaside?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1943,
+      3498
+    ],
+    "examples": [
+      {
+        "episode": "ep_207",
+        "question": "Can you tell me why the home counties are called the home counties?"
+      },
+      {
+        "episode": "ep_366",
+        "question": "Why are the home counties called the home counties? Why isn't Worcestershire a home county?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      378,
+      4957
+    ],
+    "examples": [
+      {
+        "episode": "ep_042",
+        "question": "Why do some people sneeze multiple times - like 10, 15 or even hundreds of times - while others just sneeze a couple of times?"
+      },
+      {
+        "episode": "ep_502",
+        "question": "Why do some people always sneeze twice? Why don't we all just sneeze once?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1963,
+      4108
+    ],
+    "examples": [
+      {
+        "episode": "ep_209",
+        "question": "Is there any scientific evidence that sea air is beneficial for us?"
+      },
+      {
+        "episode": "ep_421",
+        "question": "Is sea air good for you? And if so, why?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2981,
+      3294
+    ],
+    "examples": [
+      {
+        "episode": "ep_316",
+        "question": "Why do we stand on the right on escalators but keep left in corridors on the London Underground? Why the difference?"
+      },
+      {
+        "episode": "ep_346",
+        "question": "Why on the underground escalator do you always have to stand to the right rather than on the left? Why can't it be on the left?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3250,
+      4903
+    ],
+    "examples": [
+      {
+        "episode": "ep_342",
+        "question": "Where does the term 'rasher of bacon' come from? When all other meat is served in slices, why is bacon a rasher?"
+      },
+      {
+        "episode": "ep_497",
+        "question": "What is a rasher? Where does the word come from? Why is it only used for bacon? Is there anything else that is considered a rasher?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3598,
+      4516
+    ],
+    "examples": [
+      {
+        "episode": "ep_375",
+        "question": "Why are all the planets completely round or globe type?"
+      },
+      {
+        "episode": "ep_460",
+        "question": "Why are planets round?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1352,
+      3214
+    ],
+    "examples": [
+      {
+        "episode": "ep_147",
+        "question": "Whenever I buy a tailored item or clothing, the pockets are always stitched together. Why?"
+      },
+      {
+        "episode": "ep_338",
+        "question": "When you buy a suit or a jacket, the pockets are always sewn up. Why?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      371,
+      5526
+    ],
+    "examples": [
+      {
+        "episode": "ep_042",
+        "question": "Why do some birds hop and some birds walk?"
+      },
+      {
+        "episode": "ep_556",
+        "question": "Why do some birds hop and other birds walk? I don't think it's size-related but it's been troubling me for years."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4425,
+      4430
+    ],
+    "examples": [
+      {
+        "episode": "ep_452",
+        "question": "How does my sat-nav know there's a traffic jam 25 miles away?"
+      },
+      {
+        "episode": "ep_452",
+        "question": "Answer to: How does sat-nav know about traffic jams?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2482,
+      4293
+    ],
+    "examples": [
+      {
+        "episode": "ep_265",
+        "question": "In theatres and TV studios, why is the green room called the green room?"
+      },
+      {
+        "episode": "ep_438",
+        "question": "Why is a green room called a green room?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1781,
+      4271
+    ],
+    "examples": [
+      {
+        "episode": "ep_190",
+        "question": "How can you age a tree without cutting it down to count the annual rings?"
+      },
+      {
+        "episode": "ep_436",
+        "question": "How can I tell the age of a tree without sawing it down and counting the rings?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2507,
+      3619
+    ],
+    "examples": [
+      {
+        "episode": "ep_268",
+        "question": "Why is number 10 Downing Street still called number 10 when there aren't 10 houses on Downing Street? There are only four, nine to 12."
+      },
+      {
+        "episode": "ep_377",
+        "question": "Why are there only numbers 10 and 11 on Downing Street? Are there any other houses?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3557,
+      4344
+    ],
+    "examples": [
+      {
+        "episode": "ep_371",
+        "question": "Why is it 7 dog years = 1 human year? Who made that up? Can it apply to other animals?"
+      },
+      {
+        "episode": "ep_443",
+        "question": "How do they work out that there is seven dog years to one human year?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2601,
+      3453
+    ],
+    "examples": [
+      {
+        "episode": "ep_277",
+        "question": "Do you get more wet by running or walking when it's raining?"
+      },
+      {
+        "episode": "ep_362",
+        "question": "If I run in the rain, will I get wetter than if I walk the same distance?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3425,
+      5110
+    ],
+    "examples": [
+      {
+        "episode": "ep_359",
+        "question": "Why don't irons have an off switch? You always have to unplug them from the wall."
+      },
+      {
+        "episode": "ep_517",
+        "question": "Why don't irons have off switches?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      69,
+      75
+    ],
+    "examples": [
+      {
+        "episode": "ep_007",
+        "question": "Are we born with a fear of heights (wobbly knee feeling) or is it developed? Is it nature or nurture?"
+      },
+      {
+        "episode": "ep_007",
+        "question": "Are we born with a fear of heights or is it developed?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      1726,
+      3121
+    ],
+    "examples": [
+      {
+        "episode": "ep_184",
+        "question": "Why can we feel when someone's staring at us?"
+      },
+      {
+        "episode": "ep_329",
+        "question": "Can you physically feel it when someone is looking at you?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      4103,
+      4105
+    ],
+    "examples": [
+      {
+        "episode": "ep_420",
+        "question": "What did people say before sliced bread was invented? What was the phrase before 'best thing since sliced bread'?"
+      },
+      {
+        "episode": "ep_420",
+        "question": "What did people say before 'best thing since sliced bread'?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3083,
+      3095
+    ],
+    "examples": [
+      {
+        "episode": "ep_326",
+        "question": "Why do vans have a sign on the back saying they're limited to 70mph when the speed limit everywhere is 70mph anyway?"
+      },
+      {
+        "episode": "ep_326",
+        "question": "ANSWER - Why do vans have 70mph signs?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      3117,
+      3537
+    ],
+    "examples": [
+      {
+        "episode": "ep_328",
+        "question": "I've recently had a baby boy. Myself, my wife, and my daughter are all susceptible to hay fever. Do babies get hay fever? If not, at what point are you susceptible to"
+      },
+      {
+        "episode": "ep_370",
+        "question": "Why don't babies get hay fever? I have a 13-month-old, and my wife and I have really bad hay fever, but the baby doesn't. From everybody I've asked, nobody has babies with hay fever."
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2352,
+      3744
+    ],
+    "examples": [
+      {
+        "episode": "ep_252",
+        "question": "If cars and ships are female, do buildings have genders?"
+      },
+      {
+        "episode": "ep_388",
+        "question": "Ships are female and planes are female. What are buildings? Do they have a gender in the way that some vehicles do?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      2524,
+      4175
+    ],
+    "examples": [
+      {
+        "episode": "ep_269",
+        "question": "When you breathe out through your mouth, you get warm air. But when you blow out, you get cold air. Why?"
+      },
+      {
+        "episode": "ep_427",
+        "question": "Why does breath come out warm when you breathe with your mouth open, but cold when you purse your lips and blow?"
+      }
+    ]
+  },
+  {
+    "chain_size": 2,
+    "indices": [
+      140,
+      895
+    ],
+    "examples": [
+      {
+        "episode": "ep_015",
+        "question": "Is a helium canister heavier when it's full or when it's empty? If I put a full canister on scales and then empty it, will it weigh the same or will it be lighter? Is the canister filled with a vacuum?"
+      },
+      {
+        "episode": "ep_099",
+        "question": "When filling up helium balloons, is the helium canister getting lighter or heavier as it empties?"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2027 @@
+{
+  "k": 120,
+  "clusters": [
+    {
+      "cluster_id": 3,
+      "size": 121,
+      "resolved_rate": 0.744,
+      "avg_answers": 1.26,
+      "keywords": [
+        "birds",
+        "pigeons",
+        "seagulls",
+        "pigeon",
+        "around",
+        "different",
+        "trees",
+        "geese"
+      ],
+      "topic_label": "birds, pigeons, seagulls, pigeon, around"
+    },
+    {
+      "cluster_id": 73,
+      "size": 101,
+      "resolved_rate": 0.723,
+      "avg_answers": 1.23,
+      "keywords": [
+        "french",
+        "raspberry",
+        "piggy",
+        "white",
+        "closure",
+        "album",
+        "banks",
+        "kangaroo"
+      ],
+      "topic_label": "french, raspberry, piggy, white, closure"
+    },
+    {
+      "cluster_id": 107,
+      "size": 91,
+      "resolved_rate": 0.593,
+      "avg_answers": 1.24,
+      "keywords": [
+        "phrase",
+        "origin",
+        "saying",
+        "originate",
+        "jiffy",
+        "alley",
+        "knock",
+        "cheesed"
+      ],
+      "topic_label": "phrase, origin, saying, originate, jiffy"
+    },
+    {
+      "cluster_id": 105,
+      "size": 86,
+      "resolved_rate": 0.756,
+      "avg_answers": 1.29,
+      "keywords": [
+        "london",
+        "county",
+        "counties",
+        "towns",
+        "north",
+        "south",
+        "named",
+        "names"
+      ],
+      "topic_label": "london, county, counties, towns, north"
+    },
+    {
+      "cluster_id": 69,
+      "size": 83,
+      "resolved_rate": 0.711,
+      "avg_answers": 1.24,
+      "keywords": [
+        "origin",
+        "phrase",
+        "originate",
+        "knock",
+        "dutch",
+        "nickname",
+        "scott",
+        "saying"
+      ],
+      "topic_label": "origin, phrase, originate, knock, dutch"
+    },
+    {
+      "cluster_id": 21,
+      "size": 82,
+      "resolved_rate": 0.72,
+      "avg_answers": 1.37,
+      "keywords": [
+        "tennis",
+        "balls",
+        "wimbledon",
+        "players",
+        "cricket",
+        "sports",
+        "darts",
+        "serve"
+      ],
+      "topic_label": "tennis, balls, wimbledon, players, cricket"
+    },
+    {
+      "cluster_id": 106,
+      "size": 82,
+      "resolved_rate": 0.793,
+      "avg_answers": 1.2,
+      "keywords": [
+        "flies",
+        "insects",
+        "night",
+        "light",
+        "flying",
+        "pollen",
+        "moths",
+        "bumblebees"
+      ],
+      "topic_label": "flies, insects, night, light, flying"
+    },
+    {
+      "cluster_id": 51,
+      "size": 81,
+      "resolved_rate": 0.79,
+      "avg_answers": 1.38,
+      "keywords": [
+        "language",
+        "english",
+        "french",
+        "languages",
+        "different",
+        "accents",
+        "accent",
+        "spanish"
+      ],
+      "topic_label": "language, english, french, languages, different"
+    },
+    {
+      "cluster_id": 88,
+      "size": 76,
+      "resolved_rate": 0.737,
+      "avg_answers": 1.24,
+      "keywords": [
+        "london",
+        "train",
+        "actually",
+        "people",
+        "street",
+        "statues",
+        "banks",
+        "happened"
+      ],
+      "topic_label": "london, train, actually, people, street"
+    },
+    {
+      "cluster_id": 96,
+      "size": 76,
+      "resolved_rate": 0.763,
+      "avg_answers": 1.41,
+      "keywords": [
+        "money",
+        "million",
+        "currency",
+        "worth",
+        "world",
+        "exchange",
+        "change",
+        "england"
+      ],
+      "topic_label": "money, million, currency, worth, world"
+    },
+    {
+      "cluster_id": 119,
+      "size": 75,
+      "resolved_rate": 0.773,
+      "avg_answers": 1.31,
+      "keywords": [
+        "animals",
+        "horses",
+        "affect",
+        "sleep",
+        "humans",
+        "front",
+        "sense",
+        "smell"
+      ],
+      "topic_label": "animals, horses, affect, sleep, humans"
+    },
+    {
+      "cluster_id": 77,
+      "size": 73,
+      "resolved_rate": 0.767,
+      "avg_answers": 1.3,
+      "keywords": [
+        "months",
+        "online",
+        "first",
+        "class",
+        "people",
+        "passport",
+        "second",
+        "books"
+      ],
+      "topic_label": "months, online, first, class, people"
+    },
+    {
+      "cluster_id": 54,
+      "size": 72,
+      "resolved_rate": 0.722,
+      "avg_answers": 1.18,
+      "keywords": [
+        "stomach",
+        "makes",
+        "eating",
+        "cheese",
+        "people",
+        "brain",
+        "sometimes",
+        "happens"
+      ],
+      "topic_label": "stomach, makes, eating, cheese, people"
+    },
+    {
+      "cluster_id": 10,
+      "size": 71,
+      "resolved_rate": 0.592,
+      "avg_answers": 1.39,
+      "keywords": [
+        "people",
+        "three",
+        "saying",
+        "phrase",
+        "somebody",
+        "roger",
+        "american",
+        "words"
+      ],
+      "topic_label": "people, three, saying, phrase, somebody"
+    },
+    {
+      "cluster_id": 79,
+      "size": 70,
+      "resolved_rate": 0.686,
+      "avg_answers": 1.39,
+      "keywords": [
+        "taste",
+        "sugar",
+        "honey",
+        "popcorn",
+        "cheese",
+        "supermarket",
+        "packs",
+        "almond"
+      ],
+      "topic_label": "taste, sugar, honey, popcorn, cheese"
+    },
+    {
+      "cluster_id": 84,
+      "size": 70,
+      "resolved_rate": 0.786,
+      "avg_answers": 1.2,
+      "keywords": [
+        "temperature",
+        "degrees",
+        "hotter",
+        "water",
+        "colder",
+        "blood",
+        "feels",
+        "summer"
+      ],
+      "topic_label": "temperature, degrees, hotter, water, colder"
+    },
+    {
+      "cluster_id": 109,
+      "size": 70,
+      "resolved_rate": 0.843,
+      "avg_answers": 1.47,
+      "keywords": [
+        "people",
+        "sound",
+        "noise",
+        "voice",
+        "sounds",
+        "actually",
+        "voices",
+        "pitch"
+      ],
+      "topic_label": "people, sound, noise, voice, sounds"
+    },
+    {
+      "cluster_id": 27,
+      "size": 69,
+      "resolved_rate": 0.725,
+      "avg_answers": 1.2,
+      "keywords": [
+        "trees",
+        "plants",
+        "plant",
+        "leaves",
+        "branches",
+        "growing",
+        "planted",
+        "branch"
+      ],
+      "topic_label": "trees, plants, plant, leaves, branches"
+    },
+    {
+      "cluster_id": 112,
+      "size": 69,
+      "resolved_rate": 0.725,
+      "avg_answers": 1.28,
+      "keywords": [
+        "letter",
+        "letters",
+        "silent",
+        "words",
+        "english",
+        "sound",
+        "example",
+        "stand"
+      ],
+      "topic_label": "letter, letters, silent, words, english"
+    },
+    {
+      "cluster_id": 7,
+      "size": 68,
+      "resolved_rate": 0.691,
+      "avg_answers": 1.22,
+      "keywords": [
+        "drink",
+        "alcohol",
+        "water",
+        "drinks",
+        "bottle",
+        "bottles",
+        "drinking",
+        "fizzy"
+      ],
+      "topic_label": "drink, alcohol, water, drinks, bottle"
+    },
+    {
+      "cluster_id": 33,
+      "size": 67,
+      "resolved_rate": 0.493,
+      "avg_answers": 1.06,
+      "keywords": [
+        "people",
+        "hairs",
+        "certain",
+        "colour",
+        "beard",
+        "growing",
+        "ginger",
+        "women"
+      ],
+      "topic_label": "people, hairs, certain, colour, beard"
+    },
+    {
+      "cluster_id": 35,
+      "size": 67,
+      "resolved_rate": 0.701,
+      "avg_answers": 1.27,
+      "keywords": [
+        "people",
+        "mosquito",
+        "bites",
+        "scratch",
+        "others",
+        "actually",
+        "viruses",
+        "tickle"
+      ],
+      "topic_label": "people, mosquito, bites, scratch, others"
+    },
+    {
+      "cluster_id": 74,
+      "size": 67,
+      "resolved_rate": 0.806,
+      "avg_answers": 1.16,
+      "keywords": [
+        "blood",
+        "happens",
+        "organ",
+        "transfusion",
+        "umbilical",
+        "brain",
+        "actually",
+        "donated"
+      ],
+      "topic_label": "blood, happens, organ, transfusion, umbilical"
+    },
+    {
+      "cluster_id": 97,
+      "size": 67,
+      "resolved_rate": 0.791,
+      "avg_answers": 1.28,
+      "keywords": [
+        "space",
+        "earth",
+        "oxygen",
+        "gravity",
+        "astronauts",
+        "station",
+        "solid",
+        "particles"
+      ],
+      "topic_label": "space, earth, oxygen, gravity, astronauts"
+    },
+    {
+      "cluster_id": 43,
+      "size": 66,
+      "resolved_rate": 0.742,
+      "avg_answers": 1.23,
+      "keywords": [
+        "women",
+        "trousers",
+        "jacket",
+        "shirts",
+        "front",
+        "buttons",
+        "flies",
+        "clothes"
+      ],
+      "topic_label": "women, trousers, jacket, shirts, front"
+    },
+    {
+      "cluster_id": 17,
+      "size": 65,
+      "resolved_rate": 0.769,
+      "avg_answers": 1.31,
+      "keywords": [
+        "hours",
+        "clock",
+        "clocks",
+        "second",
+        "winter",
+        "years",
+        "around",
+        "people"
+      ],
+      "topic_label": "hours, clock, clocks, second, winter"
+    },
+    {
+      "cluster_id": 31,
+      "size": 65,
+      "resolved_rate": 0.831,
+      "avg_answers": 1.48,
+      "keywords": [
+        "chicken",
+        "eating",
+        "grass",
+        "goose",
+        "human",
+        "animal",
+        "produce",
+        "rabbits"
+      ],
+      "topic_label": "chicken, eating, grass, goose, human"
+    },
+    {
+      "cluster_id": 32,
+      "size": 65,
+      "resolved_rate": 0.8,
+      "avg_answers": 1.34,
+      "keywords": [
+        "frozen",
+        "freezer",
+        "water",
+        "fridge",
+        "freeze",
+        "defrost",
+        "microwave",
+        "cooking"
+      ],
+      "topic_label": "frozen, freezer, water, fridge, freeze"
+    },
+    {
+      "cluster_id": 36,
+      "size": 64,
+      "resolved_rate": 0.656,
+      "avg_answers": 1.25,
+      "keywords": [
+        "sleep",
+        "asleep",
+        "babies",
+        "alarm",
+        "yawns",
+        "wakes",
+        "morning",
+        "night"
+      ],
+      "topic_label": "sleep, asleep, babies, alarm, yawns"
+    },
+    {
+      "cluster_id": 42,
+      "size": 64,
+      "resolved_rate": 0.797,
+      "avg_answers": 1.34,
+      "keywords": [
+        "police",
+        "crime",
+        "country",
+        "people",
+        "prison",
+        "murder",
+        "rather",
+        "assassinated"
+      ],
+      "topic_label": "police, crime, country, people, prison"
+    },
+    {
+      "cluster_id": 30,
+      "size": 63,
+      "resolved_rate": 0.698,
+      "avg_answers": 1.35,
+      "keywords": [
+        "species",
+        "humans",
+        "mammals",
+        "evolved",
+        "human",
+        "dinosaurs",
+        "monkeys",
+        "evolution"
+      ],
+      "topic_label": "species, humans, mammals, evolved, human"
+    },
+    {
+      "cluster_id": 49,
+      "size": 63,
+      "resolved_rate": 0.81,
+      "avg_answers": 1.1,
+      "keywords": [
+        "radio",
+        "mobile",
+        "phone",
+        "sirens",
+        "people",
+        "emergency",
+        "listening",
+        "phones"
+      ],
+      "topic_label": "radio, mobile, phone, sirens, people"
+    },
+    {
+      "cluster_id": 68,
+      "size": 63,
+      "resolved_rate": 0.841,
+      "avg_answers": 1.25,
+      "keywords": [
+        "colours",
+        "black",
+        "rainbow",
+        "green",
+        "white",
+        "light",
+        "colour",
+        "people"
+      ],
+      "topic_label": "colours, black, rainbow, green, white"
+    },
+    {
+      "cluster_id": 75,
+      "size": 63,
+      "resolved_rate": 0.714,
+      "avg_answers": 1.33,
+      "keywords": [
+        "traffic",
+        "roads",
+        "numbers",
+        "roundabout",
+        "signs",
+        "speed",
+        "number",
+        "miles"
+      ],
+      "topic_label": "traffic, roads, numbers, roundabout, signs"
+    },
+    {
+      "cluster_id": 40,
+      "size": 62,
+      "resolved_rate": 0.694,
+      "avg_answers": 1.19,
+      "keywords": [
+        "colour",
+        "white",
+        "orange",
+        "yellow",
+        "black",
+        "green",
+        "colours",
+        "brown"
+      ],
+      "topic_label": "colour, white, orange, yellow, black"
+    },
+    {
+      "cluster_id": 52,
+      "size": 62,
+      "resolved_rate": 0.677,
+      "avg_answers": 1.13,
+      "keywords": [
+        "smell",
+        "breathe",
+        "taste",
+        "people",
+        "actually",
+        "smells",
+        "sense",
+        "different"
+      ],
+      "topic_label": "smell, breathe, taste, people, actually"
+    },
+    {
+      "cluster_id": 24,
+      "size": 60,
+      "resolved_rate": 0.517,
+      "avg_answers": 0.92,
+      "keywords": [
+        "origin",
+        "start",
+        "become",
+        "first",
+        "people",
+        "originate",
+        "tradition",
+        "clapping"
+      ],
+      "topic_label": "origin, start, become, first, people"
+    },
+    {
+      "cluster_id": 45,
+      "size": 60,
+      "resolved_rate": 0.733,
+      "avg_answers": 1.2,
+      "keywords": [
+        "february",
+        "month",
+        "months",
+        "easter",
+        "thursday",
+        "birthday",
+        "dates",
+        "sunday"
+      ],
+      "topic_label": "february, month, months, easter, thursday"
+    },
+    {
+      "cluster_id": 72,
+      "size": 60,
+      "resolved_rate": 0.733,
+      "avg_answers": 1.32,
+      "keywords": [
+        "people",
+        "table",
+        "heads",
+        "shake",
+        "elbows",
+        "middle",
+        "finger",
+        "women"
+      ],
+      "topic_label": "people, table, heads, shake, elbows"
+    },
+    {
+      "cluster_id": 83,
+      "size": 60,
+      "resolved_rate": 0.7,
+      "avg_answers": 1.23,
+      "keywords": [
+        "names",
+        "surnames",
+        "people",
+        "named",
+        "known",
+        "black",
+        "dutch",
+        "first"
+      ],
+      "topic_label": "names, surnames, people, named, known"
+    },
+    {
+      "cluster_id": 104,
+      "size": 60,
+      "resolved_rate": 0.783,
+      "avg_answers": 1.27,
+      "keywords": [
+        "electricity",
+        "electric",
+        "energy",
+        "lightning",
+        "light",
+        "lights",
+        "power",
+        "solar"
+      ],
+      "topic_label": "electricity, electric, energy, lightning, light"
+    },
+    {
+      "cluster_id": 37,
+      "size": 59,
+      "resolved_rate": 0.797,
+      "avg_answers": 1.2,
+      "keywords": [
+        "become",
+        "husband",
+        "woman",
+        "female",
+        "women",
+        "identical",
+        "title",
+        "mister"
+      ],
+      "topic_label": "become, husband, woman, female, women"
+    },
+    {
+      "cluster_id": 44,
+      "size": 59,
+      "resolved_rate": 0.661,
+      "avg_answers": 1.08,
+      "keywords": [
+        "brain",
+        "remember",
+        "dreams",
+        "memory",
+        "dream",
+        "people",
+        "forgotten",
+        "walking"
+      ],
+      "topic_label": "brain, remember, dreams, memory, dream"
+    },
+    {
+      "cluster_id": 47,
+      "size": 58,
+      "resolved_rate": 0.793,
+      "avg_answers": 1.5,
+      "keywords": [
+        "football",
+        "match",
+        "players",
+        "player",
+        "teams",
+        "sports",
+        "english",
+        "referee"
+      ],
+      "topic_label": "football, match, players, player, teams"
+    },
+    {
+      "cluster_id": 101,
+      "size": 58,
+      "resolved_rate": 0.81,
+      "avg_answers": 1.33,
+      "keywords": [
+        "raining",
+        "water",
+        "weather",
+        "clouds",
+        "cloud",
+        "raindrops",
+        "predict",
+        "windy"
+      ],
+      "topic_label": "raining, water, weather, clouds, cloud"
+    },
+    {
+      "cluster_id": 117,
+      "size": 58,
+      "resolved_rate": 0.759,
+      "avg_answers": 1.22,
+      "keywords": [
+        "older",
+        "growing",
+        "people",
+        "years",
+        "taller",
+        "genetic",
+        "child",
+        "children"
+      ],
+      "topic_label": "older, growing, people, years, taller"
+    },
+    {
+      "cluster_id": 29,
+      "size": 57,
+      "resolved_rate": 0.86,
+      "avg_answers": 1.49,
+      "keywords": [
+        "crane",
+        "building",
+        "cranes",
+        "height",
+        "weigh",
+        "house",
+        "floor",
+        "people"
+      ],
+      "topic_label": "crane, building, cranes, height, weigh"
+    },
+    {
+      "cluster_id": 85,
+      "size": 57,
+      "resolved_rate": 0.842,
+      "avg_answers": 1.35,
+      "keywords": [
+        "paper",
+        "metal",
+        "plastic",
+        "microwave",
+        "piece",
+        "corned",
+        "middle",
+        "bottom"
+      ],
+      "topic_label": "paper, metal, plastic, microwave, piece"
+    },
+    {
+      "cluster_id": 86,
+      "size": 57,
+      "resolved_rate": 0.772,
+      "avg_answers": 1.23,
+      "keywords": [
+        "water",
+        "swimming",
+        "drink",
+        "pools",
+        "faster",
+        "thirsty",
+        "hydrogen",
+        "oxygen"
+      ],
+      "topic_label": "water, swimming, drink, pools, faster"
+    },
+    {
+      "cluster_id": 89,
+      "size": 57,
+      "resolved_rate": 0.719,
+      "avg_answers": 1.16,
+      "keywords": [
+        "water",
+        "beach",
+        "level",
+        "beaches",
+        "ocean",
+        "different",
+        "island",
+        "coastal"
+      ],
+      "topic_label": "water, beach, level, beaches, ocean"
+    },
+    {
+      "cluster_id": 23,
+      "size": 56,
+      "resolved_rate": 0.714,
+      "avg_answers": 1.27,
+      "keywords": [
+        "years",
+        "films",
+        "mystery",
+        "james",
+        "coming",
+        "movie",
+        "first",
+        "people"
+      ],
+      "topic_label": "years, films, mystery, james, coming"
+    },
+    {
+      "cluster_id": 62,
+      "size": 56,
+      "resolved_rate": 0.625,
+      "avg_answers": 1.2,
+      "keywords": [
+        "lions",
+        "animals",
+        "catnip",
+        "respond",
+        "makes",
+        "house",
+        "scratches",
+        "kissing"
+      ],
+      "topic_label": "lions, animals, catnip, respond, makes"
+    },
+    {
+      "cluster_id": 41,
+      "size": 55,
+      "resolved_rate": 0.673,
+      "avg_answers": 1.25,
+      "keywords": [
+        "number",
+        "numbers",
+        "pound",
+        "telephone",
+        "numerals",
+        "people",
+        "roman",
+        "banknotes"
+      ],
+      "topic_label": "number, numbers, pound, telephone, numerals"
+    },
+    {
+      "cluster_id": 55,
+      "size": 55,
+      "resolved_rate": 0.655,
+      "avg_answers": 1.2,
+      "keywords": [
+        "first",
+        "invented",
+        "discovered",
+        "decided",
+        "start",
+        "person",
+        "human",
+        "electric"
+      ],
+      "topic_label": "first, invented, discovered, decided, start"
+    },
+    {
+      "cluster_id": 71,
+      "size": 55,
+      "resolved_rate": 0.764,
+      "avg_answers": 1.31,
+      "keywords": [
+        "minister",
+        "prime",
+        "number",
+        "downing",
+        "street",
+        "president",
+        "questions",
+        "election"
+      ],
+      "topic_label": "minister, prime, number, downing, street"
+    },
+    {
+      "cluster_id": 92,
+      "size": 55,
+      "resolved_rate": 0.691,
+      "avg_answers": 1.15,
+      "keywords": [
+        "queen",
+        "royal",
+        "family",
+        "prince",
+        "throne",
+        "charles",
+        "monarch",
+        "happens"
+      ],
+      "topic_label": "queen, royal, family, prince, throne"
+    },
+    {
+      "cluster_id": 16,
+      "size": 54,
+      "resolved_rate": 0.778,
+      "avg_answers": 1.44,
+      "keywords": [
+        "water",
+        "washing",
+        "machine",
+        "dryer",
+        "dishwasher",
+        "duvet",
+        "shrink",
+        "inside"
+      ],
+      "topic_label": "water, washing, machine, dryer, dishwasher"
+    },
+    {
+      "cluster_id": 100,
+      "size": 54,
+      "resolved_rate": 0.741,
+      "avg_answers": 1.41,
+      "keywords": [
+        "right",
+        "handed",
+        "people",
+        "dominant",
+        "clockwise",
+        "first",
+        "cross",
+        "knife"
+      ],
+      "topic_label": "right, handed, people, dominant, clockwise"
+    },
+    {
+      "cluster_id": 9,
+      "size": 51,
+      "resolved_rate": 0.824,
+      "avg_answers": 1.35,
+      "keywords": [
+        "blind",
+        "people",
+        "glasses",
+        "close",
+        "eyesight",
+        "better",
+        "vision",
+        "nostrils"
+      ],
+      "topic_label": "blind, people, glasses, close, eyesight"
+    },
+    {
+      "cluster_id": 87,
+      "size": 51,
+      "resolved_rate": 0.784,
+      "avg_answers": 1.16,
+      "keywords": [
+        "snails",
+        "plants",
+        "slugs",
+        "seeds",
+        "squirrels",
+        "insects",
+        "themselves",
+        "garden"
+      ],
+      "topic_label": "snails, plants, slugs, seeds, squirrels"
+    },
+    {
+      "cluster_id": 53,
+      "size": 50,
+      "resolved_rate": 0.86,
+      "avg_answers": 1.52,
+      "keywords": [
+        "clockwise",
+        "escalator",
+        "direction",
+        "backwards",
+        "track",
+        "moving",
+        "right",
+        "events"
+      ],
+      "topic_label": "clockwise, escalator, direction, backwards, track"
+    },
+    {
+      "cluster_id": 59,
+      "size": 50,
+      "resolved_rate": 0.68,
+      "avg_answers": 1.38,
+      "keywords": [
+        "royal",
+        "england",
+        "british",
+        "wales",
+        "scotland",
+        "countries",
+        "force",
+        "ireland"
+      ],
+      "topic_label": "royal, england, british, wales, scotland"
+    },
+    {
+      "cluster_id": 50,
+      "size": 49,
+      "resolved_rate": 0.592,
+      "avg_answers": 1.31,
+      "keywords": [
+        "towel",
+        "toast",
+        "breakfast",
+        "english",
+        "drink",
+        "dinner",
+        "square",
+        "americans"
+      ],
+      "topic_label": "towel, toast, breakfast, english, drink"
+    },
+    {
+      "cluster_id": 114,
+      "size": 49,
+      "resolved_rate": 0.857,
+      "avg_answers": 1.29,
+      "keywords": [
+        "chicken",
+        "chickens",
+        "turkey",
+        "white",
+        "shell",
+        "inside",
+        "supermarket",
+        "piece"
+      ],
+      "topic_label": "chicken, chickens, turkey, white, shell"
+    },
+    {
+      "cluster_id": 5,
+      "size": 48,
+      "resolved_rate": 0.812,
+      "avg_answers": 1.31,
+      "keywords": [
+        "people",
+        "happens",
+        "metal",
+        "cremated",
+        "titanium",
+        "grave",
+        "graveyard",
+        "question"
+      ],
+      "topic_label": "people, happens, metal, cremated, titanium"
+    },
+    {
+      "cluster_id": 34,
+      "size": 48,
+      "resolved_rate": 0.792,
+      "avg_answers": 1.48,
+      "keywords": [
+        "water",
+        "coffee",
+        "spoon",
+        "taste",
+        "flame",
+        "boiling",
+        "biscuit",
+        "microwave"
+      ],
+      "topic_label": "water, coffee, spoon, taste, flame"
+    },
+    {
+      "cluster_id": 46,
+      "size": 48,
+      "resolved_rate": 0.792,
+      "avg_answers": 1.46,
+      "keywords": [
+        "doors",
+        "inwards",
+        "windows",
+        "metal",
+        "outwards",
+        "small",
+        "front",
+        "water"
+      ],
+      "topic_label": "doors, inwards, windows, metal, outwards"
+    },
+    {
+      "cluster_id": 6,
+      "size": 47,
+      "resolved_rate": 0.766,
+      "avg_answers": 1.32,
+      "keywords": [
+        "numbers",
+        "number",
+        "computer",
+        "phone",
+        "calculator",
+        "sudoku",
+        "digits",
+        "bonus"
+      ],
+      "topic_label": "numbers, number, computer, phone, calculator"
+    },
+    {
+      "cluster_id": 14,
+      "size": 47,
+      "resolved_rate": 0.723,
+      "avg_answers": 1.11,
+      "keywords": [
+        "people",
+        "goosebumps",
+        "feeling",
+        "nervous",
+        "music",
+        "heights",
+        "happen",
+        "suddenly"
+      ],
+      "topic_label": "people, goosebumps, feeling, nervous, music"
+    },
+    {
+      "cluster_id": 65,
+      "size": 47,
+      "resolved_rate": 0.723,
+      "avg_answers": 1.3,
+      "keywords": [
+        "animals",
+        "animal",
+        "species",
+        "humans",
+        "human",
+        "twins",
+        "identical",
+        "mammals"
+      ],
+      "topic_label": "animals, animal, species, humans, human"
+    },
+    {
+      "cluster_id": 66,
+      "size": 47,
+      "resolved_rate": 0.745,
+      "avg_answers": 1.13,
+      "keywords": [
+        "earth",
+        "tides",
+        "actually",
+        "around",
+        "planets",
+        "moons",
+        "rotates",
+        "affect"
+      ],
+      "topic_label": "earth, tides, actually, around, planets"
+    },
+    {
+      "cluster_id": 91,
+      "size": 47,
+      "resolved_rate": 0.894,
+      "avg_answers": 1.43,
+      "keywords": [
+        "plane",
+        "passengers",
+        "pilot",
+        "planes",
+        "flight",
+        "pilots",
+        "front",
+        "airport"
+      ],
+      "topic_label": "plane, passengers, pilot, planes, flight"
+    },
+    {
+      "cluster_id": 108,
+      "size": 46,
+      "resolved_rate": 0.935,
+      "avg_answers": 1.48,
+      "keywords": [
+        "water",
+        "tunnel",
+        "underground",
+        "pressure",
+        "level",
+        "underwater",
+        "canal",
+        "thunderbird"
+      ],
+      "topic_label": "water, tunnel, underground, pressure, level"
+    },
+    {
+      "cluster_id": 22,
+      "size": 45,
+      "resolved_rate": 0.8,
+      "avg_answers": 1.51,
+      "keywords": [
+        "batteries",
+        "screw",
+        "magnets",
+        "battery",
+        "square",
+        "magnet",
+        "positive",
+        "easier"
+      ],
+      "topic_label": "batteries, screw, magnets, battery, square"
+    },
+    {
+      "cluster_id": 61,
+      "size": 45,
+      "resolved_rate": 0.689,
+      "avg_answers": 1.24,
+      "keywords": [
+        "wearing",
+        "police",
+        "black",
+        "white",
+        "jackets",
+        "uniforms",
+        "arrows",
+        "judges"
+      ],
+      "topic_label": "wearing, police, black, white, jackets"
+    },
+    {
+      "cluster_id": 19,
+      "size": 43,
+      "resolved_rate": 0.837,
+      "avg_answers": 1.53,
+      "keywords": [
+        "difference",
+        "pepper",
+        "different",
+        "gallon",
+        "litres",
+        "measured",
+        "weight",
+        "british"
+      ],
+      "topic_label": "difference, pepper, different, gallon, litres"
+    },
+    {
+      "cluster_id": 57,
+      "size": 43,
+      "resolved_rate": 0.698,
+      "avg_answers": 1.12,
+      "keywords": [
+        "toast",
+        "beans",
+        "cakes",
+        "birthday",
+        "mince",
+        "candles",
+        "christmas",
+        "bacon"
+      ],
+      "topic_label": "toast, beans, cakes, birthday, mince"
+    },
+    {
+      "cluster_id": 0,
+      "size": 42,
+      "resolved_rate": 0.738,
+      "avg_answers": 1.26,
+      "keywords": [
+        "royalties",
+        "actually",
+        "hallmark",
+        "house",
+        "houses",
+        "picture",
+        "copyright",
+        "illegal"
+      ],
+      "topic_label": "royalties, actually, hallmark, house, houses"
+    },
+    {
+      "cluster_id": 25,
+      "size": 42,
+      "resolved_rate": 0.786,
+      "avg_answers": 1.17,
+      "keywords": [
+        "earth",
+        "world",
+        "years",
+        "water",
+        "mountains",
+        "bigger",
+        "space",
+        "earthquakes"
+      ],
+      "topic_label": "earth, world, years, water, mountains"
+    },
+    {
+      "cluster_id": 28,
+      "size": 42,
+      "resolved_rate": 0.762,
+      "avg_answers": 1.5,
+      "keywords": [
+        "water",
+        "taste",
+        "teeth",
+        "mouth",
+        "drink",
+        "better",
+        "different",
+        "bubbles"
+      ],
+      "topic_label": "water, taste, teeth, mouth, drink"
+    },
+    {
+      "cluster_id": 63,
+      "size": 42,
+      "resolved_rate": 0.786,
+      "avg_answers": 1.21,
+      "keywords": [
+        "aircraft",
+        "landing",
+        "plane",
+        "speed",
+        "planes",
+        "flying",
+        "lights",
+        "commercial"
+      ],
+      "topic_label": "aircraft, landing, plane, speed, planes"
+    },
+    {
+      "cluster_id": 93,
+      "size": 42,
+      "resolved_rate": 0.667,
+      "avg_answers": 1.14,
+      "keywords": [
+        "earth",
+        "space",
+        "orbit",
+        "opposite",
+        "around",
+        "north",
+        "magnetic",
+        "straight"
+      ],
+      "topic_label": "earth, space, orbit, opposite, around"
+    },
+    {
+      "cluster_id": 8,
+      "size": 41,
+      "resolved_rate": 0.61,
+      "avg_answers": 1.34,
+      "keywords": [
+        "mirror",
+        "right",
+        "finger",
+        "mirrors",
+        "different",
+        "screen",
+        "fingers",
+        "phone"
+      ],
+      "topic_label": "mirror, right, finger, mirrors, different"
+    },
+    {
+      "cluster_id": 98,
+      "size": 41,
+      "resolved_rate": 0.732,
+      "avg_answers": 1.24,
+      "keywords": [
+        "fruit",
+        "banana",
+        "bananas",
+        "potato",
+        "taste",
+        "calories",
+        "cherries",
+        "brown"
+      ],
+      "topic_label": "fruit, banana, bananas, potato, taste"
+    },
+    {
+      "cluster_id": 67,
+      "size": 40,
+      "resolved_rate": 0.6,
+      "avg_answers": 1.05,
+      "keywords": [
+        "human",
+        "world",
+        "years",
+        "population",
+        "earth",
+        "generations",
+        "family",
+        "people"
+      ],
+      "topic_label": "human, world, years, population, earth"
+    },
+    {
+      "cluster_id": 58,
+      "size": 39,
+      "resolved_rate": 0.641,
+      "avg_answers": 1.13,
+      "keywords": [
+        "world",
+        "countries",
+        "country",
+        "first",
+        "china",
+        "third",
+        "become",
+        "second"
+      ],
+      "topic_label": "world, countries, country, first, china"
+    },
+    {
+      "cluster_id": 103,
+      "size": 39,
+      "resolved_rate": 0.641,
+      "avg_answers": 1.1,
+      "keywords": [
+        "cards",
+        "facing",
+        "queen",
+        "right",
+        "coins",
+        "playing",
+        "heart",
+        "stamps"
+      ],
+      "topic_label": "cards, facing, queen, right, coins"
+    },
+    {
+      "cluster_id": 39,
+      "size": 38,
+      "resolved_rate": 0.789,
+      "avg_answers": 1.5,
+      "keywords": [
+        "shampoo",
+        "white",
+        "shower",
+        "water",
+        "bubbles",
+        "bottles",
+        "conditioner",
+        "toothpaste"
+      ],
+      "topic_label": "shampoo, white, shower, water, bubbles"
+    },
+    {
+      "cluster_id": 99,
+      "size": 38,
+      "resolved_rate": 0.684,
+      "avg_answers": 1.21,
+      "keywords": [
+        "evolutionary",
+        "teeth",
+        "humans",
+        "people",
+        "reason",
+        "fingernails",
+        "trying",
+        "round"
+      ],
+      "topic_label": "evolutionary, teeth, humans, people, reason"
+    },
+    {
+      "cluster_id": 26,
+      "size": 37,
+      "resolved_rate": 0.919,
+      "avg_answers": 1.62,
+      "keywords": [
+        "light",
+        "telescope",
+        "reach",
+        "speed",
+        "travel",
+        "seeing",
+        "years",
+        "stars"
+      ],
+      "topic_label": "light, telescope, reach, speed, travel"
+    },
+    {
+      "cluster_id": 76,
+      "size": 37,
+      "resolved_rate": 0.838,
+      "avg_answers": 1.46,
+      "keywords": [
+        "music",
+        "classical",
+        "musical",
+        "instruments",
+        "orchestra",
+        "organ",
+        "played",
+        "musicians"
+      ],
+      "topic_label": "music, classical, musical, instruments, orchestra"
+    },
+    {
+      "cluster_id": 60,
+      "size": 36,
+      "resolved_rate": 0.694,
+      "avg_answers": 1.11,
+      "keywords": [
+        "humans",
+        "animals",
+        "fever",
+        "allergic",
+        "blood",
+        "treat",
+        "babies",
+        "different"
+      ],
+      "topic_label": "humans, animals, fever, allergic, blood"
+    },
+    {
+      "cluster_id": 94,
+      "size": 36,
+      "resolved_rate": 0.75,
+      "avg_answers": 1.44,
+      "keywords": [
+        "bottles",
+        "bottle",
+        "white",
+        "champagne",
+        "years",
+        "expensive",
+        "wines",
+        "better"
+      ],
+      "topic_label": "bottles, bottle, white, champagne, years"
+    },
+    {
+      "cluster_id": 13,
+      "size": 35,
+      "resolved_rate": 0.857,
+      "avg_answers": 1.51,
+      "keywords": [
+        "seatbelts",
+        "wheels",
+        "railway",
+        "tyres",
+        "train",
+        "rubber",
+        "tracks",
+        "stones"
+      ],
+      "topic_label": "seatbelts, wheels, railway, tyres, train"
+    },
+    {
+      "cluster_id": 38,
+      "size": 35,
+      "resolved_rate": 0.6,
+      "avg_answers": 1.03,
+      "keywords": [
+        "sneeze",
+        "sleep",
+        "asleep",
+        "night",
+        "people",
+        "tired",
+        "times",
+        "fever"
+      ],
+      "topic_label": "sneeze, sleep, asleep, night, people"
+    },
+    {
+      "cluster_id": 64,
+      "size": 35,
+      "resolved_rate": 0.714,
+      "avg_answers": 1.2,
+      "keywords": [
+        "spider",
+        "spiders",
+        "another",
+        "across",
+        "conkers",
+        "house",
+        "window",
+        "build"
+      ],
+      "topic_label": "spider, spiders, another, across, conkers"
+    },
+    {
+      "cluster_id": 2,
+      "size": 34,
+      "resolved_rate": 0.824,
+      "avg_answers": 1.5,
+      "keywords": [
+        "fingernails",
+        "toenails",
+        "nails",
+        "scissors",
+        "bleed",
+        "right",
+        "mouth",
+        "outside"
+      ],
+      "topic_label": "fingernails, toenails, nails, scissors, bleed"
+    },
+    {
+      "cluster_id": 11,
+      "size": 34,
+      "resolved_rate": 0.647,
+      "avg_answers": 1.12,
+      "keywords": [
+        "children",
+        "dragon",
+        "birds",
+        "stripe",
+        "named",
+        "multiple",
+        "singular",
+        "plural"
+      ],
+      "topic_label": "children, dragon, birds, stripe, named"
+    },
+    {
+      "cluster_id": 78,
+      "size": 34,
+      "resolved_rate": 0.794,
+      "avg_answers": 1.38,
+      "keywords": [
+        "sound",
+        "music",
+        "dance",
+        "babies",
+        "different",
+        "three",
+        "singing",
+        "people"
+      ],
+      "topic_label": "sound, music, dance, babies, different"
+    },
+    {
+      "cluster_id": 90,
+      "size": 32,
+      "resolved_rate": 0.781,
+      "avg_answers": 1.56,
+      "keywords": [
+        "stars",
+        "planets",
+        "universe",
+        "galaxy",
+        "rotate",
+        "around",
+        "looking",
+        "moving"
+      ],
+      "topic_label": "stars, planets, universe, galaxy, rotate"
+    },
+    {
+      "cluster_id": 82,
+      "size": 31,
+      "resolved_rate": 0.71,
+      "avg_answers": 1.55,
+      "keywords": [
+        "years",
+        "sheep",
+        "human",
+        "animals",
+        "weight",
+        "panda",
+        "white",
+        "beard"
+      ],
+      "topic_label": "years, sheep, human, animals, weight"
+    },
+    {
+      "cluster_id": 18,
+      "size": 30,
+      "resolved_rate": 0.767,
+      "avg_answers": 1.23,
+      "keywords": [
+        "built",
+        "cabinet",
+        "buildings",
+        "building",
+        "houses",
+        "front",
+        "house",
+        "apartments"
+      ],
+      "topic_label": "built, cabinet, buildings, building, houses"
+    },
+    {
+      "cluster_id": 4,
+      "size": 28,
+      "resolved_rate": 0.821,
+      "avg_answers": 1.29,
+      "keywords": [
+        "tattoos",
+        "tattoo",
+        "years",
+        "scars",
+        "leaves",
+        "colour",
+        "disappear",
+        "seven"
+      ],
+      "topic_label": "tattoos, tattoo, years, scars, leaves"
+    },
+    {
+      "cluster_id": 95,
+      "size": 28,
+      "resolved_rate": 0.75,
+      "avg_answers": 1.29,
+      "keywords": [
+        "english",
+        "alphabet",
+        "handwriting",
+        "letters",
+        "order",
+        "chinese",
+        "letter",
+        "write"
+      ],
+      "topic_label": "english, alphabet, handwriting, letters, order"
+    },
+    {
+      "cluster_id": 111,
+      "size": 27,
+      "resolved_rate": 0.741,
+      "avg_answers": 1.11,
+      "keywords": [
+        "national",
+        "anthem",
+        "country",
+        "queen",
+        "scotland",
+        "union",
+        "religion",
+        "flags"
+      ],
+      "topic_label": "national, anthem, country, queen, scotland"
+    },
+    {
+      "cluster_id": 15,
+      "size": 26,
+      "resolved_rate": 0.462,
+      "avg_answers": 0.92,
+      "keywords": [
+        "words",
+        "language",
+        "oldest",
+        "nonsense",
+        "offensive",
+        "funny",
+        "considered",
+        "first"
+      ],
+      "topic_label": "words, language, oldest, nonsense, offensive"
+    },
+    {
+      "cluster_id": 116,
+      "size": 26,
+      "resolved_rate": 0.615,
+      "avg_answers": 1.27,
+      "keywords": [
+        "first",
+        "start",
+        "people",
+        "duvets",
+        "duvet",
+        "sleeping",
+        "middle",
+        "symbol"
+      ],
+      "topic_label": "first, start, people, duvets, duvet"
+    },
+    {
+      "cluster_id": 1,
+      "size": 25,
+      "resolved_rate": 0.84,
+      "avg_answers": 1.28,
+      "keywords": [
+        "guide",
+        "different",
+        "drugs",
+        "breed",
+        "country",
+        "difference",
+        "register",
+        "birds"
+      ],
+      "topic_label": "guide, different, drugs, breed, country"
+    },
+    {
+      "cluster_id": 48,
+      "size": 25,
+      "resolved_rate": 0.72,
+      "avg_answers": 1.28,
+      "keywords": [
+        "speaker",
+        "right",
+        "house",
+        "tories",
+        "place",
+        "party",
+        "government",
+        "conservatives"
+      ],
+      "topic_label": "speaker, right, house, tories, place"
+    },
+    {
+      "cluster_id": 81,
+      "size": 25,
+      "resolved_rate": 0.8,
+      "avg_answers": 1.32,
+      "keywords": [
+        "water",
+        "freeze",
+        "outside",
+        "temperature",
+        "ground",
+        "frozen",
+        "penguins",
+        "christmas"
+      ],
+      "topic_label": "water, freeze, outside, temperature, ground"
+    },
+    {
+      "cluster_id": 118,
+      "size": 23,
+      "resolved_rate": 0.957,
+      "avg_answers": 1.52,
+      "keywords": [
+        "windscreen",
+        "windows",
+        "freezing",
+        "freeze",
+        "outside",
+        "degrees",
+        "driveway",
+        "conditioning"
+      ],
+      "topic_label": "windscreen, windows, freezing, freeze, outside"
+    },
+    {
+      "cluster_id": 20,
+      "size": 22,
+      "resolved_rate": 0.636,
+      "avg_answers": 1.23,
+      "keywords": [
+        "babies",
+        "tears",
+        "crying",
+        "animals",
+        "bottom",
+        "start",
+        "produce",
+        "people"
+      ],
+      "topic_label": "babies, tears, crying, animals, bottom"
+    },
+    {
+      "cluster_id": 102,
+      "size": 22,
+      "resolved_rate": 0.727,
+      "avg_answers": 1.18,
+      "keywords": [
+        "vinyl",
+        "tracks",
+        "change",
+        "meters",
+        "records",
+        "third",
+        "record",
+        "books"
+      ],
+      "topic_label": "vinyl, tracks, change, meters, records"
+    },
+    {
+      "cluster_id": 115,
+      "size": 22,
+      "resolved_rate": 0.864,
+      "avg_answers": 1.5,
+      "keywords": [
+        "round",
+        "square",
+        "degrees",
+        "circle",
+        "spires",
+        "pencil",
+        "boxing",
+        "church"
+      ],
+      "topic_label": "round, square, degrees, circle, spires"
+    },
+    {
+      "cluster_id": 113,
+      "size": 19,
+      "resolved_rate": 0.737,
+      "avg_answers": 1.21,
+      "keywords": [
+        "suntan",
+        "bottle",
+        "hours",
+        "cream",
+        "candle",
+        "lotion",
+        "vinegar",
+        "factors"
+      ],
+      "topic_label": "suntan, bottle, hours, cream, candle"
+    },
+    {
+      "cluster_id": 12,
+      "size": 18,
+      "resolved_rate": 0.722,
+      "avg_answers": 1.0,
+      "keywords": [],
+      "topic_label": ""
+    },
+    {
+      "cluster_id": 80,
+      "size": 16,
+      "resolved_rate": 0.688,
+      "avg_answers": 1.06,
+      "keywords": [
+        "cells",
+        "exercise",
+        "pollution",
+        "beneficial",
+        "attack",
+        "chewing",
+        "itself",
+        "weight"
+      ],
+      "topic_label": "cells, exercise, pollution, beneficial, attack"
+    },
+    {
+      "cluster_id": 70,
+      "size": 14,
+      "resolved_rate": 0.571,
+      "avg_answers": 1.36,
+      "keywords": [
+        "become",
+        "difference",
+        "island",
+        "ballad",
+        "watershed",
+        "cottage",
+        "stream",
+        "yacht"
+      ],
+      "topic_label": "become, difference, island, ballad, watershed"
+    },
+    {
+      "cluster_id": 110,
+      "size": 12,
+      "resolved_rate": 0.5,
+      "avg_answers": 1.17,
+      "keywords": [
+        "green",
+        "covered",
+        "cream",
+        "greensleeves",
+        "screen",
+        "putting",
+        "avocado",
+        "stone"
+      ],
+      "topic_label": "green, covered, cream, greensleeves, screen"
+    },
+    {
+      "cluster_id": 56,
+      "size": 7,
+      "resolved_rate": 0.0,
+      "avg_answers": 0.0,
+      "keywords": [],
+      "topic_label": ""
+    }
+  ]
+}
