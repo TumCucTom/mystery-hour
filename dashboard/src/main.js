@@ -9,6 +9,11 @@ import { renderEpisodes } from './pages/Episodes.js'
 import { renderSearch } from './pages/Search.js'
 import { renderDuplicates } from './pages/Duplicates.js'
 import { renderUMAP } from './pages/UMAP.js'
+import { renderAccuracyPage } from './pages/Accuracy.js'
+import { renderSemanticSearch } from './pages/SemanticSearch.js'
+import { renderTopicDriftPage } from './pages/TopicDrift.js'
+import { renderEpisodeSimilarityPage } from './pages/EpisodeSimilarity.js'
+import { renderTriviaPage } from './pages/Trivia.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -18,8 +23,13 @@ function renderNav() {
     ['/clusters', 'Clusters'],
     ['/episodes', 'Episodes'],
     ['/search', 'Search'],
+    ['/accuracy', 'Accuracy'],
+    ['/ask', 'Ask'],
+    ['/topic-drift', 'Drift'],
+    ['/similar', 'Similar'],
     ['/duplicates', 'Duplicates'],
     ['/umap', 'UMAP'],
+    ['/trivia', 'Trivia'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -40,8 +50,13 @@ const routes = {
   '/clusters': renderClusters,
   '/episodes': renderEpisodes,
   '/search': renderSearch,
+  '/accuracy': renderAccuracyPage,
+  '/ask': renderSemanticSearch,
+  '/topic-drift': renderTopicDriftPage,
+  '/similar': renderEpisodeSimilarityPage,
   '/duplicates': renderDuplicates,
   '/umap': renderUMAP,
+  '/trivia': renderTriviaPage,
 }
 
 function route() {

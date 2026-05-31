@@ -7,7 +7,7 @@ const BASE = './data'
 
 // Load a JSON file (cached after first load)
 const cache = {}
-async function loadJSON(path) {
+export async function loadJSON(path) {
   if (cache[path]) return cache[path]
   const res = await fetch(`${BASE}/${path}`)
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`)

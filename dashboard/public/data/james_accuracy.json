@@ -1,0 +1,4326 @@
+{
+  "summary": {
+    "total_episodes": 598,
+    "total_questions": 6134,
+    "questions_with_overturned_answer": 650,
+    "overall_wrong_rate": 0.106,
+    "total_overturned_answers": 650,
+    "longest_wrong_streak": 11
+  },
+  "episode_stats": [
+    {
+      "episode": "ep_168",
+      "total": 12,
+      "wrong": 10,
+      "rate": 0.833
+    },
+    {
+      "episode": "ep_295",
+      "total": 10,
+      "wrong": 8,
+      "rate": 0.8
+    },
+    {
+      "episode": "ep_021",
+      "total": 9,
+      "wrong": 7,
+      "rate": 0.778
+    },
+    {
+      "episode": "ep_056",
+      "total": 9,
+      "wrong": 7,
+      "rate": 0.778
+    },
+    {
+      "episode": "ep_212",
+      "total": 9,
+      "wrong": 6,
+      "rate": 0.667
+    },
+    {
+      "episode": "ep_258",
+      "total": 12,
+      "wrong": 8,
+      "rate": 0.667
+    },
+    {
+      "episode": "ep_522",
+      "total": 11,
+      "wrong": 7,
+      "rate": 0.636
+    },
+    {
+      "episode": "ep_125",
+      "total": 8,
+      "wrong": 5,
+      "rate": 0.625
+    },
+    {
+      "episode": "ep_456",
+      "total": 10,
+      "wrong": 6,
+      "rate": 0.6
+    },
+    {
+      "episode": "ep_251",
+      "total": 12,
+      "wrong": 7,
+      "rate": 0.583
+    },
+    {
+      "episode": "ep_101",
+      "total": 11,
+      "wrong": 6,
+      "rate": 0.545
+    },
+    {
+      "episode": "ep_160",
+      "total": 11,
+      "wrong": 6,
+      "rate": 0.545
+    },
+    {
+      "episode": "ep_231",
+      "total": 11,
+      "wrong": 6,
+      "rate": 0.545
+    },
+    {
+      "episode": "ep_166",
+      "total": 10,
+      "wrong": 5,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_297",
+      "total": 8,
+      "wrong": 4,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_340",
+      "total": 8,
+      "wrong": 4,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_414",
+      "total": 8,
+      "wrong": 4,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_513",
+      "total": 10,
+      "wrong": 5,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_598",
+      "total": 10,
+      "wrong": 5,
+      "rate": 0.5
+    },
+    {
+      "episode": "ep_221",
+      "total": 9,
+      "wrong": 4,
+      "rate": 0.444
+    },
+    {
+      "episode": "ep_332",
+      "total": 9,
+      "wrong": 4,
+      "rate": 0.444
+    },
+    {
+      "episode": "ep_439",
+      "total": 9,
+      "wrong": 4,
+      "rate": 0.444
+    },
+    {
+      "episode": "ep_444",
+      "total": 9,
+      "wrong": 4,
+      "rate": 0.444
+    },
+    {
+      "episode": "ep_027",
+      "total": 7,
+      "wrong": 3,
+      "rate": 0.429
+    },
+    {
+      "episode": "ep_376",
+      "total": 12,
+      "wrong": 5,
+      "rate": 0.417
+    },
+    {
+      "episode": "ep_567",
+      "total": 17,
+      "wrong": 7,
+      "rate": 0.412
+    },
+    {
+      "episode": "ep_094",
+      "total": 10,
+      "wrong": 4,
+      "rate": 0.4
+    },
+    {
+      "episode": "ep_347",
+      "total": 10,
+      "wrong": 4,
+      "rate": 0.4
+    },
+    {
+      "episode": "ep_363",
+      "total": 10,
+      "wrong": 4,
+      "rate": 0.4
+    },
+    {
+      "episode": "ep_273",
+      "total": 8,
+      "wrong": 3,
+      "rate": 0.375
+    },
+    {
+      "episode": "ep_319",
+      "total": 8,
+      "wrong": 3,
+      "rate": 0.375
+    },
+    {
+      "episode": "ep_100",
+      "total": 11,
+      "wrong": 4,
+      "rate": 0.364
+    },
+    {
+      "episode": "ep_211",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_235",
+      "total": 6,
+      "wrong": 2,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_272",
+      "total": 6,
+      "wrong": 2,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_290",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_388",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_431",
+      "total": 12,
+      "wrong": 4,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_434",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_518",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_551",
+      "total": 12,
+      "wrong": 4,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_582",
+      "total": 9,
+      "wrong": 3,
+      "rate": 0.333
+    },
+    {
+      "episode": "ep_410",
+      "total": 13,
+      "wrong": 4,
+      "rate": 0.308
+    },
+    {
+      "episode": "ep_420",
+      "total": 13,
+      "wrong": 4,
+      "rate": 0.308
+    },
+    {
+      "episode": "ep_593",
+      "total": 13,
+      "wrong": 4,
+      "rate": 0.308
+    },
+    {
+      "episode": "ep_158",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_343",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_375",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_390",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_443",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_480",
+      "total": 10,
+      "wrong": 3,
+      "rate": 0.3
+    },
+    {
+      "episode": "ep_017",
+      "total": 7,
+      "wrong": 2,
+      "rate": 0.286
+    },
+    {
+      "episode": "ep_153",
+      "total": 7,
+      "wrong": 2,
+      "rate": 0.286
+    },
+    {
+      "episode": "ep_123",
+      "total": 11,
+      "wrong": 3,
+      "rate": 0.273
+    },
+    {
+      "episode": "ep_473",
+      "total": 11,
+      "wrong": 3,
+      "rate": 0.273
+    },
+    {
+      "episode": "ep_497",
+      "total": 11,
+      "wrong": 3,
+      "rate": 0.273
+    },
+    {
+      "episode": "ep_536",
+      "total": 11,
+      "wrong": 3,
+      "rate": 0.273
+    },
+    {
+      "episode": "ep_585",
+      "total": 11,
+      "wrong": 3,
+      "rate": 0.273
+    },
+    {
+      "episode": "ep_011",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_068",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_104",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_142",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_156",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_223",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_230",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_277",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_303",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_352",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_385",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_391",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_493",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_529",
+      "total": 8,
+      "wrong": 2,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_560",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_570",
+      "total": 12,
+      "wrong": 3,
+      "rate": 0.25
+    },
+    {
+      "episode": "ep_246",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_300",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_364",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_393",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_423",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_568",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_595",
+      "total": 13,
+      "wrong": 3,
+      "rate": 0.231
+    },
+    {
+      "episode": "ep_103",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_132",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_234",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_236",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_296",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_351",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_359",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_381",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_387",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_438",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_485",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_505",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_515",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_535",
+      "total": 9,
+      "wrong": 2,
+      "rate": 0.222
+    },
+    {
+      "episode": "ep_445",
+      "total": 14,
+      "wrong": 3,
+      "rate": 0.214
+    },
+    {
+      "episode": "ep_452",
+      "total": 14,
+      "wrong": 3,
+      "rate": 0.214
+    },
+    {
+      "episode": "ep_075",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_130",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_141",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_163",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_193",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_195",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_198",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_301",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_318",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_360",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_370",
+      "total": 15,
+      "wrong": 3,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_412",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_424",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_433",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_435",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_460",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_470",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_524",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_559",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_602",
+      "total": 10,
+      "wrong": 2,
+      "rate": 0.2
+    },
+    {
+      "episode": "ep_590",
+      "total": 16,
+      "wrong": 3,
+      "rate": 0.188
+    },
+    {
+      "episode": "ep_191",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_242",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_278",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_305",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_336",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_345",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_358",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_392",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_401",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_442",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_465",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_477",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_494",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_496",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_499",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_521",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_525",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_526",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_538",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_545",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_596",
+      "total": 11,
+      "wrong": 2,
+      "rate": 0.182
+    },
+    {
+      "episode": "ep_386",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_441",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_448",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_459",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_478",
+      "total": 6,
+      "wrong": 1,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_481",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_489",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_554",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_566",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_584",
+      "total": 12,
+      "wrong": 2,
+      "rate": 0.167
+    },
+    {
+      "episode": "ep_167",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_374",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_417",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_482",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_488",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_543",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_569",
+      "total": 13,
+      "wrong": 2,
+      "rate": 0.154
+    },
+    {
+      "episode": "ep_029",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_048",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_173",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_202",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_263",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_533",
+      "total": 7,
+      "wrong": 1,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_583",
+      "total": 14,
+      "wrong": 2,
+      "rate": 0.143
+    },
+    {
+      "episode": "ep_365",
+      "total": 15,
+      "wrong": 2,
+      "rate": 0.133
+    },
+    {
+      "episode": "ep_402",
+      "total": 15,
+      "wrong": 2,
+      "rate": 0.133
+    },
+    {
+      "episode": "ep_411",
+      "total": 15,
+      "wrong": 2,
+      "rate": 0.133
+    },
+    {
+      "episode": "ep_002",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_012",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_019",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_023",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_046",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_054",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_061",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_087",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_225",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_233",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_237",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_245",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_271",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_294",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_306",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_311",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_313",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_348",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_436",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_450",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_458",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_514",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_516",
+      "total": 8,
+      "wrong": 1,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_597",
+      "total": 16,
+      "wrong": 2,
+      "rate": 0.125
+    },
+    {
+      "episode": "ep_025",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_031",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_033",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_038",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_045",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_047",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_073",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_088",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_102",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_117",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_148",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_174",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_182",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_196",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_232",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_275",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_279",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_292",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_316",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_321",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_333",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_353",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_356",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_357",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_369",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_404",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_413",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_451",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_454",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_469",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_501",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_504",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_537",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_552",
+      "total": 9,
+      "wrong": 1,
+      "rate": 0.111
+    },
+    {
+      "episode": "ep_326",
+      "total": 19,
+      "wrong": 2,
+      "rate": 0.105
+    },
+    {
+      "episode": "ep_005",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_014",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_022",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_049",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_062",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_082",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_086",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_128",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_133",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_178",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_181",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_183",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_186",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_197",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_215",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_241",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_254",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_255",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_264",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_267",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_276",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_285",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_291",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_299",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_308",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_315",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_323",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_325",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_328",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_342",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_362",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_366",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_378",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_383",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_406",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_428",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_447",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_486",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_541",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_542",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_544",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_549",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_555",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_561",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_562",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_563",
+      "total": 10,
+      "wrong": 1,
+      "rate": 0.1
+    },
+    {
+      "episode": "ep_010",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_050",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_089",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_127",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_144",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_151",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_155",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_164",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_194",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_257",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_269",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_286",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_288",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_330",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_337",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_368",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_380",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_397",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_399",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_405",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_416",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_418",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_422",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_429",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_446",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_472",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_474",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_495",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_503",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_511",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_523",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_527",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_530",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_531",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_572",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_575",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_580",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_591",
+      "total": 11,
+      "wrong": 1,
+      "rate": 0.091
+    },
+    {
+      "episode": "ep_134",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_314",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_322",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_372",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_379",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_407",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_464",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_528",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_550",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_564",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_573",
+      "total": 12,
+      "wrong": 1,
+      "rate": 0.083
+    },
+    {
+      "episode": "ep_116",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_150",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_210",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_327",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_377",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_384",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_484",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_517",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_594",
+      "total": 13,
+      "wrong": 1,
+      "rate": 0.077
+    },
+    {
+      "episode": "ep_179",
+      "total": 14,
+      "wrong": 1,
+      "rate": 0.071
+    },
+    {
+      "episode": "ep_432",
+      "total": 14,
+      "wrong": 1,
+      "rate": 0.071
+    },
+    {
+      "episode": "ep_579",
+      "total": 14,
+      "wrong": 1,
+      "rate": 0.071
+    },
+    {
+      "episode": "ep_588",
+      "total": 14,
+      "wrong": 1,
+      "rate": 0.071
+    },
+    {
+      "episode": "ep_599",
+      "total": 14,
+      "wrong": 1,
+      "rate": 0.071
+    },
+    {
+      "episode": "ep_430",
+      "total": 15,
+      "wrong": 1,
+      "rate": 0.067
+    },
+    {
+      "episode": "ep_479",
+      "total": 16,
+      "wrong": 1,
+      "rate": 0.062
+    },
+    {
+      "episode": "ep_483",
+      "total": 19,
+      "wrong": 1,
+      "rate": 0.053
+    },
+    {
+      "episode": "ep_409",
+      "total": 20,
+      "wrong": 1,
+      "rate": 0.05
+    },
+    {
+      "episode": "ep_587",
+      "total": 22,
+      "wrong": 1,
+      "rate": 0.045
+    },
+    {
+      "episode": "ep_000",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_001",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_003",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_004",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_006",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_007",
+      "total": 15,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_008",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_009",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_013",
+      "total": 6,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_015",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_016",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_018",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_020",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_024",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_026",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_028",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_030",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_032",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_034",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_035",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_036",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_037",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_039",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_040",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_041",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_042",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_043",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_044",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_051",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_052",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_053",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_055",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_057",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_058",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_059",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_060",
+      "total": 6,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_063",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_064",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_065",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_066",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_067",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_069",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_070",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_071",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_072",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_074",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_076",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_077",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_078",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_079",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_080",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_081",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_083",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_084",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_085",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_090",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_091",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_092",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_093",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_095",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_096",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_097",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_098",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_099",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_105",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_106",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_107",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_108",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_109",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_110",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_111",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_112",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_113",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_114",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_115",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_118",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_119",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_120",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_121",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_122",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_124",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_126",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_129",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_131",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_135",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_136",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_137",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_138",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_139",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_140",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_143",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_145",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_146",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_147",
+      "total": 16,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_149",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_152",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_154",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_157",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_159",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_161",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_162",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_165",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_169",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_170",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_171",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_172",
+      "total": 2,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_175",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_176",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_177",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_180",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_184",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_185",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_187",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_188",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_189",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_190",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_192",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_199",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_200",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_201",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_203",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_204",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_205",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_206",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_207",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_208",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_209",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_213",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_214",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_217",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_219",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_220",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_222",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_224",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_226",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_227",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_228",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_229",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_239",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_240",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_243",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_244",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_247",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_248",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_249",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_250",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_252",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_253",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_256",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_259",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_260",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_261",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_262",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_265",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_266",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_268",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_270",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_274",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_280",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_281",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_282",
+      "total": 15,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_283",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_284",
+      "total": 6,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_287",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_289",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_293",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_298",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_302",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_304",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_307",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_309",
+      "total": 16,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_310",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_312",
+      "total": 7,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_317",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_320",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_324",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_329",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_331",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_334",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_335",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_338",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_339",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_341",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_344",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_346",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_349",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_350",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_354",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_355",
+      "total": 17,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_361",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_367",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_371",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_373",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_382",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_389",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_394",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_395",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_396",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_398",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_400",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_403",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_408",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_415",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_419",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_421",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_425",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_426",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_427",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_437",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_440",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_449",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_453",
+      "total": 15,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_455",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_457",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_461",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_466",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_467",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_468",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_471",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_475",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_476",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_487",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_490",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_491",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_492",
+      "total": 16,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_498",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_500",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_502",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_506",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_507",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_508",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_509",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_510",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_512",
+      "total": 9,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_519",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_520",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_532",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_534",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_539",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_540",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_546",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_547",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_548",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_553",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_556",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_557",
+      "total": 8,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_558",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_565",
+      "total": 12,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_571",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_574",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_576",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_577",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_578",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_581",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_586",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_589",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_592",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_600",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_603",
+      "total": 15,
+      "wrong": 0,
+      "rate": 0.0
+    }
+  ],
+  "worst_episodes": [
+    {
+      "episode": "ep_168",
+      "total": 12,
+      "wrong": 10,
+      "rate": 0.833
+    },
+    {
+      "episode": "ep_295",
+      "total": 10,
+      "wrong": 8,
+      "rate": 0.8
+    },
+    {
+      "episode": "ep_021",
+      "total": 9,
+      "wrong": 7,
+      "rate": 0.778
+    },
+    {
+      "episode": "ep_056",
+      "total": 9,
+      "wrong": 7,
+      "rate": 0.778
+    },
+    {
+      "episode": "ep_212",
+      "total": 9,
+      "wrong": 6,
+      "rate": 0.667
+    },
+    {
+      "episode": "ep_258",
+      "total": 12,
+      "wrong": 8,
+      "rate": 0.667
+    },
+    {
+      "episode": "ep_522",
+      "total": 11,
+      "wrong": 7,
+      "rate": 0.636
+    },
+    {
+      "episode": "ep_125",
+      "total": 8,
+      "wrong": 5,
+      "rate": 0.625
+    },
+    {
+      "episode": "ep_456",
+      "total": 10,
+      "wrong": 6,
+      "rate": 0.6
+    },
+    {
+      "episode": "ep_251",
+      "total": 12,
+      "wrong": 7,
+      "rate": 0.583
+    }
+  ],
+  "best_episodes": [
+    {
+      "episode": "ep_603",
+      "total": 15,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_600",
+      "total": 10,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_592",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_589",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_586",
+      "total": 14,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_581",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_578",
+      "total": 13,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_577",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_576",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    },
+    {
+      "episode": "ep_574",
+      "total": 11,
+      "wrong": 0,
+      "rate": 0.0
+    }
+  ],
+  "overturned_details": [
+    {
+      "episode": "ep_029",
+      "question": "What's the purpose of the patch/pocket thing inside my jacket? It's a piece of cloth sewn on both sides but open at the ",
+      "overturned_count": 3,
+      "resolved": true
+    },
+    {
+      "episode": "ep_358",
+      "question": "Why do toilet seats in this country have no gap at the front while in Mexico and the States they have a gap (horseshoe s",
+      "overturned_count": 3,
+      "resolved": true
+    },
+    {
+      "episode": "ep_363",
+      "question": "In what year will a 2003 calendar work again? I had 300 calendars printed by my agent in 2002 for a modelling career. My",
+      "overturned_count": 3,
+      "resolved": true
+    },
+    {
+      "episode": "ep_439",
+      "question": "What was the difference between a duvet and an eiderdown? (From earlier in the week - staff at Windsor Castle were sniff",
+      "overturned_count": 3,
+      "resolved": true
+    },
+    {
+      "episode": "ep_002",
+      "question": "Where did the Mexican wave originate and why is it called Mexican?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_005",
+      "question": "Why do we say '86 the chicken' when we have run out of chicken in hospitality? Where does 86 come from?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_014",
+      "question": "Why do spectacles never blow off in high winds when everything else gets damaged - wagons turning over, roofs blowing of",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_027",
+      "question": "Does sweeping up fallen leaves from my tree each autumn and putting them in the garden recycling bin damage the tree by ",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_027",
+      "question": "Why do tattoos hurt more on my right side than my left side? My chest, back and ribs all hurt more on the right.",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Why do hospital gowns do up at the back instead of the front?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Is there an undisclosed weight limit on a flat? Can you put too much heavy stuff in a third floor flat?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_062",
+      "question": "Why do we describe it as having beef with people? My daughter uses this term at school.",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_117",
+      "question": "Do companies buy a batch of barcodes, or is there some mega-computer that produces them? There must be thousands of prod",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_125",
+      "question": "Why is champagne the drink of celebration?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_132",
+      "question": "How does a tiny spider spin a web across a distance of a metre or more when they can't fly or jump?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_153",
+      "question": "What is the hardest sporting feat an individual can achieve? For example, a 59 in golf, a nine-dart finish in darts, or ",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_242",
+      "question": "Where does the modern game of chess come from?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_246",
+      "question": "Where did algebra come from?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_258",
+      "question": "Why are people from Holland known as Dutch when people from other countries get their nationality names?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_290",
+      "question": "Why do mushy peas come in a smaller can compared to other canned products like beans?",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_303",
+      "question": "Why don't adults get nosebleeds as much as children do?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_359",
+      "question": "Why do burglars in cartoons and comics always wear black and white stripes?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_363",
+      "question": "Why do we say 'I'm on cloud nine'? Where does the phrase come from?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_375",
+      "question": "How thick does normal window glass, the gap before you can't see through it?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_388",
+      "question": "If you have two identical girl twins marry two identical boy twins, will their children be identical? Will the cousins b",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_417",
+      "question": "Why do we say 'raining cats and dogs'?",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_417",
+      "question": "Why do seagulls stand on one leg?",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_420",
+      "question": "Why do lions have cubs but cats have kittens?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_433",
+      "question": "If you could drink petrol, how many calories would there be in a litre of petrol?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_435",
+      "question": "Why do flammable and inflammable mean exactly the same thing, when similar word pairs like visible/invisible are opposit",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_438",
+      "question": "Who is Riley in the phrase 'living the life of Riley'?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_533",
+      "question": "Why do stars twinkle but planets and the moon don't twinkle?",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_543",
+      "question": "What is a decibel? I know it's a unit of sound, but I can't visualise it. If someone says earplugs block out 24 decibels",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_559",
+      "question": "Who is 'the fat lady' in 'the fat lady sings'? Is it a specific opera singer or character?",
+      "overturned_count": 2,
+      "resolved": false
+    },
+    {
+      "episode": "ep_567",
+      "question": "Why does soap sting your eyes, but not any other part of your body? What's actually in soap that is causing that stingin",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_567",
+      "question": "What is the origin of the phrase 'to fly off the handle'?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_572",
+      "question": "Why is it that when we do a pound sign, we put the pound sign first, and every other symbol that I can possibly think of",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_588",
+      "question": "I'd like to know the origin of the statement, Get off Scott 3",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_597",
+      "question": "What is the little plastic insert in the neck of spirit bottles for?",
+      "overturned_count": 2,
+      "resolved": true
+    },
+    {
+      "episode": "ep_010",
+      "question": "What is the difference between a pole and a post? Why do we say lamppost, signpost, but telegraph pole and flagpole?",
+      "overturned_count": 1,
+      "resolved": false
+    },
+    {
+      "episode": "ep_011",
+      "question": "Why does a brand new empty vinegar bottle smell of vinegar even though it's never had vinegar in it?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_011",
+      "question": "Who decides which direction satellites go in orbit when launched? How do they avoid all colliding with each other?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_012",
+      "question": "What is the purpose of a bubble on a bubble hat?",
+      "overturned_count": 1,
+      "resolved": false
+    },
+    {
+      "episode": "ep_017",
+      "question": "When clearing bubbles from a bubble bath with the shower, why does cold water disperse bubbles much quicker than hot wat",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_017",
+      "question": "How do they count the smallest creatures like beetles, ants, and penguins during the annual zoo stock take?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_019",
+      "question": "Why do we stand on the right side of travelators and walk on the left? Since we drive on the left and overtake on the ri",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "How does deja vu work?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Why does the UK still use miles per hour on road signs when we went metric in 1967/1969?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Do cats derive any direct benefit from purring?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Why can nobody ever scratch the right spot when you have an itch on your back?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Where do earthworms go during summer when the ground is dry and hard?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Do animals actually get any enjoyment out of eating raw meat and leaves like we get dopamine from cake?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_021",
+      "question": "Are the swans in Skiathos, Greece owned by the British King like UK swans?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_022",
+      "question": "Who invented the first suit and tie to make it acceptable? Why have we kept the same style of suits for so long?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_023",
+      "question": "When a man ascends to the throne, he gets a queen. When a woman ascends to the throne, her husband doesn't get the title",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_025",
+      "question": "If I'm cooking dinner and the potatoes are still hard, should I turn the heat up even though the water is already boilin",
+      "overturned_count": 1,
+      "resolved": false
+    },
+    {
+      "episode": "ep_027",
+      "question": "Why do young children pick their noses and eat the results? Is there an evolutionary reason?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_031",
+      "question": "Do the back pockets on jeans stay the same size regardless of waist size? I saw an American man pouring himself into a P",
+      "overturned_count": 1,
+      "resolved": false
+    },
+    {
+      "episode": "ep_033",
+      "question": "Relative to its size, what is the loudest animal? If we were all the same size, what would make the most noise?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_038",
+      "question": "Why did men en masse stop wearing hats? Everyone wore them in pictures from 1900s-50s, it was classless, and even childr",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_045",
+      "question": "Why don't ants get injured when they are flicked off desks? They land, think about it for a minute, then carry on wander",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_046",
+      "question": "My dad used to predict when a reel change was coming up during films - he'd say 'there's a dot coming in the top right c",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_047",
+      "question": "Where do space rocket boosters go after launch? When the Amazon pod lands, where are the boosters? Are they floating aro",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_048",
+      "question": "In Korea, one of the most popular surnames is Lee. However, Korean people don't say Lee, they say Ree. Why do we English",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_049",
+      "question": "Why do Yorkshire tea bags come attached together in pairs?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_050",
+      "question": "Is it cost effective to make a 1 penny piece? Does it cost more to make than what it's actually worth?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_054",
+      "question": "If you're lying in the corner of a room breathing, would there be less oxygen in that corner after 12 hours? How does ai",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Where did the urban myth about swimming pools having chemicals that would turn red if you urinated in them come from?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Why do choreographers and dancers start things with '5, 6, 7, 8' instead of '1, 2, 3, 4' like bands do?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "What happens if you win a massive house in a competition but can't afford to upkeep it?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Why don't commercial hand dryers exist for residential houses?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_056",
+      "question": "Are spaceships armed in case of alien attack?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_061",
+      "question": "Why is there only one species of people when other animals (dogs, cats, flies) have many different types?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_068",
+      "question": "If Kamala Harris wins the presidential election, who will certify the results since the Vice President is the one who ce",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_068",
+      "question": "Do they breed frogs specifically for frog's legs in France? And what do they do with the rest of the body?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_068",
+      "question": "Why does the moon always face the earth? Is it just luck that it turns precisely once every 28.2 days?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_073",
+      "question": "When you're sitting on a plane on the runway accelerating before takeoff, you feel pushed back in your seat. But when yo",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_075",
+      "question": "Why does a car key fob work from far away when you put it to your head and look at your car, but not when you're at dist",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_075",
+      "question": "Why are there so many donkey sanctuaries in the UK if we don't use donkeys for work anymore? What do people use them for",
+      "overturned_count": 1,
+      "resolved": false
+    },
+    {
+      "episode": "ep_082",
+      "question": "Why don't hospital toilets have lids? You'd think they'd help keep bacteria from spreading.",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_086",
+      "question": "Why can I not buy blackberry jam in the supermarket?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_087",
+      "question": "How come a surgeon isn't a doctor? I had an appointment with who I thought was a doctor, but he was actually a surgeon. ",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_088",
+      "question": "How do groins work? Groins with a Y - the rows of plants that run vertically down the beach.",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_089",
+      "question": "When cakes go stale they go hard, but when biscuits go stale they go soft. They've got the same basic ingredients. Why d",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_094",
+      "question": "Why don't we recall smells from dreams? It's always auditory or mainly visual. Rarely, if ever, is it a smell.",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_094",
+      "question": "What do you call a female priest? A male priest is a father. What title is a female priest?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_094",
+      "question": "Why is arachnophobia commonly regarded as the most common phobia? Why are we largely afraid of spiders and not other ver",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_094",
+      "question": "If fruit doesn't taste very good, even though it's ripe and in season, will it have the same nutritional value? I eat fr",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_100",
+      "question": "Why do some ancient manuscripts have to be handled with gloves and some don't?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_100",
+      "question": "Why does the sound of water from the tap change as it gets warmer? Hot water sounds softer than cold water.",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_100",
+      "question": "When you look at a shooting star going across the sky, can you see them if they're coming directly at you?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_100",
+      "question": "When in American history did the American accent that we know today become recognizably American?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "When cremated people with metal hips, gold teeth, etc., what happens to those metal bits that don't burn?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "Why are the numbers on a dartboard in the order that they're in?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "If the source of a river is a trickle like a spring, and the mouth is massive, where does all the water come from?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "Why does smoke from a bonfire always seem to follow you around, even on a still day?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "In America where all denominations are the same size, how do blind people know what they're paying with?",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_101",
+      "question": "Why does air from pursed lips (like blowing out birthday candles) feel cool, but saying 'ha' with an open mouth feels wa",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_102",
+      "question": "On a plane, sometimes the flag is printed back to front. Why are the flags printed back to front on a plane sometimes? T",
+      "overturned_count": 1,
+      "resolved": true
+    },
+    {
+      "episode": "ep_103",
+      "question": "How does glow in the dark work? The emergency exit signs and stars on ceilings - how does that work without batteries?",
+      "overturned_count": 1,
+      "resolved": true
+    }
+  ]
+}
