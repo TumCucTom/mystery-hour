@@ -14,6 +14,13 @@ import { renderSemanticSearch } from './pages/SemanticSearch.js'
 import { renderTopicDriftPage } from './pages/TopicDrift.js'
 import { renderEpisodeSimilarityPage } from './pages/EpisodeSimilarity.js'
 import { renderTriviaPage } from './pages/Trivia.js'
+import { renderGeographicPage } from './pages/Geographic.js'
+import { renderAnswerDynamicsPage } from './pages/AnswerDynamics.js'
+import { renderQuestionTypePage } from './pages/QuestionType.js'
+import { renderRecurringUnansweredPage } from './pages/RecurringUnanswered.js'
+import { renderSeasonalPage } from './pages/Seasonal.js'
+import { renderQuestionQualityPage } from './pages/QuestionQuality.js'
+import { renderEpisodeSummariesPage } from './pages/EpisodeSummaries.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -27,9 +34,16 @@ function renderNav() {
     ['/ask', 'Ask'],
     ['/topic-drift', 'Drift'],
     ['/similar', 'Similar'],
+    ['/geographic', 'Map'],
+    ['/answer-dynamics', 'Answers'],
+    ['/question-type', 'Q Types'],
     ['/duplicates', 'Duplicates'],
     ['/umap', 'UMAP'],
+    ['/seasonal', 'Seasonal'],
+    ['/recurring-unanswered', 'Unanswered'],
     ['/trivia', 'Trivia'],
+    ['/question-quality', 'Quality'],
+    ['/summaries', 'Summaries'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -54,9 +68,16 @@ const routes = {
   '/ask': renderSemanticSearch,
   '/topic-drift': renderTopicDriftPage,
   '/similar': renderEpisodeSimilarityPage,
+  '/geographic': renderGeographicPage,
+  '/answer-dynamics': renderAnswerDynamicsPage,
+  '/question-type': renderQuestionTypePage,
   '/duplicates': renderDuplicates,
   '/umap': renderUMAP,
+  '/seasonal': renderSeasonalPage,
+  '/recurring-unanswered': renderRecurringUnansweredPage,
   '/trivia': renderTriviaPage,
+  '/question-quality': renderQuestionQualityPage,
+  '/summaries': renderEpisodeSummariesPage,
 }
 
 function route() {

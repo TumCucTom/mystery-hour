@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "total_unresolved": 795,
+    "recurring_groups": 10,
+    "total_questions_in_groups": 20
+  },
+  "recurring_groups": [
+    {
+      "count": 2,
+      "episodes": [
+        "ep_094",
+        "ep_293"
+      ],
+      "questions": [
+        "Why do we say 'quid' when talking about pounds? Where did that come from?",
+        "Why do we say the word 'quid' instead of 'pound'?"
+      ],
+      "avg_answers": 1.5,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_179",
+        "ep_515"
+      ],
+      "questions": [
+        "What is the origin of OK?",
+        "What does OK mean? What is the origin of OK?"
+      ],
+      "avg_answers": 2.5,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_222",
+        "ep_222"
+      ],
+      "questions": [
+        "(Answering the Bitcoin question)",
+        "(Answering the Bitcoin question)"
+      ],
+      "avg_answers": 1.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_261",
+        "ep_261"
+      ],
+      "questions": [
+        "Possible answer to 'cheesed off' origin",
+        "Possible answer to 'cheesed off' origin"
+      ],
+      "avg_answers": 1.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_265",
+        "ep_438"
+      ],
+      "questions": [
+        "In theatres and TV studios, why is the green room called the green room?",
+        "Why is a green room called a green room?"
+      ],
+      "avg_answers": 2.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_277",
+        "ep_362"
+      ],
+      "questions": [
+        "Why do golfers shout 'four' when doing a wayward shot?",
+        "Why do golfers shout 'four' when a ball goes astray? Why not one, two, three, or 'we all woo'?"
+      ],
+      "avg_answers": 2.5,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_322",
+        "ep_322"
+      ],
+      "questions": [
+        "What causes bags under the eyes?",
+        "What causes bags under the eyes?"
+      ],
+      "avg_answers": 1.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_326",
+        "ep_326"
+      ],
+      "questions": [
+        "Why do people say 'and I turned around and said to him'? Why would you start a conversation with your back turned?",
+        "ANSWER - Why do we say 'I turned around and said to him'?"
+      ],
+      "avg_answers": 1.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_452",
+        "ep_452"
+      ],
+      "questions": [
+        "Answer to: Why are there 360 degrees in a circle?",
+        "Answer to: Why are there 360 degrees in a circle?"
+      ],
+      "avg_answers": 2.0,
+      "topics": []
+    },
+    {
+      "count": 2,
+      "episodes": [
+        "ep_533",
+        "ep_579"
+      ],
+      "questions": [
+        "Why do stars twinkle but planets and the moon don't twinkle?",
+        "Why do some stars twinkle and some stars don't?"
+      ],
+      "avg_answers": 3.0,
+      "topics": []
+    }
+  ]
+}
