@@ -9,6 +9,7 @@ import { renderEpisodes } from './pages/Episodes.js'
 import { renderSearch } from './pages/Search.js'
 import { renderDuplicates } from './pages/Duplicates.js'
 import { renderUMAP } from './pages/UMAP.js'
+import { renderUMAP3D } from './pages/UMAP3D.js'
 import { renderAccuracyPage } from './pages/Accuracy.js'
 import { renderSemanticSearch } from './pages/SemanticSearch.js'
 import { renderTopicDriftPage } from './pages/TopicDrift.js'
@@ -65,6 +66,7 @@ const NAV_SECTIONS = [
       { href: '/call-heatmap', label: 'Call Heatmap', description: 'Topics × era' },
       { href: '/cluster-evolution', label: 'Evolution', description: 'Cluster over time' },
       { href: '/umap-clusters', label: 'Topic Universe', description: 'UMAP of all questions' },
+      { href: '/umap-3d', label: '3D Universe', description: 'Rotatable 3D scatter' },
       { href: '/umap', label: 'UMAP', description: 'Raw UMAP projection' },
       { href: '/umap-resolved', label: 'UMAP Resolved', description: 'Resolved vs unresolved' },
     ],
@@ -158,6 +160,7 @@ const routes = {
   '/question-type': renderQuestionTypePage,
   '/duplicates': renderDuplicates,
   '/umap': renderUMAP,
+  '/umap-3d': renderUMAP3D,
   '/seasonal': renderSeasonalPage,
   '/recurring-unanswered': renderRecurringUnansweredPage,
   '/question-quality': renderQuestionQualityPage,

@@ -4,10 +4,10 @@
  * Rolling-average line chart shows James's personal wrong rate over time,
  * with a slider to control the window size.
  */
-import { Chart, CategoryScale, LinearScale, LineController, LineElement, PointElement, Title, Tooltip, Legend, Filler } from 'chart.js'
+import { Chart, CategoryScale, LinearScale, LineController, LineElement, PointElement, BarController, BarElement, Title, Tooltip, Legend, Filler } from 'chart.js'
 import { loadJSON } from '../lib/data.js'
 
-Chart.register(CategoryScale, LinearScale, LineController, LineElement, PointElement, Title, Tooltip, Legend, Filler)
+Chart.register(CategoryScale, LinearScale, LineController, LineElement, PointElement, BarController, BarElement, Title, Tooltip, Legend, Filler)
 
 const ERA_LABELS = [
   'Era 1\n(0–99)', 'Era 2\n(100–199)', 'Era 3\n(200–299)',
@@ -18,6 +18,59 @@ function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
+
+// Collapse speaker-name variants ("Professor Hal", "Professor Hal (Brighton)",
+// "Professor Hal Sosabowski (University of Brighton)" ...) into one row.
+// Keeps the longest label as the canonical name, sums totals/wrongs, recomputes rate.
+function mergeSpeakers(rows) {
+  const norm = s => s.toLowerCase()
+    .replace(/\([^)]*\)/g, '')        // strip parentheticals like (Brighton)
+    .replace(/\bprofessor\b/g, 'prof') // collapse "Professor" so order doesn't matter
+    .replace(/\bdr\b\.?/g, 'dr')
+    .replace(/[^a-z\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+  const tokens = s => norm(s).split(' ').filter(Boolean)
+
+  // Build a key for each row. Strategy:
+  //   1. Use normalised full string as the primary key.
+  //   2. If a key is a strict prefix of another key, and the shorter one is ≥ 2 tokens,
+  //      collapse to the longer key (so "prof hal" and "prof hal sosabowski" merge).
+  const keys = rows.map(r => norm(r.speaker))
+  const unique = [...new Set(keys)].sort((a, b) => a.length - b.length)
+  const canonical = {}
+  for (const k of unique) {
+    const tA = k.split(' ').filter(Boolean)
+    let parent = null
+    for (const other of Object.keys(canonical)) {
+      const tB = other.split(' ').filter(Boolean)
+      if (tB.length < tA.length && tA.slice(0, tB.length).join(' ') === other && tB.length >= 2) {
+        parent = other; break
+      }
+      if (tA.length < tB.length && tB.slice(0, tA.length).join(' ') === k && tA.length >= 2) {
+        parent = k; break
+      }
+    }
+    canonical[k] = parent || k
+  }
+
+  const groups = new Map()
+  for (let i = 0; i < rows.length; i++) {
+    const r = rows[i]
+    const grpKey = canonical[keys[i]]
+    if (!groups.has(grpKey)) groups.set(grpKey, { speaker: r.speaker, total: 0, wrong: 0 })
+    const g = groups.get(grpKey)
+    g.total += r.total || 0
+    g.wrong += r.wrong || 0
+    if (r.speaker.length > g.speaker.length) g.speaker = r.speaker
+  }
+  return Array.from(groups.values()).map(g => ({
+    speaker: g.speaker,
+    total: g.total,
+    wrong: g.wrong,
+    rate: g.total ? g.wrong / g.total : 0,
+  }))
+}
 
 export async function renderAccuracyPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading accuracy data...</div>`
@@ -94,24 +147,11 @@ function renderPage(container, acc) {
     <!-- Side-by-side: James vs Callers per era -->
     <div class="card" style="margin-bottom:24px">
       <h2 style="margin-bottom:16px">James vs Callers — Who Is More Reliable?</h2>
-      <div id="vsChart" style="display:flex;gap:4px;align-items:flex-end;height:180px;padding-bottom:36px;position:relative">
-        ${Object.entries(acc.era_breakdown || {}).sort((a,b) => parseInt(a[0])-parseInt(b[0])).map(([k, ed]) => {
-          const jRate = ed.james.total ? (ed.james.wrong / ed.james.total * 100) : 0
-          const cRate = ed.caller.total ? (ed.caller.wrong / ed.caller.total * 100) : null
-          const maxH = 25
-          return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;position:relative">
-            <div style="position:absolute;bottom:36px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:2px">
-              <div style="width:18px;background:rgba(239,68,60,0.8);border-radius:3px 3px 0 0;height:${Math.max(jRate, 2)}%;min-height:10px"></div>
-              ${cRate !== null ? `<div style="width:18px;background:rgba(34,197,94,0.8);border-radius:3px 3px 0 0;height:${Math.max(cRate, 2)}%;min-height:10px"></div>` : ''}
-            </div>
-            <div style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:10px;color:var(--color-muted)">${ERA_LABELS[parseInt(k)]?.split('\n')[0]}</div>
-          </div>`
-        }).join('')}
-      </div>
-      <div style="display:flex;gap:16px;margin-top:4px;font-size:12px">
-        <div style="display:flex;align-items:center;gap:6px"><div style="width:12px;height:12px;background:rgba(239,68,60,0.8);border-radius:2px"></div> James O'Brien</div>
-        <div style="display:flex;align-items:center;gap:6px"><div style="width:12px;height:12px;background:rgba(34,197,94,0.8);border-radius:2px"></div> Expert callers</div>
-      </div>
+      <p style="color:var(--color-muted);font-size:13px;margin:0 0 12px 0">
+        Wrong-answer rate per era, with the absolute difference highlighted. Lower is better.
+      </p>
+      <div id="vsChart" style="height:280px;position:relative"><canvas id="vsCanvas"></canvas></div>
+      <div id="vsInsight" style="margin-top:12px;font-size:13px;color:var(--color-muted)"></div>
     </div>
 
     <!-- Top speakers by wrong rate (min 10 answers) -->
@@ -134,9 +174,10 @@ function renderPage(container, acc) {
     </div>
   `
 
-  // Speaker leaderboard
+  // Speaker leaderboard — collapse name variants for the same person
   const sb = container.querySelector('#speakerBoard')
-  const speakers = (acc.speaker_leaderboard || []).filter(s => s.total >= 10).slice(0, 20)
+  const merged = mergeSpeakers(acc.speaker_leaderboard || [])
+  const speakers = merged.filter(s => s.total >= 10).slice(0, 20)
   sb.innerHTML = `
     <table style="width:100%;border-collapse:collapse;font-size:13px">
       <thead>
@@ -334,4 +375,86 @@ function renderPage(container, acc) {
 
   slider.addEventListener('input', updateWindow)
   updateWindow()
+
+  // James vs Callers grouped bar chart
+  const eras = Object.entries(acc.era_breakdown || {}).sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+  const eraLabels = eras.map(([k]) => ERA_LABELS[parseInt(k)]?.split('\n')[0] || `Era ${parseInt(k) + 1}`)
+  const jRates = eras.map(([, ed]) => ed.james.total ? (ed.james.wrong / ed.james.total) * 100 : 0)
+  const cRates = eras.map(([, ed]) => ed.caller.total ? (ed.caller.wrong / ed.caller.total) * 100 : 0)
+  const totals = eras.map(([, ed]) => ({ j: ed.james.total, c: ed.caller.total }))
+
+  const vsCtx = container.querySelector('#vsCanvas')
+  new Chart(vsCtx, {
+    type: 'bar',
+    data: {
+      labels: eraLabels,
+      datasets: [
+        {
+          label: "James O'Brien",
+          data: jRates,
+          backgroundColor: 'rgba(239, 68, 60, 0.85)',
+          borderColor: 'rgba(239, 68, 60, 1)',
+          borderWidth: 1,
+          borderRadius: 4,
+        },
+        {
+          label: 'Expert callers',
+          data: cRates,
+          backgroundColor: 'rgba(34, 197, 94, 0.85)',
+          borderColor: 'rgba(34, 197, 94, 1)',
+          borderWidth: 1,
+          borderRadius: 4,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 200 },
+      plugins: {
+        legend: { position: 'top', labels: { color: '#94a3b8', boxWidth: 12, padding: 12 } },
+        tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          padding: 10,
+          callbacks: {
+            label: ctx => {
+              const i = ctx.dataIndex
+              const t = totals[i]
+              return `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}% (${t[ctx.datasetIndex === 0 ? 'j' : 'c']} answers)`
+            },
+            afterBody: items => {
+              const i = items[0].dataIndex
+              const diff = jRates[i] - cRates[i]
+              const sign = diff > 0 ? '+' : ''
+              return `Δ = James − Callers: ${sign}${diff.toFixed(1)}pp`
+            },
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: '#94a3b8' },
+          grid: { color: 'rgba(148, 163, 184, 0.08)' },
+        },
+        y: {
+          beginAtZero: true,
+          title: { display: true, text: 'Wrong rate (%)', color: '#94a3b8' },
+          ticks: { color: '#94a3b8', callback: v => v + '%' },
+          grid: { color: 'rgba(148, 163, 184, 0.08)' },
+        },
+      },
+    },
+  })
+
+  // Insight footer: who's more reliable overall, and per era?
+  const vsInsight = container.querySelector('#vsInsight')
+  const allJ = jRates.reduce((s, v, i) => s + v * totals[i].j, 0) / totals.reduce((s, t) => s + t.j, 0)
+  const allC = cRates.reduce((s, v, i) => s + v * totals[i].c, 0) / totals.reduce((s, t) => s + t.c, 0)
+  const diff = allJ - allC
+  const who = diff > 0
+    ? `<strong style="color:var(--color-green)">Expert callers are ${Math.abs(diff).toFixed(1)}pp more reliable</strong>`
+    : `<strong style="color:var(--color-red)">James is ${Math.abs(diff).toFixed(1)}pp more reliable</strong>`
+  const eraSwings = eras.map(([k], i) => Math.abs(jRates[i] - cRates[i]))
+  const swingIdx = eraSwings.indexOf(Math.max(...eraSwings))
+  vsInsight.innerHTML = `${who} overall (${allJ.toFixed(1)}% vs ${allC.toFixed(1)}% wrong). Biggest era gap: <strong>${eraLabels[swingIdx]}</strong> at ${eraSwings[swingIdx].toFixed(1)}pp.`
 }

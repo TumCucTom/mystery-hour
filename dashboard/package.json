@@ -9,7 +9,8 @@
     "update-data": "node scripts/update_data.js"
   },
   "dependencies": {
-    "chart.js": "^4.5.1"
+    "chart.js": "^4.5.1",
+    "three": "^0.184.0"
   },
   "devDependencies": {
     "vite": "^5.0.0"
