@@ -1,0 +1,950 @@
+{
+  "hedging_phrases": [
+    {
+      "phrase": "i think",
+      "total": 55,
+      "resolved": 44,
+      "overturned": 16,
+      "rate": 0.8,
+      "examples": [
+        "I think it would stick because it's a substance that makes it stick. How long for? Unknown.",
+        "I think it's the digestive system - different animals have completely different means of absorbing n"
+      ]
+    },
+    {
+      "phrase": "it probably",
+      "total": 4,
+      "resolved": 3,
+      "overturned": 1,
+      "rate": 0.75,
+      "examples": [
+        "It probably didn't have a name before the taxonomy and Darwin era in the 18th-19th century. The tech",
+        "It probably has something to do with spreading the pips, spreading the seeds around."
+      ]
+    },
+    {
+      "phrase": "it's probably",
+      "total": 12,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.5833,
+      "examples": [
+        "It's probably some form of media training - similar to the 'power stance' thing George Osborne and T",
+        "It's probably the sourness triggering a twitch. This is actually a superb question and I really want"
+      ]
+    }
+  ],
+  "definitive_phrases": [
+    {
+      "phrase": "the reason",
+      "total": 4,
+      "resolved": 4,
+      "overturned": 1,
+      "rate": 1.0,
+      "examples": [
+        "The reason yawning is contagious is because we're conveying to each other that we're safe. If I see ",
+        "The reason there will be much fewer accidents on a train than on a road is because it's on a fixed t"
+      ]
+    },
+    {
+      "phrase": "it's because",
+      "total": 17,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.8824,
+      "examples": [
+        "It's because you're right-handed. You would have the same problem with clippers.",
+        "It's because the rain has gone (clearly meant as a joke). It's all about the moment - spotting the o"
+      ]
+    }
+  ],
+  "question_phrases": [
+    {
+      "phrase": "when the",
+      "total": 3,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "When the pendant is touching your skin, it's heating up gently and dissipating into your skin so you",
+        "When the Great Exodus or diaspora began from Africa, from which all human life is descended, that wo"
+      ]
+    },
+    {
+      "phrase": "when you",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "When you cross your own leg, your thigh takes a lot of the strain. But when someone else puts their ",
+        "When you had a hot water tank in the loft (old houses), the hot water tank wouldn't be clean in the "
+      ]
+    },
+    {
+      "phrase": "is it",
+      "total": 10,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.7,
+      "examples": [
+        "Is it so that the performers can acknowledge them more easily? Because, you know, if you're sitting ",
+        "Is it since Brexit? Could it have stopped with Brexit? It might have a constituent, an ingredient th"
+      ]
+    }
+  ],
+  "all_phrases": [
+    {
+      "phrase": "there are",
+      "total": 12,
+      "resolved": 12,
+      "overturned": 1,
+      "rate": 1.0,
+      "examples": [
+        "There are specialist props companies who have warehouses full of period items. In the same way cars ",
+        "There are ultraviolet rays coming out of the sun. In your skin, you have something ending in cholest"
+      ]
+    },
+    {
+      "phrase": "i can't",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 2,
+      "rate": 1.0,
+      "examples": [
+        "I can't see how that would be enforceable. We used to eat swans in Tudor times but Stavros seems to ",
+        "I can't see why you wouldn't be able to. I know you have to have a licence to keep human remains."
+      ]
+    },
+    {
+      "phrase": "it's to",
+      "total": 12,
+      "resolved": 12,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "It's to do with the temperature. At night, it's colder, so the pollen falls to the ground. When the ",
+        "It's to do with camouflage and evolutionary adaptation. Tropical fish with bright colours live where"
+      ]
+    },
+    {
+      "phrase": "it's not",
+      "total": 11,
+      "resolved": 11,
+      "overturned": 1,
+      "rate": 1.0,
+      "examples": [
+        "It's not blood - it's myoglobin. It's found in muscle tissue. Freezing damages the muscle tissue, so",
+        "It's not an exact science. It's largely meaningless now - people stick 'breaking' on anything. It ju"
+      ]
+    },
+    {
+      "phrase": "it depends",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "It depends on where the map was made. In the Far East, they had maps east-up. Some of the earliest m",
+        "It depends on wind, how heavy the rain is, how fast you run. Mythbusters arrived at both conclusions"
+      ]
+    },
+    {
+      "phrase": "back in",
+      "total": 6,
+      "resolved": 6,
+      "overturned": 1,
+      "rate": 1.0,
+      "examples": [
+        "Back in the day, the hot water would come from the tank in the attic, into the immersion, then into ",
+        "Back in the day, literacy levels were very low. A pub sign would be a pictogram - if you and I were "
+      ]
+    },
+    {
+      "phrase": "you can",
+      "total": 12,
+      "resolved": 12,
+      "overturned": 1,
+      "rate": 1.0,
+      "examples": [
+        "You can point at things to establish concrete meanings, then gradually build up a shared vocabulary.",
+        "You can make a magnet if you've got another magnet - rub it and draw the north pole away to polarise"
+      ]
+    },
+    {
+      "phrase": "it has",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "It has something to do with the word Palatine - originally it was the County Palatine of Durham. It ",
+        "It has nothing to do with Cornwall and everything to do with New Zealand. The Weller Brothers ran a "
+      ]
+    },
+    {
+      "phrase": "you can't",
+      "total": 9,
+      "resolved": 9,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "You can't be too specific because the numbers might have changed by the time the bulletin is read. I",
+        "You can't consent to being killed by someone else. The same legislation that prevents assisted dying"
+      ]
+    },
+    {
+      "phrase": "it's all",
+      "total": 6,
+      "resolved": 6,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "It's all about Queen Victoria and Prince Albert. They were the biggest celebrities of the 19th centu",
+        "It's all about the Industrial Revolution. MCR stands for 'Worker B'. Mancunians are the Worker Bs of"
+      ]
+    },
+    {
+      "phrase": "when you",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 0,
+      "rate": 1.0,
+      "examples": [
+        "When you cross your own leg, your thigh takes a lot of the strain. But when someone else puts their ",
+        "When you had a hot water tank in the loft (old houses), the hot water tank wouldn't be clean in the "
+      ]
+    },
+    {
+      "phrase": "if you",
+      "total": 26,
+      "resolved": 25,
+      "overturned": 2,
+      "rate": 0.9615,
+      "examples": [
+        "If you open a top-loading washing machine when it isn't empty, no harm is done. In a dishwasher, eve",
+        "If you blow two different whistles or if somebody with you blows two different whistles, the dogs bo"
+      ]
+    },
+    {
+      "phrase": "think of",
+      "total": 9,
+      "resolved": 8,
+      "overturned": 0,
+      "rate": 0.8889,
+      "examples": [
+        "Think of the space that is available for molecules and water fills that space in liquid form. When i",
+        "Think of it as 'lately' - 'lately of this parish' meaning they were here not long ago but they're no"
+      ]
+    },
+    {
+      "phrase": "it's about",
+      "total": 17,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.8824,
+      "examples": [
+        "It's about timing - both of them turn off their alarms before they fully wake the other person. On w",
+        "It's about weight distribution"
+      ]
+    },
+    {
+      "phrase": "it's because",
+      "total": 17,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.8824,
+      "examples": [
+        "It's because you're right-handed. You would have the same problem with clippers.",
+        "It's because the rain has gone (clearly meant as a joke). It's all about the moment - spotting the o"
+      ]
+    },
+    {
+      "phrase": "it must",
+      "total": 8,
+      "resolved": 7,
+      "overturned": 0,
+      "rate": 0.875,
+      "examples": [
+        "It must be the likelihood of it slipping out of your hand and the likelihood of it doing you a misch",
+        "It must take a certain amount of time for it to harden. That is an excellent question."
+      ]
+    },
+    {
+      "phrase": "suggested it",
+      "total": 8,
+      "resolved": 7,
+      "overturned": 4,
+      "rate": 0.875,
+      "examples": [
+        "Suggested it might be about the mechanics - when you use fork with knife, your knuckles point up. Wh",
+        "Suggested it might be because one side gets wet and the other doesn't"
+      ]
+    },
+    {
+      "phrase": "it's called",
+      "total": 8,
+      "resolved": 7,
+      "overturned": 0,
+      "rate": 0.875,
+      "examples": [
+        "It's called strobing. TV studios make presenters take different shirts because patterns on camera ca",
+        "It's called cute aggression. Might be play fighting - learning motor skills. Like fox cubs or puppie"
+      ]
+    },
+    {
+      "phrase": "it's just",
+      "total": 14,
+      "resolved": 12,
+      "overturned": 3,
+      "rate": 0.8571,
+      "examples": [
+        "It's just a sense memory, isn't it? I would be interested if anyone has any other thoughts on it. Ev",
+        "It's just a mode of counting - doing one bump for each year. I think it started in Scotland, oddly, "
+      ]
+    },
+    {
+      "phrase": "they don't",
+      "total": 7,
+      "resolved": 6,
+      "overturned": 2,
+      "rate": 0.8571,
+      "examples": [
+        "They don't always. It's convention rather than rule and regulation.",
+        "They don't think in any language until they can speak. They'll just be registering sensations and fe"
+      ]
+    },
+    {
+      "phrase": "it's the",
+      "total": 31,
+      "resolved": 26,
+      "overturned": 5,
+      "rate": 0.8387,
+      "examples": [
+        "It's the biggest markup in the history of markups. Corn is practically free to make, then they charg",
+        "It's the R you're looking for. R in the NATO alphabet is Romeo. But R stands for received."
+      ]
+    },
+    {
+      "phrase": "it's going",
+      "total": 6,
+      "resolved": 5,
+      "overturned": 1,
+      "rate": 0.8333,
+      "examples": [
+        "It's going to have something to do with natural oils. It's going to have something to do with the re",
+        "It's going to be a measure of how strong the wind is, or pressure, or wind speed. There must be a wa"
+      ]
+    },
+    {
+      "phrase": "there's a",
+      "total": 6,
+      "resolved": 5,
+      "overturned": 1,
+      "rate": 0.8333,
+      "examples": [
+        "There's a tiny bit of quartz crystal in there. The battery does something to the quartz which makes ",
+        "There's a survival instinct that for some reason, if you yawn, I will yawn because you've told me th"
+      ]
+    },
+    {
+      "phrase": "there's no",
+      "total": 11,
+      "resolved": 9,
+      "overturned": 0,
+      "rate": 0.8182,
+      "examples": [
+        "There's no such thing as THE American accent any more than there's one Irish accent. (Acknowledged t",
+        "There's no official threshold for becoming an acronym. There's no international body of acronym cert"
+      ]
+    },
+    {
+      "phrase": "i think",
+      "total": 55,
+      "resolved": 44,
+      "overturned": 16,
+      "rate": 0.8,
+      "examples": [
+        "I think it would stick because it's a substance that makes it stick. How long for? Unknown.",
+        "I think it's the digestive system - different animals have completely different means of absorbing n"
+      ]
+    },
+    {
+      "phrase": "admitted he",
+      "total": 5,
+      "resolved": 4,
+      "overturned": 0,
+      "rate": 0.8,
+      "examples": [
+        "Admitted he couldn't understand the question initially, then reformulated it as: at what stage of ri",
+        "Admitted he didn't know the answer to this."
+      ]
+    },
+    {
+      "phrase": "didn't know",
+      "total": 5,
+      "resolved": 4,
+      "overturned": 0,
+      "rate": 0.8,
+      "examples": [
+        "Didn't know the answer. Suggested linguists probably measure this. Mentioned Samoset, one of the Nat",
+        "Didn't know - speculated about friction and which hand wears it."
+      ]
+    },
+    {
+      "phrase": "it comes",
+      "total": 10,
+      "resolved": 8,
+      "overturned": 2,
+      "rate": 0.8,
+      "examples": [
+        "It comes from the French - we have anglicised the spelling and they haven't. There was French influe",
+        "It comes from the French. Like charcuterie, which we say as charcuterie not sharcuterie. So it's the"
+      ]
+    },
+    {
+      "phrase": "they do",
+      "total": 5,
+      "resolved": 4,
+      "overturned": 1,
+      "rate": 0.8,
+      "examples": [
+        "They do it differently in France already. They calculate it as a different number... They have to es",
+        "They do it at ground level and then lift it up to the top. For big gorges they use helicopters. For "
+      ]
+    },
+    {
+      "phrase": "it was",
+      "total": 9,
+      "resolved": 7,
+      "overturned": 0,
+      "rate": 0.7778,
+      "examples": [
+        "It was on the other side (referring to John Wilkes Booth's position when he assassinated Lincoln).",
+        "It was a genetic glitch that occurred at some long-distant point in the species' past, and it equipp"
+      ]
+    },
+    {
+      "phrase": "i'll find",
+      "total": 9,
+      "resolved": 7,
+      "overturned": 0,
+      "rate": 0.7778,
+      "examples": [
+        "I'll find out for you.",
+        "I'll find out for you."
+      ]
+    },
+    {
+      "phrase": "i don't",
+      "total": 69,
+      "resolved": 53,
+      "overturned": 7,
+      "rate": 0.7681,
+      "examples": [
+        "I don't know why. It's just a nice round number. 250, 125, 175 are easy numbers to work with. Maybe ",
+        "I don't know for certain. I think it probably comes from snails rather than razor clams. Being shy a"
+      ]
+    },
+    {
+      "phrase": "it's a",
+      "total": 28,
+      "resolved": 21,
+      "overturned": 5,
+      "rate": 0.75,
+      "examples": [
+        "It's a cost-saving measure. The story goes that someone told a match factory they could make a fortu",
+        "It's a careful calculation so that if you miss a high number by a bit, you hit a low number, and if "
+      ]
+    },
+    {
+      "phrase": "he doesn't",
+      "total": 8,
+      "resolved": 6,
+      "overturned": 1,
+      "rate": 0.75,
+      "examples": [
+        "He doesn't know definitively. He discusses that bottled water has a use-by date possibly due to micr",
+        "He doesn't think there's a national rule. It's down to individual councils, so there could be an Ave"
+      ]
+    },
+    {
+      "phrase": "there is",
+      "total": 12,
+      "resolved": 9,
+      "overturned": 0,
+      "rate": 0.75,
+      "examples": [
+        "There is no height restriction on nudity on a nudist beach. Being naked is not in and of itself ille",
+        "There is a book called 'The Sense of Being Stared At' by Rupert Sheldrake, dedicated to questions li"
+      ]
+    },
+    {
+      "phrase": "it would",
+      "total": 11,
+      "resolved": 8,
+      "overturned": 1,
+      "rate": 0.7273,
+      "examples": [
+        "It would be alive to start with, for some of the journey. Probably more likely to suffocate than be ",
+        "It would be trigonometry. You measure the side, the adjacent... you'd need to be able to see the top"
+      ]
+    },
+    {
+      "phrase": "the answer",
+      "total": 14,
+      "resolved": 10,
+      "overturned": 1,
+      "rate": 0.7143,
+      "examples": [
+        "The answer is probably boring - the sign can't be put anywhere, it has to be put in the best place f",
+        "The answer is betanin, a pigment/enzyme that doesn't get broken down by kidneys. It passes all the w"
+      ]
+    },
+    {
+      "phrase": "is it",
+      "total": 10,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.7,
+      "examples": [
+        "Is it so that the performers can acknowledge them more easily? Because, you know, if you're sitting ",
+        "Is it since Brexit? Could it have stopped with Brexit? It might have a constituent, an ingredient th"
+      ]
+    },
+    {
+      "phrase": "i presume",
+      "total": 6,
+      "resolved": 4,
+      "overturned": 1,
+      "rate": 0.6667,
+      "examples": [
+        "I presume it's the Speaker of the House. They're next in the line of succession.",
+        "I presume it's because the order of subject, object and verb is different in Spanish and therefore i"
+      ]
+    },
+    {
+      "phrase": "because you",
+      "total": 6,
+      "resolved": 4,
+      "overturned": 2,
+      "rate": 0.6667,
+      "examples": [
+        "Because you can judge a book by its cover. There are now attempts in academic institutions to do a f",
+        "Because you also eat and drink. If you took 100% in a tablet plus a balanced diet, you'd be overdosi"
+      ]
+    },
+    {
+      "phrase": "the question",
+      "total": 5,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 0.6,
+      "examples": [
+        "The question is on the list. (No answer provided)",
+        "The question is whether there's a difference geographically in the affectionate nature of language u"
+      ]
+    },
+    {
+      "phrase": "i haven't",
+      "total": 5,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 0.6,
+      "examples": [
+        "I haven't got a clue. Everyone would assume NASA, but the Chinese and Russians... I don't know why I",
+        "I haven't got a clue. That's the sort of question I'd expect from a university student."
+      ]
+    },
+    {
+      "phrase": "it's probably",
+      "total": 12,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.5833,
+      "examples": [
+        "It's probably some form of media training - similar to the 'power stance' thing George Osborne and T",
+        "It's probably the sourness triggering a twitch. This is actually a superb question and I really want"
+      ]
+    },
+    {
+      "phrase": "it might",
+      "total": 11,
+      "resolved": 5,
+      "overturned": 2,
+      "rate": 0.4545,
+      "examples": [
+        "It might just be random - someone decided at some point that's a post and that's a pole. James also ",
+        "It might be an Anglo concept. The example of Zimbabwean millionaires proves the point - in countries"
+      ]
+    },
+    {
+      "phrase": "speculated it",
+      "total": 6,
+      "resolved": 2,
+      "overturned": 1,
+      "rate": 0.3333,
+      "examples": [
+        "Speculated it might be connected to the heartbeat - the bass is the ground floor of music, an echo o",
+        "Speculated it might be because ferrets were used for sporting purposes in country sports"
+      ]
+    },
+    {
+      "phrase": "i have",
+      "total": 6,
+      "resolved": 2,
+      "overturned": 0,
+      "rate": 0.3333,
+      "examples": [
+        "I have no idea. Will it not come from 'quid pro quo'? I don't know. Which means something for someth",
+        "I have no idea what you're talking about. If there's a shadow, something caused it. It could be a pl"
+      ]
+    },
+    {
+      "phrase": "i'm not",
+      "total": 7,
+      "resolved": 2,
+      "overturned": 1,
+      "rate": 0.2857,
+      "examples": [
+        "I'm not sure that we've stumbled across a scientific phenomenon here. But on the off chance that we ",
+        "I'm not sure that the premise of your question is valid. I don't know that you have sufficiently dem"
+      ]
+    },
+    {
+      "phrase": "if it's",
+      "total": 5,
+      "resolved": 1,
+      "overturned": 0,
+      "rate": 0.2,
+      "examples": [
+        "If it's in a published recipe book, there will be a form of copyright. But some recipes like carbona",
+        "If it's a straight road, there's nothing that actually indicates the incline. If it was a bendy road"
+      ]
+    }
+  ],
+  "first_words": [
+    {
+      "word": "it's",
+      "total": 246,
+      "resolved": 210,
+      "overturned": 36,
+      "rate": 0.8537
+    },
+    {
+      "word": "the",
+      "total": 212,
+      "resolved": 166,
+      "overturned": 17,
+      "rate": 0.783
+    },
+    {
+      "word": "i",
+      "total": 189,
+      "resolved": 149,
+      "overturned": 35,
+      "rate": 0.7884
+    },
+    {
+      "word": "it",
+      "total": 111,
+      "resolved": 85,
+      "overturned": 11,
+      "rate": 0.7658
+    },
+    {
+      "word": "they",
+      "total": 73,
+      "resolved": 62,
+      "overturned": 12,
+      "rate": 0.8493
+    },
+    {
+      "word": "if",
+      "total": 55,
+      "resolved": 44,
+      "overturned": 5,
+      "rate": 0.8
+    },
+    {
+      "word": "you",
+      "total": 55,
+      "resolved": 49,
+      "overturned": 6,
+      "rate": 0.8909
+    },
+    {
+      "word": "there",
+      "total": 40,
+      "resolved": 33,
+      "overturned": 3,
+      "rate": 0.825
+    },
+    {
+      "word": "because",
+      "total": 36,
+      "resolved": 32,
+      "overturned": 5,
+      "rate": 0.8889
+    },
+    {
+      "word": "a",
+      "total": 32,
+      "resolved": 27,
+      "overturned": 3,
+      "rate": 0.8438
+    },
+    {
+      "word": "yes,",
+      "total": 30,
+      "resolved": 28,
+      "overturned": 1,
+      "rate": 0.9333
+    },
+    {
+      "word": "there's",
+      "total": 25,
+      "resolved": 20,
+      "overturned": 1,
+      "rate": 0.8
+    },
+    {
+      "word": "suggested",
+      "total": 23,
+      "resolved": 19,
+      "overturned": 8,
+      "rate": 0.8261
+    },
+    {
+      "word": "he",
+      "total": 21,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.7143
+    },
+    {
+      "word": "we",
+      "total": 20,
+      "resolved": 17,
+      "overturned": 4,
+      "rate": 0.85
+    },
+    {
+      "word": "when",
+      "total": 19,
+      "resolved": 18,
+      "overturned": 0,
+      "rate": 0.9474
+    },
+    {
+      "word": "probably",
+      "total": 19,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.7895
+    },
+    {
+      "word": "james",
+      "total": 19,
+      "resolved": 18,
+      "overturned": 10,
+      "rate": 0.9474
+    },
+    {
+      "word": "in",
+      "total": 18,
+      "resolved": 15,
+      "overturned": 0,
+      "rate": 0.8333
+    },
+    {
+      "word": "no,",
+      "total": 18,
+      "resolved": 17,
+      "overturned": 1,
+      "rate": 0.9444
+    },
+    {
+      "word": "your",
+      "total": 16,
+      "resolved": 13,
+      "overturned": 2,
+      "rate": 0.8125
+    },
+    {
+      "word": "you're",
+      "total": 16,
+      "resolved": 15,
+      "overturned": 2,
+      "rate": 0.9375
+    },
+    {
+      "word": "they're",
+      "total": 16,
+      "resolved": 15,
+      "overturned": 4,
+      "rate": 0.9375
+    },
+    {
+      "word": "i'm",
+      "total": 14,
+      "resolved": 8,
+      "overturned": 1,
+      "rate": 0.5714
+    },
+    {
+      "word": "no",
+      "total": 13,
+      "resolved": 10,
+      "overturned": 2,
+      "rate": 0.7692
+    },
+    {
+      "word": "speculated",
+      "total": 12,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.5833
+    },
+    {
+      "word": "no.",
+      "total": 12,
+      "resolved": 10,
+      "overturned": 1,
+      "rate": 0.8333
+    },
+    {
+      "word": "i'll",
+      "total": 11,
+      "resolved": 9,
+      "overturned": 0,
+      "rate": 0.8182
+    },
+    {
+      "word": "is",
+      "total": 10,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.7
+    },
+    {
+      "word": "some",
+      "total": 10,
+      "resolved": 7,
+      "overturned": 0,
+      "rate": 0.7
+    },
+    {
+      "word": "think",
+      "total": 10,
+      "resolved": 9,
+      "overturned": 0,
+      "rate": 0.9
+    },
+    {
+      "word": "maybe",
+      "total": 9,
+      "resolved": 8,
+      "overturned": 2,
+      "rate": 0.8889
+    },
+    {
+      "word": "to",
+      "total": 8,
+      "resolved": 7,
+      "overturned": 1,
+      "rate": 0.875
+    },
+    {
+      "word": "that's",
+      "total": 7,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 0.4286
+    },
+    {
+      "word": "couldn't",
+      "total": 6,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 0.5
+    },
+    {
+      "word": "discussed",
+      "total": 6,
+      "resolved": 6,
+      "overturned": 0,
+      "rate": 1.0
+    },
+    {
+      "word": "didn't",
+      "total": 6,
+      "resolved": 4,
+      "overturned": 0,
+      "rate": 0.6667
+    },
+    {
+      "word": "back",
+      "total": 6,
+      "resolved": 6,
+      "overturned": 1,
+      "rate": 1.0
+    },
+    {
+      "word": "so",
+      "total": 6,
+      "resolved": 6,
+      "overturned": 1,
+      "rate": 1.0
+    },
+    {
+      "word": "historically,",
+      "total": 6,
+      "resolved": 4,
+      "overturned": 0,
+      "rate": 0.6667
+    },
+    {
+      "word": "this",
+      "total": 5,
+      "resolved": 3,
+      "overturned": 0,
+      "rate": 0.6
+    },
+    {
+      "word": "two",
+      "total": 5,
+      "resolved": 4,
+      "overturned": 1,
+      "rate": 0.8
+    },
+    {
+      "word": "admitted",
+      "total": 5,
+      "resolved": 4,
+      "overturned": 0,
+      "rate": 0.8
+    },
+    {
+      "word": "possibly",
+      "total": 5,
+      "resolved": 2,
+      "overturned": 2,
+      "rate": 0.4
+    },
+    {
+      "word": "nobody",
+      "total": 5,
+      "resolved": 2,
+      "overturned": 1,
+      "rate": 0.4
+    },
+    {
+      "word": "most",
+      "total": 5,
+      "resolved": 5,
+      "overturned": 0,
+      "rate": 1.0
+    }
+  ]
+}
