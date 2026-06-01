@@ -1,0 +1,1037 @@
+{
+  "callers": [
+    {
+      "caller": "Sean from Bishop's Stortford",
+      "total_q": 4,
+      "dominant_cluster": 22,
+      "dominant_pct": 0.5,
+      "top_clusters": [
+        [
+          22,
+          0.5
+        ],
+        [
+          40,
+          0.25
+        ],
+        [
+          67,
+          0.25
+        ]
+      ],
+      "distribution": {
+        "22": 0.5,
+        "40": 0.25,
+        "67": 0.25
+      },
+      "type_label": "Words Expert"
+    },
+    {
+      "caller": "Clive from Sheffield",
+      "total_q": 3,
+      "dominant_cluster": 73,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          73,
+          0.333
+        ],
+        [
+          68,
+          0.333
+        ],
+        [
+          4,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "73": 0.333,
+        "68": 0.333,
+        "4": 0.333
+      },
+      "type_label": "Flies Expert"
+    },
+    {
+      "caller": "Dan from Southfields",
+      "total_q": 3,
+      "dominant_cluster": 3,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          3,
+          0.333
+        ],
+        [
+          14,
+          0.333
+        ],
+        [
+          48,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "3": 0.333,
+        "14": 0.333,
+        "48": 0.333
+      },
+      "type_label": "Trousers Expert"
+    },
+    {
+      "caller": "Nathan from Portsmouth",
+      "total_q": 3,
+      "dominant_cluster": 55,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          55,
+          0.333
+        ],
+        [
+          73,
+          0.333
+        ],
+        [
+          56,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "55": 0.333,
+        "73": 0.333,
+        "56": 0.333
+      },
+      "type_label": "Brain Expert"
+    },
+    {
+      "caller": "Steve from Hounslow",
+      "total_q": 3,
+      "dominant_cluster": 61,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          61,
+          0.333
+        ],
+        [
+          2,
+          0.333
+        ],
+        [
+          33,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "61": 0.333,
+        "2": 0.333,
+        "33": 0.333
+      },
+      "type_label": "French Expert"
+    },
+    {
+      "caller": "Johnny from Ipswich",
+      "total_q": 3,
+      "dominant_cluster": 0,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          0,
+          0.333
+        ],
+        [
+          26,
+          0.333
+        ],
+        [
+          21,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "0": 0.333,
+        "26": 0.333,
+        "21": 0.333
+      },
+      "type_label": "Names Expert"
+    },
+    {
+      "caller": "John from Bromley",
+      "total_q": 3,
+      "dominant_cluster": 35,
+      "dominant_pct": 0.3333333333333333,
+      "top_clusters": [
+        [
+          35,
+          0.333
+        ],
+        [
+          22,
+          0.333
+        ],
+        [
+          68,
+          0.333
+        ]
+      ],
+      "distribution": {
+        "35": 0.333,
+        "22": 0.333,
+        "68": 0.333
+      },
+      "type_label": "Sneeze Expert"
+    },
+    {
+      "caller": "Mark from Walthamstow",
+      "total_q": 4,
+      "dominant_cluster": 33,
+      "dominant_pct": 0.25,
+      "top_clusters": [
+        [
+          33,
+          0.25
+        ],
+        [
+          11,
+          0.25
+        ],
+        [
+          45,
+          0.25
+        ]
+      ],
+      "distribution": {
+        "33": 0.25,
+        "11": 0.25,
+        "45": 0.25,
+        "49": 0.25
+      },
+      "type_label": "Animals Expert"
+    },
+    {
+      "caller": "Simon from Wembley",
+      "total_q": 4,
+      "dominant_cluster": 68,
+      "dominant_pct": 0.25,
+      "top_clusters": [
+        [
+          68,
+          0.25
+        ],
+        [
+          14,
+          0.25
+        ],
+        [
+          0,
+          0.25
+        ]
+      ],
+      "distribution": {
+        "68": 0.25,
+        "14": 0.25,
+        "0": 0.25,
+        "19": 0.25
+      },
+      "type_label": "Clockwise Expert"
+    },
+    {
+      "caller": "Andy from Brighton",
+      "total_q": 5,
+      "dominant_cluster": 3,
+      "dominant_pct": 0.2,
+      "top_clusters": [
+        [
+          3,
+          0.2
+        ],
+        [
+          52,
+          0.2
+        ],
+        [
+          65,
+          0.2
+        ]
+      ],
+      "distribution": {
+        "3": 0.2,
+        "52": 0.2,
+        "65": 0.2,
+        "6": 0.2,
+        "77": 0.2
+      },
+      "type_label": "Trousers Expert"
+    },
+    {
+      "caller": "Elaine from Forest Hill",
+      "total_q": 5,
+      "dominant_cluster": 71,
+      "dominant_pct": 0.2,
+      "top_clusters": [
+        [
+          71,
+          0.2
+        ],
+        [
+          40,
+          0.2
+        ],
+        [
+          52,
+          0.2
+        ]
+      ],
+      "distribution": {
+        "71": 0.2,
+        "40": 0.2,
+        "52": 0.2,
+        "53": 0.2,
+        "54": 0.2
+      },
+      "type_label": "Blood Expert"
+    },
+    {
+      "caller": "John from Marlow",
+      "total_q": 5,
+      "dominant_cluster": 40,
+      "dominant_pct": 0.2,
+      "top_clusters": [
+        [
+          40,
+          0.2
+        ],
+        [
+          52,
+          0.2
+        ],
+        [
+          47,
+          0.2
+        ]
+      ],
+      "distribution": {
+        "40": 0.2,
+        "52": 0.2,
+        "47": 0.2,
+        "61": 0.2,
+        "1": 0.2
+      },
+      "type_label": "London Expert"
+    }
+  ],
+  "cluster_info": {
+    "37": {
+      "label": "green, downs, referred, white, known",
+      "keywords": [
+        "green",
+        "downs",
+        "referred",
+        "white"
+      ]
+    },
+    "7": {
+      "label": "football, tennis, players, balls, sports",
+      "keywords": [
+        "football",
+        "tennis",
+        "players",
+        "balls"
+      ]
+    },
+    "27": {
+      "label": "phrase, origin, saying, knock, originate",
+      "keywords": [
+        "phrase",
+        "origin",
+        "saying",
+        "knock"
+      ]
+    },
+    "22": {
+      "label": "words, english, letter, letters, people",
+      "keywords": [
+        "words",
+        "english",
+        "letter",
+        "letters"
+      ]
+    },
+    "52": {
+      "label": "birds, pigeons, seagulls, around, pigeon",
+      "keywords": [
+        "birds",
+        "pigeons",
+        "seagulls",
+        "around"
+      ]
+    },
+    "33": {
+      "label": "animals, humans, species, mammals, human",
+      "keywords": [
+        "animals",
+        "humans",
+        "species",
+        "mammals"
+      ]
+    },
+    "21": {
+      "label": "earth, world, around, stars, space",
+      "keywords": [
+        "earth",
+        "world",
+        "around",
+        "stars"
+      ]
+    },
+    "6": {
+      "label": "people, babies, makes, evolutionary, feeling",
+      "keywords": [
+        "people",
+        "babies",
+        "makes",
+        "evolutionary"
+      ]
+    },
+    "14": {
+      "label": "taste, fruit, stomach, sugar, human",
+      "keywords": [
+        "taste",
+        "fruit",
+        "stomach",
+        "sugar"
+      ]
+    },
+    "54": {
+      "label": "water, level, ocean, become, beach",
+      "keywords": [
+        "water",
+        "level",
+        "ocean",
+        "become"
+      ]
+    },
+    "73": {
+      "label": "flies, insects, flying, night, light",
+      "keywords": [
+        "flies",
+        "insects",
+        "flying",
+        "night"
+      ]
+    },
+    "40": {
+      "label": "london, county, counties, north, towns",
+      "keywords": [
+        "london",
+        "county",
+        "counties",
+        "north"
+      ]
+    },
+    "2": {
+      "label": "crane, building, house, cranes, buildings",
+      "keywords": [
+        "crane",
+        "building",
+        "house",
+        "cranes"
+      ]
+    },
+    "77": {
+      "label": "actually, scratch, people, fingers, mouth",
+      "keywords": [
+        "actually",
+        "scratch",
+        "people",
+        "fingers"
+      ]
+    },
+    "58": {
+      "label": "animals, humans, animal, human, actually",
+      "keywords": [
+        "animals",
+        "humans",
+        "animal",
+        "human"
+      ]
+    },
+    "62": {
+      "label": "difference, toast, chocolate, cream, different",
+      "keywords": [
+        "difference",
+        "toast",
+        "chocolate",
+        "cream"
+      ]
+    },
+    "26": {
+      "label": "money, million, coins, currency, worth",
+      "keywords": [
+        "money",
+        "million",
+        "coins",
+        "currency"
+      ]
+    },
+    "69": {
+      "label": "space, earth, gravity, happens, astronauts",
+      "keywords": [
+        "space",
+        "earth",
+        "gravity",
+        "happens"
+      ]
+    },
+    "8": {
+      "label": "different, clocks, month, february, months",
+      "keywords": [
+        "different",
+        "clocks",
+        "month",
+        "february"
+      ]
+    },
+    "17": {
+      "label": "colour, white, green, black, colours",
+      "keywords": [
+        "colour",
+        "white",
+        "green",
+        "black"
+      ]
+    },
+    "35": {
+      "label": "sneeze, people, viruses, bites, others",
+      "keywords": [
+        "sneeze",
+        "people",
+        "viruses",
+        "bites"
+      ]
+    },
+    "45": {
+      "label": "number, numbers, phone, mobile, emergency",
+      "keywords": [
+        "number",
+        "numbers",
+        "phone",
+        "mobile"
+      ]
+    },
+    "51": {
+      "label": "language, english, different, accents, people",
+      "keywords": [
+        "language",
+        "english",
+        "different",
+        "accents"
+      ]
+    },
+    "79": {
+      "label": "traffic, roads, speed, roundabout, seatbelts",
+      "keywords": [
+        "traffic",
+        "roads",
+        "speed",
+        "roundabout"
+      ]
+    },
+    "13": {
+      "label": "countries, country, royal, world, national",
+      "keywords": [
+        "countries",
+        "country",
+        "royal",
+        "world"
+      ]
+    },
+    "3": {
+      "label": "trousers, jacket, front, shirts, women",
+      "keywords": [
+        "trousers",
+        "jacket",
+        "front",
+        "shirts"
+      ]
+    },
+    "20": {
+      "label": "police, happens, country, people, prison",
+      "keywords": [
+        "police",
+        "happens",
+        "country",
+        "people"
+      ]
+    },
+    "34": {
+      "label": "doors, front, windows, houses, metal",
+      "keywords": [
+        "doors",
+        "front",
+        "windows",
+        "houses"
+      ]
+    },
+    "1": {
+      "label": "trees, plants, leaves, plant, branches",
+      "keywords": [
+        "trees",
+        "plants",
+        "leaves",
+        "plant"
+      ]
+    },
+    "10": {
+      "label": "sleep, asleep, sneeze, night, morning",
+      "keywords": [
+        "sleep",
+        "asleep",
+        "sneeze",
+        "night"
+      ]
+    },
+    "76": {
+      "label": "mirror, light, people, blind, glasses",
+      "keywords": [
+        "mirror",
+        "light",
+        "people",
+        "blind"
+      ]
+    },
+    "59": {
+      "label": "breakfast, toast, bacon, dinner, english",
+      "keywords": [
+        "breakfast",
+        "toast",
+        "bacon",
+        "dinner"
+      ]
+    },
+    "15": {
+      "label": "bottles, alcohol, bottle, drinks, drink",
+      "keywords": [
+        "bottles",
+        "alcohol",
+        "bottle",
+        "drinks"
+      ]
+    },
+    "16": {
+      "label": "first, start, become, origin, decided",
+      "keywords": [
+        "first",
+        "start",
+        "become",
+        "origin"
+      ]
+    },
+    "68": {
+      "label": "clockwise, speed, faster, track, around",
+      "keywords": [
+        "clockwise",
+        "speed",
+        "faster",
+        "track"
+      ]
+    },
+    "18": {
+      "label": "sound, people, noise, sounds, music",
+      "keywords": [
+        "sound",
+        "people",
+        "noise",
+        "sounds"
+      ]
+    },
+    "56": {
+      "label": "light, electricity, electric, batteries, battery",
+      "keywords": [
+        "light",
+        "electricity",
+        "electric",
+        "batteries"
+      ]
+    },
+    "5": {
+      "label": "number, numbers, three, eight, seven",
+      "keywords": [
+        "number",
+        "numbers",
+        "three",
+        "eight"
+      ]
+    },
+    "60": {
+      "label": "plane, aircraft, planes, pilot, landing",
+      "keywords": [
+        "plane",
+        "aircraft",
+        "planes",
+        "pilot"
+      ]
+    },
+    "48": {
+      "label": "origin, originate, nickname, phrase, military",
+      "keywords": [
+        "origin",
+        "originate",
+        "nickname",
+        "phrase"
+      ]
+    },
+    "39": {
+      "label": "first, invented, people, discovered, start",
+      "keywords": [
+        "first",
+        "invented",
+        "people",
+        "discovered"
+      ]
+    },
+    "31": {
+      "label": "degrees, temperature, summer, colder, winter",
+      "keywords": [
+        "degrees",
+        "temperature",
+        "summer",
+        "colder"
+      ]
+    },
+    "46": {
+      "label": "people, become, years, world, british",
+      "keywords": [
+        "people",
+        "become",
+        "years",
+        "world"
+      ]
+    },
+    "32": {
+      "label": "water, drink, coffee, spoon, drinking",
+      "keywords": [
+        "water",
+        "drink",
+        "coffee",
+        "spoon"
+      ]
+    },
+    "50": {
+      "label": "royalties, court, years, mystery, actually",
+      "keywords": [
+        "royalties",
+        "court",
+        "years",
+        "mystery"
+      ]
+    },
+    "47": {
+      "label": "queen, royal, prince, throne, family",
+      "keywords": [
+        "queen",
+        "royal",
+        "prince",
+        "throne"
+      ]
+    },
+    "55": {
+      "label": "brain, remember, memory, people, dreams",
+      "keywords": [
+        "brain",
+        "remember",
+        "memory",
+        "people"
+      ]
+    },
+    "42": {
+      "label": "fruit, supermarket, pepper, plastic, vegetable",
+      "keywords": [
+        "fruit",
+        "supermarket",
+        "pepper",
+        "plastic"
+      ]
+    },
+    "23": {
+      "label": "right, handed, finger, people, different",
+      "keywords": [
+        "right",
+        "handed",
+        "finger",
+        "people"
+      ]
+    },
+    "25": {
+      "label": "round, guide, drugs, horse, years",
+      "keywords": [
+        "round",
+        "guide",
+        "drugs",
+        "horse"
+      ]
+    },
+    "64": {
+      "label": "growing, certain, years, older, genetic",
+      "keywords": [
+        "growing",
+        "certain",
+        "years",
+        "older"
+      ]
+    },
+    "11": {
+      "label": "cards, queen, facing, first, right",
+      "keywords": [
+        "cards",
+        "queen",
+        "facing",
+        "first"
+      ]
+    },
+    "65": {
+      "label": "number, numbers, bottom, telephone, keyboard",
+      "keywords": [
+        "number",
+        "numbers",
+        "bottom",
+        "telephone"
+      ]
+    },
+    "57": {
+      "label": "fridge, freezer, frozen, water, defrost",
+      "keywords": [
+        "fridge",
+        "freezer",
+        "frozen",
+        "water"
+      ]
+    },
+    "19": {
+      "label": "clouds, raining, water, weather, cloud",
+      "keywords": [
+        "clouds",
+        "raining",
+        "water",
+        "weather"
+      ]
+    },
+    "75": {
+      "label": "lions, animals, catnip, respond, makes",
+      "keywords": [
+        "lions",
+        "animals",
+        "catnip",
+        "respond"
+      ]
+    },
+    "24": {
+      "label": "beard, women, people, white, shave",
+      "keywords": [
+        "beard",
+        "women",
+        "people",
+        "white"
+      ]
+    },
+    "0": {
+      "label": "names, surnames, people, named, first",
+      "keywords": [
+        "names",
+        "surnames",
+        "people",
+        "named"
+      ]
+    },
+    "4": {
+      "label": "music, sound, classical, musical, different",
+      "keywords": [
+        "music",
+        "sound",
+        "classical",
+        "musical"
+      ]
+    },
+    "44": {
+      "label": "radio, people, adverts, watershed, phones",
+      "keywords": [
+        "radio",
+        "people",
+        "adverts",
+        "watershed"
+      ]
+    },
+    "72": {
+      "label": "chicken, chickens, turkey, sperm, white",
+      "keywords": [
+        "chicken",
+        "chickens",
+        "turkey",
+        "sperm"
+      ]
+    },
+    "38": {
+      "label": "minister, prime, number, downing, street",
+      "keywords": [
+        "minister",
+        "prime",
+        "number",
+        "downing"
+      ]
+    },
+    "49": {
+      "label": "smell, breathe, different, smells, sense",
+      "keywords": [
+        "smell",
+        "breathe",
+        "different",
+        "smells"
+      ]
+    },
+    "53": {
+      "label": "sweat, water, temperature, hours, actually",
+      "keywords": [
+        "sweat",
+        "water",
+        "temperature",
+        "hours"
+      ]
+    },
+    "66": {
+      "label": "earth, stars, planets, rotate, moons",
+      "keywords": [
+        "earth",
+        "stars",
+        "planets",
+        "rotate"
+      ]
+    },
+    "9": {
+      "label": "water, bubbles, bottle, different, glass",
+      "keywords": [
+        "water",
+        "bubbles",
+        "bottle",
+        "different"
+      ]
+    },
+    "67": {
+      "label": "square, round, different, women, pencil",
+      "keywords": [
+        "square",
+        "round",
+        "different",
+        "women"
+      ]
+    },
+    "28": {
+      "label": "water, shampoo, shower, washing, towel",
+      "keywords": [
+        "water",
+        "shampoo",
+        "shower",
+        "washing"
+      ]
+    },
+    "30": {
+      "label": "people, clapping, start, appreciation, shake",
+      "keywords": [
+        "people",
+        "clapping",
+        "start",
+        "appreciation"
+      ]
+    },
+    "78": {
+      "label": "colour, yellow, white, black, orange",
+      "keywords": [
+        "colour",
+        "yellow",
+        "white",
+        "black"
+      ]
+    },
+    "71": {
+      "label": "blood, happens, brain, transfusion, donate",
+      "keywords": [
+        "blood",
+        "happens",
+        "brain",
+        "transfusion"
+      ]
+    },
+    "36": {
+      "label": "water, mouth, teeth, taste, drink",
+      "keywords": [
+        "water",
+        "mouth",
+        "teeth",
+        "taste"
+      ]
+    },
+    "41": {
+      "label": "spider, spiders, another, across, conkers",
+      "keywords": [
+        "spider",
+        "spiders",
+        "another",
+        "across"
+      ]
+    },
+    "61": {
+      "label": "french, female, gender, masculine, feminine",
+      "keywords": [
+        "french",
+        "female",
+        "gender",
+        "masculine"
+      ]
+    },
+    "43": {
+      "label": "birthday, people, candles, celebrate, wedding",
+      "keywords": [
+        "birthday",
+        "people",
+        "candles",
+        "celebrate"
+      ]
+    },
+    "29": {
+      "label": "lightning, strikes, turbines, electrocuted, electricity",
+      "keywords": [
+        "lightning",
+        "strikes",
+        "turbines",
+        "electrocuted"
+      ]
+    },
+    "63": {
+      "label": "passport, passports, pencil, british, french",
+      "keywords": [
+        "passport",
+        "passports",
+        "pencil",
+        "british"
+      ]
+    },
+    "12": {
+      "label": "",
+      "keywords": []
+    },
+    "70": {
+      "label": "cabinet, right, democrats, tories, world",
+      "keywords": [
+        "cabinet",
+        "right",
+        "democrats",
+        "tories"
+      ]
+    },
+    "74": {
+      "label": "",
+      "keywords": []
+    }
+  },
+  "total": 12
+}

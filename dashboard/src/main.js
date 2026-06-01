@@ -33,6 +33,18 @@ import { renderClusterEvolutionPage } from './pages/ClusterEvolution.js'
 import { renderJamesSaysNextPage } from './pages/JamesSaysNext.js'
 import { renderCallerNameGeneratorPage } from './pages/CallerNameGenerator.js'
 import { renderOverturnedMapPage } from './pages/OverturnedMap.js'
+import { renderTopicPairsPage } from './pages/TopicPairs.js'
+import { renderCallerTypesPage } from './pages/CallerTypes.js'
+import { renderClusterWorstPage } from './pages/ClusterWorst.js'
+import { renderAnomaliesPage } from './pages/Anomalies.js'
+import { renderUnresolvedFrontierPage } from './pages/UnresolvedFrontier.js'
+import { renderSentimentPage } from './pages/Sentiment.js'
+import { renderConfidencePage } from './pages/Confidence.js'
+import { renderEpisodeRecommenderPage } from './pages/EpisodeRecommender.js'
+import { renderKNNSimilarPage } from './pages/KNNSimilar.js'
+import { renderEpFingerprintComparePage } from './pages/EpFingerprintCompare.js'
+import { renderUMAPResolvedPage } from './pages/UMAPResolved.js'
+import { renderWillResolvePage } from './pages/WillResolve.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -68,6 +80,18 @@ function renderNav() {
     ['/james-says', 'James Says'],
     ['/name-generator', 'Name Gen'],
     ['/overturned-map', 'Overturned'],
+    ['/topic-pairs', 'Topic Pairs'],
+    ['/caller-types', 'Caller Types'],
+    ['/cluster-worst', 'Worst Clusters'],
+    ['/anomalies', 'Anomalies'],
+    ['/unresolved-frontier', 'Unresolved'],
+    ['/sentiment', 'Sentiment'],
+    ['/confidence', 'Confidence'],
+    ['/episode-recommender', 'Recommender'],
+    ['/knn-similar', 'KNN Similar'],
+    ['/ep-compare', 'EP Compare'],
+    ['/umap-resolved', 'UMAP Split'],
+    ['/will-resolve', 'Will It Resolve?'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -131,6 +155,18 @@ const routes = {
   '/james-says': renderJamesSaysNextPage,
   '/name-generator': renderCallerNameGeneratorPage,
   '/overturned-map': renderOverturnedMapPage,
+  '/topic-pairs': renderTopicPairsPage,
+  '/caller-types': renderCallerTypesPage,
+  '/cluster-worst': renderClusterWorstPage,
+  '/anomalies': renderAnomaliesPage,
+  '/unresolved-frontier': renderUnresolvedFrontierPage,
+  '/sentiment': renderSentimentPage,
+  '/confidence': renderConfidencePage,
+  '/episode-recommender': renderEpisodeRecommenderPage,
+  '/knn-similar': renderKNNSimilarPage,
+  '/ep-compare': renderEpFingerprintComparePage,
+  '/umap-resolved': renderUMAPResolvedPage,
+  '/will-resolve': renderWillResolvePage,
 }
 
 function route() {

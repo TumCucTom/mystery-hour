@@ -1,0 +1,1938 @@
+{
+  "topics": [
+    37,
+    7,
+    27,
+    22,
+    52,
+    33,
+    21,
+    6,
+    14,
+    54,
+    73,
+    40,
+    2,
+    77,
+    58,
+    62,
+    26,
+    69,
+    8,
+    17,
+    35,
+    45,
+    51,
+    79,
+    13
+  ],
+  "cluster_info": {
+    "37": {
+      "label": "green, downs, referred, white, known",
+      "keywords": [
+        "green",
+        "downs",
+        "referred",
+        "white",
+        "known"
+      ],
+      "size": 138,
+      "resolved_rate": 0.703
+    },
+    "7": {
+      "label": "football, tennis, players, balls, sports",
+      "keywords": [
+        "football",
+        "tennis",
+        "players",
+        "balls",
+        "sports"
+      ],
+      "size": 129,
+      "resolved_rate": 0.721
+    },
+    "27": {
+      "label": "phrase, origin, saying, knock, originate",
+      "keywords": [
+        "phrase",
+        "origin",
+        "saying",
+        "knock",
+        "originate"
+      ],
+      "size": 128,
+      "resolved_rate": 0.617
+    },
+    "22": {
+      "label": "words, english, letter, letters, people",
+      "keywords": [
+        "words",
+        "english",
+        "letter",
+        "letters",
+        "people"
+      ],
+      "size": 127,
+      "resolved_rate": 0.693
+    },
+    "52": {
+      "label": "birds, pigeons, seagulls, around, pigeon",
+      "keywords": [
+        "birds",
+        "pigeons",
+        "seagulls",
+        "around",
+        "pigeon"
+      ],
+      "size": 124,
+      "resolved_rate": 0.742
+    },
+    "33": {
+      "label": "animals, humans, species, mammals, human",
+      "keywords": [
+        "animals",
+        "humans",
+        "species",
+        "mammals",
+        "human"
+      ],
+      "size": 120,
+      "resolved_rate": 0.733
+    },
+    "21": {
+      "label": "earth, world, around, stars, space",
+      "keywords": [
+        "earth",
+        "world",
+        "around",
+        "stars",
+        "space"
+      ],
+      "size": 119,
+      "resolved_rate": 0.748
+    },
+    "6": {
+      "label": "people, babies, makes, evolutionary, feeling",
+      "keywords": [
+        "people",
+        "babies",
+        "makes",
+        "evolutionary",
+        "feeling"
+      ],
+      "size": 115,
+      "resolved_rate": 0.687
+    },
+    "14": {
+      "label": "taste, fruit, stomach, sugar, human",
+      "keywords": [
+        "taste",
+        "fruit",
+        "stomach",
+        "sugar",
+        "human"
+      ],
+      "size": 113,
+      "resolved_rate": 0.77
+    },
+    "54": {
+      "label": "water, level, ocean, become, beach",
+      "keywords": [
+        "water",
+        "level",
+        "ocean",
+        "become",
+        "beach"
+      ],
+      "size": 111,
+      "resolved_rate": 0.784
+    },
+    "73": {
+      "label": "flies, insects, flying, night, light",
+      "keywords": [
+        "flies",
+        "insects",
+        "flying",
+        "night",
+        "light"
+      ],
+      "size": 111,
+      "resolved_rate": 0.802
+    },
+    "40": {
+      "label": "london, county, counties, north, towns",
+      "keywords": [
+        "london",
+        "county",
+        "counties",
+        "north",
+        "towns"
+      ],
+      "size": 108,
+      "resolved_rate": 0.731
+    },
+    "2": {
+      "label": "crane, building, house, cranes, buildings",
+      "keywords": [
+        "crane",
+        "building",
+        "house",
+        "cranes",
+        "buildings"
+      ],
+      "size": 107,
+      "resolved_rate": 0.85
+    },
+    "77": {
+      "label": "actually, scratch, people, fingers, mouth",
+      "keywords": [
+        "actually",
+        "scratch",
+        "people",
+        "fingers",
+        "mouth"
+      ],
+      "size": 104,
+      "resolved_rate": 0.817
+    },
+    "58": {
+      "label": "animals, humans, animal, human, actually",
+      "keywords": [
+        "animals",
+        "humans",
+        "animal",
+        "human",
+        "actually"
+      ],
+      "size": 102,
+      "resolved_rate": 0.725
+    },
+    "62": {
+      "label": "difference, toast, chocolate, cream, different",
+      "keywords": [
+        "difference",
+        "toast",
+        "chocolate",
+        "cream",
+        "different"
+      ],
+      "size": 96,
+      "resolved_rate": 0.771
+    },
+    "26": {
+      "label": "money, million, coins, currency, worth",
+      "keywords": [
+        "money",
+        "million",
+        "coins",
+        "currency",
+        "worth"
+      ],
+      "size": 95,
+      "resolved_rate": 0.768
+    },
+    "69": {
+      "label": "space, earth, gravity, happens, astronauts",
+      "keywords": [
+        "space",
+        "earth",
+        "gravity",
+        "happens",
+        "astronauts"
+      ],
+      "size": 95,
+      "resolved_rate": 0.832
+    },
+    "8": {
+      "label": "different, clocks, month, february, months",
+      "keywords": [
+        "different",
+        "clocks",
+        "month",
+        "february",
+        "months"
+      ],
+      "size": 94,
+      "resolved_rate": 0.734
+    },
+    "17": {
+      "label": "colour, white, green, black, colours",
+      "keywords": [
+        "colour",
+        "white",
+        "green",
+        "black",
+        "colours"
+      ],
+      "size": 94,
+      "resolved_rate": 0.787
+    },
+    "35": {
+      "label": "sneeze, people, viruses, bites, others",
+      "keywords": [
+        "sneeze",
+        "people",
+        "viruses",
+        "bites",
+        "others"
+      ],
+      "size": 93,
+      "resolved_rate": 0.71
+    },
+    "45": {
+      "label": "number, numbers, phone, mobile, emergency",
+      "keywords": [
+        "number",
+        "numbers",
+        "phone",
+        "mobile",
+        "emergency"
+      ],
+      "size": 91,
+      "resolved_rate": 0.769
+    },
+    "51": {
+      "label": "language, english, different, accents, people",
+      "keywords": [
+        "language",
+        "english",
+        "different",
+        "accents",
+        "people"
+      ],
+      "size": 91,
+      "resolved_rate": 0.802
+    },
+    "79": {
+      "label": "traffic, roads, speed, roundabout, seatbelts",
+      "keywords": [
+        "traffic",
+        "roads",
+        "speed",
+        "roundabout",
+        "seatbelts"
+      ],
+      "size": 90,
+      "resolved_rate": 0.7
+    },
+    "13": {
+      "label": "countries, country, royal, world, national",
+      "keywords": [
+        "countries",
+        "country",
+        "royal",
+        "world",
+        "national"
+      ],
+      "size": 89,
+      "resolved_rate": 0.719
+    },
+    "3": {
+      "label": "trousers, jacket, front, shirts, women",
+      "keywords": [
+        "trousers",
+        "jacket",
+        "front",
+        "shirts",
+        "women"
+      ],
+      "size": 88,
+      "resolved_rate": 0.727
+    },
+    "20": {
+      "label": "police, happens, country, people, prison",
+      "keywords": [
+        "police",
+        "happens",
+        "country",
+        "people",
+        "prison"
+      ],
+      "size": 88,
+      "resolved_rate": 0.818
+    },
+    "34": {
+      "label": "doors, front, windows, houses, metal",
+      "keywords": [
+        "doors",
+        "front",
+        "windows",
+        "houses",
+        "metal"
+      ],
+      "size": 88,
+      "resolved_rate": 0.841
+    },
+    "1": {
+      "label": "trees, plants, leaves, plant, branches",
+      "keywords": [
+        "trees",
+        "plants",
+        "leaves",
+        "plant",
+        "branches"
+      ],
+      "size": 87,
+      "resolved_rate": 0.759
+    },
+    "10": {
+      "label": "sleep, asleep, sneeze, night, morning",
+      "keywords": [
+        "sleep",
+        "asleep",
+        "sneeze",
+        "night",
+        "morning"
+      ],
+      "size": 87,
+      "resolved_rate": 0.632
+    },
+    "76": {
+      "label": "mirror, light, people, blind, glasses",
+      "keywords": [
+        "mirror",
+        "light",
+        "people",
+        "blind",
+        "glasses"
+      ],
+      "size": 87,
+      "resolved_rate": 0.736
+    },
+    "59": {
+      "label": "breakfast, toast, bacon, dinner, english",
+      "keywords": [
+        "breakfast",
+        "toast",
+        "bacon",
+        "dinner",
+        "english"
+      ],
+      "size": 86,
+      "resolved_rate": 0.593
+    },
+    "15": {
+      "label": "bottles, alcohol, bottle, drinks, drink",
+      "keywords": [
+        "bottles",
+        "alcohol",
+        "bottle",
+        "drinks",
+        "drink"
+      ],
+      "size": 83,
+      "resolved_rate": 0.723
+    },
+    "16": {
+      "label": "first, start, become, origin, decided",
+      "keywords": [
+        "first",
+        "start",
+        "become",
+        "origin",
+        "decided"
+      ],
+      "size": 81,
+      "resolved_rate": 0.58
+    },
+    "68": {
+      "label": "clockwise, speed, faster, track, around",
+      "keywords": [
+        "clockwise",
+        "speed",
+        "faster",
+        "track",
+        "around"
+      ],
+      "size": 81,
+      "resolved_rate": 0.84
+    },
+    "18": {
+      "label": "sound, people, noise, sounds, music",
+      "keywords": [
+        "sound",
+        "people",
+        "noise",
+        "sounds",
+        "music"
+      ],
+      "size": 80,
+      "resolved_rate": 0.762
+    },
+    "56": {
+      "label": "light, electricity, electric, batteries, battery",
+      "keywords": [
+        "light",
+        "electricity",
+        "electric",
+        "batteries",
+        "battery"
+      ],
+      "size": 80,
+      "resolved_rate": 0.887
+    },
+    "5": {
+      "label": "number, numbers, three, eight, seven",
+      "keywords": [
+        "number",
+        "numbers",
+        "three",
+        "eight",
+        "seven"
+      ],
+      "size": 79,
+      "resolved_rate": 0.608
+    },
+    "60": {
+      "label": "plane, aircraft, planes, pilot, landing",
+      "keywords": [
+        "plane",
+        "aircraft",
+        "planes",
+        "pilot",
+        "landing"
+      ],
+      "size": 79,
+      "resolved_rate": 0.861
+    },
+    "48": {
+      "label": "origin, originate, nickname, phrase, military",
+      "keywords": [
+        "origin",
+        "originate",
+        "nickname",
+        "phrase",
+        "military"
+      ],
+      "size": 78,
+      "resolved_rate": 0.667
+    },
+    "39": {
+      "label": "first, invented, people, discovered, start",
+      "keywords": [
+        "first",
+        "invented",
+        "people",
+        "discovered",
+        "start"
+      ],
+      "size": 77,
+      "resolved_rate": 0.701
+    },
+    "31": {
+      "label": "degrees, temperature, summer, colder, winter",
+      "keywords": [
+        "degrees",
+        "temperature",
+        "summer",
+        "colder",
+        "winter"
+      ],
+      "size": 76,
+      "resolved_rate": 0.829
+    },
+    "46": {
+      "label": "people, become, years, world, british",
+      "keywords": [
+        "people",
+        "become",
+        "years",
+        "world",
+        "british"
+      ],
+      "size": 76,
+      "resolved_rate": 0.632
+    },
+    "32": {
+      "label": "water, drink, coffee, spoon, drinking",
+      "keywords": [
+        "water",
+        "drink",
+        "coffee",
+        "spoon",
+        "drinking"
+      ],
+      "size": 74,
+      "resolved_rate": 0.865
+    },
+    "50": {
+      "label": "royalties, court, years, mystery, actually",
+      "keywords": [
+        "royalties",
+        "court",
+        "years",
+        "mystery",
+        "actually"
+      ],
+      "size": 72,
+      "resolved_rate": 0.764
+    },
+    "47": {
+      "label": "queen, royal, prince, throne, family",
+      "keywords": [
+        "queen",
+        "royal",
+        "prince",
+        "throne",
+        "family"
+      ],
+      "size": 68,
+      "resolved_rate": 0.691
+    },
+    "55": {
+      "label": "brain, remember, memory, people, dreams",
+      "keywords": [
+        "brain",
+        "remember",
+        "memory",
+        "people",
+        "dreams"
+      ],
+      "size": 68,
+      "resolved_rate": 0.632
+    },
+    "42": {
+      "label": "fruit, supermarket, pepper, plastic, vegetable",
+      "keywords": [
+        "fruit",
+        "supermarket",
+        "pepper",
+        "plastic",
+        "vegetable"
+      ],
+      "size": 67,
+      "resolved_rate": 0.761
+    },
+    "23": {
+      "label": "right, handed, finger, people, different",
+      "keywords": [
+        "right",
+        "handed",
+        "finger",
+        "people",
+        "different"
+      ],
+      "size": 66,
+      "resolved_rate": 0.742
+    },
+    "25": {
+      "label": "round, guide, drugs, horse, years",
+      "keywords": [
+        "round",
+        "guide",
+        "drugs",
+        "horse",
+        "years"
+      ],
+      "size": 65,
+      "resolved_rate": 0.815
+    },
+    "64": {
+      "label": "growing, certain, years, older, genetic",
+      "keywords": [
+        "growing",
+        "certain",
+        "years",
+        "older",
+        "genetic"
+      ],
+      "size": 65,
+      "resolved_rate": 0.723
+    },
+    "11": {
+      "label": "cards, queen, facing, first, right",
+      "keywords": [
+        "cards",
+        "queen",
+        "facing",
+        "first",
+        "right"
+      ],
+      "size": 63,
+      "resolved_rate": 0.698
+    },
+    "65": {
+      "label": "number, numbers, bottom, telephone, keyboard",
+      "keywords": [
+        "number",
+        "numbers",
+        "bottom",
+        "telephone",
+        "keyboard"
+      ],
+      "size": 63,
+      "resolved_rate": 0.73
+    },
+    "57": {
+      "label": "fridge, freezer, frozen, water, defrost",
+      "keywords": [
+        "fridge",
+        "freezer",
+        "frozen",
+        "water",
+        "defrost"
+      ],
+      "size": 62,
+      "resolved_rate": 0.855
+    },
+    "19": {
+      "label": "clouds, raining, water, weather, cloud",
+      "keywords": [
+        "clouds",
+        "raining",
+        "water",
+        "weather",
+        "cloud"
+      ],
+      "size": 61,
+      "resolved_rate": 0.82
+    },
+    "75": {
+      "label": "lions, animals, catnip, respond, makes",
+      "keywords": [
+        "lions",
+        "animals",
+        "catnip",
+        "respond",
+        "makes"
+      ],
+      "size": 61,
+      "resolved_rate": 0.656
+    },
+    "24": {
+      "label": "beard, women, people, white, shave",
+      "keywords": [
+        "beard",
+        "women",
+        "people",
+        "white",
+        "shave"
+      ],
+      "size": 60,
+      "resolved_rate": 0.533
+    },
+    "0": {
+      "label": "names, surnames, people, named, first",
+      "keywords": [
+        "names",
+        "surnames",
+        "people",
+        "named",
+        "first"
+      ],
+      "size": 59,
+      "resolved_rate": 0.678
+    },
+    "4": {
+      "label": "music, sound, classical, musical, different",
+      "keywords": [
+        "music",
+        "sound",
+        "classical",
+        "musical",
+        "different"
+      ],
+      "size": 58,
+      "resolved_rate": 0.828
+    },
+    "44": {
+      "label": "radio, people, adverts, watershed, phones",
+      "keywords": [
+        "radio",
+        "people",
+        "adverts",
+        "watershed",
+        "phones"
+      ],
+      "size": 58,
+      "resolved_rate": 0.741
+    },
+    "72": {
+      "label": "chicken, chickens, turkey, sperm, white",
+      "keywords": [
+        "chicken",
+        "chickens",
+        "turkey",
+        "sperm",
+        "white"
+      ],
+      "size": 57,
+      "resolved_rate": 0.737
+    },
+    "38": {
+      "label": "minister, prime, number, downing, street",
+      "keywords": [
+        "minister",
+        "prime",
+        "number",
+        "downing",
+        "street"
+      ],
+      "size": 56,
+      "resolved_rate": 0.821
+    },
+    "49": {
+      "label": "smell, breathe, different, smells, sense",
+      "keywords": [
+        "smell",
+        "breathe",
+        "different",
+        "smells",
+        "sense"
+      ],
+      "size": 56,
+      "resolved_rate": 0.679
+    },
+    "53": {
+      "label": "sweat, water, temperature, hours, actually",
+      "keywords": [
+        "sweat",
+        "water",
+        "temperature",
+        "hours",
+        "actually"
+      ],
+      "size": 56,
+      "resolved_rate": 0.768
+    },
+    "66": {
+      "label": "earth, stars, planets, rotate, moons",
+      "keywords": [
+        "earth",
+        "stars",
+        "planets",
+        "rotate",
+        "moons"
+      ],
+      "size": 56,
+      "resolved_rate": 0.75
+    },
+    "9": {
+      "label": "water, bubbles, bottle, different, glass",
+      "keywords": [
+        "water",
+        "bubbles",
+        "bottle",
+        "different",
+        "glass"
+      ],
+      "size": 55,
+      "resolved_rate": 0.8
+    },
+    "67": {
+      "label": "square, round, different, women, pencil",
+      "keywords": [
+        "square",
+        "round",
+        "different",
+        "women",
+        "pencil"
+      ],
+      "size": 55,
+      "resolved_rate": 0.855
+    },
+    "28": {
+      "label": "water, shampoo, shower, washing, towel",
+      "keywords": [
+        "water",
+        "shampoo",
+        "shower",
+        "washing",
+        "towel"
+      ],
+      "size": 53,
+      "resolved_rate": 0.66
+    },
+    "30": {
+      "label": "people, clapping, start, appreciation, shake",
+      "keywords": [
+        "people",
+        "clapping",
+        "start",
+        "appreciation",
+        "shake"
+      ],
+      "size": 51,
+      "resolved_rate": 0.725
+    },
+    "78": {
+      "label": "colour, yellow, white, black, orange",
+      "keywords": [
+        "colour",
+        "yellow",
+        "white",
+        "black",
+        "orange"
+      ],
+      "size": 50,
+      "resolved_rate": 0.64
+    },
+    "71": {
+      "label": "blood, happens, brain, transfusion, donate",
+      "keywords": [
+        "blood",
+        "happens",
+        "brain",
+        "transfusion",
+        "donate"
+      ],
+      "size": 46,
+      "resolved_rate": 0.739
+    },
+    "36": {
+      "label": "water, mouth, teeth, taste, drink",
+      "keywords": [
+        "water",
+        "mouth",
+        "teeth",
+        "taste",
+        "drink"
+      ],
+      "size": 43,
+      "resolved_rate": 0.651
+    },
+    "41": {
+      "label": "spider, spiders, another, across, conkers",
+      "keywords": [
+        "spider",
+        "spiders",
+        "another",
+        "across",
+        "conkers"
+      ],
+      "size": 37,
+      "resolved_rate": 0.676
+    },
+    "61": {
+      "label": "french, female, gender, masculine, feminine",
+      "keywords": [
+        "french",
+        "female",
+        "gender",
+        "masculine",
+        "feminine"
+      ],
+      "size": 37,
+      "resolved_rate": 0.784
+    },
+    "43": {
+      "label": "birthday, people, candles, celebrate, wedding",
+      "keywords": [
+        "birthday",
+        "people",
+        "candles",
+        "celebrate",
+        "wedding"
+      ],
+      "size": 33,
+      "resolved_rate": 0.606
+    },
+    "29": {
+      "label": "lightning, strikes, turbines, electrocuted, electricity",
+      "keywords": [
+        "lightning",
+        "strikes",
+        "turbines",
+        "electrocuted",
+        "electricity"
+      ],
+      "size": 30,
+      "resolved_rate": 0.733
+    },
+    "63": {
+      "label": "passport, passports, pencil, british, french",
+      "keywords": [
+        "passport",
+        "passports",
+        "pencil",
+        "british",
+        "french"
+      ],
+      "size": 30,
+      "resolved_rate": 0.8
+    },
+    "12": {
+      "label": "",
+      "keywords": [],
+      "size": 18,
+      "resolved_rate": 0.722
+    },
+    "70": {
+      "label": "cabinet, right, democrats, tories, world",
+      "keywords": [
+        "cabinet",
+        "right",
+        "democrats",
+        "tories",
+        "world"
+      ],
+      "size": 16,
+      "resolved_rate": 0.625
+    },
+    "74": {
+      "label": "",
+      "keywords": [],
+      "size": 7,
+      "resolved_rate": 0.0
+    }
+  },
+  "matrix": {
+    "37": {
+      "37": 0,
+      "7": 23,
+      "27": 25,
+      "22": 21,
+      "52": 22,
+      "33": 28,
+      "21": 14,
+      "6": 21,
+      "14": 20,
+      "54": 19,
+      "73": 22,
+      "40": 18,
+      "2": 19,
+      "77": 22,
+      "58": 22,
+      "62": 21,
+      "26": 19,
+      "69": 16,
+      "8": 16,
+      "17": 14,
+      "35": 18,
+      "45": 16,
+      "51": 16,
+      "79": 17,
+      "13": 16
+    },
+    "7": {
+      "37": 23,
+      "7": 0,
+      "27": 26,
+      "22": 9,
+      "52": 19,
+      "33": 19,
+      "21": 14,
+      "6": 18,
+      "14": 24,
+      "54": 15,
+      "73": 21,
+      "40": 15,
+      "2": 17,
+      "77": 18,
+      "58": 20,
+      "62": 18,
+      "26": 15,
+      "69": 13,
+      "8": 20,
+      "17": 14,
+      "35": 16,
+      "45": 21,
+      "51": 17,
+      "79": 10,
+      "13": 12
+    },
+    "27": {
+      "37": 25,
+      "7": 26,
+      "27": 0,
+      "22": 20,
+      "52": 19,
+      "33": 19,
+      "21": 21,
+      "6": 19,
+      "14": 34,
+      "54": 19,
+      "73": 24,
+      "40": 12,
+      "2": 23,
+      "77": 26,
+      "58": 18,
+      "62": 13,
+      "26": 22,
+      "69": 18,
+      "8": 16,
+      "17": 17,
+      "35": 17,
+      "45": 21,
+      "51": 12,
+      "79": 18,
+      "13": 18
+    },
+    "22": {
+      "37": 21,
+      "7": 9,
+      "27": 20,
+      "22": 0,
+      "52": 16,
+      "33": 21,
+      "21": 19,
+      "6": 18,
+      "14": 16,
+      "54": 21,
+      "73": 15,
+      "40": 17,
+      "2": 19,
+      "77": 20,
+      "58": 8,
+      "62": 17,
+      "26": 18,
+      "69": 16,
+      "8": 16,
+      "17": 19,
+      "35": 17,
+      "45": 11,
+      "51": 12,
+      "79": 12,
+      "13": 11
+    },
+    "52": {
+      "37": 22,
+      "7": 19,
+      "27": 19,
+      "22": 16,
+      "52": 0,
+      "33": 24,
+      "21": 16,
+      "6": 16,
+      "14": 15,
+      "54": 21,
+      "73": 19,
+      "40": 28,
+      "2": 21,
+      "77": 19,
+      "58": 15,
+      "62": 14,
+      "26": 14,
+      "69": 19,
+      "8": 11,
+      "17": 12,
+      "35": 17,
+      "45": 12,
+      "51": 13,
+      "79": 13,
+      "13": 14
+    },
+    "33": {
+      "37": 28,
+      "7": 19,
+      "27": 19,
+      "22": 21,
+      "52": 24,
+      "33": 0,
+      "21": 16,
+      "6": 18,
+      "14": 18,
+      "54": 12,
+      "73": 25,
+      "40": 19,
+      "2": 20,
+      "77": 10,
+      "58": 17,
+      "62": 17,
+      "26": 14,
+      "69": 24,
+      "8": 17,
+      "17": 15,
+      "35": 15,
+      "45": 14,
+      "51": 17,
+      "79": 13,
+      "13": 18
+    },
+    "21": {
+      "37": 14,
+      "7": 14,
+      "27": 21,
+      "22": 19,
+      "52": 16,
+      "33": 16,
+      "21": 0,
+      "6": 13,
+      "14": 14,
+      "54": 19,
+      "73": 17,
+      "40": 20,
+      "2": 17,
+      "77": 16,
+      "58": 14,
+      "62": 11,
+      "26": 12,
+      "69": 16,
+      "8": 9,
+      "17": 14,
+      "35": 16,
+      "45": 12,
+      "51": 11,
+      "79": 17,
+      "13": 9
+    },
+    "6": {
+      "37": 21,
+      "7": 18,
+      "27": 19,
+      "22": 18,
+      "52": 16,
+      "33": 18,
+      "21": 13,
+      "6": 0,
+      "14": 13,
+      "54": 24,
+      "73": 15,
+      "40": 18,
+      "2": 12,
+      "77": 15,
+      "58": 20,
+      "62": 14,
+      "26": 15,
+      "69": 14,
+      "8": 9,
+      "17": 11,
+      "35": 18,
+      "45": 15,
+      "51": 16,
+      "79": 8,
+      "13": 10
+    },
+    "14": {
+      "37": 20,
+      "7": 24,
+      "27": 34,
+      "22": 16,
+      "52": 15,
+      "33": 18,
+      "21": 14,
+      "6": 13,
+      "14": 0,
+      "54": 16,
+      "73": 15,
+      "40": 12,
+      "2": 13,
+      "77": 16,
+      "58": 18,
+      "62": 16,
+      "26": 15,
+      "69": 14,
+      "8": 22,
+      "17": 21,
+      "35": 15,
+      "45": 16,
+      "51": 14,
+      "79": 11,
+      "13": 9
+    },
+    "54": {
+      "37": 19,
+      "7": 15,
+      "27": 19,
+      "22": 21,
+      "52": 21,
+      "33": 12,
+      "21": 19,
+      "6": 24,
+      "14": 16,
+      "54": 0,
+      "73": 17,
+      "40": 15,
+      "2": 23,
+      "77": 21,
+      "58": 16,
+      "62": 15,
+      "26": 18,
+      "69": 11,
+      "8": 17,
+      "17": 16,
+      "35": 12,
+      "45": 11,
+      "51": 11,
+      "79": 13,
+      "13": 14
+    },
+    "73": {
+      "37": 22,
+      "7": 21,
+      "27": 24,
+      "22": 15,
+      "52": 19,
+      "33": 25,
+      "21": 17,
+      "6": 15,
+      "14": 15,
+      "54": 17,
+      "73": 0,
+      "40": 19,
+      "2": 13,
+      "77": 19,
+      "58": 13,
+      "62": 14,
+      "26": 17,
+      "69": 10,
+      "8": 10,
+      "17": 18,
+      "35": 11,
+      "45": 17,
+      "51": 10,
+      "79": 15,
+      "13": 20
+    },
+    "40": {
+      "37": 18,
+      "7": 15,
+      "27": 12,
+      "22": 17,
+      "52": 28,
+      "33": 19,
+      "21": 20,
+      "6": 18,
+      "14": 12,
+      "54": 15,
+      "73": 19,
+      "40": 0,
+      "2": 15,
+      "77": 15,
+      "58": 18,
+      "62": 14,
+      "26": 14,
+      "69": 14,
+      "8": 6,
+      "17": 19,
+      "35": 11,
+      "45": 13,
+      "51": 19,
+      "79": 10,
+      "13": 16
+    },
+    "2": {
+      "37": 19,
+      "7": 17,
+      "27": 23,
+      "22": 19,
+      "52": 21,
+      "33": 20,
+      "21": 17,
+      "6": 12,
+      "14": 13,
+      "54": 23,
+      "73": 13,
+      "40": 15,
+      "2": 0,
+      "77": 19,
+      "58": 13,
+      "62": 14,
+      "26": 17,
+      "69": 12,
+      "8": 14,
+      "17": 16,
+      "35": 18,
+      "45": 15,
+      "51": 9,
+      "79": 12,
+      "13": 13
+    },
+    "77": {
+      "37": 22,
+      "7": 18,
+      "27": 26,
+      "22": 20,
+      "52": 19,
+      "33": 10,
+      "21": 16,
+      "6": 15,
+      "14": 16,
+      "54": 21,
+      "73": 19,
+      "40": 15,
+      "2": 19,
+      "77": 0,
+      "58": 16,
+      "62": 11,
+      "26": 20,
+      "69": 16,
+      "8": 12,
+      "17": 12,
+      "35": 10,
+      "45": 9,
+      "51": 8,
+      "79": 15,
+      "13": 16
+    },
+    "58": {
+      "37": 22,
+      "7": 20,
+      "27": 18,
+      "22": 8,
+      "52": 15,
+      "33": 17,
+      "21": 14,
+      "6": 20,
+      "14": 18,
+      "54": 16,
+      "73": 13,
+      "40": 18,
+      "2": 13,
+      "77": 16,
+      "58": 0,
+      "62": 10,
+      "26": 10,
+      "69": 9,
+      "8": 9,
+      "17": 8,
+      "35": 19,
+      "45": 9,
+      "51": 11,
+      "79": 9,
+      "13": 21
+    },
+    "62": {
+      "37": 21,
+      "7": 18,
+      "27": 13,
+      "22": 17,
+      "52": 14,
+      "33": 17,
+      "21": 11,
+      "6": 14,
+      "14": 16,
+      "54": 15,
+      "73": 14,
+      "40": 14,
+      "2": 14,
+      "77": 11,
+      "58": 10,
+      "62": 0,
+      "26": 8,
+      "69": 17,
+      "8": 18,
+      "17": 19,
+      "35": 11,
+      "45": 14,
+      "51": 15,
+      "79": 10,
+      "13": 14
+    },
+    "26": {
+      "37": 19,
+      "7": 15,
+      "27": 22,
+      "22": 18,
+      "52": 14,
+      "33": 14,
+      "21": 12,
+      "6": 15,
+      "14": 15,
+      "54": 18,
+      "73": 17,
+      "40": 14,
+      "2": 17,
+      "77": 20,
+      "58": 10,
+      "62": 8,
+      "26": 0,
+      "69": 10,
+      "8": 15,
+      "17": 9,
+      "35": 9,
+      "45": 11,
+      "51": 10,
+      "79": 7,
+      "13": 18
+    },
+    "69": {
+      "37": 16,
+      "7": 13,
+      "27": 18,
+      "22": 16,
+      "52": 19,
+      "33": 24,
+      "21": 16,
+      "6": 14,
+      "14": 14,
+      "54": 11,
+      "73": 10,
+      "40": 14,
+      "2": 12,
+      "77": 16,
+      "58": 9,
+      "62": 17,
+      "26": 10,
+      "69": 0,
+      "8": 18,
+      "17": 13,
+      "35": 9,
+      "45": 13,
+      "51": 12,
+      "79": 8,
+      "13": 10
+    },
+    "8": {
+      "37": 16,
+      "7": 20,
+      "27": 16,
+      "22": 16,
+      "52": 11,
+      "33": 17,
+      "21": 9,
+      "6": 9,
+      "14": 22,
+      "54": 17,
+      "73": 10,
+      "40": 6,
+      "2": 14,
+      "77": 12,
+      "58": 9,
+      "62": 18,
+      "26": 15,
+      "69": 18,
+      "8": 0,
+      "17": 13,
+      "35": 10,
+      "45": 10,
+      "51": 13,
+      "79": 9,
+      "13": 11
+    },
+    "17": {
+      "37": 14,
+      "7": 14,
+      "27": 17,
+      "22": 19,
+      "52": 12,
+      "33": 15,
+      "21": 14,
+      "6": 11,
+      "14": 21,
+      "54": 16,
+      "73": 18,
+      "40": 19,
+      "2": 16,
+      "77": 12,
+      "58": 8,
+      "62": 19,
+      "26": 9,
+      "69": 13,
+      "8": 13,
+      "17": 0,
+      "35": 14,
+      "45": 11,
+      "51": 16,
+      "79": 10,
+      "13": 9
+    },
+    "35": {
+      "37": 18,
+      "7": 16,
+      "27": 17,
+      "22": 17,
+      "52": 17,
+      "33": 15,
+      "21": 16,
+      "6": 18,
+      "14": 15,
+      "54": 12,
+      "73": 11,
+      "40": 11,
+      "2": 18,
+      "77": 10,
+      "58": 19,
+      "62": 11,
+      "26": 9,
+      "69": 9,
+      "8": 10,
+      "17": 14,
+      "35": 0,
+      "45": 10,
+      "51": 10,
+      "79": 14,
+      "13": 6
+    },
+    "45": {
+      "37": 16,
+      "7": 21,
+      "27": 21,
+      "22": 11,
+      "52": 12,
+      "33": 14,
+      "21": 12,
+      "6": 15,
+      "14": 16,
+      "54": 11,
+      "73": 17,
+      "40": 13,
+      "2": 15,
+      "77": 9,
+      "58": 9,
+      "62": 14,
+      "26": 11,
+      "69": 13,
+      "8": 10,
+      "17": 11,
+      "35": 10,
+      "45": 0,
+      "51": 8,
+      "79": 8,
+      "13": 9
+    },
+    "51": {
+      "37": 16,
+      "7": 17,
+      "27": 12,
+      "22": 12,
+      "52": 13,
+      "33": 17,
+      "21": 11,
+      "6": 16,
+      "14": 14,
+      "54": 11,
+      "73": 10,
+      "40": 19,
+      "2": 9,
+      "77": 8,
+      "58": 11,
+      "62": 15,
+      "26": 10,
+      "69": 12,
+      "8": 13,
+      "17": 16,
+      "35": 10,
+      "45": 8,
+      "51": 0,
+      "79": 7,
+      "13": 10
+    },
+    "79": {
+      "37": 17,
+      "7": 10,
+      "27": 18,
+      "22": 12,
+      "52": 13,
+      "33": 13,
+      "21": 17,
+      "6": 8,
+      "14": 11,
+      "54": 13,
+      "73": 15,
+      "40": 10,
+      "2": 12,
+      "77": 15,
+      "58": 9,
+      "62": 10,
+      "26": 7,
+      "69": 8,
+      "8": 9,
+      "17": 10,
+      "35": 14,
+      "45": 8,
+      "51": 7,
+      "79": 0,
+      "13": 11
+    },
+    "13": {
+      "37": 16,
+      "7": 12,
+      "27": 18,
+      "22": 11,
+      "52": 14,
+      "33": 18,
+      "21": 9,
+      "6": 10,
+      "14": 9,
+      "54": 14,
+      "73": 20,
+      "40": 16,
+      "2": 13,
+      "77": 16,
+      "58": 21,
+      "62": 14,
+      "26": 18,
+      "69": 10,
+      "8": 11,
+      "17": 9,
+      "35": 6,
+      "45": 9,
+      "51": 10,
+      "79": 11,
+      "13": 0
+    }
+  },
+  "top_pairs": [
+    [
+      [
+        14,
+        27
+      ],
+      34
+    ],
+    [
+      [
+        33,
+        37
+      ],
+      28
+    ],
+    [
+      [
+        40,
+        52
+      ],
+      28
+    ],
+    [
+      [
+        7,
+        27
+      ],
+      26
+    ],
+    [
+      [
+        27,
+        77
+      ],
+      26
+    ],
+    [
+      [
+        33,
+        73
+      ],
+      25
+    ],
+    [
+      [
+        27,
+        37
+      ],
+      25
+    ],
+    [
+      [
+        27,
+        73
+      ],
+      24
+    ],
+    [
+      [
+        33,
+        52
+      ],
+      24
+    ],
+    [
+      [
+        6,
+        54
+      ],
+      24
+    ],
+    [
+      [
+        7,
+        14
+      ],
+      24
+    ],
+    [
+      [
+        33,
+        69
+      ],
+      24
+    ],
+    [
+      [
+        2,
+        27
+      ],
+      23
+    ],
+    [
+      [
+        2,
+        54
+      ],
+      23
+    ],
+    [
+      [
+        15,
+        37
+      ],
+      23
+    ],
+    [
+      [
+        7,
+        37
+      ],
+      23
+    ],
+    [
+      [
+        27,
+        56
+      ],
+      23
+    ],
+    [
+      [
+        3,
+        54
+      ],
+      22
+    ],
+    [
+      [
+        37,
+        73
+      ],
+      22
+    ],
+    [
+      [
+        37,
+        52
+      ],
+      22
+    ],
+    [
+      [
+        8,
+        14
+      ],
+      22
+    ],
+    [
+      [
+        37,
+        77
+      ],
+      22
+    ],
+    [
+      [
+        37,
+        58
+      ],
+      22
+    ],
+    [
+      [
+        26,
+        27
+      ],
+      22
+    ],
+    [
+      [
+        7,
+        73
+      ],
+      21
+    ],
+    [
+      [
+        22,
+        33
+      ],
+      21
+    ],
+    [
+      [
+        22,
+        54
+      ],
+      21
+    ],
+    [
+      [
+        52,
+        54
+      ],
+      21
+    ],
+    [
+      [
+        6,
+        37
+      ],
+      21
+    ],
+    [
+      [
+        22,
+        37
+      ],
+      21
+    ],
+    [
+      [
+        7,
+        45
+      ],
+      21
+    ],
+    [
+      [
+        13,
+        58
+      ],
+      21
+    ],
+    [
+      [
+        34,
+        37
+      ],
+      21
+    ],
+    [
+      [
+        37,
+        62
+      ],
+      21
+    ],
+    [
+      [
+        54,
+        77
+      ],
+      21
+    ],
+    [
+      [
+        14,
+        17
+      ],
+      21
+    ],
+    [
+      [
+        2,
+        52
+      ],
+      21
+    ],
+    [
+      [
+        21,
+        27
+      ],
+      21
+    ],
+    [
+      [
+        39,
+        58
+      ],
+      21
+    ],
+    [
+      [
+        27,
+        45
+      ],
+      21
+    ]
+  ]
+}

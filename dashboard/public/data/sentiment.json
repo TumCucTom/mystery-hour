@@ -1,0 +1,224 @@
+{
+  "sentiment_distribution": {
+    "uncertain": {
+      "total": 1756,
+      "resolved": 1418,
+      "overturned": 293,
+      "rate": 0.8075170842824602
+    },
+    "positive": {
+      "total": 176,
+      "resolved": 149,
+      "overturned": 32,
+      "rate": 0.8465909090909091
+    },
+    "negative": {
+      "total": 120,
+      "resolved": 95,
+      "overturned": 18,
+      "rate": 0.7916666666666666
+    }
+  },
+  "examples": [
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 1,
+        "score": 1
+      },
+      "q": "Why is the Royal Box always to one side of the auditorium? It's always on the ri"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 2,
+        "score": 1
+      },
+      "q": "Why do we take our hats off when a hearse goes by? Why the hat, and where did it"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do they speak multiple languages in Asian countries? (e.g., China has Canton"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do we stand on the right side of travelators and walk on the left? Since we "
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 1,
+        "neg": 1,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "Who invented the first suit and tie to make it acceptable? Why have we kept the "
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 3,
+        "unc": 2,
+        "score": -3
+      },
+      "q": "Why does it seem like posh people have more speech impediments (can't pronounce "
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 2,
+        "neg": 1,
+        "unc": 1,
+        "score": 1
+      },
+      "q": "Why do young children pick their noses and eat the results? Is there an evolutio"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do tattoos hurt more on my right side than my left side? My chest, back and "
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 1,
+        "neg": 2,
+        "unc": 2,
+        "score": -1
+      },
+      "q": "Why can some dogs see what's on phone or TV and register what they're watching, "
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 1,
+        "neg": 2,
+        "unc": 1,
+        "score": -1
+      },
+      "q": "I put my son's smelly clothes in the freezer and the smell completely went - eve"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "What was the roller coaster James mentioned?"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Do animals favour their left or right side in the same way humans do?"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Is there a universal tempo for the spoken word? If you had the same conversation"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 1,
+        "neg": 1,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "My dad used to predict when a reel change was coming up during films - he'd say "
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 2,
+        "neg": 0,
+        "unc": 0,
+        "score": 2
+      },
+      "q": "Why do film credits always follow the same structure regardless of whether it's "
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do we call it a piggy bank?"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "When opening a new jar of pickled gherkins, one or two always poke out of the vi"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 3,
+        "unc": 3,
+        "score": -3
+      },
+      "q": "In cricket, why are fast bowlers not getting faster? The fastest ball ever recor"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why is there only one species of people when other animals (dogs, cats, flies) h"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do we describe it as having beef with people? My daughter uses this term at "
+    }
+  ]
+}

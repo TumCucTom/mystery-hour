@@ -4,7 +4,6 @@
  * Uses n_answers as a proxy for time-to-answer (more back-and-forth = harder/longer).
  */
 import { loadJSON } from '../lib/data.js'
-import { loadAll } from '../lib/data.js'
 
 function pct(n, d) {
   return d ? `${(n/d*100).toFixed(1)}%` : '—'
@@ -13,23 +12,21 @@ function pct(n, d) {
 export async function renderTimeToAnswerPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading answer dynamics...</div>`
   try {
-    const [tta, allQa] = await Promise.all([
+    const [tta, chain] = await Promise.all([
       loadJSON('time_to_answer.json'),
-      loadJSON('all_qa.json'),
+      loadJSON('chain_length.json'),
     ])
-    renderPage(container, tta, allQa)
+    renderPage(container, tta, chain)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Could not load data.</p></div>`
     console.error(e)
   }
 }
 
-function renderPage(container, tta, allQa) {
+function renderPage(container, tta, chain) {
   const nAnsBuckets = tta.by_answer_count || {}
   const eraBuckets = tta.by_episode_era || {}
-
-  // Build era labels
-  const nEps = allQa.episodes.length
+  const nEps = 601
   const eraSize = Math.ceil(nEps / 6)
   const eraLabels = []
   for (let i = 0; i < 6; i++) {

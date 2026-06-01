@@ -1,0 +1,3095 @@
+[
+  {
+    "cluster": 7,
+    "label": "football, tennis, players, balls, sports",
+    "keywords": [
+      "football",
+      "tennis",
+      "players",
+      "balls",
+      "sports"
+    ],
+    "unresolved_count": 40,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "When snooker players lean over the table to take shots, they rhythmically raise and lower their middle finger - what are they doing and why?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_059",
+        "question": "When you get one of those really small spots or whiteheads on your face, why are they so painful? I'm not talking about acne-type spots that are inflamed or cyst-like, just the tiny little whitehead spots.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_081",
+        "question": "Can young children see better in the dark than adults? When tucking my three-year-old in, I bash into everything but she navigates perfectly in the dark.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_092",
+        "question": "If my cat grew bigger than me, would she see me as prey or does she actually love me?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_110",
+        "question": "Why do we break wind more as we get older?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 33,
+    "label": "animals, humans, species, mammals, human",
+    "keywords": [
+      "animals",
+      "humans",
+      "species",
+      "mammals",
+      "human"
+    ],
+    "unresolved_count": 38,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why do people use the word 'Roger' to mean 'yes' or 'acknowledged' on VHF radio?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_030",
+        "question": "When I have a shower, I put shower gel on my loofah and it gets really soapy and bubbly. I don't rinse it before putting it back. But when I come back the next day, all the soap has disappeared. And when I re-wet it, it doesn't re-activate the soap. What's happened to the soap?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_032",
+        "question": "Why do we call it a 'jackpot'?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_050",
+        "question": "Why do Scottish people call a hair parting a shed?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_089",
+        "question": "How do air fresheners actually neutralize odors? Is it just masking the smell or doing something else?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 14,
+    "label": "taste, fruit, stomach, sugar, human",
+    "keywords": [
+      "taste",
+      "fruit",
+      "stomach",
+      "sugar",
+      "human"
+    ],
+    "unresolved_count": 38,
+    "questions": [
+      {
+        "ep": "ep_028",
+        "question": "Why do women and girls put their hand over their mouth when surprised, but men and boys don't? I've noticed it on DIY reveal shows.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_037",
+        "question": "In tennis, why does a ball that clips the net and goes over count as a let on serve (requiring retake) but in normal play you simply continue the point?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_045",
+        "question": "Can my overseas rescue dog understand what British dogs are barking about?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_052",
+        "question": "When did pubs introduce bells to call time and last orders?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_076",
+        "question": "What happened in a mobile phone call where he (Tim) and his wife kept repeating themselves in a 3-4 minute loop? They were both saying the same things and noticing each other repeat, and it turns out they had been cut off but somehow the conversation was being played back.",
+        "n_answers": 3
+      }
+    ]
+  },
+  {
+    "cluster": 40,
+    "label": "london, county, counties, north, towns",
+    "keywords": [
+      "london",
+      "county",
+      "counties",
+      "north",
+      "towns"
+    ],
+    "unresolved_count": 37,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why do some people get an aggressive impulse to squeeze or bite cute things, while others don't feel that at all?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_035",
+        "question": "If you massage your right foot properly with your right thumb, does your right arm end up two or three inches longer than your left arm?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_041",
+        "question": "Why do runner beans grow in a clockwise direction? And do they grow anti-clockwise in the Southern Hemisphere like water going down a plug?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_052",
+        "question": "Do we eat soup or do you drink soup?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_071",
+        "question": "When boarding a plane, airlines load priority passengers first (most inefficient - everyone gets in everyone else's way). When unloading, they go front to back (efficient). Why do they do it this way when loading from the back first would be more efficient?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 73,
+    "label": "flies, insects, flying, night, light",
+    "keywords": [
+      "flies",
+      "insects",
+      "flying",
+      "night",
+      "light"
+    ],
+    "unresolved_count": 34,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "Do flies get stressed? Do they feel anxiety? What is it that causes them to go faster (fly in circles under lampshades)?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_019",
+        "question": "Why have humans evolved to enjoy music? Even when we were apes, we may have always liked music.",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_022",
+        "question": "Last week there was a question about what makes someone good at singing. Does the same principle apply to artwork and painting? Why can some people draw well and others can't?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_025",
+        "question": "If I'm cooking dinner and the potatoes are still hard, should I turn the heat up even though the water is already boiling at 100 degrees C?",
+        "n_answers": 3
+      },
+      {
+        "ep": "ep_035",
+        "question": "What is the evolutionary advantage of doing 'horse lips' (blowing air through pursed lips making a flapping sound) when we're cold?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 27,
+    "label": "phrase, origin, saying, knock, originate",
+    "keywords": [
+      "phrase",
+      "origin",
+      "saying",
+      "knock",
+      "originate"
+    ],
+    "unresolved_count": 34,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "What is the origin of the phrase 'screaming blue murder'?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_019",
+        "question": "Why don't deer camouflage their smell when they can camouflage their appearance so well? Deer are perfectly camouflaged against dead bracken but you can smell them from far away.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_158",
+        "question": "Why are old keyholes in doors upside down compared to how we imagine modern lock keyholes to be? On old clock tower doors, the round bit is at the bottom and narrow bit at the top, the opposite of modern keys.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_164",
+        "question": "What is the longest queue ever in history? Where was it and what was it for?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_183",
+        "question": "Why do we clean our teeth with cold water when everything else we clean in everyday life is with hot or warm water?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 52,
+    "label": "birds, pigeons, seagulls, around, pigeon",
+    "keywords": [
+      "birds",
+      "pigeons",
+      "seagulls",
+      "around",
+      "pigeon"
+    ],
+    "unresolved_count": 33,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "Why do magpies like shiny things, why do they pick them up and fly away with them?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_011",
+        "question": "What determines someone's sense of humour? Why do I love Stuart Lee but hate Michael McIntyre? Similarly, why do some people love mature sitcoms while others prefer youthful comedies?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_014",
+        "question": "Who used to wake up the knocker uppers - the people who used to knock on windows to wake workers up before alarm clocks existed?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_042",
+        "question": "Do animals favour their left or right side in the same way humans do?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_048",
+        "question": "If a cat's whiskers are the right width for the cat so it knows which hole to go through, and they would grow as the cat grows, what if an adult cat puts on weight? Do the whiskers change?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "label": "crane, building, house, cranes, buildings",
+    "keywords": [
+      "crane",
+      "building",
+      "house",
+      "cranes",
+      "buildings"
+    ],
+    "unresolved_count": 33,
+    "questions": [
+      {
+        "ep": "ep_005",
+        "question": "At Bexhill seafront near Hastings, when the tide goes out there are 4-5 dinosaur footprints. Why are there only those footprints? My son asked why there's no trail - like it walked in and walked away. Why are these preserved and not the others?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_007",
+        "question": "All the banks on the high street have gone. Every high street had two or three banks. What's happened to the bank vaults? Were the vaults always in the basement?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_041",
+        "question": "Why do bottles of spirits on the continent have plastic flow restrictors in the neck but UK bottles don't?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_053",
+        "question": "Why do static electric shocks seem to be getting worse as I'm getting older? They seem to be getting more frequent. Is it seasonal?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_056",
+        "question": "Why are we perfectly comfortable eating the same breakfast every day but would balk at the very notion of doing the same meal for dinner every day?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 22,
+    "label": "words, english, letter, letters, people",
+    "keywords": [
+      "words",
+      "english",
+      "letter",
+      "letters",
+      "people"
+    ],
+    "unresolved_count": 32,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "Why do bouncers at nightclubs say 'one in, one out' when logically it should be 'one out, one in'? It doesn't make sense chronologically.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_025",
+        "question": "Why don't bee colonies have genetic issues from what appears to be extreme inbreeding? The entire colony is siblings and cousins, and they've been doing this for hundreds of thousands of years.",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_030",
+        "question": "Why is it that we can find out exactly what people paid for a house, even over history, but you can't for virtually any other product? Why is that specific to houses?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_039",
+        "question": "Does the world get heavier? Has it always been the same weight? Sand turning into glass weighs more, children being born and growing weigh more, but all materials come from earth.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_083",
+        "question": "Why was the Battle of Bosworth fought at Bosworth Field specifically? Did they plan it or just happen to stumble across each other?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 54,
+    "label": "water, level, ocean, become, beach",
+    "keywords": [
+      "water",
+      "level",
+      "ocean",
+      "become",
+      "beach"
+    ],
+    "unresolved_count": 32,
+    "questions": [
+      {
+        "ep": "ep_001",
+        "question": "Why do different beaches have different granularities of sand? In Cornwall, different beaches within miles had radically different sand - fine powdery vs coarse sharp vs pebbles.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_014",
+        "question": "Do people decide when they're going to die? (follow-up to Robert's question)",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_029",
+        "question": "Why can some dogs see what's on phone or TV and register what they're watching, while my dog doesn't register anything? I've tried showing her videos of other dogs, birds, and other films like Lion King but she doesn't react.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_053",
+        "question": "Where does the phrase 'teaching your grandmother to suck eggs' come from? Who sucks eggs? Why would a grandmother be particularly good at it?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_059",
+        "question": "In cricket, why are fast bowlers not getting faster? The fastest ball ever recorded was Shoaib Akhtar 20 years ago, and the great West Indians weren't really concerned with anything other than speed.",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 37,
+    "label": "green, downs, referred, white, known",
+    "keywords": [
+      "green",
+      "downs",
+      "referred",
+      "white",
+      "known"
+    ],
+    "unresolved_count": 32,
+    "questions": [
+      {
+        "ep": "ep_010",
+        "question": "What is the difference between a pole and a post? Why do we say lamppost, signpost, but telegraph pole and flagpole?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_032",
+        "question": "What starts a sneeze, and what stops the last sneeze when you've got a handkerchief ready?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_052",
+        "question": "If we wash our dishes and our clothes at hotter temperatures for stain removal, would it not be better or make more sense to brush our teeth with hotter water?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_072",
+        "question": "What needs to happen to get to the stage where we have artificial consciousness - where a machine or AI is self-sufficient or sentient? Will we ever achieve artificial consciousness?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_116",
+        "question": "Is the UK the only country in the world which has a national anthem dedicated to a living individual?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 77,
+    "label": "actually, scratch, people, fingers, mouth",
+    "keywords": [
+      "actually",
+      "scratch",
+      "people",
+      "fingers",
+      "mouth"
+    ],
+    "unresolved_count": 32,
+    "questions": [
+      {
+        "ep": "ep_020",
+        "question": "Why do different ear piercing holes in the same earlobe react to different metals? Her daughter just had ears pierced with titanium. One of her own middle holes can only have cheap metals while another hole must have silver/gold.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_043",
+        "question": "Why do people from Northern Ireland call themselves British?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_155",
+        "question": "What's the difference between an evergreen and a deciduous tree? I mean, what causes an evergreen tree to keep its leaves and the deciduous tree? Why do some shed their leaves and others don't?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_170",
+        "question": "In what order should I apply my skincare products: coconut body butter, suntan lotion, mosquito repellent, and bite treatment balm? Does it matter? Does the coconut oil attract mosquitoes? Would it cancel out the repellent?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_187",
+        "question": "Why do we sell red wine in coloured bottles (green, brown, black) and not clear bottles?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 68,
+    "label": "clockwise, speed, faster, track, around",
+    "keywords": [
+      "clockwise",
+      "speed",
+      "faster",
+      "track",
+      "around"
+    ],
+    "unresolved_count": 30,
+    "questions": [
+      {
+        "ep": "ep_003",
+        "question": "How does my new smartwatch know when I'm standing up versus sitting down? My hand position changes very little between sitting and standing.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_009",
+        "question": "Is the exercise benefit better than the damage from pollution when walking through town where I can taste the diesel from cars?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_018",
+        "question": "Why do we write the pound sign before the number (\u00a35.50)? Currencies always have the sign first, but units like kilograms, miles, metres come after the number. Why the inconsistency?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_040",
+        "question": "I've got a damson tree that grew long and thin with fruit at the top because it was overgrown. Now it's working better but I have a lot of trunk before branches start. Can I encourage branch growth from the trunk, or chop two feet off the bottom?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_042",
+        "question": "Why do some birds hop and some birds walk?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "label": "people, babies, makes, evolutionary, feeling",
+    "keywords": [
+      "people",
+      "babies",
+      "makes",
+      "evolutionary",
+      "feeling"
+    ],
+    "unresolved_count": 29,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "Are we born with a fear of heights (wobbly knee feeling) or is it developed? Is it nature or nurture?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_010",
+        "question": "",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_025",
+        "question": "Why doesn't a pedestrian crossing button change the traffic lights to red instantly, even when no other traffic lights are linked and stopping has no wider impact on traffic flow?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_071",
+        "question": "When a general election is called and Parliament is dissolved for five weeks, what do all the House of Commons staff do? The clerks, Black Rod, everyone who doesn't need to be elected - they can't just be on holiday.",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_073",
+        "question": "Why do you have to chase an itch? When you try to scratch a pinpoint itch on your back, you have to say 'go left, go right, go up, go down' to your wife, and the itch moves around until you never actually get to the bottom of it.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 26,
+    "label": "money, million, coins, currency, worth",
+    "keywords": [
+      "money",
+      "million",
+      "coins",
+      "currency",
+      "worth"
+    ],
+    "unresolved_count": 29,
+    "questions": [
+      {
+        "ep": "ep_030",
+        "question": "Where do novelty marathon runners (Spider-Man suits, fridges on backs) train? You never see them training in Warrington. You can't just rock up to a marathon with a fridge on your back and wing it. Do you have to train in the gear?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_059",
+        "question": "When is the expansion pack for the Mystery Hour board game coming out?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_061",
+        "question": "Why are the laces on trainers always unreasonably too long?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_062",
+        "question": "Two questions: 1) How likely is it that my insinkerator button is stuck vs something more serious? 2) Our work jumpers are 96% polyester but always get red blotchy marks even though they contain no red. Could it be flux or boss white?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_070",
+        "question": "Why is toothpaste always minty?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 20,
+    "label": "police, happens, country, people, prison",
+    "keywords": [
+      "police",
+      "happens",
+      "country",
+      "people",
+      "prison"
+    ],
+    "unresolved_count": 26,
+    "questions": [
+      {
+        "ep": "ep_006",
+        "question": "If walking along a path with a road on one side and a river on the other, where should her chivalrous husband Kurt stand to protect her?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_021",
+        "question": "Who wins the Mystery Hour board game?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_033",
+        "question": "Why does starch aerosol have to have the nozzle aligned with a little mark on the rim when no other aerosols (spray paint, air freshener, furniture polish) require this?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_039",
+        "question": "Why do peas always come in 300g tins when everything else in the vegetable aisle is 400g?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_052",
+        "question": "Why is it known as Hull and not Kingston? Stoke-on-Trent is Stoke. Newcastle-on-Tyne is Newcastle. But Hull is just known as Hull. Why is it Hull and not Kingston?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 76,
+    "label": "mirror, light, people, blind, glasses",
+    "keywords": [
+      "mirror",
+      "light",
+      "people",
+      "blind",
+      "glasses"
+    ],
+    "unresolved_count": 26,
+    "questions": [
+      {
+        "ep": "ep_006",
+        "question": "Why do you never see yourself in mirrors or reflections when dreaming?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_010",
+        "question": "Why do mirrors give differing reflections? At home, Surrey looks slimmer in mirrors, but in Marks and Spencer's mirrors, he looks bigger.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_024",
+        "question": "Why can we hear my grandson Theo's knuckle cracking from six feet away when cracking other joints like your neck can't be heard from one foot away? Is it harmful like people used to say?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_063",
+        "question": "Why is London the only UK capital city with a nickname for its residents (Londoners)? Is there such a thing as Edinburghers, Cardiffians, Belfast people? Is it political?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_100",
+        "question": "Why when we eat pickles does one eye go all squiffy (twitch)?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 59,
+    "label": "breakfast, toast, bacon, dinner, english",
+    "keywords": [
+      "breakfast",
+      "toast",
+      "bacon",
+      "dinner",
+      "english"
+    ],
+    "unresolved_count": 26,
+    "questions": [
+      {
+        "ep": "ep_030",
+        "question": "Why are some horse chestnuts smooth and some spiky? Some of the shells have spikes all over but there's a few of them that are smooth on the same tree. What's the difference?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_066",
+        "question": "Where did the golf scoring system come from? Birdies, eagles, albatross - who came up with that? I wonder if it's from something in the 1800s.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_167",
+        "question": "Why is a kangaroo court called a kangaroo court?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_215",
+        "question": "Can you smell in your sleep? If you're asleep and someone breaks wind nearby, can you actually smell it, or are your senses too dulled?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_255",
+        "question": "Do fish drink water? I know they're surrounded by water but they don't have a system like us to drink water.",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "label": "different, clocks, month, february, months",
+    "keywords": [
+      "different",
+      "clocks",
+      "month",
+      "february",
+      "months"
+    ],
+    "unresolved_count": 25,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "Why does the date of Easter change each year?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_024",
+        "question": "How does our brain remember that we've forgotten something but not remember what we've forgotten? You know you've forgotten to do something but you can't remember what it is.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_074",
+        "question": "Why do we laugh? What is the evolutionary mechanism in our brains and bodies that makes us laugh at something?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_179",
+        "question": "What does O stand for? And what does K stand for? in OK",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_211",
+        "question": "Is it illegal to destroy money? How come machines at tourist attractions that let you stamp pennies with logos are legal?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 21,
+    "label": "earth, world, around, stars, space",
+    "keywords": [
+      "earth",
+      "world",
+      "around",
+      "stars",
+      "space"
+    ],
+    "unresolved_count": 25,
+    "questions": [
+      {
+        "ep": "ep_063",
+        "question": "Is positional vertigo (an inner ear problem) caused by a bad neck or by eyesight as he's been told? He suffers from it - when he lies in bed and turns over, the room starts going around.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_131",
+        "question": "When driving across county borders, the 'Welcome to Dorset/Wiltshire' sign and the 'You are now leaving' sign are never directly opposite each other - there's always a 100-200 meter gap. Why doesn't it make sense?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_151",
+        "question": "How do opticians know when a baby's eyesight is right when the baby can't talk?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_176",
+        "question": "Why do bubbles not pop on mirrors?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_246",
+        "question": "What was the first thing to ever be alive on planet Earth?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 35,
+    "label": "sneeze, people, viruses, bites, others",
+    "keywords": [
+      "sneeze",
+      "people",
+      "viruses",
+      "bites",
+      "others"
+    ],
+    "unresolved_count": 25,
+    "questions": [
+      {
+        "ep": "ep_082",
+        "question": "When you're on holiday on an island like Kos, how much of the money you spend stays on the island and how much goes back to mainland Greece? How does the economic arrangement work?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_096",
+        "question": "Why are some people in Belgium called Flemish?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_128",
+        "question": "Why do dogs love balls and does it have anything to do with Wimbledon and the Ashes and why humans love balls?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_134",
+        "question": "Why don't I wake myself up with my own snoring, when if someone else made the same noise they'd wake me up?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_139",
+        "question": "Why does my appendix scar hurt when the weather's about to change?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 51,
+    "label": "language, english, different, accents, people",
+    "keywords": [
+      "language",
+      "english",
+      "different",
+      "accents",
+      "people"
+    ],
+    "unresolved_count": 24,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why do mammals have milk teeth? Why don't adult teeth just come through straight away?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_042",
+        "question": "Why don't we fall out of bed when we're sleeping? Why do we stay on the bed?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_043",
+        "question": "Why are they referred to as 'patient zero' not 'patient one'?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_064",
+        "question": "Did Chloe get the job after quoting Mystery Hour as an example of keenness to learn at her interview?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_072",
+        "question": "What is the physiological reaction that causes the sensation of your blood running cold? What makes your blood run cold?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 79,
+    "label": "traffic, roads, speed, roundabout, seatbelts",
+    "keywords": [
+      "traffic",
+      "roads",
+      "speed",
+      "roundabout",
+      "seatbelts"
+    ],
+    "unresolved_count": 24,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why does it seem like posh people have more speech impediments (can't pronounce Rs properly), and why haven't they fixed it with speech therapy?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_096",
+        "question": "What is it about glass that allows light to travel through it, but for other solid objects light can't?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_140",
+        "question": "What happens to a person's assets if they're sentenced to long-term imprisonment? If you have a five-million-pound house and all the bits and pieces, and there's no one else to look after it, does it go to rack and ruin or do you have to make arrangements?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_258",
+        "question": "Why in the United Kingdom do we no longer have national days of mourning? When was the last one?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_271",
+        "question": "Are we any more intelligent now physiologically than we were thousands of years ago? Are our brains any better?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 60,
+    "label": "plane, aircraft, planes, pilot, landing",
+    "keywords": [
+      "plane",
+      "aircraft",
+      "planes",
+      "pilot",
+      "landing"
+    ],
+    "unresolved_count": 24,
+    "questions": [
+      {
+        "ep": "ep_034",
+        "question": "How do weather forecasters know exactly how many centimetres of rain we're going to get? My jug measured 3.5cm and the forecast said 3-5cm - how do they predict specific measurements?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_070",
+        "question": "Why do we call them Steg and Hendos? What is the origin of 'stag' and 'hen' for stag and hen nights?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_071",
+        "question": "Why do dogs go round and round in circles before they either lay down or do their business?",
+        "n_answers": 3
+      },
+      {
+        "ep": "ep_085",
+        "question": "When clocks were invented in 1650, why did they only go up to 12 rather than 24 numbers?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_133",
+        "question": "When you're trying to recall a memory, your brain replays the same pattern of neurons that fired at the time. How does the brain know which memory file to pull out? You can't see the file to know which one to pick without pulling it out first.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 18,
+    "label": "sound, people, noise, sounds, music",
+    "keywords": [
+      "sound",
+      "people",
+      "noise",
+      "sounds",
+      "music"
+    ],
+    "unresolved_count": 23,
+    "questions": [
+      {
+        "ep": "ep_000",
+        "question": "When an organ is playing in a cathedral and you get to the end of whatever they're playing, you've got this huge noise echoing through the cathedral. And then when the organ player stops, it carries on echoing for a millisecond and then it seems to go flat. It's almost like it's not like they've played the last note flat. Is it the echo that goes flat? It's not coming out of the organ. It's resonating around the building. And it's that resonance which drops down a half tone. Why does the echoing organ in a cathedral go flat right at the end?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_024",
+        "question": "Why does putting the avocado stone in guacamole keep it greener for longer?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_037",
+        "question": "Why doesn't his mole get nicked when shaving, even though he nicks other parts of his face?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_066",
+        "question": "Why does cider affect me differently to other drinks despite having a similar alcohol content? I can easily drink four or five pints of normal regular lager at around five percent and be fine. But if I consume even three or four pints of six percent cider, I am ruined - my legs go wobbly first, then my cheeks are glowing.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_076",
+        "question": "I'd like to know if local wildlife birds know the difference in branded food. I feed my local garden birds suet pellets and they love them. I've recently bought suet pellets from a different store and there's been no action in the last three weeks. The pellets look exactly the same - same color, same size - but it's just from a different shop.",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 69,
+    "label": "space, earth, gravity, happens, astronauts",
+    "keywords": [
+      "space",
+      "earth",
+      "gravity",
+      "happens",
+      "astronauts"
+    ],
+    "unresolved_count": 23,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "What would happen to a fly in zero gravity? If it went up in a space rocket into zero gravity, would it fly or would it float around?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_015",
+        "question": "Why do electric toothbrushes still require the same two minutes of brushing time as manual toothbrushes? What's the point of an electric toothbrush if you don't get a time saving? What's the actual advantage?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_065",
+        "question": "Why are there so many stories about statues of famous people that don't look anything like their subject?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_151",
+        "question": "Is ginger/red hair exclusively a Caucasian thing, or can people from Asia, Africa, or the Middle East also be born ginger?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_163",
+        "question": "Why are waiters called waiters when it's not them waiting for food? It's us that's waiting for the food.",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 45,
+    "label": "number, numbers, phone, mobile, emergency",
+    "keywords": [
+      "number",
+      "numbers",
+      "phone",
+      "mobile",
+      "emergency"
+    ],
+    "unresolved_count": 23,
+    "questions": [
+      {
+        "ep": "ep_012",
+        "question": "What is the purpose of a bubble on a bubble hat?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_030",
+        "question": "Why does my face contort when I'm concentrating? When I'm doing up a screw or something, my jaw might tense and go to one side. If I'm thinking about something really intricate, I stick my tongue out. Is there an evolutionary reason for it?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_030",
+        "question": "Why is a lazy Susan called a lazy Susan? I can understand why it's lazy - you can just spin the wheel rather than passing each individual dish. But why Susan? Who is Susan and why was she lazy?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_031",
+        "question": "Do the back pockets on jeans stay the same size regardless of waist size? I saw an American man pouring himself into a Porsche and noticed the distance between his back pockets was monstrous.",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_069",
+        "question": "Has the average wind speed over the British Isles increased over the past 50 years?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 62,
+    "label": "difference, toast, chocolate, cream, different",
+    "keywords": [
+      "difference",
+      "toast",
+      "chocolate",
+      "cream",
+      "different"
+    ],
+    "unresolved_count": 23,
+    "questions": [
+      {
+        "ep": "ep_016",
+        "question": "With all the money we now spend on vets - pet clubs, hypoallergenic shampoo, pedicures - do dogs actually live longer than they did 25 years ago? If so, by how much?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_048",
+        "question": "What determines the height a bird flies at? What stops a small bird like a pigeon from flying as high as a golden eagle?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_052",
+        "question": "Why don't fitted sheets have labels saying which is the top and which is the bottom?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_111",
+        "question": "Why do I remember my dreams when I sleep on my right side but not when I sleep on my left side?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_128",
+        "question": "What causes some people to almost shriek when they sneeze and it makes other people jump? Is it physiological or psychological?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 55,
+    "label": "brain, remember, memory, people, dreams",
+    "keywords": [
+      "brain",
+      "remember",
+      "memory",
+      "people",
+      "dreams"
+    ],
+    "unresolved_count": 23,
+    "questions": [
+      {
+        "ep": "ep_020",
+        "question": "Can animals be allergic to humans? How would you know if an animal was allergic to you?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_049",
+        "question": "How do we learn to stop ourselves from rolling out of bed while asleep? My 4-year-old daughter used to have bed rails but now sleeps without them and stays in the middle of the bed without falling out.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_050",
+        "question": "Does music affect the mood of animals? Does it affect dogs?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_065",
+        "question": "When did we stop getting new surnames for people? For example, Barber, Gardner, Baker, Smith are common surnames that are occupations. But things like hairdresser or librarian aren't surnames.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_066",
+        "question": "Where did the chef's hat come from? Why is it made of paper and why is it two foot high with a sort of pie crust top on it? Is there a hierarchy with different hats?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "label": "trousers, jacket, front, shirts, women",
+    "keywords": [
+      "trousers",
+      "jacket",
+      "front",
+      "shirts",
+      "women"
+    ],
+    "unresolved_count": 22,
+    "questions": [
+      {
+        "ep": "ep_012",
+        "question": "Threadworms come out at night. How do they know it's night? They're so simple they don't have a clock. How do they know?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_038",
+        "question": "When and why did the media start referring to Wimbledon as SW19? You never hear people talk about rugby at TW2 or Silverstone at NN12.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_080",
+        "question": "When did gift party etiquette in the UK collapse? At my birthday, I got a crate of real ale and by the end the fridge was full of other people's beer, not presents. At my partner's Indian birthday, people brought food they wanted to eat themselves. Have we stopped giving presents to adults?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_147",
+        "question": "When you go to buy hens' eggs in Denmark, they are white, completely white. In the UK, they're normally brown. Why is that?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_187",
+        "question": "If a baby is born on a cruise ship in national waters, what nationality would the baby be? Would it be anything to do with where the ship is registered? Would it be decided entirely by the nationality of the mother? Or would it have something to do with where the ship was?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "label": "number, numbers, three, eight, seven",
+    "keywords": [
+      "number",
+      "numbers",
+      "three",
+      "eight",
+      "seven"
+    ],
+    "unresolved_count": 22,
+    "questions": [
+      {
+        "ep": "ep_029",
+        "question": "Why was it less of a shock going back into the sea after 10 minutes in a sauna than it was going in fresh?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_119",
+        "question": "Why can't I ever get a hangover?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_167",
+        "question": "When you take a frozen loaf of sliced bread out of the freezer, why is the moisture leached to the same side of each slice - one side bone dry, the other with ice crystals - all the way down the loaf?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_173",
+        "question": "Why can't the brain recognise an incline when you look at it? We were walking on a road that looked completely flat, but my wife asked if we were walking uphill. Looking behind me I could see the gradient going back down, but looking ahead it looked completely flat.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_198",
+        "question": "Where did borders, country's borders actually begin? Where was the first ever border?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 56,
+    "label": "light, electricity, electric, batteries, battery",
+    "keywords": [
+      "light",
+      "electricity",
+      "electric",
+      "batteries",
+      "battery"
+    ],
+    "unresolved_count": 22,
+    "questions": [
+      {
+        "ep": "ep_053",
+        "question": "Why is tagliatelle and some other ribbon pasta sold in nests/bundles while spaghetti, linguine, capellini, bucatini and fettuccine are sold efficiently in straight flat packages? Why do some pasta types curl up when they could be sold flat?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_075",
+        "question": "Why is there shark liver oil in Preparation H (pile cream)? How would someone discover that shark liver oil is good for hemorrhoids?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_106",
+        "question": "Can animals see their noses? Humans can see their nose but the brain cancels it out. Does the same apply to all animals - dogs with different nose sizes, penguins with beaks, horses with long faces?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_128",
+        "question": "Do people who create or discover things like DNA and the internet get any recompense from other countries who use those ideas?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_250",
+        "question": "Why is there a child safety cap on children's vitamin sweets and not alcoholic drinks?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 17,
+    "label": "colour, white, green, black, colours",
+    "keywords": [
+      "colour",
+      "white",
+      "green",
+      "black",
+      "colours"
+    ],
+    "unresolved_count": 21,
+    "questions": [
+      {
+        "ep": "ep_013",
+        "question": "Why do they use little twigs of conifers on the ski jump landing area, but blue dye on other Winter Olympic events like big air?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_031",
+        "question": "How do spiders know which web is theirs? My four-year-old son Sonny asked me this.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_053",
+        "question": "Why do we grimace when we're picking up heavy objects or when we're in pain? Some people do and some people don't.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_137",
+        "question": "Why does lemonade seem fizzier than any other carbonated drink?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_179",
+        "question": "What is the origin of OK?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 32,
+    "label": "water, drink, coffee, spoon, drinking",
+    "keywords": [
+      "water",
+      "drink",
+      "coffee",
+      "spoon",
+      "drinking"
+    ],
+    "unresolved_count": 21,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why were all the greatest British guitar players (Peter Green, Brian May, Eric Clapton, Jimmy Page, Jeff Beck) born within 20 miles of each other? Was there something in the water or particularly good teaching?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_039",
+        "question": "Why does it feel weird when you step off a broken escalator? I get a jolt like losing balance, even though I use them all the time when they're working fine.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_071",
+        "question": "What is 'acute aggression'? Where does it come from and why do we do it? (The urge to bite babies' feet when they're cute)",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_111",
+        "question": "Why doesn't granulated sugar have a best before date when other things do?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_113",
+        "question": "I'm over 50 and my hair is growing in my ears, noses, and eyebrows. Why is it that we lose hair from places where we want it while growing it in places where we don't?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 31,
+    "label": "degrees, temperature, summer, colder, winter",
+    "keywords": [
+      "degrees",
+      "temperature",
+      "summer",
+      "colder",
+      "winter"
+    ],
+    "unresolved_count": 21,
+    "questions": [
+      {
+        "ep": "ep_101",
+        "question": "When did dogs become known as 'man's best friend'?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_125",
+        "question": "Why do moles accumulate more hair - why is the hair on a mole denser and thicker than the hair elsewhere on the body?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_126",
+        "question": "Why does your tongue get stuck to a frozen lollypop? Just like in Dumb and Dumber when his tongue got stuck to the pole on the ski slope.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_142",
+        "question": "Can a human being simultaneously count two things in their head which are going at different frequencies/pace? Example: counting your paces to catch up to a runner while also counting paces to pass someone walking toward you.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_149",
+        "question": "Why is it considered lucky to be pooed on by a bird?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 58,
+    "label": "animals, humans, animal, human, actually",
+    "keywords": [
+      "animals",
+      "humans",
+      "animal",
+      "human",
+      "actually"
+    ],
+    "unresolved_count": 21,
+    "questions": [
+      {
+        "ep": "ep_116",
+        "question": "Why do you do that little shiver or judder, particularly after having a wee?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_130",
+        "question": "Why don't women find baldness attractive, given that it indicates high testosterone levels?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_148",
+        "question": "If you put a polar bear in the South Pole and penguins in the North Pole, would their natural navigation instincts be messed up because they're in different hemispheres?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_162",
+        "question": "Why don't novels and books have the same [age ratings/parental guidance] as films?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_165",
+        "question": "Why are only 10% of people left-handed? If you have two hands, shouldn't it be 50-50?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 23,
+    "label": "right, handed, finger, people, different",
+    "keywords": [
+      "right",
+      "handed",
+      "finger",
+      "people",
+      "different"
+    ],
+    "unresolved_count": 20,
+    "questions": [
+      {
+        "ep": "ep_000",
+        "question": "Why is the Royal Box always to one side of the auditorium? It's always on the right-hand side as you face the stage. And why isn't it bang in the middle? Because surely the best view would be right from the very middle of the gallery or something, rather than on the side.",
+        "n_answers": 6
+      },
+      {
+        "ep": "ep_008",
+        "question": "Does being left or right-handed influence which shoe you put on first?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_024",
+        "question": "Why do we say 'the River Thames' but Americans say 'the Thames River'? Why do we put the river first and Americans put river second?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_035",
+        "question": "Why do women's football shirts have first names on them rather than surnames? I noticed the Spanish players had first names like Alexia on their shirts.",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_042",
+        "question": "Why do I find myself listening to the same song over and over and over again?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 38,
+    "label": "minister, prime, number, downing, street",
+    "keywords": [
+      "minister",
+      "prime",
+      "number",
+      "downing",
+      "street"
+    ],
+    "unresolved_count": 20,
+    "questions": [
+      {
+        "ep": "ep_068",
+        "question": "Are voices unique like fingerprints? Could there be someone who sounds exactly like me?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_070",
+        "question": "When sparkling water goes flat, why doesn't it taste like normal tap water? It has a slightly different taste.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_075",
+        "question": "Why are there so many donkey sanctuaries in the UK if we don't use donkeys for work anymore? What do people use them for? Where are all these donkeys coming from?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_085",
+        "question": "Will airships ever replace planes as a form of travel? Is the Airlander the future?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_089",
+        "question": "Why do you have to turn a screw clockwise to drive it in? Is there a reason behind that?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 19,
+    "label": "clouds, raining, water, weather, cloud",
+    "keywords": [
+      "clouds",
+      "raining",
+      "water",
+      "weather",
+      "cloud"
+    ],
+    "unresolved_count": 19,
+    "questions": [
+      {
+        "ep": "ep_014",
+        "question": "What is the actual origin of birthday cards? Is it something Hallmark pushed to sell more cards?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_015",
+        "question": "What happens to TV and film props that are thrown into water? Do they go and collect them? Let them sink? Are they made from something that disposes of itself in the water?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_029",
+        "question": "Is it more cost effective to heat a house from cold or to cool a house down when it's hot? I have air conditioning in Thailand where my mother-in-law lives and I'm curious whether it's more expensive to run than heating.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_030",
+        "question": "Is it 'a nonsense' or just 'nonsense'? One sounds wrong to me. Saying 'a nonsense' doesn't feel right. Is 'a nonsense' wrong?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_047",
+        "question": "Is sweating hereditary? I sweat a lot during combat sports, and my dad and brother also sweat a lot during sports.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "label": "trees, plants, leaves, plant, branches",
+    "keywords": [
+      "trees",
+      "plants",
+      "leaves",
+      "plant",
+      "branches"
+    ],
+    "unresolved_count": 19,
+    "questions": [
+      {
+        "ep": "ep_030",
+        "question": "How do they calculate use-by dates? What metric do they use and how regularly do they update that metric? Given that people will be storing things in a variety of different ways, what's the baseline for calculating a use-by date?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_030",
+        "question": "Why do some crow species live much longer than others? One species lives 3-5 years and another similar one lives up to 15 years. They live in the same habitat, look roughly the same. I know it's DNA, but what is the trigger that makes one live longer than another?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_064",
+        "question": "Why do countries have different names in different languages? For example, Anglia/Germany, and even road names stay the same but countries change. Why is it different for countries?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_125",
+        "question": "Why does a single loose hair that lands on my shoulder irritate me like a mosquito, but hair that's still attached to my head and touching my shoulder doesn't irritate me at all?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_189",
+        "question": "How long do letters sent to the 1922 committee remain valid? Do they stay forever unless you withdraw them?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 13,
+    "label": "countries, country, royal, world, national",
+    "keywords": [
+      "countries",
+      "country",
+      "royal",
+      "world",
+      "national"
+    ],
+    "unresolved_count": 19,
+    "questions": [
+      {
+        "ep": "ep_036",
+        "question": "Which is the earliest conspiracy theory known?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_043",
+        "question": "Why do they use smoke to announce the new Pope? Why not a bell or a flag?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_050",
+        "question": "In game shows, why is the backstage holding room called the green room?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_115",
+        "question": "Why are the whites of human eyes always visible? Why don't other animals have visible eye whites?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_128",
+        "question": "Why do some foods make you feel sick? Not in the repulsive way but halfway through a slice of cheesecake at a coffee shop I felt absolutely nauseous",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 72,
+    "label": "chicken, chickens, turkey, sperm, white",
+    "keywords": [
+      "chicken",
+      "chickens",
+      "turkey",
+      "sperm",
+      "white"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "What's all that about? Where's that coming from? [Easter eggs, bunnies, chocolate eggs being delivered by bunnies]",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_036",
+        "question": "Why are some countries referred to as the motherland while some countries are called the fatherland? Which countries are the motherland?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_044",
+        "question": "Is there a scientific link between the colour and the smell of flowers?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_085",
+        "question": "Why is orange the only Smartie colour that has a flavour corresponding to its colour (tastes like orange) while all other colours don't taste of strawberry, lime, lemon etc?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_094",
+        "question": "Why is it that when you're looking at an island across water, on different days it can look closer or further away? I grew up opposite the Isle of May in Fife. And from Murano, Venice looked closer or further away.",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 16,
+    "label": "first, start, become, origin, decided",
+    "keywords": [
+      "first",
+      "start",
+      "become",
+      "origin",
+      "decided"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "In 1968 Richard Burton filmed Where Eagles Dare and in 1978 he filmed The Wild Geese - 10 years apart. In both movies when he's using the radio he uses the call sign 'Broad Sword to Danny Boy'. Why would he use that call sign in two movies years apart and not even the same era of war films?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_022",
+        "question": "When you put your head under water in the bath, you can hear your own heartbeat. If a pregnant woman did the same, could she hear her baby's heartbeat?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_051",
+        "question": "Do dogs have blood groups?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_076",
+        "question": "Have you ever heard of Caerphilly cheese? It's just disappeared. Like everywhere. Every supermarket, practically overnight, stopped selling it. Morrison's, Sainsbury's - you just cannot find it anywhere anymore. I wanted to know why.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_162",
+        "question": "Where does Middle C come from?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 28,
+    "label": "water, shampoo, shower, washing, towel",
+    "keywords": [
+      "water",
+      "shampoo",
+      "shower",
+      "washing",
+      "towel"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_010",
+        "question": "Why does your hair always feel cleaner and squeakier when you use a different shampoo for the first time, and then when you go back to your original shampoo, it feels cleaner and squeakier again?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_030",
+        "question": "Why are my thumbnails much thicker than my fingernails when I come to trim them? Same with my big toenail - it's like the mothership. Is it just me?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_113",
+        "question": "What happens in our brain when we get over a certain fear? How do we overcome what feels like a genuine foe? Is it just exposure? Does it happen because you've had to, or because you just sort of... it wears out?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_197",
+        "question": "Do dogs recognise their own breed?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_240",
+        "question": "All other months have 30 or 31 days. Why does February have 28 days? Where does 28 come from? They nicked a day from February to put on other months. Why was February the one that got picked on?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 46,
+    "label": "people, become, years, world, british",
+    "keywords": [
+      "people",
+      "become",
+      "years",
+      "world",
+      "british"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_014",
+        "question": "Why is it that we humans all have different enjoyments of taste? Why don't we all like the same foods? Is there an evolutionary explanation for our variation in tastes?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_058",
+        "question": "Is there a name for people who love epic feats of engineering like bridges, cranes, viaducts, and aqueducts?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_065",
+        "question": "Why is it when cats, particularly on ledges and tables, like to push things off?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_126",
+        "question": "Why is it so difficult to predict the exact date that a baby is going to be born? Even if a doctor examines the woman, they still can't say when she's going to go into labor. Apparently 90% of babies are born two weeks either side of their predicted due date. Why with all the science we have cannot we get that exact?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_164",
+        "question": "What is the origin of the word 'flea' in flea market? Where does the phrase come from?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 24,
+    "label": "beard, women, people, white, shave",
+    "keywords": [
+      "beard",
+      "women",
+      "people",
+      "white",
+      "shave"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_019",
+        "question": "Where does the saying 'coming out of your shell' come from? Is it linked to the shellfish question?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_057",
+        "question": "When do we stop closing our eyes when we fall asleep? Babies close their eyes and go straight to sleep, but adults close their eyes and wait. When does that change?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_067",
+        "question": "What exactly is the noise that dial-up internet makes? What are you listening to when you hear that sound?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_109",
+        "question": "Why is it that some foods when you eat them affect your mouth, like spicy food and curries, yet other foods like wasabi affect your nose?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_113",
+        "question": "Where should you keep your toothbrush? Is it dangerous to keep it in the bathroom because of poo particles flying around when you flush the toilet? Some adverts say poo particles are flying around the bathroom.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 50,
+    "label": "royalties, court, years, mystery, actually",
+    "keywords": [
+      "royalties",
+      "court",
+      "years",
+      "mystery",
+      "actually"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_021",
+        "question": "When tigers are shaved, why are stripe imprints still embedded on their skin, but zebras and dalmatians don't have this?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_059",
+        "question": "How can cats find their way home over 800 or 900 miles? There are stories of cats travelling ridiculous distances and finding their way home. How do they do that?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_064",
+        "question": "Do animals know that they're pregnant? They just pop out babies and have to figure things out. Is this about consciousness or biology?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_067",
+        "question": "Why are there so many Turkish barbers? Are they actually Turkish or is it just a style? Why that corner of the world produces so many barber shops?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_088",
+        "question": "How do smelling salts work? What is the mechanism by which waving this magical fluid under someone's nose brings them back to consciousness?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "label": "sleep, asleep, sneeze, night, morning",
+    "keywords": [
+      "sleep",
+      "asleep",
+      "sneeze",
+      "night",
+      "morning"
+    ],
+    "unresolved_count": 18,
+    "questions": [
+      {
+        "ep": "ep_042",
+        "question": "Why do we bend over double after we've done some sort of exercise like running across the road or running for the bus?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_042",
+        "question": "Why do some people sneeze multiple times - like 10, 15 or even hundreds of times - while others just sneeze a couple of times?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_048",
+        "question": "Why is it that golden syrup tins always stick to the shelf?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_121",
+        "question": "I put fizzy water in a regular plastic bottle and it exploded at the airport. Why doesn't that happen when you buy shop-bought water?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_121",
+        "question": "Why do pigeons congregate on some roofs and not others? They congregate on one side of a semi-detached property. And it's quite often older people's properties. Is it heat rising?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 39,
+    "label": "first, invented, people, discovered, start",
+    "keywords": [
+      "first",
+      "invented",
+      "people",
+      "discovered",
+      "start"
+    ],
+    "unresolved_count": 17,
+    "questions": [
+      {
+        "ep": "ep_005",
+        "question": "When as a human race did we start laughing? What made us laugh for the first time? Was it a tickle?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_008",
+        "question": "Who invented the first paper aeroplane, and when? Did someone try to create one that looked like an old-fashioned monoplane?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_180",
+        "question": "When did the acronym VIP become commonplace? When did 'very important person' become a recognized status?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_197",
+        "question": "Where does Whamageddon come from?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_226",
+        "question": "In darts, why is it called a Shanghai when you hit single, double, and treble all in the same segment?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 49,
+    "label": "smell, breathe, different, smells, sense",
+    "keywords": [
+      "smell",
+      "breathe",
+      "different",
+      "smells",
+      "sense"
+    ],
+    "unresolved_count": 17,
+    "questions": [
+      {
+        "ep": "ep_057",
+        "question": "Why do Easter eggs now come in one piece instead of two halves with sweets in the middle like they used to?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_090",
+        "question": "How do fish know what species they are in order to congregate with other fish of the same species?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_103",
+        "question": "When and why did humans first start to shave their facial hair? Early sapiens didn't have big beards, then Jesus had a beard - when did it start?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_142",
+        "question": "In most of the world, left-wing parties are red and right-wing are blue. But in America, it's reversed - Democrats are blue and Republicans are red. Why?",
+        "n_answers": 3
+      },
+      {
+        "ep": "ep_156",
+        "question": "What does 'tog' mean on duvets? Is it a measurement of thickness, heat resistance, or something made up by duvet manufacturers?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 15,
+    "label": "bottles, alcohol, bottle, drinks, drink",
+    "keywords": [
+      "bottles",
+      "alcohol",
+      "bottle",
+      "drinks",
+      "drink"
+    ],
+    "unresolved_count": 17,
+    "questions": [
+      {
+        "ep": "ep_079",
+        "question": "Why is it that you can go back to sleep when you have an alarm set for work, but on your days off when you wake up naturally, you can't get back to sleep even though you've got more time to sleep? Why do we always want to lie in when we can't but not when we can?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_090",
+        "question": "How long have we been asking for autographs? Why did that tradition start and who started it?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_123",
+        "question": "Why do people develop allergies at any age? They aren't innate, are they?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_128",
+        "question": "Is every piece of popcorn unique, like snowflakes?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_207",
+        "question": "Why are the beaches on some volcanic islands white and on other volcanic islands they're grey or black? St Lucia is volcanic but has white beaches, while just over the way there's an island with black beaches.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 75,
+    "label": "lions, animals, catnip, respond, makes",
+    "keywords": [
+      "lions",
+      "animals",
+      "catnip",
+      "respond",
+      "makes"
+    ],
+    "unresolved_count": 16,
+    "questions": [
+      {
+        "ep": "ep_002",
+        "question": "Does a cat's meow have an accent? Will a cat from Manchester sound different from a cat in Spain?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_006",
+        "question": "Why do cats like to sit on mats or mat-shaped things, even on uncomfortable surfaces like paper on top of Lego?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_047",
+        "question": "Do dogs have twins/identical twins?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_092",
+        "question": "What's the texture of the smallest thing in the world? (bracket: I don't know what the smallest thing in the world is)",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_096",
+        "question": "If a man is 70-80% unwell (has a cold or flu) and his partner is ovulating, would the sperm be less than 70-80% quality? Would a child conceived be only 70-80% healthy?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "label": "music, sound, classical, musical, different",
+    "keywords": [
+      "music",
+      "sound",
+      "classical",
+      "musical",
+      "different"
+    ],
+    "unresolved_count": 16,
+    "questions": [
+      {
+        "ep": "ep_042",
+        "question": "How is the difficulty of a Sudoku determined? If you complete the nightmare level, is the number of starting clues the same as the expert level? And did Sudoku exist before computer algorithms?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_079",
+        "question": "If you own land on a cliff and the cliff collapses into the sea due to coastal erosion, do you still own that land even though it's now at the bottom of the ocean or a beach below your house?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_135",
+        "question": "Why is it that when you get into a bath that's just a little bit too hot, you want to have a wee? Even if you don't want to have a wee before your bath, you want to have a wee.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_148",
+        "question": "Why do people rub their hands together in anticipation?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_272",
+        "question": "Is ketchup a food or a drink?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 34,
+    "label": "doors, front, windows, houses, metal",
+    "keywords": [
+      "doors",
+      "front",
+      "windows",
+      "houses",
+      "metal"
+    ],
+    "unresolved_count": 16,
+    "questions": [
+      {
+        "ep": "ep_049",
+        "question": "Why do gorse bushes flower every month of the year? I take photographs every month and can always find at least one bush in full flower.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_072",
+        "question": "How long is tap water safe to drink once it's taken from a tap and kept in a sealed bottle in a rucksack?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_191",
+        "question": "Why can you not stop going to the toilet once you've finally gone after drinking all evening?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_241",
+        "question": "Why is non-fiction called non-fiction as opposed to a word of its own like 'factual'?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_356",
+        "question": "What should I do about my smelly drain? The waste pipe is boxed in from a kitchen extension.",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 11,
+    "label": "cards, queen, facing, first, right",
+    "keywords": [
+      "cards",
+      "queen",
+      "facing",
+      "first",
+      "right"
+    ],
+    "unresolved_count": 15,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "In London there are lots of equestrian statues - people mounted on horseback. Some have their feet in stirrups and some don't. Why?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_034",
+        "question": "Why do satellites appear to bob and weave rather than flying in straight lines across the sky? I can watch them for 10 minutes and see 4-5 behaving in the same erratic way.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_042",
+        "question": "How can two little screws in the wall hold up a cupboard filled with heavy stuff like crockery or books without it falling down?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_175",
+        "question": "Why are stag and hen dos called that? What's the origin?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_230",
+        "question": "Why does a black-headed gull change the colour of its head between seasons? (Black cap in summer, white with black blusher in winter)",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 78,
+    "label": "colour, yellow, white, black, orange",
+    "keywords": [
+      "colour",
+      "yellow",
+      "white",
+      "black",
+      "orange"
+    ],
+    "unresolved_count": 15,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "Is there a rise of the off-yellow, pale yellow kind of white daffodil in amongst the yellow daffodils? What determines the colour of the daffodil? Is it the bulb, the amount of water, or sunlight? Has there been an increase in the number of off-white, pale yellow daffodils?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_007",
+        "question": "What determines the colour of a daffodil? Why are there more pale/white daffodils appearing among yellow ones?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_031",
+        "question": "Why can a piece of paper, no matter how big or small, only be folded eight times? It must be physics.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_034",
+        "question": "Is it a coincidence that a debit card is exactly the same size as a packet of cigarettes? What came first - did they design them to be the same size?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_088",
+        "question": "Did the losing team on Pat Sharp's Funhouse ever get to have a go on the Funhouse after the cameras stopped rolling? My mum used to say the producer was her friend and they let the losing team have a play, but I'm almost certain she was just being kind.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 66,
+    "label": "earth, stars, planets, rotate, moons",
+    "keywords": [
+      "earth",
+      "stars",
+      "planets",
+      "rotate",
+      "moons"
+    ],
+    "unresolved_count": 15,
+    "questions": [
+      {
+        "ep": "ep_007",
+        "question": "How can the Artemis astronauts be going further than any other astronauts have ever gone before when they're going to the moon - which everyone knows we've already visited?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_092",
+        "question": "How do they ensure on Mastermind that each person's specialist round questions are equally hard? If one person has Spice Girls and the next has Rhyme and Gods, how do they know the questions are as hard?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_107",
+        "question": "Why are certain viruses like chickenpox causing significantly milder symptoms in children than they do in adults if you contract them as an adult? There are others like hand, foot and mouth. Mumps was much more dangerous to contract as a boy because it could affect fertility. So maybe it's got something to do with puberty but why are some viruses much more unpleasant for adults?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_150",
+        "question": "Why is the phrase 'double Dutch' used to mean nonsense? Why Dutch rather than French, Italian or Spanish?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_272",
+        "question": "Can a Boeing 747 physically do a loop-the-loop?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 42,
+    "label": "fruit, supermarket, pepper, plastic, vegetable",
+    "keywords": [
+      "fruit",
+      "supermarket",
+      "pepper",
+      "plastic",
+      "vegetable"
+    ],
+    "unresolved_count": 15,
+    "questions": [
+      {
+        "ep": "ep_023",
+        "question": "Why do there seem to be no serial killers anymore compared to the 60s, 70s, 80s? Is it something to do with forensics and DNA technology meaning they get caught before they have a spate of killings?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_149",
+        "question": "Why do we put candles on a birthday cake? What are the origins of candles on birthday cakes?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_167",
+        "question": "Does our cat know she's having babies? The cat is still doing everything she did before - jumping off the greenhouse and shed, rolling about - and the caller (Emily) is concerned about protecting the baby.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_169",
+        "question": "Why does your voice go up in pitch just before you start crying, before the tears even start?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_187",
+        "question": "Why do you temporarily lose most of your hearing when you yawn?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 71,
+    "label": "blood, happens, brain, transfusion, donate",
+    "keywords": [
+      "blood",
+      "happens",
+      "brain",
+      "transfusion",
+      "donate"
+    ],
+    "unresolved_count": 14,
+    "questions": [
+      {
+        "ep": "ep_014",
+        "question": "How does the second flock of parakeets know what route the first flock has taken, even if it's 15 minutes later? The flocks consistently swoop through the same route between the same two trees.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_058",
+        "question": "When having brain surgery (with large scar on forehead where skull was removed), the surgeon photographed his ears beforehand. Was he just putting Jack at ease or was this actually necessary?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_102",
+        "question": "Has the gestation period for our species always been the same, or has it changed through evolution? Baby monkeys can grip their mum on day one, but human babies are completely helpless. Were we able to do that when we were monkeys millennia ago?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_111",
+        "question": "Why doesn't my own snoring wake me up but my wife's snoring does?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_235",
+        "question": "What animal grows the most relative to its birth weight? (Biggest differential between birth weight and fully grown size)",
+        "n_answers": 5
+      }
+    ]
+  },
+  {
+    "cluster": 57,
+    "label": "fridge, freezer, frozen, water, defrost",
+    "keywords": [
+      "fridge",
+      "freezer",
+      "frozen",
+      "water",
+      "defrost"
+    ],
+    "unresolved_count": 14,
+    "questions": [
+      {
+        "ep": "ep_025",
+        "question": "Why is GMT so lopsided? We have 57 days from the clocks changing to the solstice, but 98 days until we put them forward again. Shouldn't it be equal? Also, why is sunset so early (half past four) in winter despite having less daylight?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_046",
+        "question": "Why is the numerical layout on a phone (1-2-3 going down) different from a calculator (7-8-9 going down)? This causes problems in our office.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_197",
+        "question": "When you take items out of the dishwasher, why do plastic items always seem to be full of water droplets while other items don't?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_222",
+        "question": "What color is a bee's skin? Her 8-year-old daughter Amelia wants to know - the fur is black and yellow but what color is the actual skin underneath?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_360",
+        "question": "What's the relationship between cinemas and popcorn? We went at quarter to ten in the morning and everyone was having popcorn, but you never see it anywhere else.",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 0,
+    "label": "names, surnames, people, named, first",
+    "keywords": [
+      "names",
+      "surnames",
+      "people",
+      "named",
+      "first"
+    ],
+    "unresolved_count": 14,
+    "questions": [
+      {
+        "ep": "ep_035",
+        "question": "Why are tropical fish so colourful compared to fish in the UK waters which are brown and grey?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_087",
+        "question": "Have the Northern and Southern Lights ever met at the equator? There was such a big solar storm last Friday that the Northern Lights came very south, even to Lanzarote. I just wondered if there's ever been an event in history where the Northern and Southern Lights have met at the equator.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_143",
+        "question": "Why does my watch say quartz at the bottom? Is there a rock in there?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_257",
+        "question": "On a motorbike with a sidecar, if I want to go to France, does the sidecar have to go on the left-hand side of the bike?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_327",
+        "question": "Do scars tan?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 44,
+    "label": "radio, people, adverts, watershed, phones",
+    "keywords": [
+      "radio",
+      "people",
+      "adverts",
+      "watershed",
+      "phones"
+    ],
+    "unresolved_count": 14,
+    "questions": [
+      {
+        "ep": "ep_046",
+        "question": "When is the correct time to weigh a banana to figure out how many calories you are consuming? A banana loses about 20% of its weight after ripening because the water evaporates and starch turns to sugar - so does the calorie content change?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_062",
+        "question": "Why do some ships or boats have a bulky nose underneath the water at the front that goes out further than the above-water prow? Is it for ice?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_076",
+        "question": "Royalty - royalty had a wardrobe of clothes. But where do they go? If you've got a relative that passed away, you normally bag up their bits and bobs and take them to a charity shop. But what happens to the amount of handbags, coats, shoes that the Queen had? There must have been hundreds of them. Where do they all go?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_167",
+        "question": "Why is a hot dog called a hot dog?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_215",
+        "question": "Why does it say 'pound sterling' on Scottish banknotes but not on Bank of England notes? I have a Bank of Scotland \u00a310 note and a Royal Bank of Scotland \u00a320 note that both say sterling, but a Bank of England \u00a320 note just says \u00a320.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 47,
+    "label": "queen, royal, prince, throne, family",
+    "keywords": [
+      "queen",
+      "royal",
+      "prince",
+      "throne",
+      "family"
+    ],
+    "unresolved_count": 14,
+    "questions": [
+      {
+        "ep": "ep_076",
+        "question": "If hot drinks keep you cool in the summer, would a cool drink sort of be better for you in the winter? So should we be drinking tea in the summer? And does it also apply to food? Should we be having currys and stews in the summer and salads in the winter? And perhaps that's why curry is such a big thing in Asia?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_127",
+        "question": "Why do I get really red face and sweat so much in my face during a run, while my friend Laura doesn't sweat on her face but sweats on her back?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_134",
+        "question": "Can a dog (Bertie) smell a specific breed of dog? Bertie is blind but goes crazy around French Bulldogs and nothing else.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_186",
+        "question": "What is the oldest language still currently spoken today?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_291",
+        "question": "Why is the speaker dragged up to his chair when he is elected in the House of Commons?",
+        "n_answers": 2
+      }
+    ]
+  },
+  {
+    "cluster": 48,
+    "label": "origin, originate, nickname, phrase, military",
+    "keywords": [
+      "origin",
+      "originate",
+      "nickname",
+      "phrase",
+      "military"
+    ],
+    "unresolved_count": 13,
+    "questions": [
+      {
+        "ep": "ep_000",
+        "question": "Why do we take our hats off when a hearse goes by? Why the hat, and where did it originate from?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_096",
+        "question": "When you write a word multiple times, why does it start to look wrong?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_169",
+        "question": "Do babies get songs stuck in their head (earworms)?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_180",
+        "question": "Why, when you walk outside and it's cold, do your eyes start to water?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_241",
+        "question": "When you're flying close to the clouds, why does it feel slower than flying the same distance from the ground at the same speed?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 64,
+    "label": "growing, certain, years, older, genetic",
+    "keywords": [
+      "growing",
+      "certain",
+      "years",
+      "older",
+      "genetic"
+    ],
+    "unresolved_count": 13,
+    "questions": [
+      {
+        "ep": "ep_030",
+        "question": "Why do we get fat rain and thin rain? Big water droplets that come on the windscreen and then the really fine stuff. What's happening in the clouds to make it fat rain or thin rain? Why aren't all droplets the same size?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_041",
+        "question": "What is the contingency plan if Wimbledon gets rained out entirely for two weeks? Is there a point where they'd just abandon the tournament?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_142",
+        "question": "Do farm animals have friends?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_253",
+        "question": "Do animals cry when they're sad?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_255",
+        "question": "Who decided to think of a 24-hour clock? Why 24 hours divided into 60 minutes, and who came up with saying 1300 hours for 1pm?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 67,
+    "label": "square, round, different, women, pencil",
+    "keywords": [
+      "square",
+      "round",
+      "different",
+      "women",
+      "pencil"
+    ],
+    "unresolved_count": 13,
+    "questions": [
+      {
+        "ep": "ep_049",
+        "question": "Do copper coins actually help keep cut flowers alive longer? I put 1p and 2p coins in roses from M&S and they've been alive for nearly two months.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_128",
+        "question": "Why do the Irish say 'top of the morning'?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_161",
+        "question": "Why does flotsam on the water go in the opposite direction to the tide? When the tide is coming in, the leaves and twigs go back out to sea. And vice versa - when the tide goes out, sometimes the leaves go the other way. It happens every day and it's not the wind.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_265",
+        "question": "How many taps would you have to run in one city before the water just stops running?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_289",
+        "question": "Me and my wife are big gin fans but we're annoyed that you can only get tonic water in one small one-litre size. Why is that when you can buy gin in larger bottles?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 41,
+    "label": "spider, spiders, another, across, conkers",
+    "keywords": [
+      "spider",
+      "spiders",
+      "another",
+      "across",
+      "conkers"
+    ],
+    "unresolved_count": 12,
+    "questions": [
+      {
+        "ep": "ep_006",
+        "question": "How long does it take cobwebs to decompose?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_093",
+        "question": "Why do we use the word 'Dutch' in so many different contexts - go Dutch, Dutch auction, Dutch courage, Dutch uncle? What's the origin of these expressions?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_132",
+        "question": "Why do Scots people walk on the right when English people walk on the left?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_229",
+        "question": "Where does the tradition of ringing a bell at the beginning of the last lap in sporting events come from?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_345",
+        "question": "If our brain was a hard drive, how big would it be?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 30,
+    "label": "people, clapping, start, appreciation, shake",
+    "keywords": [
+      "people",
+      "clapping",
+      "start",
+      "appreciation",
+      "shake"
+    ],
+    "unresolved_count": 12,
+    "questions": [
+      {
+        "ep": "ep_010",
+        "question": "Why is the swanny whistle (penny whistle) funny?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_093",
+        "question": "Could you have a light so bright that you could see your entire skeleton? Like when he was a child with a new torch, he could see the bones in his fingers - could you scale that up to see your whole skeleton?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_119",
+        "question": "Question about the water question (osmo regulation)",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_326",
+        "question": "Why does mint make you feel coldness when you blow on it?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_394",
+        "question": "How fast does blood move around your veins? It was a medical procedure where a drug was injected and the effect was instantaneous - how fast does blood travel?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 53,
+    "label": "sweat, water, temperature, hours, actually",
+    "keywords": [
+      "sweat",
+      "water",
+      "temperature",
+      "hours",
+      "actually"
+    ],
+    "unresolved_count": 12,
+    "questions": [
+      {
+        "ep": "ep_082",
+        "question": "Why in sport is a heat called a heat?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_118",
+        "question": "Why can you drink a pint of beer after a huge meal when you can't eat another morsel of solid food?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_137",
+        "question": "Why does the saying 'the chickens are coming home to roost' have such a bad connotation? If you have chickens, you'd want them home safely.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_157",
+        "question": "If you're swimming in the sea and lightning strikes, how far away would you have to be for you not to get electrocuted?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_160",
+        "question": "Why do we say things are old in expressions like 'funny old game' or 'funny old weather'? Why do we use the word 'old' when describing things?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 63,
+    "label": "passport, passports, pencil, british, french",
+    "keywords": [
+      "passport",
+      "passports",
+      "pencil",
+      "british",
+      "french"
+    ],
+    "unresolved_count": 11,
+    "questions": [
+      {
+        "ep": "ep_006",
+        "question": "When senior Catholics like Cardinals move to the Vatican, do they have to go through normal immigration procedures or get work visas?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_137",
+        "question": "Why do some people dream in black and white and some in colour?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_344",
+        "question": "What would happen if we didn't register our baby after three months? Would we have to go back and look for a new name? What would happen to us?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_366",
+        "question": "Is sticking your tongue out to touch food before you bite it a sign of getting old? Billy Connolly made a joke about this.",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_402",
+        "question": "Why is the play button a triangle, stop button a square, and pause button two vertical lines? Where did these symbols come from?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 65,
+    "label": "number, numbers, bottom, telephone, keyboard",
+    "keywords": [
+      "number",
+      "numbers",
+      "bottom",
+      "telephone",
+      "keyboard"
+    ],
+    "unresolved_count": 11,
+    "questions": [
+      {
+        "ep": "ep_046",
+        "question": "When historical podcasts talk about events in AD 74, how do they know the exact month and day if the Gregorian calendar wasn't introduced until about 500 years ago?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_142",
+        "question": "How or why does a boomerang come back? Is it the physics or the way you throw it?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_177",
+        "question": "Is handwriting inherited?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_182",
+        "question": "When you flip a coin, they say heads or tails. One side is clearly a heads, but why is the other side called tails when it isn't a tail?",
+        "n_answers": 3
+      },
+      {
+        "ep": "ep_290",
+        "question": "Why do mushy peas come in a smaller can compared to other canned products like beans?",
+        "n_answers": 3
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "label": "water, bubbles, bottle, different, glass",
+    "keywords": [
+      "water",
+      "bubbles",
+      "bottle",
+      "different",
+      "glass"
+    ],
+    "unresolved_count": 11,
+    "questions": [
+      {
+        "ep": "ep_107",
+        "question": "Why is it whenever I, no matter how neatly I fold away and put away my cables in a drawer, whenever I open the drawer, they come out all tangled up?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_134",
+        "question": "Why can we not resist the temptation to keep going back to a place we've already checked when we've lost something?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_355",
+        "question": "Why don't we charge people with treason anymore?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_467",
+        "question": "Where do seagulls come from? Do they have two homes - one in France and one in England?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_470",
+        "question": "Where do Savaloys stop being available geographically? I can't get them north of London but you can get them everywhere in London. What's the best way to get a Savaloy? Is there a Savaloy Gap like the Watford Gap?",
+        "n_answers": 3
+      }
+    ]
+  },
+  {
+    "cluster": 25,
+    "label": "round, guide, drugs, horse, years",
+    "keywords": [
+      "round",
+      "guide",
+      "drugs",
+      "horse",
+      "years"
+    ],
+    "unresolved_count": 10,
+    "questions": [
+      {
+        "ep": "ep_071",
+        "question": "When we talk about Beethoven, we say 'Beethoven'. When we talk about Van Gogh, we say 'Van Gogh'. Why is it not 'Van Beethoven'? Or why do we not just say 'Gogh'?",
+        "n_answers": 3
+      },
+      {
+        "ep": "ep_149",
+        "question": "When eating fruit, what classifies something as being a pip or a seed?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_154",
+        "question": "Why are four-letter words and swearing offensive? When did they become offensive?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_179",
+        "question": "Sea otters have a pocket in which they keep their favorite stone that they use to open clams. Are there any other animals that have pockets for toys or tools?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_210",
+        "question": "Is there a rule about how big goalkeeper's gloves can be? What if goalkeepers have small hands but wear massive gloves? Like Kenny Everett with big hands.",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 36,
+    "label": "water, mouth, teeth, taste, drink",
+    "keywords": [
+      "water",
+      "mouth",
+      "teeth",
+      "taste",
+      "drink"
+    ],
+    "unresolved_count": 8,
+    "questions": [
+      {
+        "ep": "ep_043",
+        "question": "What is the mechanism in the brain that makes us fall asleep and wakes us up in the morning? Is there a switch that gets flicked when you go from awake to asleep?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_108",
+        "question": "Could there become a point where we add too much weight to a country like the UK, or a continent, or the globe, where the ground breaks or sinks?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_248",
+        "question": "Why do we call it a 'lap' when we're sitting, but not when we're standing? It's still our thighs when sitting, but we call it a lap.",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_325",
+        "question": "Why are some people ticklish and others aren't? Is anyone completely unticklish?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_325",
+        "question": "Why is the majority of the population right-handed? Is it something we're biologically predisposed to, or is it taught?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 12,
+    "label": "",
+    "keywords": [],
+    "unresolved_count": 8,
+    "questions": [
+      {
+        "ep": "ep_164",
+        "question": "Why can some people raise their ring finger all the way up from a fist while others cannot?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_355",
+        "question": "",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_355",
+        "question": "Where does the term 'part and parcel' originate from?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_355",
+        "question": "How can you start your own country? (and would Grimsby get an exemption because of their fishing industry?)",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_355",
+        "question": "What is the definition of an island? When is an island an island and when is it not?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 43,
+    "label": "birthday, people, candles, celebrate, wedding",
+    "keywords": [
+      "birthday",
+      "people",
+      "candles",
+      "celebrate",
+      "wedding"
+    ],
+    "unresolved_count": 7,
+    "questions": [
+      {
+        "ep": "ep_134",
+        "question": "Do birds get any better at building their nests over time? Like generationally?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_138",
+        "question": "At what age or what point in a lamb or sheep's life do they lose their bounce?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_187",
+        "question": "Why do politicians on TV always have their sleeves rolled up when they're in hospitals, as though they're just about to get stuck in? And why is the tie tucked into the shirt?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_392",
+        "question": "Why a standoff is Mexican? Why is it called a Mexican standoff?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_520",
+        "question": "Why are rotating tables called lazy Susans?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 61,
+    "label": "french, female, gender, masculine, feminine",
+    "keywords": [
+      "french",
+      "female",
+      "gender",
+      "masculine",
+      "feminine"
+    ],
+    "unresolved_count": 6,
+    "questions": [
+      {
+        "ep": "ep_069",
+        "question": "Why isn't there a law where motorists should never be allowed to touch alcohol when going to drive?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_121",
+        "question": "Is it true that if you don't get a good night's sleep, you'll get bags or shadows under your eyes? And if so, why?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_214",
+        "question": "Who or what is Larry and what did he have to be so happy about?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_279",
+        "question": "When was the first canned laughter used?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_333",
+        "question": "Is it possible to cry? I mean, really sob without emitting any tears?",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 29,
+    "label": "lightning, strikes, turbines, electrocuted, electricity",
+    "keywords": [
+      "lightning",
+      "strikes",
+      "turbines",
+      "electrocuted",
+      "electricity"
+    ],
+    "unresolved_count": 6,
+    "questions": [
+      {
+        "ep": "ep_267",
+        "question": "Who decides how to number roads? Is there a logic to it?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_297",
+        "question": "Does the concaved bottom (punt) in wine bottles indicate better quality wine? Why do some bottles have punts and some don't?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_410",
+        "question": "What is the tradition of birthday candles on cakes? Why do we put them on cakes?",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_445",
+        "question": "",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_480",
+        "question": "Why is it hot in the Caribbean and cold in Europe or America? Why are some countries hotter than others?",
+        "n_answers": 1
+      }
+    ]
+  },
+  {
+    "cluster": 74,
+    "label": "",
+    "keywords": [],
+    "unresolved_count": 5,
+    "questions": [
+      {
+        "ep": "ep_282",
+        "question": "When or why did people first start putting milk in tea?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_282",
+        "question": "Can astronauts and people that go into space take fresh fruit on their missions or is fresh fruit banned?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_282",
+        "question": "",
+        "n_answers": 0
+      },
+      {
+        "ep": "ep_282",
+        "question": "When you run a really, really hot bath, and you get in, you put your toe in, why does it feel like freezing cold for a couple of seconds?",
+        "n_answers": 1
+      },
+      {
+        "ep": "ep_282",
+        "question": "",
+        "n_answers": 0
+      }
+    ]
+  },
+  {
+    "cluster": 70,
+    "label": "cabinet, right, democrats, tories, world",
+    "keywords": [
+      "cabinet",
+      "right",
+      "democrats",
+      "tories",
+      "world"
+    ],
+    "unresolved_count": 2,
+    "questions": [
+      {
+        "ep": "ep_142",
+        "question": "Can you learn new information in your sleep? If you listen to a French language tape overnight, could you wake up having learnt French?",
+        "n_answers": 2
+      },
+      {
+        "ep": "ep_149",
+        "question": "Is there less oxygen in the wintertime when there's no leaves on the trees and no plants growing?",
+        "n_answers": 0
+      }
+    ]
+  }
+]

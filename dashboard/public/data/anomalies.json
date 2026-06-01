@@ -1,0 +1,728 @@
+{
+  "most_anomalous": [
+    {
+      "q_idx": 3106,
+      "ep": "ep_326",
+      "cluster": 35,
+      "dist": 8.1465,
+      "question": "ANSWER - Do E numbers have adverse effects on children's behaviour?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 6071,
+      "ep": "ep_597",
+      "cluster": 77,
+      "dist": 7.7072,
+      "question": "How do football commentators instantly know how many kilometres a player has run during a match?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 26,
+      "ep": "ep_002",
+      "cluster": 75,
+      "dist": 7.1513,
+      "question": "Does a cat's meow have an accent? Will a cat from Manchester sound different from a cat in Spain?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 5232,
+      "ep": "ep_525",
+      "cluster": 51,
+      "dist": 6.7096,
+      "question": "What is the origin of ships in glass bottles?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 72,
+      "ep": "ep_007",
+      "cluster": 72,
+      "dist": 6.6838,
+      "question": "What have bunnies and eggs got to do with Easter given it commemorates the crucifixion and resurrection of Jesus Christ?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5658,
+      "ep": "ep_565",
+      "cluster": 51,
+      "dist": 6.6542,
+      "question": "How far east do you have to go before the wind changes from east to west? How does it know when to turn?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1942,
+      "ep": "ep_207",
+      "cluster": 51,
+      "dist": 6.6281,
+      "question": "Where does weight go when you lose it? I've been thinking about this and I can't find an answer. When people say 'I've lost weight', where did it go?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2891,
+      "ep": "ep_305",
+      "cluster": 61,
+      "dist": 6.5067,
+      "question": "How do ants always manage to find food in the middle of nowhere?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2408,
+      "ep": "ep_257",
+      "cluster": 66,
+      "dist": 6.4978,
+      "question": "Why do boxers and wrestlers use belts and not trophies or another form of award? Most sports use trophies and cups but boxing and wrestling use belts.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1545,
+      "ep": "ep_166",
+      "cluster": 75,
+      "dist": 6.3759,
+      "question": "Why do you never forget how to ride a bike?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 3659,
+      "ep": "ep_379",
+      "cluster": 16,
+      "dist": 6.22,
+      "question": "Why do we call cats 'pussycats' instead of just cats? Where does 'pussy' come from?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5022,
+      "ep": "ep_505",
+      "cluster": 61,
+      "dist": 6.1696,
+      "question": "Where does all the mud and aggregate from Crossrail go? Where's it all going? They must have a massive mound somewhere.",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 5718,
+      "ep": "ep_570",
+      "cluster": 61,
+      "dist": 6.1344,
+      "question": "Why does the academic year start in September and finish in July, as opposed to starting in January like the calendar year?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3364,
+      "ep": "ep_352",
+      "cluster": 51,
+      "dist": 5.9854,
+      "question": "What's the process in your mind where you know something but can't access that information? Like recognizing music but not being able to pinpoint it?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 2609,
+      "ep": "ep_278",
+      "cluster": 75,
+      "dist": 5.9845,
+      "question": "I've often noticed that when music is played softly, it sounds out of tune. When it's played out of my phone and the volume isn't high enough, it sounds out of tune. Is this just me or is there a scientific reason?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3649,
+      "ep": "ep_378",
+      "cluster": 75,
+      "dist": 5.9088,
+      "question": "Why when you lick a lemon or grapefruit does your face contort on the LEFT side specifically? Why is it always the left side of the face that does the citrus wince?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 1762,
+      "ep": "ep_188",
+      "cluster": 13,
+      "dist": 5.8432,
+      "question": "Why do we blow out candles on a birthday cake and not anything else?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3361,
+      "ep": "ep_352",
+      "cluster": 8,
+      "dist": 5.7996,
+      "question": "Where is the proof that we're revolving around the sun? There's something called vortex theory where we're running around the tail of the sun.",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 4340,
+      "ep": "ep_441",
+      "cluster": 77,
+      "dist": 5.7867,
+      "question": "When does a pond become a lake? At what size does a puddle become a pond?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 187,
+      "ep": "ep_021",
+      "cluster": 13,
+      "dist": 5.7828,
+      "question": "Do animals actually get any enjoyment out of eating raw meat and leaves like we get dopamine from cake?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 1359,
+      "ep": "ep_147",
+      "cluster": 69,
+      "dist": 5.7635,
+      "question": "N/A - Answer about seedless grapes",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5349,
+      "ep": "ep_537",
+      "cluster": 75,
+      "dist": 5.7125,
+      "question": "If you buy a ticket to see a band on their 'farewell tour' or 'last ever show' and they reform 18 months, 2 years, or 10 years later, can you legally apply for a refund? Is there anything legally binding about the word 'farewell'?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 916,
+      "ep": "ep_101",
+      "cluster": 16,
+      "dist": 5.6621,
+      "question": "Why does smoke from a bonfire always seem to follow you around, even on a still day?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 4372,
+      "ep": "ep_444",
+      "cluster": 75,
+      "dist": 5.6296,
+      "question": "When a body dies, rigor mortis sets in after a few hours and everything stiffens up. How do we get juicy, soft chicken breasts, lamb legs and beef within hours? How is meat not affected by rigor mortis?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 4749,
+      "ep": "ep_481",
+      "cluster": 25,
+      "dist": 5.6206,
+      "question": "Why when you boil water twice and make a cup of tea with it does it taste completely different? It gets a furry taste.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3325,
+      "ep": "ep_349",
+      "cluster": 25,
+      "dist": 5.5865,
+      "question": "Who decided which words were acceptable and non-acceptable as swear words? At what point did something become offensive?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 2993,
+      "ep": "ep_316",
+      "cluster": 54,
+      "dist": 5.5762,
+      "question": "Why are those exercises called 'burpees'? It doesn't make you burp. And the gym instructor didn't know either.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4058,
+      "ep": "ep_415",
+      "cluster": 50,
+      "dist": 5.4995,
+      "question": "Where does the phrase 'look at you for the price of eggs' come from? My grandparents used to say it, my parents would say it.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5877,
+      "ep": "ep_583",
+      "cluster": 6,
+      "dist": 5.4923,
+      "question": "What does 'Bob's your uncle' refer to?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 4965,
+      "ep": "ep_499",
+      "cluster": 77,
+      "dist": 5.4752,
+      "question": "Why aren't there any solar panels on houses in Tenerife? I noticed on holiday in Grand Canary there were no solar panels on houses, but there are loads of wind turbines. It's quite sunny there, so there should be a proliferation of solar panels as well.",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 2629,
+      "ep": "ep_280",
+      "cluster": 75,
+      "dist": 5.4194,
+      "question": "Why don't I get hundreds of apples growing in the shadow of my apple tree? Every year that apple tree drops hundreds of apples.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1208,
+      "ep": "ep_132",
+      "cluster": 39,
+      "dist": 5.4018,
+      "question": "Why do running/athletic clubs always have 'harriers' at the end - e.g. Queen's Park Harriers, Sheffield Harriers, Kidderminster Harriers?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2283,
+      "ep": "ep_246",
+      "cluster": 73,
+      "dist": 5.3821,
+      "question": "What are the chemicals that water is made up of?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5185,
+      "ep": "ep_521",
+      "cluster": 46,
+      "dist": 5.3787,
+      "question": "How can airplanes possibly fly upside down?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 4687,
+      "ep": "ep_475",
+      "cluster": 76,
+      "dist": 5.3176,
+      "question": "When did John Wayne pull a pint at The Castle pub in Tooting? There's a picture behind the bar of him actually pulling a pint but nobody knows when he did it.",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 2417,
+      "ep": "ep_258",
+      "cluster": 51,
+      "dist": 5.2918,
+      "question": "Why are televisions not round?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 5061,
+      "ep": "ep_508",
+      "cluster": 66,
+      "dist": 5.2903,
+      "question": "Why is it when somebody gets stung by a mosquito bite that it's such a sweet, irresistible itch you can't resist but scratch it? But the more you scratch it, the more it hurts. Any other insect that you get bitten by doesn't hurt in the same way.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 676,
+      "ep": "ep_075",
+      "cluster": 13,
+      "dist": 5.2588,
+      "question": "What makes town pigeons look different from wood pigeons? Is it food, location, or something else that causes urban pigeons to change appearance? How long would it take a nice-looking wood pigeon to start looking rough in a town?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2516,
+      "ep": "ep_268",
+      "cluster": 51,
+      "dist": 5.231,
+      "question": "When a bag of satsumas goes mouldy, why does one go blue and the ones surrounding it not get affected at all? With apples or pears, they all go squishy at about the same rate. But with satsumas, a rogue outlier goes blue while the rest are fine.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 892,
+      "ep": "ep_098",
+      "cluster": 33,
+      "dist": 5.1915,
+      "question": "How would our tides change if we had two or three moons like some other planets?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 1964,
+      "ep": "ep_209",
+      "cluster": 46,
+      "dist": 5.1678,
+      "question": "Has there been a reduction in emergency gas call-outs since COVID, given that people lost their sense of smell (anosmia)?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 3153,
+      "ep": "ep_331",
+      "cluster": 46,
+      "dist": 5.1594,
+      "question": "Why do newsreaders and weather presenters talk in a different way than normal conversation? Is there some sort of course that's taught?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 3285,
+      "ep": "ep_344",
+      "cluster": 30,
+      "dist": 5.1266,
+      "question": "Is there a direct correlation between altitude and weight? If you weigh 12 stone at sea level, how much less would you weigh at 30,000 feet in an airliner? And if you went down into the Grand Canyon, would you weigh more?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3852,
+      "ep": "ep_397",
+      "cluster": 46,
+      "dist": 5.0993,
+      "question": "What happened to MI-1, 2, 3, and 4? Why do we only have MI-5 and MI-6?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3063,
+      "ep": "ep_323",
+      "cluster": 30,
+      "dist": 5.0954,
+      "question": "If my six-year-old child fell off a high building, and I immediately jumped off after them - because I'm heavier, I would fall faster and could catch them. Then just before hitting the ground, if I threw him upwards, would that save him? Would I need to sacrifice myself?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4969,
+      "ep": "ep_500",
+      "cluster": 48,
+      "dist": 5.0909,
+      "question": "When we get nervous, why is it that our stomach gets affected and we get butterflies, as opposed to any other part of our body?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1668,
+      "ep": "ep_178",
+      "cluster": 14,
+      "dist": 5.0784,
+      "question": "Why do we say 'first' and 'second' when they bear no resemblance to 'one' and 'two', but then we use 'third', 'fourth', 'fifth' which do correspond to 'three', 'four', 'five'?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2673,
+      "ep": "ep_284",
+      "cluster": 72,
+      "dist": 5.004,
+      "question": "If you've got a stutter and you're an English speaker, does that mean if you learn a foreign language you'll have a stutter in that as well because of tonal inflections and things like that?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5425,
+      "ep": "ep_544",
+      "cluster": 24,
+      "dist": 4.9944,
+      "question": "Why do we say the word 'up' when we do the washing up or dress up? It doesn't really make sense. Why does it not just 'do the washing'?",
+      "resolved": false,
+      "overturned": true
+    },
+    {
+      "q_idx": 5309,
+      "ep": "ep_532",
+      "cluster": 61,
+      "dist": 4.9875,
+      "question": "Does anyone have any legal authority over the moon? And what's the legal validity of owning a piece of moon that someone might sell you?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 823,
+      "ep": "ep_091",
+      "cluster": 24,
+      "dist": 4.9565,
+      "question": "When Rangers and Celtic play in Glasgow, why is it called the Old Firm Derby?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3872,
+      "ep": "ep_399",
+      "cluster": 9,
+      "dist": 4.9353,
+      "question": "Why do I get goosebumps when I listen to certain music?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5303,
+      "ep": "ep_532",
+      "cluster": 42,
+      "dist": 4.9294,
+      "question": "When you go out drinking, once you've been to the toilet once, you're forever back after every single drink. Everyone calls it breaking the seal. Is there an actual seal that gets broken in your body?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3147,
+      "ep": "ep_330",
+      "cluster": 10,
+      "dist": 4.9248,
+      "question": "Why is it harder to open a freezer door the second time round? You open it, take something out, shut it, then try to open it again and it's almost impossible.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3894,
+      "ep": "ep_401",
+      "cluster": 24,
+      "dist": 4.9191,
+      "question": "When I'm doing online banking and I'm paying someone money, how does the bank know that's correct? The pin-sensory machine isn't attached to the banking system.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4163,
+      "ep": "ep_424",
+      "cluster": 57,
+      "dist": 4.9173,
+      "question": "Why is toilet paper made up of two parts? Why not one sheet that's twice as thick?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4556,
+      "ep": "ep_461",
+      "cluster": 62,
+      "dist": 4.8771,
+      "question": "What does the 'O' signify in Irish surnames like O'Brien, O'Malley, O'Neill? What are its origins?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3202,
+      "ep": "ep_336",
+      "cluster": 69,
+      "dist": 4.8523,
+      "question": "Christmas Day, that date never changes. But why does Easter? Has to be on a Sunday. But that's it?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4875,
+      "ep": "ep_491",
+      "cluster": 8,
+      "dist": 4.8473,
+      "question": "If all cells renew themselves except brain cells, how do tattoos last?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3738,
+      "ep": "ep_387",
+      "cluster": 61,
+      "dist": 4.8408,
+      "question": "Why do pigeons bob their heads?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2335,
+      "ep": "ep_250",
+      "cluster": 24,
+      "dist": 4.8359,
+      "question": "When lightning strikes the sea, why doesn't everything in the sea die?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5606,
+      "ep": "ep_560",
+      "cluster": 9,
+      "dist": 4.8259,
+      "question": "Why can't power lines be buried underground in pipes like they've done along the canal in Camden Town?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 1147,
+      "ep": "ep_126",
+      "cluster": 8,
+      "dist": 4.8254,
+      "question": "Why are police officers known as coppers?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1016,
+      "ep": "ep_112",
+      "cluster": 71,
+      "dist": 4.8224,
+      "question": "Why is the extra day in a leap year added to February (the shortest month) rather than another month?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5188,
+      "ep": "ep_521",
+      "cluster": 8,
+      "dist": 4.8095,
+      "question": "Where does the children's song 'The Big Ship Sails on the Alley Alley Oop' originate from, and what does 'Alley Alley Oop' mean?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 1497,
+      "ep": "ep_161",
+      "cluster": 8,
+      "dist": 4.8004,
+      "question": "How is the average global temperature calculated? You need points to measure the temperature - are there satellites? Where do the measuring points come from?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2323,
+      "ep": "ep_249",
+      "cluster": 9,
+      "dist": 4.7817,
+      "question": "Why do colourful fish turn white when they die?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2292,
+      "ep": "ep_246",
+      "cluster": 33,
+      "dist": 4.7795,
+      "question": "Why do we have to mark our election ballot papers in pencil? Why are we not allowed to mark them in ink?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 5044,
+      "ep": "ep_507",
+      "cluster": 9,
+      "dist": 4.7571,
+      "question": "What is the origin of the term 'field day'? When someone finds gossip, why would they 'have a field day' with it?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 4786,
+      "ep": "ep_484",
+      "cluster": 9,
+      "dist": 4.7482,
+      "question": "Why do we call the end of a cigarette a dog end?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 3230,
+      "ep": "ep_339",
+      "cluster": 48,
+      "dist": 4.7461,
+      "question": "What is the 10-11 digit number that randomly appears at the top of the TV screen during live football matches on Sky Sports or BT Sport?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 4267,
+      "ep": "ep_433",
+      "cluster": 31,
+      "dist": 4.7447,
+      "question": "What time do astronauts use when they're in the ISS?",
+      "resolved": true,
+      "overturned": true
+    },
+    {
+      "q_idx": 5169,
+      "ep": "ep_519",
+      "cluster": 20,
+      "dist": 4.736,
+      "question": "Who decided the international dialing codes (like 0044 for UK, 001 for US)?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 272,
+      "ep": "ep_031",
+      "cluster": 0,
+      "dist": 4.7283,
+      "question": "Why do oak trees drop so many acorns but there aren't millions of oak trees everywhere? What's happening to all the acorns?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 3218,
+      "ep": "ep_337",
+      "cluster": 72,
+      "dist": 4.7097,
+      "question": "Sign language question - how does sign language accommodate new words like Brexit?",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 1947,
+      "ep": "ep_207",
+      "cluster": 78,
+      "dist": 4.7063,
+      "question": "Why does the Royal Coat of Arms have a unicorn on it? I noticed it for the first time watching the news last night.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 2878,
+      "ep": "ep_304",
+      "cluster": 8,
+      "dist": 4.6955,
+      "question": "Why are bathroom lights so loud when switched on or off? It's the one light you need to be the quietest and it's the loudest. You can't even do it quietly when you're half-asleep.",
+      "resolved": true,
+      "overturned": false
+    },
+    {
+      "q_idx": 598,
+      "ep": "ep_067",
+      "cluster": 24,
+      "dist": 4.6764,
+      "question": "What exactly is the noise that dial-up internet makes? What are you listening to when you hear that sound?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 4268,
+      "ep": "ep_433",
+      "cluster": 6,
+      "dist": 4.6763,
+      "question": "If you have a laser torch pen and point it at a television, can you do any damage to the television?",
+      "resolved": false,
+      "overturned": false
+    },
+    {
+      "q_idx": 2141,
+      "ep": "ep_229",
+      "cluster": 8,
+      "dist": 4.6734,
+      "question": "Does honey go off? I had some honey dated 21st April 2020 and it had hardened - how come it's not gone off?",
+      "resolved": true,
+      "overturned": false
+    }
+  ],
+  "summary": {
+    "mean_dist": 0.8949,
+    "std_dist": 1.2917
+  }
+}

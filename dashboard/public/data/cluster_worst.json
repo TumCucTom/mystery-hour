@@ -1,0 +1,2100 @@
+{
+  "ranked_clusters": [
+    {
+      "cluster": 63,
+      "label": "passport, passports, pencil, british, french",
+      "keywords": [
+        "passport",
+        "passports",
+        "pencil",
+        "british",
+        "french"
+      ],
+      "total": 30,
+      "resolved": 19,
+      "overturned": 6,
+      "resolved_rate": 0.6333,
+      "overturned_rate": 0.2,
+      "examples": [
+        {
+          "q": "Where do robins originate from? And do robins migrate?",
+          "ep": "ep_246"
+        },
+        {
+          "q": "Why does your skin get wrinkly in the water after your bath?",
+          "ep": "ep_254"
+        }
+      ]
+    },
+    {
+      "cluster": 41,
+      "label": "spider, spiders, another, across, conkers",
+      "keywords": [
+        "spider",
+        "spiders",
+        "another",
+        "across",
+        "conkers"
+      ],
+      "total": 37,
+      "resolved": 25,
+      "overturned": 7,
+      "resolved_rate": 0.6757,
+      "overturned_rate": 0.1892,
+      "examples": [
+        {
+          "q": "Can giraffes swim? Even if they could, the neck is so long that it would almost tip them upside down",
+          "ep": "ep_173"
+        },
+        {
+          "q": "Why do we have chins?",
+          "ep": "ep_345"
+        }
+      ]
+    },
+    {
+      "cluster": 70,
+      "label": "cabinet, right, democrats, tories, world",
+      "keywords": [
+        "cabinet",
+        "right",
+        "democrats",
+        "tories",
+        "world"
+      ],
+      "total": 16,
+      "resolved": 14,
+      "overturned": 3,
+      "resolved_rate": 0.875,
+      "overturned_rate": 0.1875,
+      "examples": [
+        {
+          "q": "Why is cotton wool called cotton wool if it's 100% cotton and 0% wool?",
+          "ep": "ep_251"
+        },
+        {
+          "q": "Do pre-talking babies in the babbling phase know what they're saying, or is it completely random?",
+          "ep": "ep_258"
+        }
+      ]
+    },
+    {
+      "cluster": 64,
+      "label": "growing, certain, years, older, genetic",
+      "keywords": [
+        "growing",
+        "certain",
+        "years",
+        "older",
+        "genetic"
+      ],
+      "total": 65,
+      "resolved": 52,
+      "overturned": 11,
+      "resolved_rate": 0.8,
+      "overturned_rate": 0.1692,
+      "examples": [
+        {
+          "q": "Where is the deepest part of the ocean, and how do they know that? Surely not every nautical mile of",
+          "ep": "ep_127"
+        },
+        {
+          "q": "Do farm animals have friends?",
+          "ep": "ep_142"
+        }
+      ]
+    },
+    {
+      "cluster": 56,
+      "label": "light, electricity, electric, batteries, battery",
+      "keywords": [
+        "light",
+        "electricity",
+        "electric",
+        "batteries",
+        "battery"
+      ],
+      "total": 80,
+      "resolved": 58,
+      "overturned": 13,
+      "resolved_rate": 0.725,
+      "overturned_rate": 0.1625,
+      "examples": [
+        {
+          "q": "If fruit doesn't taste very good, even though it's ripe and in season, will it have the same nutriti",
+          "ep": "ep_094"
+        },
+        {
+          "q": "Do cats need to have sunshine to get their daily dose of vitamin D? My cat never goes outside.",
+          "ep": "ep_211"
+        }
+      ]
+    },
+    {
+      "cluster": 61,
+      "label": "french, female, gender, masculine, feminine",
+      "keywords": [
+        "french",
+        "female",
+        "gender",
+        "masculine",
+        "feminine"
+      ],
+      "total": 37,
+      "resolved": 31,
+      "overturned": 6,
+      "resolved_rate": 0.8378,
+      "overturned_rate": 0.1622,
+      "examples": [
+        {
+          "q": "Why do spectacles never blow off in high winds when everything else gets damaged - wagons turning ov",
+          "ep": "ep_014"
+        },
+        {
+          "q": "Why does holding a car key fob to your temple make it work better from further away?",
+          "ep": "ep_164"
+        }
+      ]
+    },
+    {
+      "cluster": 65,
+      "label": "number, numbers, bottom, telephone, keyboard",
+      "keywords": [
+        "number",
+        "numbers",
+        "bottom",
+        "telephone",
+        "keyboard"
+      ],
+      "total": 63,
+      "resolved": 52,
+      "overturned": 10,
+      "resolved_rate": 0.8254,
+      "overturned_rate": 0.1587,
+      "examples": [
+        {
+          "q": "Why are swimming lanes numbered 1 to 8 from right to left (with lane 1 on the far right and lane 8 o",
+          "ep": "ep_212"
+        },
+        {
+          "q": "Why do mushy peas come in a smaller can compared to other canned products like beans?",
+          "ep": "ep_290"
+        }
+      ]
+    },
+    {
+      "cluster": 31,
+      "label": "degrees, temperature, summer, colder, winter",
+      "keywords": [
+        "degrees",
+        "temperature",
+        "summer",
+        "colder",
+        "winter"
+      ],
+      "total": 76,
+      "resolved": 55,
+      "overturned": 12,
+      "resolved_rate": 0.7237,
+      "overturned_rate": 0.1579,
+      "examples": [
+        {
+          "q": "Who invented the first suit and tie to make it acceptable? Why have we kept the same style of suits ",
+          "ep": "ep_022"
+        },
+        {
+          "q": "What's the purpose of the patch/pocket thing inside my jacket? It's a piece of cloth sewn on both si",
+          "ep": "ep_029"
+        }
+      ]
+    },
+    {
+      "cluster": 69,
+      "label": "space, earth, gravity, happens, astronauts",
+      "keywords": [
+        "space",
+        "earth",
+        "gravity",
+        "happens",
+        "astronauts"
+      ],
+      "total": 95,
+      "resolved": 72,
+      "overturned": 15,
+      "resolved_rate": 0.7579,
+      "overturned_rate": 0.1579,
+      "examples": [
+        {
+          "q": "My dad used to predict when a reel change was coming up during films - he'd say 'there's a dot comin",
+          "ep": "ep_046"
+        },
+        {
+          "q": "Is there an undisclosed weight limit on a flat? Can you put too much heavy stuff in a third floor fl",
+          "ep": "ep_056"
+        }
+      ]
+    },
+    {
+      "cluster": 71,
+      "label": "blood, happens, brain, transfusion, donate",
+      "keywords": [
+        "blood",
+        "happens",
+        "brain",
+        "transfusion",
+        "donate"
+      ],
+      "total": 46,
+      "resolved": 32,
+      "overturned": 7,
+      "resolved_rate": 0.6957,
+      "overturned_rate": 0.1522,
+      "examples": [
+        {
+          "q": "In America where all denominations are the same size, how do blind people know what they're paying w",
+          "ep": "ep_101"
+        },
+        {
+          "q": "What animal grows the most relative to its birth weight? (Biggest differential between birth weight ",
+          "ep": "ep_235"
+        }
+      ]
+    },
+    {
+      "cluster": 43,
+      "label": "birthday, people, candles, celebrate, wedding",
+      "keywords": [
+        "birthday",
+        "people",
+        "candles",
+        "celebrate",
+        "wedding"
+      ],
+      "total": 33,
+      "resolved": 26,
+      "overturned": 5,
+      "resolved_rate": 0.7879,
+      "overturned_rate": 0.1515,
+      "examples": [
+        {
+          "q": "Why is arachnophobia commonly regarded as the most common phobia? Why are we largely afraid of spide",
+          "ep": "ep_094"
+        },
+        {
+          "q": "What was the difference between a duvet and an eiderdown? (From earlier in the week - staff at Winds",
+          "ep": "ep_439"
+        }
+      ]
+    },
+    {
+      "cluster": 24,
+      "label": "beard, women, people, white, shave",
+      "keywords": [
+        "beard",
+        "women",
+        "people",
+        "white",
+        "shave"
+      ],
+      "total": 60,
+      "resolved": 42,
+      "overturned": 9,
+      "resolved_rate": 0.7,
+      "overturned_rate": 0.15,
+      "examples": [
+        {
+          "q": "Why do tattoos hurt more on my right side than my left side? My chest, back and ribs all hurt more o",
+          "ep": "ep_027"
+        },
+        {
+          "q": "Why does the sound of water from the tap change as it gets warmer? Hot water sounds softer than cold",
+          "ep": "ep_100"
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "label": "water, bubbles, bottle, different, glass",
+      "keywords": [
+        "water",
+        "bubbles",
+        "bottle",
+        "different",
+        "glass"
+      ],
+      "total": 55,
+      "resolved": 44,
+      "overturned": 8,
+      "resolved_rate": 0.8,
+      "overturned_rate": 0.1455,
+      "examples": [
+        {
+          "q": "How do football players, in the middle of a football match, hold it when they're really desperate fo",
+          "ep": "ep_153"
+        },
+        {
+          "q": "When a song or a composition is described as being in an uncertain key, what does it mean? What is a",
+          "ep": "ep_202"
+        }
+      ]
+    },
+    {
+      "cluster": 78,
+      "label": "colour, yellow, white, black, orange",
+      "keywords": [
+        "colour",
+        "yellow",
+        "white",
+        "black",
+        "orange"
+      ],
+      "total": 50,
+      "resolved": 35,
+      "overturned": 7,
+      "resolved_rate": 0.7,
+      "overturned_rate": 0.14,
+      "examples": [
+        {
+          "q": "Why do seas have different levels of saltiness?",
+          "ep": "ep_182"
+        },
+        {
+          "q": "Why do we capitalise the letter I in English when no other languages do the same?",
+          "ep": "ep_230"
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "label": "sleep, asleep, sneeze, night, morning",
+      "keywords": [
+        "sleep",
+        "asleep",
+        "sneeze",
+        "night",
+        "morning"
+      ],
+      "total": 87,
+      "resolved": 69,
+      "overturned": 12,
+      "resolved_rate": 0.7931,
+      "overturned_rate": 0.1379,
+      "examples": [
+        {
+          "q": "Why don't commercial hand dryers exist for residential houses?",
+          "ep": "ep_056"
+        },
+        {
+          "q": "Why does a biscuit soak up hot tea more effectively than tepid or lukewarm tea?",
+          "ep": "ep_132"
+        }
+      ]
+    },
+    {
+      "cluster": 76,
+      "label": "mirror, light, people, blind, glasses",
+      "keywords": [
+        "mirror",
+        "light",
+        "people",
+        "blind",
+        "glasses"
+      ],
+      "total": 87,
+      "resolved": 61,
+      "overturned": 12,
+      "resolved_rate": 0.7011,
+      "overturned_rate": 0.1379,
+      "examples": [
+        {
+          "q": "Why don't we recall smells from dreams? It's always auditory or mainly visual. Rarely, if ever, is i",
+          "ep": "ep_094"
+        },
+        {
+          "q": "Why do some ancient manuscripts have to be handled with gloves and some don't?",
+          "ep": "ep_100"
+        }
+      ]
+    },
+    {
+      "cluster": 21,
+      "label": "earth, world, around, stars, space",
+      "keywords": [
+        "earth",
+        "world",
+        "around",
+        "stars",
+        "space"
+      ],
+      "total": 119,
+      "resolved": 94,
+      "overturned": 16,
+      "resolved_rate": 0.7899,
+      "overturned_rate": 0.1345,
+      "examples": [
+        {
+          "q": "Do they breed frogs specifically for frog's legs in France? And what do they do with the rest of the",
+          "ep": "ep_068"
+        },
+        {
+          "q": "In multi-cat households, do the cats talk to one another? Do they have conversations?",
+          "ep": "ep_158"
+        }
+      ]
+    },
+    {
+      "cluster": 75,
+      "label": "lions, animals, catnip, respond, makes",
+      "keywords": [
+        "lions",
+        "animals",
+        "catnip",
+        "respond",
+        "makes"
+      ],
+      "total": 61,
+      "resolved": 45,
+      "overturned": 8,
+      "resolved_rate": 0.7377,
+      "overturned_rate": 0.1311,
+      "examples": [
+        {
+          "q": "Why does the UK still use miles per hour on road signs when we went metric in 1967/1969?",
+          "ep": "ep_021"
+        },
+        {
+          "q": "Why does pain ease when you touch it? When we bang something, the instant reaction is to put our han",
+          "ep": "ep_158"
+        }
+      ]
+    },
+    {
+      "cluster": 37,
+      "label": "green, downs, referred, white, known",
+      "keywords": [
+        "green",
+        "downs",
+        "referred",
+        "white",
+        "known"
+      ],
+      "total": 138,
+      "resolved": 106,
+      "overturned": 18,
+      "resolved_rate": 0.7681,
+      "overturned_rate": 0.1304,
+      "examples": [
+        {
+          "q": "What is the difference between a pole and a post? Why do we say lamppost, signpost, but telegraph po",
+          "ep": "ep_010"
+        },
+        {
+          "q": "Is it cost effective to make a 1 penny piece? Does it cost more to make than what it's actually wort",
+          "ep": "ep_050"
+        }
+      ]
+    },
+    {
+      "cluster": 57,
+      "label": "fridge, freezer, frozen, water, defrost",
+      "keywords": [
+        "fridge",
+        "freezer",
+        "frozen",
+        "water",
+        "defrost"
+      ],
+      "total": 62,
+      "resolved": 48,
+      "overturned": 8,
+      "resolved_rate": 0.7742,
+      "overturned_rate": 0.129,
+      "examples": [
+        {
+          "q": "Why do chameleons change to different colours of objects that come close by?",
+          "ep": "ep_163"
+        },
+        {
+          "q": "Why do priests wear dog collars? And why is it called a dog collar?",
+          "ep": "ep_166"
+        }
+      ]
+    },
+    {
+      "cluster": 17,
+      "label": "colour, white, green, black, colours",
+      "keywords": [
+        "colour",
+        "white",
+        "green",
+        "black",
+        "colours"
+      ],
+      "total": 94,
+      "resolved": 73,
+      "overturned": 12,
+      "resolved_rate": 0.7766,
+      "overturned_rate": 0.1277,
+      "examples": [
+        {
+          "q": "Why don't ants get injured when they are flicked off desks? They land, think about it for a minute, ",
+          "ep": "ep_045"
+        },
+        {
+          "q": "Why does the moon always face the earth? Is it just luck that it turns precisely once every 28.2 day",
+          "ep": "ep_068"
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "label": "cards, queen, facing, first, right",
+      "keywords": [
+        "cards",
+        "queen",
+        "facing",
+        "first",
+        "right"
+      ],
+      "total": 63,
+      "resolved": 48,
+      "overturned": 8,
+      "resolved_rate": 0.7619,
+      "overturned_rate": 0.127,
+      "examples": [
+        {
+          "q": "Why do ice cream vans play Greensleeves?",
+          "ep": "ep_315"
+        },
+        {
+          "q": "Why is stainless steel called stainless if it does stain?",
+          "ep": "ep_332"
+        }
+      ]
+    },
+    {
+      "cluster": 54,
+      "label": "water, level, ocean, become, beach",
+      "keywords": [
+        "water",
+        "level",
+        "ocean",
+        "become",
+        "beach"
+      ],
+      "total": 111,
+      "resolved": 79,
+      "overturned": 14,
+      "resolved_rate": 0.7117,
+      "overturned_rate": 0.1261,
+      "examples": [
+        {
+          "q": "When a man ascends to the throne, he gets a queen. When a woman ascends to the throne, her husband d",
+          "ep": "ep_023"
+        },
+        {
+          "q": "Why do we describe it as having beef with people? My daughter uses this term at school.",
+          "ep": "ep_062"
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "label": "trousers, jacket, front, shirts, women",
+      "keywords": [
+        "trousers",
+        "jacket",
+        "front",
+        "shirts",
+        "women"
+      ],
+      "total": 88,
+      "resolved": 66,
+      "overturned": 11,
+      "resolved_rate": 0.75,
+      "overturned_rate": 0.125,
+      "examples": [
+        {
+          "q": "How does glow in the dark work? The emergency exit signs and stars on ceilings - how does that work ",
+          "ep": "ep_103"
+        },
+        {
+          "q": "Where do the bullets go when people shoot AK-47s in the air in celebration? Is it unsafe?",
+          "ep": "ep_166"
+        }
+      ]
+    },
+    {
+      "cluster": 34,
+      "label": "doors, front, windows, houses, metal",
+      "keywords": [
+        "doors",
+        "front",
+        "windows",
+        "houses",
+        "metal"
+      ],
+      "total": 88,
+      "resolved": 72,
+      "overturned": 11,
+      "resolved_rate": 0.8182,
+      "overturned_rate": 0.125,
+      "examples": [
+        {
+          "q": "Why do choreographers and dancers start things with '5, 6, 7, 8' instead of '1, 2, 3, 4' like bands ",
+          "ep": "ep_056"
+        },
+        {
+          "q": "Why do we say someone has 'kicked the bucket' when they die?",
+          "ep": "ep_264"
+        }
+      ]
+    },
+    {
+      "cluster": 79,
+      "label": "traffic, roads, speed, roundabout, seatbelts",
+      "keywords": [
+        "traffic",
+        "roads",
+        "speed",
+        "roundabout",
+        "seatbelts"
+      ],
+      "total": 90,
+      "resolved": 66,
+      "overturned": 11,
+      "resolved_rate": 0.7333,
+      "overturned_rate": 0.1222,
+      "examples": [
+        {
+          "q": "How does deja vu work?",
+          "ep": "ep_021"
+        },
+        {
+          "q": "How do toenails or fingernails grow back when they've been removed completely? Is there a root or fo",
+          "ep": "ep_160"
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "label": "people, babies, makes, evolutionary, feeling",
+      "keywords": [
+        "people",
+        "babies",
+        "makes",
+        "evolutionary",
+        "feeling"
+      ],
+      "total": 115,
+      "resolved": 86,
+      "overturned": 14,
+      "resolved_rate": 0.7478,
+      "overturned_rate": 0.1217,
+      "examples": [
+        {
+          "q": "Why is one side of a bar of soap soft and the other side hard?",
+          "ep": "ep_116"
+        },
+        {
+          "q": "Are spiders scared of conkers? Are they repelled? Do conkers keep spiders away?",
+          "ep": "ep_193"
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "label": "crane, building, house, cranes, buildings",
+      "keywords": [
+        "crane",
+        "building",
+        "house",
+        "cranes",
+        "buildings"
+      ],
+      "total": 107,
+      "resolved": 74,
+      "overturned": 13,
+      "resolved_rate": 0.6916,
+      "overturned_rate": 0.1215,
+      "examples": [
+        {
+          "q": "When you're sitting on a plane on the runway accelerating before takeoff, you feel pushed back in yo",
+          "ep": "ep_073"
+        },
+        {
+          "q": "Why can I not buy blackberry jam in the supermarket?",
+          "ep": "ep_086"
+        }
+      ]
+    },
+    {
+      "cluster": 44,
+      "label": "radio, people, adverts, watershed, phones",
+      "keywords": [
+        "radio",
+        "people",
+        "adverts",
+        "watershed",
+        "phones"
+      ],
+      "total": 58,
+      "resolved": 44,
+      "overturned": 7,
+      "resolved_rate": 0.7586,
+      "overturned_rate": 0.1207,
+      "examples": [
+        {
+          "q": "Why is a hot dog called a hot dog?",
+          "ep": "ep_167"
+        },
+        {
+          "q": "What is the fundamental reason for the BODMAS rule in mathematics? Why does multiplication come befo",
+          "ep": "ep_198"
+        }
+      ]
+    },
+    {
+      "cluster": 36,
+      "label": "water, mouth, teeth, taste, drink",
+      "keywords": [
+        "water",
+        "mouth",
+        "teeth",
+        "taste",
+        "drink"
+      ],
+      "total": 43,
+      "resolved": 35,
+      "overturned": 5,
+      "resolved_rate": 0.814,
+      "overturned_rate": 0.1163,
+      "examples": [
+        {
+          "q": "If the source of a river is a trickle like a spring, and the mouth is massive, where does all the wa",
+          "ep": "ep_101"
+        },
+        {
+          "q": "What shape is a slice of pizza?",
+          "ep": "ep_160"
+        }
+      ]
+    },
+    {
+      "cluster": 26,
+      "label": "money, million, coins, currency, worth",
+      "keywords": [
+        "money",
+        "million",
+        "coins",
+        "currency",
+        "worth"
+      ],
+      "total": 95,
+      "resolved": 66,
+      "overturned": 11,
+      "resolved_rate": 0.6947,
+      "overturned_rate": 0.1158,
+      "examples": [
+        {
+          "q": "Why are the numbers on a dartboard in the order that they're in?",
+          "ep": "ep_101"
+        },
+        {
+          "q": "What is the most valuable liquid? We were having a conversation at work. I was speculating whether t",
+          "ep": "ep_292"
+        }
+      ]
+    },
+    {
+      "cluster": 50,
+      "label": "royalties, court, years, mystery, actually",
+      "keywords": [
+        "royalties",
+        "court",
+        "years",
+        "mystery",
+        "actually"
+      ],
+      "total": 72,
+      "resolved": 54,
+      "overturned": 8,
+      "resolved_rate": 0.75,
+      "overturned_rate": 0.1111,
+      "examples": [
+        {
+          "q": "Where did the urban myth about swimming pools having chemicals that would turn red if you urinated i",
+          "ep": "ep_056"
+        },
+        {
+          "q": "Why does a car key fob work from far away when you put it to your head and look at your car, but not",
+          "ep": "ep_075"
+        }
+      ]
+    },
+    {
+      "cluster": 16,
+      "label": "first, start, become, origin, decided",
+      "keywords": [
+        "first",
+        "start",
+        "become",
+        "origin",
+        "decided"
+      ],
+      "total": 81,
+      "resolved": 63,
+      "overturned": 9,
+      "resolved_rate": 0.7778,
+      "overturned_rate": 0.1111,
+      "examples": [
+        {
+          "q": "When you look at a shooting star going across the sky, can you see them if they're coming directly a",
+          "ep": "ep_100"
+        },
+        {
+          "q": "Why does smoke from a bonfire always seem to follow you around, even on a still day?",
+          "ep": "ep_101"
+        }
+      ]
+    },
+    {
+      "cluster": 12,
+      "label": "",
+      "keywords": [],
+      "total": 18,
+      "resolved": 10,
+      "overturned": 2,
+      "resolved_rate": 0.5556,
+      "overturned_rate": 0.1111,
+      "examples": [
+        {
+          "q": "If I knew sign language and met someone from Scotland, would I understand them? Do different regions",
+          "ep": "ep_210"
+        },
+        {
+          "q": "Why can't you buy duck or pork stock? In every supermarket I've ever been in, I've never seen pork s",
+          "ep": "ep_477"
+        }
+      ]
+    },
+    {
+      "cluster": 45,
+      "label": "number, numbers, phone, mobile, emergency",
+      "keywords": [
+        "number",
+        "numbers",
+        "phone",
+        "mobile",
+        "emergency"
+      ],
+      "total": 91,
+      "resolved": 68,
+      "overturned": 10,
+      "resolved_rate": 0.7473,
+      "overturned_rate": 0.1099,
+      "examples": [
+        {
+          "q": "What is the purpose of a bubble on a bubble hat?",
+          "ep": "ep_012"
+        },
+        {
+          "q": "Do the back pockets on jeans stay the same size regardless of waist size? I saw an American man pour",
+          "ep": "ep_031"
+        }
+      ]
+    },
+    {
+      "cluster": 15,
+      "label": "bottles, alcohol, bottle, drinks, drink",
+      "keywords": [
+        "bottles",
+        "alcohol",
+        "bottle",
+        "drinks",
+        "drink"
+      ],
+      "total": 83,
+      "resolved": 66,
+      "overturned": 9,
+      "resolved_rate": 0.7952,
+      "overturned_rate": 0.1084,
+      "examples": [
+        {
+          "q": "Why does aerosol deodorant always come out cold, even when it's been sitting in a hot car? The steer",
+          "ep": "ep_215"
+        },
+        {
+          "q": "We have the Royal Navy and the Royal Air Force, but why is it just the British Army and not the Roya",
+          "ep": "ep_278"
+        }
+      ]
+    },
+    {
+      "cluster": 33,
+      "label": "animals, humans, species, mammals, human",
+      "keywords": [
+        "animals",
+        "humans",
+        "species",
+        "mammals",
+        "human"
+      ],
+      "total": 120,
+      "resolved": 82,
+      "overturned": 13,
+      "resolved_rate": 0.6833,
+      "overturned_rate": 0.1083,
+      "examples": [
+        {
+          "q": "Are the swans in Skiathos, Greece owned by the British King like UK swans?",
+          "ep": "ep_021"
+        },
+        {
+          "q": "On a plane, sometimes the flag is printed back to front. Why are the flags printed back to front on ",
+          "ep": "ep_102"
+        }
+      ]
+    },
+    {
+      "cluster": 73,
+      "label": "flies, insects, flying, night, light",
+      "keywords": [
+        "flies",
+        "insects",
+        "flying",
+        "night",
+        "light"
+      ],
+      "total": 111,
+      "resolved": 77,
+      "overturned": 12,
+      "resolved_rate": 0.6937,
+      "overturned_rate": 0.1081,
+      "examples": [
+        {
+          "q": "When clearing bubbles from a bubble bath with the shower, why does cold water disperse bubbles much ",
+          "ep": "ep_017"
+        },
+        {
+          "q": "Why can nobody ever scratch the right spot when you have an itch on your back?",
+          "ep": "ep_021"
+        }
+      ]
+    },
+    {
+      "cluster": 32,
+      "label": "water, drink, coffee, spoon, drinking",
+      "keywords": [
+        "water",
+        "drink",
+        "coffee",
+        "spoon",
+        "drinking"
+      ],
+      "total": 74,
+      "resolved": 53,
+      "overturned": 8,
+      "resolved_rate": 0.7162,
+      "overturned_rate": 0.1081,
+      "examples": [
+        {
+          "q": "In Korea, one of the most popular surnames is Lee. However, Korean people don't say Lee, they say Re",
+          "ep": "ep_048"
+        },
+        {
+          "q": "Is there any British manufactured car that's ever been manufactured, made and sold in Britain that i",
+          "ep": "ep_295"
+        }
+      ]
+    },
+    {
+      "cluster": 66,
+      "label": "earth, stars, planets, rotate, moons",
+      "keywords": [
+        "earth",
+        "stars",
+        "planets",
+        "rotate",
+        "moons"
+      ],
+      "total": 56,
+      "resolved": 41,
+      "overturned": 6,
+      "resolved_rate": 0.7321,
+      "overturned_rate": 0.1071,
+      "examples": [
+        {
+          "q": "Why do young children pick their noses and eat the results? Is there an evolutionary reason?",
+          "ep": "ep_027"
+        },
+        {
+          "q": "Why is the phrase 'double Dutch' used to mean nonsense? Why Dutch rather than French, Italian or Spa",
+          "ep": "ep_150"
+        }
+      ]
+    },
+    {
+      "cluster": 49,
+      "label": "smell, breathe, different, smells, sense",
+      "keywords": [
+        "smell",
+        "breathe",
+        "different",
+        "smells",
+        "sense"
+      ],
+      "total": 56,
+      "resolved": 39,
+      "overturned": 6,
+      "resolved_rate": 0.6964,
+      "overturned_rate": 0.1071,
+      "examples": [
+        {
+          "q": "When cremated people with metal hips, gold teeth, etc., what happens to those metal bits that don't ",
+          "ep": "ep_101"
+        },
+        {
+          "q": "Why is it that when you've had a deep sleep, you wake up with really puffy eyes and puffy face, yet ",
+          "ep": "ep_343"
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "label": "different, clocks, month, february, months",
+      "keywords": [
+        "different",
+        "clocks",
+        "month",
+        "february",
+        "months"
+      ],
+      "total": 94,
+      "resolved": 69,
+      "overturned": 10,
+      "resolved_rate": 0.734,
+      "overturned_rate": 0.1064,
+      "examples": [
+        {
+          "q": "What is Flying Ant Day? Where do all the flying ants come from and why?",
+          "ep": "ep_168"
+        },
+        {
+          "q": "Why do coins have dates on them but banknotes don't?",
+          "ep": "ep_364"
+        }
+      ]
+    },
+    {
+      "cluster": 23,
+      "label": "right, handed, finger, people, different",
+      "keywords": [
+        "right",
+        "handed",
+        "finger",
+        "people",
+        "different"
+      ],
+      "total": 66,
+      "resolved": 46,
+      "overturned": 7,
+      "resolved_rate": 0.697,
+      "overturned_rate": 0.1061,
+      "examples": [
+        {
+          "q": "Relative to its size, what is the loudest animal? If we were all the same size, what would make the ",
+          "ep": "ep_033"
+        },
+        {
+          "q": "Why can't horses vomit or be sick? If they eat something bad, how do they get rid of it?",
+          "ep": "ep_168"
+        }
+      ]
+    },
+    {
+      "cluster": 72,
+      "label": "chicken, chickens, turkey, sperm, white",
+      "keywords": [
+        "chicken",
+        "chickens",
+        "turkey",
+        "sperm",
+        "white"
+      ],
+      "total": 57,
+      "resolved": 39,
+      "overturned": 6,
+      "resolved_rate": 0.6842,
+      "overturned_rate": 0.1053,
+      "examples": [
+        {
+          "q": "Where does the term 'dog tag' come from as regards ID tags worn by soldiers?",
+          "ep": "ep_358"
+        },
+        {
+          "q": "Why don't babies have nasal hairs? Babies don't have an advanced immune system, and nasal hairs are ",
+          "ep": "ep_376"
+        }
+      ]
+    },
+    {
+      "cluster": 52,
+      "label": "birds, pigeons, seagulls, around, pigeon",
+      "keywords": [
+        "birds",
+        "pigeons",
+        "seagulls",
+        "around",
+        "pigeon"
+      ],
+      "total": 124,
+      "resolved": 91,
+      "overturned": 13,
+      "resolved_rate": 0.7339,
+      "overturned_rate": 0.1048,
+      "examples": [
+        {
+          "q": "Where does all the rubber from car tyres go? It's not at the side of the road.",
+          "ep": "ep_160"
+        },
+        {
+          "q": "Why are drag queens called drag queens? Where does the word 'drag' come from?",
+          "ep": "ep_194"
+        }
+      ]
+    },
+    {
+      "cluster": 42,
+      "label": "fruit, supermarket, pepper, plastic, vegetable",
+      "keywords": [
+        "fruit",
+        "supermarket",
+        "pepper",
+        "plastic",
+        "vegetable"
+      ],
+      "total": 67,
+      "resolved": 52,
+      "overturned": 7,
+      "resolved_rate": 0.7761,
+      "overturned_rate": 0.1045,
+      "examples": [
+        {
+          "q": "If you leave paddling pool water in the pool for too long, it grows algae. Can this happen to a bath",
+          "ep": "ep_251"
+        },
+        {
+          "q": "What was the first puzzle ever invented?",
+          "ep": "ep_410"
+        }
+      ]
+    },
+    {
+      "cluster": 47,
+      "label": "queen, royal, prince, throne, family",
+      "keywords": [
+        "queen",
+        "royal",
+        "prince",
+        "throne",
+        "family"
+      ],
+      "total": 68,
+      "resolved": 54,
+      "overturned": 7,
+      "resolved_rate": 0.7941,
+      "overturned_rate": 0.1029,
+      "examples": [
+        {
+          "q": "Why is there only one species of people when other animals (dogs, cats, flies) have many different t",
+          "ep": "ep_061"
+        },
+        {
+          "q": "Why are about 90% of humans right-handed? What is the evolutionary advantage when our nearest relati",
+          "ep": "ep_212"
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "label": "number, numbers, three, eight, seven",
+      "keywords": [
+        "number",
+        "numbers",
+        "three",
+        "eight",
+        "seven"
+      ],
+      "total": 79,
+      "resolved": 57,
+      "overturned": 8,
+      "resolved_rate": 0.7215,
+      "overturned_rate": 0.1013,
+      "examples": [
+        {
+          "q": "Why do we stand on the right side of travelators and walk on the left? Since we drive on the left an",
+          "ep": "ep_019"
+        },
+        {
+          "q": "Why do hospital gowns do up at the back instead of the front?",
+          "ep": "ep_056"
+        }
+      ]
+    },
+    {
+      "cluster": 13,
+      "label": "countries, country, royal, world, national",
+      "keywords": [
+        "countries",
+        "country",
+        "royal",
+        "world",
+        "national"
+      ],
+      "total": 89,
+      "resolved": 70,
+      "overturned": 9,
+      "resolved_rate": 0.7865,
+      "overturned_rate": 0.1011,
+      "examples": [
+        {
+          "q": "Do animals actually get any enjoyment out of eating raw meat and leaves like we get dopamine from ca",
+          "ep": "ep_021"
+        },
+        {
+          "q": "Why did men en masse stop wearing hats? Everyone wore them in pictures from 1900s-50s, it was classl",
+          "ep": "ep_038"
+        }
+      ]
+    },
+    {
+      "cluster": 68,
+      "label": "clockwise, speed, faster, track, around",
+      "keywords": [
+        "clockwise",
+        "speed",
+        "faster",
+        "track",
+        "around"
+      ],
+      "total": 81,
+      "resolved": 51,
+      "overturned": 8,
+      "resolved_rate": 0.6296,
+      "overturned_rate": 0.0988,
+      "examples": [
+        {
+          "q": "How come a surgeon isn't a doctor? I had an appointment with who I thought was a doctor, but he was ",
+          "ep": "ep_087"
+        },
+        {
+          "q": "Why are barges square instead of having pointed edges like ships? It would be easier to go through t",
+          "ep": "ep_297"
+        }
+      ]
+    },
+    {
+      "cluster": 58,
+      "label": "animals, humans, animal, human, actually",
+      "keywords": [
+        "animals",
+        "humans",
+        "animal",
+        "human",
+        "actually"
+      ],
+      "total": 102,
+      "resolved": 81,
+      "overturned": 10,
+      "resolved_rate": 0.7941,
+      "overturned_rate": 0.098,
+      "examples": [
+        {
+          "q": "Where do earthworms go during summer when the ground is dry and hard?",
+          "ep": "ep_021"
+        },
+        {
+          "q": "Where do space rocket boosters go after launch? When the Amazon pod lands, where are the boosters? A",
+          "ep": "ep_047"
+        }
+      ]
+    },
+    {
+      "cluster": 14,
+      "label": "taste, fruit, stomach, sugar, human",
+      "keywords": [
+        "taste",
+        "fruit",
+        "stomach",
+        "sugar",
+        "human"
+      ],
+      "total": 113,
+      "resolved": 75,
+      "overturned": 11,
+      "resolved_rate": 0.6637,
+      "overturned_rate": 0.0973,
+      "examples": [
+        {
+          "q": "What do you call a female priest? A male priest is a father. What title is a female priest?",
+          "ep": "ep_094"
+        },
+        {
+          "q": "My Irish neighbour tells me that 'O' as in O'Brien is to express surprise. Is that true?",
+          "ep": "ep_125"
+        }
+      ]
+    },
+    {
+      "cluster": 22,
+      "label": "words, english, letter, letters, people",
+      "keywords": [
+        "words",
+        "english",
+        "letter",
+        "letters",
+        "people"
+      ],
+      "total": 127,
+      "resolved": 95,
+      "overturned": 12,
+      "resolved_rate": 0.748,
+      "overturned_rate": 0.0945,
+      "examples": [
+        {
+          "q": "Who decides which direction satellites go in orbit when launched? How do they avoid all colliding wi",
+          "ep": "ep_011"
+        },
+        {
+          "q": "Does sweeping up fallen leaves from my tree each autumn and putting them in the garden recycling bin",
+          "ep": "ep_027"
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "label": "football, tennis, players, balls, sports",
+      "keywords": [
+        "football",
+        "tennis",
+        "players",
+        "balls",
+        "sports"
+      ],
+      "total": 129,
+      "resolved": 89,
+      "overturned": 12,
+      "resolved_rate": 0.6899,
+      "overturned_rate": 0.093,
+      "examples": [
+        {
+          "q": "Can butterflies and moths crossbreed?",
+          "ep": "ep_130"
+        },
+        {
+          "q": "Why is a banana more sinful to eat when it's mashed up than it is to eat it whole? On the Slimming W",
+          "ep": "ep_166"
+        }
+      ]
+    },
+    {
+      "cluster": 59,
+      "label": "breakfast, toast, bacon, dinner, english",
+      "keywords": [
+        "breakfast",
+        "toast",
+        "bacon",
+        "dinner",
+        "english"
+      ],
+      "total": 86,
+      "resolved": 60,
+      "overturned": 8,
+      "resolved_rate": 0.6977,
+      "overturned_rate": 0.093,
+      "examples": [
+        {
+          "q": "Why does cold water taste colder after eating a mint? Why does water seem to have a cooling effect a",
+          "ep": "ep_160"
+        },
+        {
+          "q": "How come mirrors only invert left and right (lateral inversion) but not up and down?",
+          "ep": "ep_168"
+        }
+      ]
+    },
+    {
+      "cluster": 46,
+      "label": "people, become, years, world, british",
+      "keywords": [
+        "people",
+        "become",
+        "years",
+        "world",
+        "british"
+      ],
+      "total": 76,
+      "resolved": 58,
+      "overturned": 7,
+      "resolved_rate": 0.7632,
+      "overturned_rate": 0.0921,
+      "examples": [
+        {
+          "q": "What happens to all the glass bottles we put out for recycling every week? Is it any good?",
+          "ep": "ep_123"
+        },
+        {
+          "q": "Why are royals known as blue-blooded?",
+          "ep": "ep_357"
+        }
+      ]
+    },
+    {
+      "cluster": 20,
+      "label": "police, happens, country, people, prison",
+      "keywords": [
+        "police",
+        "happens",
+        "country",
+        "people",
+        "prison"
+      ],
+      "total": 88,
+      "resolved": 62,
+      "overturned": 8,
+      "resolved_rate": 0.7045,
+      "overturned_rate": 0.0909,
+      "examples": [
+        {
+          "q": "Why does air from pursed lips (like blowing out birthday candles) feel cool, but saying 'ha' with an",
+          "ep": "ep_101"
+        },
+        {
+          "q": "Where did the 'ba-dum-tish' drum roll that follows jokes come from?",
+          "ep": "ep_221"
+        }
+      ]
+    },
+    {
+      "cluster": 53,
+      "label": "sweat, water, temperature, hours, actually",
+      "keywords": [
+        "sweat",
+        "water",
+        "temperature",
+        "hours",
+        "actually"
+      ],
+      "total": 56,
+      "resolved": 44,
+      "overturned": 5,
+      "resolved_rate": 0.7857,
+      "overturned_rate": 0.0893,
+      "examples": [
+        {
+          "q": "When a car accelerates and you're looking at the alloy wheels, they go forward as you'd expect, but ",
+          "ep": "ep_125"
+        },
+        {
+          "q": "Why is Team GB called Team GB when Northern Ireland is included? Shouldn't it be Team UK?",
+          "ep": "ep_212"
+        }
+      ]
+    },
+    {
+      "cluster": 60,
+      "label": "plane, aircraft, planes, pilot, landing",
+      "keywords": [
+        "plane",
+        "aircraft",
+        "planes",
+        "pilot",
+        "landing"
+      ],
+      "total": 79,
+      "resolved": 55,
+      "overturned": 7,
+      "resolved_rate": 0.6962,
+      "overturned_rate": 0.0886,
+      "examples": [
+        {
+          "q": "It hasn't rained for two months and there are no ponds. How do squirrels get water?",
+          "ep": "ep_168"
+        },
+        {
+          "q": "When is a language considered dead? For example, Latin is called a dead language but we use Latin ph",
+          "ep": "ep_191"
+        }
+      ]
+    },
+    {
+      "cluster": 55,
+      "label": "brain, remember, memory, people, dreams",
+      "keywords": [
+        "brain",
+        "remember",
+        "memory",
+        "people",
+        "dreams"
+      ],
+      "total": 68,
+      "resolved": 45,
+      "overturned": 6,
+      "resolved_rate": 0.6618,
+      "overturned_rate": 0.0882,
+      "examples": [
+        {
+          "q": "If Kamala Harris wins the presidential election, who will certify the results since the Vice Preside",
+          "ep": "ep_068"
+        },
+        {
+          "q": "Why can't you put metal into a microwave?",
+          "ep": "ep_123"
+        }
+      ]
+    },
+    {
+      "cluster": 77,
+      "label": "actually, scratch, people, fingers, mouth",
+      "keywords": [
+        "actually",
+        "scratch",
+        "people",
+        "fingers",
+        "mouth"
+      ],
+      "total": 104,
+      "resolved": 72,
+      "overturned": 9,
+      "resolved_rate": 0.6923,
+      "overturned_rate": 0.0865,
+      "examples": [
+        {
+          "q": "Do cats derive any direct benefit from purring?",
+          "ep": "ep_021"
+        },
+        {
+          "q": "With fizzy drinks, why do they fizz up much more when you have ice in the glass compared to an empty",
+          "ep": "ep_158"
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "label": "music, sound, classical, musical, different",
+      "keywords": [
+        "music",
+        "sound",
+        "classical",
+        "musical",
+        "different"
+      ],
+      "total": 58,
+      "resolved": 42,
+      "overturned": 5,
+      "resolved_rate": 0.7241,
+      "overturned_rate": 0.0862,
+      "examples": [
+        {
+          "q": "How do they count the smallest creatures like beetles, ants, and penguins during the annual zoo stoc",
+          "ep": "ep_017"
+        },
+        {
+          "q": "If you're lying in the corner of a room breathing, would there be less oxygen in that corner after 1",
+          "ep": "ep_054"
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "label": "names, surnames, people, named, first",
+      "keywords": [
+        "names",
+        "surnames",
+        "people",
+        "named",
+        "first"
+      ],
+      "total": 59,
+      "resolved": 45,
+      "overturned": 5,
+      "resolved_rate": 0.7627,
+      "overturned_rate": 0.0847,
+      "examples": [
+        {
+          "q": "Why do marine mammals have a horizontal tail fin and fish have a perpendicular tail fin? If evolutio",
+          "ep": "ep_104"
+        },
+        {
+          "q": "Why do we say an alarm 'goes off' when it turns on?",
+          "ep": "ep_141"
+        }
+      ]
+    },
+    {
+      "cluster": 28,
+      "label": "water, shampoo, shower, washing, towel",
+      "keywords": [
+        "water",
+        "shampoo",
+        "shower",
+        "washing",
+        "towel"
+      ],
+      "total": 53,
+      "resolved": 35,
+      "overturned": 4,
+      "resolved_rate": 0.6604,
+      "overturned_rate": 0.0755,
+      "examples": [
+        {
+          "q": "What is the red comb on a chicken's head for? Other birds don't have it.",
+          "ep": "ep_166"
+        },
+        {
+          "q": "If you are a child actor performing in a film which is an 18 plus, say if you're 12, are you able to",
+          "ep": "ep_295"
+        }
+      ]
+    },
+    {
+      "cluster": 18,
+      "label": "sound, people, noise, sounds, music",
+      "keywords": [
+        "sound",
+        "people",
+        "noise",
+        "sounds",
+        "music"
+      ],
+      "total": 80,
+      "resolved": 57,
+      "overturned": 6,
+      "resolved_rate": 0.7125,
+      "overturned_rate": 0.075,
+      "examples": [
+        {
+          "q": "Are spaceships armed in case of alien attack?",
+          "ep": "ep_056"
+        },
+        {
+          "q": "What happens when we extract billions of barrels of oil from deep underneath the oceans? Doesn't nat",
+          "ep": "ep_103"
+        }
+      ]
+    },
+    {
+      "cluster": 38,
+      "label": "minister, prime, number, downing, street",
+      "keywords": [
+        "minister",
+        "prime",
+        "number",
+        "downing",
+        "street"
+      ],
+      "total": 56,
+      "resolved": 36,
+      "overturned": 4,
+      "resolved_rate": 0.6429,
+      "overturned_rate": 0.0714,
+      "examples": [
+        {
+          "q": "Why are there so many donkey sanctuaries in the UK if we don't use donkeys for work anymore? What do",
+          "ep": "ep_075"
+        },
+        {
+          "q": "Why all the recipes I've come across say use unsalted butter with salt? All I have in my fridge is s",
+          "ep": "ep_231"
+        }
+      ]
+    },
+    {
+      "cluster": 27,
+      "label": "phrase, origin, saying, knock, originate",
+      "keywords": [
+        "phrase",
+        "origin",
+        "saying",
+        "knock",
+        "originate"
+      ],
+      "total": 128,
+      "resolved": 94,
+      "overturned": 9,
+      "resolved_rate": 0.7344,
+      "overturned_rate": 0.0703,
+      "examples": [
+        {
+          "q": "Why do we say '86 the chicken' when we have run out of chicken in hospitality? Where does 86 come fr",
+          "ep": "ep_005"
+        },
+        {
+          "q": "Why do we clean our teeth with cold water when everything else we clean in everyday life is with hot",
+          "ep": "ep_183"
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "label": "trees, plants, leaves, plant, branches",
+      "keywords": [
+        "trees",
+        "plants",
+        "leaves",
+        "plant",
+        "branches"
+      ],
+      "total": 87,
+      "resolved": 68,
+      "overturned": 6,
+      "resolved_rate": 0.7816,
+      "overturned_rate": 0.069,
+      "examples": [
+        {
+          "q": "Why does a brand new empty vinegar bottle smell of vinegar even though it's never had vinegar in it?",
+          "ep": "ep_011"
+        },
+        {
+          "q": "Why do Yorkshire tea bags come attached together in pairs?",
+          "ep": "ep_049"
+        }
+      ]
+    },
+    {
+      "cluster": 29,
+      "label": "lightning, strikes, turbines, electrocuted, electricity",
+      "keywords": [
+        "lightning",
+        "strikes",
+        "turbines",
+        "electrocuted",
+        "electricity"
+      ],
+      "total": 30,
+      "resolved": 24,
+      "overturned": 2,
+      "resolved_rate": 0.8,
+      "overturned_rate": 0.0667,
+      "examples": [
+        {
+          "q": "Before Julius Caesar and Emperor Augustus, there were 10 months in the year, then 11, then 12. How d",
+          "ep": "ep_168"
+        },
+        {
+          "q": "",
+          "ep": "ep_445"
+        }
+      ]
+    },
+    {
+      "cluster": 19,
+      "label": "clouds, raining, water, weather, cloud",
+      "keywords": [
+        "clouds",
+        "raining",
+        "water",
+        "weather",
+        "cloud"
+      ],
+      "total": 61,
+      "resolved": 42,
+      "overturned": 4,
+      "resolved_rate": 0.6885,
+      "overturned_rate": 0.0656,
+      "examples": [
+        {
+          "q": "When cakes go stale they go hard, but when biscuits go stale they go soft. They've got the same basi",
+          "ep": "ep_089"
+        },
+        {
+          "q": "In what year will a 2003 calendar work again? I had 300 calendars printed by my agent in 2002 for a ",
+          "ep": "ep_363"
+        }
+      ]
+    },
+    {
+      "cluster": 40,
+      "label": "london, county, counties, north, towns",
+      "keywords": [
+        "london",
+        "county",
+        "counties",
+        "north",
+        "towns"
+      ],
+      "total": 108,
+      "resolved": 71,
+      "overturned": 7,
+      "resolved_rate": 0.6574,
+      "overturned_rate": 0.0648,
+      "examples": [
+        {
+          "q": "What's the difference between a porter and a stout? Is it how they're brewed or where they're from?",
+          "ep": "ep_104"
+        },
+        {
+          "q": "Why do flights from the west always have to come in over central London to land at Heathrow from the",
+          "ep": "ep_133"
+        }
+      ]
+    },
+    {
+      "cluster": 35,
+      "label": "sneeze, people, viruses, bites, others",
+      "keywords": [
+        "sneeze",
+        "people",
+        "viruses",
+        "bites",
+        "others"
+      ],
+      "total": 93,
+      "resolved": 68,
+      "overturned": 6,
+      "resolved_rate": 0.7312,
+      "overturned_rate": 0.0645,
+      "examples": [
+        {
+          "q": "How does a tiny spider spin a web across a distance of a metre or more when they can't fly or jump?",
+          "ep": "ep_132"
+        },
+        {
+          "q": "If a married man has another woman, she's a mistress. If a married woman has another man, what is he",
+          "ep": "ep_168"
+        }
+      ]
+    },
+    {
+      "cluster": 48,
+      "label": "origin, originate, nickname, phrase, military",
+      "keywords": [
+        "origin",
+        "originate",
+        "nickname",
+        "phrase",
+        "military"
+      ],
+      "total": 78,
+      "resolved": 65,
+      "overturned": 5,
+      "resolved_rate": 0.8333,
+      "overturned_rate": 0.0641,
+      "examples": [
+        {
+          "q": "Where did the Mexican wave originate and why is it called Mexican?",
+          "ep": "ep_002"
+        },
+        {
+          "q": "Where does the modern game of chess come from?",
+          "ep": "ep_242"
+        }
+      ]
+    },
+    {
+      "cluster": 62,
+      "label": "difference, toast, chocolate, cream, different",
+      "keywords": [
+        "difference",
+        "toast",
+        "chocolate",
+        "cream",
+        "different"
+      ],
+      "total": 96,
+      "resolved": 73,
+      "overturned": 6,
+      "resolved_rate": 0.7604,
+      "overturned_rate": 0.0625,
+      "examples": [
+        {
+          "q": "Do companies buy a batch of barcodes, or is there some mega-computer that produces them? There must ",
+          "ep": "ep_117"
+        },
+        {
+          "q": "What is the hardest sporting feat an individual can achieve? For example, a 59 in golf, a nine-dart ",
+          "ep": "ep_153"
+        }
+      ]
+    },
+    {
+      "cluster": 67,
+      "label": "square, round, different, women, pencil",
+      "keywords": [
+        "square",
+        "round",
+        "different",
+        "women",
+        "pencil"
+      ],
+      "total": 55,
+      "resolved": 42,
+      "overturned": 3,
+      "resolved_rate": 0.7636,
+      "overturned_rate": 0.0545,
+      "examples": [
+        {
+          "q": "How do groins work? Groins with a Y - the rows of plants that run vertically down the beach.",
+          "ep": "ep_088"
+        },
+        {
+          "q": "What does best boy do on a film set?",
+          "ep": "ep_258"
+        }
+      ]
+    },
+    {
+      "cluster": 39,
+      "label": "first, invented, people, discovered, start",
+      "keywords": [
+        "first",
+        "invented",
+        "people",
+        "discovered",
+        "start"
+      ],
+      "total": 77,
+      "resolved": 60,
+      "overturned": 4,
+      "resolved_rate": 0.7792,
+      "overturned_rate": 0.0519,
+      "examples": [
+        {
+          "q": "When in American history did the American accent that we know today become recognizably American?",
+          "ep": "ep_100"
+        },
+        {
+          "q": "In winter, being told to turn the thermostat down to 19 degrees feels cold inside. But when it's 18 ",
+          "ep": "ep_125"
+        }
+      ]
+    },
+    {
+      "cluster": 25,
+      "label": "round, guide, drugs, horse, years",
+      "keywords": [
+        "round",
+        "guide",
+        "drugs",
+        "horse",
+        "years"
+      ],
+      "total": 65,
+      "resolved": 55,
+      "overturned": 3,
+      "resolved_rate": 0.8462,
+      "overturned_rate": 0.0462,
+      "examples": [
+        {
+          "q": "If we can donate organs after death, why can't we donate bones (assuming they're healthy)?",
+          "ep": "ep_174"
+        },
+        {
+          "q": "What is a juke and why is it called a jukebox?",
+          "ep": "ep_446"
+        }
+      ]
+    },
+    {
+      "cluster": 51,
+      "label": "language, english, different, accents, people",
+      "keywords": [
+        "language",
+        "english",
+        "different",
+        "accents",
+        "people"
+      ],
+      "total": 91,
+      "resolved": 67,
+      "overturned": 4,
+      "resolved_rate": 0.7363,
+      "overturned_rate": 0.044,
+      "examples": [
+        {
+          "q": "What happens if you win a massive house in a competition but can't afford to upkeep it?",
+          "ep": "ep_056"
+        },
+        {
+          "q": "Why are televisions not round?",
+          "ep": "ep_258"
+        }
+      ]
+    },
+    {
+      "cluster": 30,
+      "label": "people, clapping, start, appreciation, shake",
+      "keywords": [
+        "people",
+        "clapping",
+        "start",
+        "appreciation",
+        "shake"
+      ],
+      "total": 51,
+      "resolved": 39,
+      "overturned": 2,
+      "resolved_rate": 0.7647,
+      "overturned_rate": 0.0392,
+      "examples": [
+        {
+          "q": "How long can hair grow? If you never cut it, would it grow and grow like Rapunzel's?",
+          "ep": "ep_393"
+        },
+        {
+          "q": "Is the speed of 88 miles an hour in Back to the Future scientifically significant to the ability to ",
+          "ep": "ep_482"
+        }
+      ]
+    },
+    {
+      "cluster": 74,
+      "label": "",
+      "keywords": [],
+      "total": 7,
+      "resolved": 2,
+      "overturned": 0,
+      "resolved_rate": 0.2857,
+      "overturned_rate": 0.0,
+      "examples": []
+    }
+  ],
+  "worst": {
+    "cluster": 63,
+    "label": "passport, passports, pencil, british, french",
+    "keywords": [
+      "passport",
+      "passports",
+      "pencil",
+      "british",
+      "french"
+    ],
+    "total": 30,
+    "resolved": 19,
+    "overturned": 6,
+    "resolved_rate": 0.6333,
+    "overturned_rate": 0.2,
+    "examples": [
+      {
+        "q": "Where do robins originate from? And do robins migrate?",
+        "ep": "ep_246"
+      },
+      {
+        "q": "Why does your skin get wrinkly in the water after your bath?",
+        "ep": "ep_254"
+      }
+    ]
+  },
+  "best": {
+    "cluster": 74,
+    "label": "",
+    "keywords": [],
+    "total": 7,
+    "resolved": 2,
+    "overturned": 0,
+    "resolved_rate": 0.2857,
+    "overturned_rate": 0.0,
+    "examples": []
+  }
+}
