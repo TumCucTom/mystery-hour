@@ -32,7 +32,7 @@ function renderPage(container, genData, allQa) {
       const caller = q.caller || ''
       if (!caller.includes(' from ')) continue
       const loc = caller.split(' from ').pop().trim()
-      const town = (loc.split(',').pop().strip())
+      const town = (loc.split(',').pop().trim())
       if (town && town.length > 1) locCounts[town] = (locCounts[town] || 0) + 1
     }
   }

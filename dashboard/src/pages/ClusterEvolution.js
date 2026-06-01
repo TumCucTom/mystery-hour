@@ -63,8 +63,7 @@ function renderPage(container, data) {
             <div class="evo-stacked-bar">
               ${sorted.map(([lbl, v]) => {
                 const pct = total > 0 ? v / total : 0
-                const info = cluster_info ? (cluster_info[String(rising.find(r => r.label === lbl)?.cluster || falling.find(r => r.label === lbl)?.cluster)?.cluster || '')] || {}) : {}
-                const terms = (info.keywords || []).join(', ') || lbl
+                const terms = lbl
                 return `<div class="evo-seg" style="width:${(pct*100).toFixed(1)}%;background:${rising.some(r=>r.label===lbl) ? '#4ade80' : '#f87171'};opacity:${0.4+pct*0.6}" title="${escHtml(terms)}: ${(pct*100).toFixed(1)}%"></div>`
               }).join('')}
             </div>
