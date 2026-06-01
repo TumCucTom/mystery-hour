@@ -8,3 +8,7 @@ logs/
 *.log
 slurm-*.out
 slurm-*.err
+*.png
+.playwright-mcp/
+.vercel/
+sanity-check.json
