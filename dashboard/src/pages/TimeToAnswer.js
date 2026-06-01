@@ -102,7 +102,8 @@ function renderPage(container, tta, chain) {
       <div style="display:flex;gap:12px;margin-top:8px;flex-wrap:wrap;color:var(--color-muted);font-size:12px">
         ${Object.entries(eraBuckets).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).map(([k, v]) => {
           const era = parseInt(k)
-          return `<span>${eraLabels[era]?.split('\n')[0]}: ${v.total} Q</span>`
+          const label = eraLabels[era] || `Era ${era + 1}`
+          return `<span>${label.split('\n')[0]}: ${v.total} Q</span>`
         }).join(' · ')}
       </div>
     </div>
