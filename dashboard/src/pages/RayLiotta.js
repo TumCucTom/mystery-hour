@@ -1,17 +1,26 @@
 /**
  * RayLiotta.js — Every Ray Liotta award given on Mystery Hour.
  * "I'm Ray Liotta and you're listening to James O'Brien on LBC. If you build it, they will come."
+ *
+ * The accolade is awarded to callers who demonstrate exceptional
+ * expertise — unique qualifications, rare knowledge, or personal
+ * experience that lets them answer a question better than anyone
+ * listening.
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = ''
-
 function esc(s) {
-  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
+function truncate(s, n) {
+  if (!s) return ''
+  if (s.length <= n) return s
+  return s.slice(0, n).trimEnd() + '…'
 }
 
 export async function renderRayLiottaPage(container, store) {
-  container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading Ray Liotta awards...</div>`
+  container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading Ray Liotta awards…</div>`
   try {
     const data = await loadJSON('ray_liotta_awards.json')
     renderPage(container, data)
@@ -22,79 +31,112 @@ export async function renderRayLiottaPage(container, store) {
 
 function renderPage(container, data) {
   const awards = Array.isArray(data) ? data : (data.awards || [])
+  const withName = awards.filter(a => a.caller).length
+  const uniqueCallers = new Set(awards.map(a => a.caller).filter(Boolean)).size
 
   container.innerHTML = `
     <div class="page-header">
-      <h1>The Ray Liotta Awards</h1>
-      <p>"I'm Ray Liotta and you're listening to James O'Brien on LBC. If you build it, they will come."</p>
-    </div>
-
-    <div class="stats-grid" style="--cols:3;margin-bottom:24px">
-      <div class="stat-card"><div class="stat-value">${awards.length}</div><div class="stat-label">Ray Liotta Awards</div></div>
-      <div class="stat-card"><div class="stat-value">${new Set(awards.map(a => a.episode)).size}</div><div class="stat-label">Episodes</div></div>
-      <div class="stat-card"><div class="stat-value">${awards.filter(a => a.qualification).length}</div><div class="stat-label">With Qualification</div></div>
-    </div>
-
-    <div class="card" style="background:rgba(231,76,60,0.06);border-left:4px solid #e74c3c;margin-bottom:24px">
-      <p style="font-size:15px;line-height:1.7">
-        When a caller gives an answer of <em>exceptional expertise</em> — demonstrating genuine credentials, rare knowledge, or personal experience —
-        James awards them a Ray Liotta: a recording of Ray Liotta doing <em>"If you build it, they will come"</em> from Field of Dreams.
-        It is the highest honour in British radio.
+      <h1>🏆 The Ray Liotta Awards</h1>
+      <p class="page-header-sub">
+        "I'm Ray Liotta and you're listening to James O'Brien on LBC. If you build it, they will come."
       </p>
     </div>
 
-    <input type="text" id="rlSearch" placeholder="Search by episode, caller, or qualification..." style="margin-bottom:20px;padding:10px;border-radius:8px;border:1px solid var(--color-border);width:100%;max-width:500px">
+    <div class="rl-hero">
+      <div class="rl-hero-text">
+        <h2>The best of the best.</h2>
+        <p>When a caller earns the right to be believed — through credentials, experience, or knowledge so rare that no one else on the line could match it — James plays the voice note. It's the highest honour in British radio, and it's been given <strong>${awards.length} times</strong> across <strong>${new Set(awards.map(a => a.episode)).size} episodes</strong>.</p>
+        <p class="rl-hero-quote">"If you build it, they will come." <span>— Field of Dreams (the recording)</span></p>
+      </div>
+      <div class="rl-hero-stats">
+        <div class="rl-stat"><div class="rl-stat-num">${awards.length}</div><div class="rl-stat-label">Awards given</div></div>
+        <div class="rl-stat"><div class="rl-stat-num">${new Set(awards.map(a => a.episode)).size}</div><div class="rl-stat-label">Episodes</div></div>
+        <div class="rl-stat"><div class="rl-stat-num">${uniqueCallers}</div><div class="rl-stat-label">Unique callers</div></div>
+        <div class="rl-stat"><div class="rl-stat-num">${withName}</div><div class="rl-stat-label">Named on air</div></div>
+      </div>
+    </div>
+
+    <div class="rl-filters">
+      <input type="text" id="rlSearch" placeholder="Search caller, qualification, or answer…" />
+      <select id="rlSort">
+        <option value="recent">Most recent</option>
+        <option value="oldest">Oldest first</option>
+        <option value="qual-len">Longest qualification</option>
+        <option value="answer-len">Longest answer</option>
+      </select>
+      <span class="rl-filter-count" id="rlCount"></span>
+    </div>
 
     <div id="rlList"></div>
   `
 
   const listEl = container.querySelector('#rlList')
+  const searchEl = container.querySelector('#rlSearch')
+  const sortEl = container.querySelector('#rlSort')
+  const countEl = container.querySelector('#rlCount')
 
-  function render(filter) {
-    const filtered = awards.filter(a => {
-      if (!filter) return true
-      const s = filter.toLowerCase()
-      return (
-        (a.episode || '').includes(s) ||
-        (a.caller || '').toLowerCase().includes(s) ||
-        (a.qualification || '').toLowerCase().includes(s) ||
-        (a.question || '').toLowerCase().includes(s) ||
-        (a.answer || '').toLowerCase().includes(s)
-      )
+  // Sort by episode number for default ("most recent" — higher ep = more recent)
+  function getEpNum(a) {
+    const m = (a.episode || '').match(/ep_(\d+)/)
+    return m ? parseInt(m[1], 10) : 0
+  }
+
+  function render() {
+    const filter = searchEl.value.trim().toLowerCase()
+    const sort = sortEl.value
+
+    let filtered = awards
+    if (filter) {
+      filtered = filtered.filter(a => {
+        const hay = [
+          a.caller, a.qualification, a.question, a.answer, a.episode
+        ].join(' ').toLowerCase()
+        return hay.includes(filter)
+      })
+    }
+
+    const sorted = [...filtered].sort((a, b) => {
+      if (sort === 'recent') return getEpNum(b) - getEpNum(a)
+      if (sort === 'oldest') return getEpNum(a) - getEpNum(b)
+      if (sort === 'qual-len') return (b.qualification || '').length - (a.qualification || '').length
+      if (sort === 'answer-len') return (b.answer || '').length - (a.answer || '').length
+      return 0
     })
 
-    if (!filtered.length) {
+    countEl.textContent = `${sorted.length} of ${awards.length}`
+
+    if (!sorted.length) {
       listEl.innerHTML = `<div class="card" style="text-align:center;color:var(--color-muted);padding:40px">No awards match "${esc(filter)}"</div>`
       return
     }
 
-    listEl.innerHTML = filtered.map(a => `
-      <div class="card" style="margin-bottom:20px;border-left:3px solid #e74c3c;padding:16px 20px">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;flex-wrap:wrap;gap:8px">
-          <div>
-            <a href="/episodes?ep=${a.episode}" class="nav-link" data-link style="font-weight:700;font-size:16px">${esc(a.episode)}</a>
-            ${a.caller && a.caller !== 'Unknown' ? `<span style="margin-left:12px;font-size:14px;color:var(--color-muted)">— <strong>${esc(a.caller)}</strong></span>` : ''}
+    listEl.innerHTML = sorted.map(a => `
+      <div class="rl-card">
+        <div class="rl-card-head">
+          <div class="rl-card-id">
+            <a href="/episodes?ep=${esc(a.episode)}" class="rl-card-ep" data-link>${esc(a.episode)}</a>
+            ${a.caller ? `<span class="rl-card-caller">${esc(a.caller)}</span>` : '<span class="rl-card-caller rl-card-anon">caller</span>'}
           </div>
-          <span style="background:#e74c3c;color:white;padding:3px 12px;border-radius:12px;font-size:12px;flex-shrink:0">Ray Liotta awarded</span>
+          <span class="rl-card-badge">Ray Liotta</span>
         </div>
 
         ${a.qualification ? `
-        <div style="margin-bottom:8px;font-size:14px;background:rgba(46,204,113,0.1);border-radius:6px;padding:8px 12px;border-left:3px solid #2ecc71">
-          <span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--color-green);font-weight:700">Qualification</span>
-          <div style="margin-top:4px;font-style:italic;color:var(--color-text)">"${esc(a.qualification)}"</div>
-        </div>` : ''}
+          <div class="rl-section rl-qual">
+            <div class="rl-section-label">Qualification</div>
+            <div class="rl-qual-body">${esc(truncate(a.qualification, 600))}</div>
+          </div>` : ''}
 
         ${a.question ? `
-        <div style="margin-bottom:6px;font-size:15px">
-          <strong style="color:var(--color-muted);font-size:12px;text-transform:uppercase;letter-spacing:0.5px">Q:</strong>
-          <span>${esc(a.question)}</span>
-        </div>` : ''}
+          <div class="rl-section rl-q">
+            <span class="rl-section-label">Q</span>
+            <span class="rl-q-body">${esc(truncate(a.question, 300))}</span>
+          </div>` : ''}
 
         ${a.answer ? `
-        <div style="font-size:14px;color:var(--color-secondary)">
-          <strong style="color:var(--color-muted);font-size:12px;text-transform:uppercase;letter-spacing:0.5px">A:</strong>
-          <span>${esc(a.answer)}</span>
-        </div>` : ''}
+          <div class="rl-section rl-a">
+            <span class="rl-section-label">A</span>
+            <span class="rl-a-body">${esc(truncate(a.answer, 300))}</span>
+          </div>` : ''}
       </div>
     `).join('')
 
@@ -107,6 +149,7 @@ function renderPage(container, data) {
     })
   }
 
-  render('')
-  container.querySelector('#rlSearch').addEventListener('input', e => render(e.target.value))
+  searchEl.addEventListener('input', render)
+  sortEl.addEventListener('change', render)
+  render()
 }
