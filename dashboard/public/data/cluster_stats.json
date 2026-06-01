@@ -1,0 +1,1006 @@
+{
+  "n_clusters": 50,
+  "n_questions": 6097,
+  "clusters": [
+    {
+      "cluster_id": 5,
+      "size": 243,
+      "resolved_rate": 0.679,
+      "avg_answers": 1.17,
+      "top_words": [
+        "called",
+        "when",
+        "call",
+        "they",
+        "that",
+        "like",
+        "people",
+        "what"
+      ],
+      "example_questions": [
+        "Why do we call Dutch people 'Dutch' when the country is called the Netherlands or Holland, which sounds nothing like 'Dutch'?",
+        "My friend's name is Jack Pink. Where does the name Pink come from? His dad had a band called John Pink and the Pinkertons."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 218,
+      "resolved_rate": 0.61,
+      "avg_answers": 1.23,
+      "top_words": [
+        "where",
+        "from",
+        "come",
+        "does",
+        "what",
+        "phrase",
+        "origin",
+        "when"
+      ],
+      "example_questions": [
+        "Why is popcorn synonymous with going to the cinema? Where does that come from?",
+        "Where does the phrase 'to grass somebody up' come from? Why do we call somebody a grass when they're dobbing someone into the authorities?"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 180,
+      "resolved_rate": 0.728,
+      "avg_answers": 1.41,
+      "top_words": [
+        "language",
+        "english",
+        "when",
+        "have",
+        "they",
+        "like",
+        "that",
+        "words"
+      ],
+      "example_questions": [
+        "Is there any sort of linguistic or grammatical or underlying reason for the order of names in famous groups or pairs? Like Bonnie and Clyde and Tom and Jerry. Why is it Tom and Jerry? Not Jerry and Tom?",
+        "When did the Americans make a conscious decision to speak American and spell American as opposed to English?"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 177,
+      "resolved_rate": 0.757,
+      "avg_answers": 1.32,
+      "top_words": [
+        "dogs",
+        "animals",
+        "they",
+        "have",
+        "their",
+        "when",
+        "that",
+        "other"
+      ],
+      "example_questions": [
+        "Do dogs have different blood types like humans do?",
+        "Are a dog's front legs classified as legs or arms? My wife says arms, I say legs."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 160,
+      "resolved_rate": 0.8,
+      "avg_answers": 1.32,
+      "top_words": [
+        "what",
+        "when",
+        "they",
+        "that",
+        "does",
+        "like",
+        "music",
+        "people"
+      ],
+      "example_questions": [
+        "When an organ is playing in a cathedral and you get to the end of whatever they're playing, you've got this huge noise echoing through the cathedral. And then when the organ player stops, it carries on echoing for a millisecond and then it seems to go flat. It's almost like it's not like they've played the last note flat. Is it the echo that goes flat? It's not coming out of the organ. It's resonating around the building. And it's that resonance which drops down a half tone. Why does the echoing organ in a cathedral go flat right at the end?",
+        "What is the difference between a philharmonic and a symphony orchestra?"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 159,
+      "resolved_rate": 0.742,
+      "avg_answers": 1.37,
+      "top_words": [
+        "have",
+        "called",
+        "there",
+        "what",
+        "they",
+        "london",
+        "when",
+        "that"
+      ],
+      "example_questions": [
+        "Why, when you're in the Wirral, are you referred to as 'on the Wirral' rather than 'in the Wirral'? What is the Wirral?",
+        "We have the Royal Navy and the Royal Air Force, but why is it just the British Army and not the Royal Army?"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 157,
+      "resolved_rate": 0.701,
+      "avg_answers": 1.25,
+      "top_words": [
+        "what",
+        "they",
+        "would",
+        "queen",
+        "when",
+        "have",
+        "that",
+        "does"
+      ],
+      "example_questions": [
+        "When senior Catholics like Cardinals move to the Vatican, do they have to go through normal immigration procedures or get work visas?",
+        "If a Carrington event happened today, how much warning would we have?"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 154,
+      "resolved_rate": 0.675,
+      "avg_answers": 1.22,
+      "top_words": [
+        "when",
+        "people",
+        "their",
+        "your",
+        "what",
+        "that",
+        "some",
+        "they"
+      ],
+      "example_questions": [
+        "Are we born with a fear of heights (wobbly knee feeling) or is it developed? Is it nature or nurture?",
+        "Why do people stick their tongue out when they're concentrating?"
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "size": 152,
+      "resolved_rate": 0.783,
+      "avg_answers": 1.34,
+      "top_words": [
+        "when",
+        "they",
+        "have",
+        "does",
+        "there",
+        "what",
+        "with",
+        "where"
+      ],
+      "example_questions": [
+        "Is the exercise benefit better than the damage from pollution when walking through town where I can taste the diesel from cars?",
+        "Why can't cars be manufactured with speed limiters at 70mph so we never go over the limit?"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 151,
+      "resolved_rate": 0.735,
+      "avg_answers": 1.4,
+      "top_words": [
+        "when",
+        "does",
+        "that",
+        "what",
+        "like",
+        "have",
+        "food",
+        "they"
+      ],
+      "example_questions": [
+        "Do animals actually get any enjoyment out of eating raw meat and leaves like we get dopamine from cake?",
+        "Why can't you eat your cake? The expression is 'he wants to have his cake and eat it.' Why can't you eat your cake?"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 149,
+      "resolved_rate": 0.832,
+      "avg_answers": 1.42,
+      "top_words": [
+        "when",
+        "does",
+        "that",
+        "with",
+        "same",
+        "what",
+        "microwave",
+        "they"
+      ],
+      "example_questions": [
+        "Why do I prefer to make tea in only five of our fifteen mugs, with a clear favourite? And why does my wife prefer the same mugs? Is it psychological?",
+        "Why don't Cadbury's flakes melt? When I put it in a bain-marie over a pan of boiling water, nothing. Microwave didn't work either. It stayed exactly the same texture and flakiness, would fall apart but not melt."
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 147,
+      "resolved_rate": 0.769,
+      "avg_answers": 1.22,
+      "top_words": [
+        "have",
+        "when",
+        "does",
+        "they",
+        "like",
+        "that",
+        "what",
+        "from"
+      ],
+      "example_questions": [
+        "Why did the letters of the alphabet come to be shaped the way they are? Why is an A like an A and not shaped differently?",
+        "I enjoy reading books but I've noticed every now and then you get three or two stars at the bottom of a page. It's not the end of a chapter or the end of a paragraph. What do those stars symbolise?"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 146,
+      "resolved_rate": 0.747,
+      "avg_answers": 1.34,
+      "top_words": [
+        "does",
+        "when",
+        "they",
+        "what",
+        "money",
+        "that",
+        "have",
+        "bank"
+      ],
+      "example_questions": [
+        "Why does Europe have 100, 200, and 500 euro notes but the UK doesn't have equivalent high denomination sterling notes?",
+        "What is the most expensive thing ever put up for sale but never sold?"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 143,
+      "resolved_rate": 0.72,
+      "avg_answers": 1.36,
+      "top_words": [
+        "they",
+        "when",
+        "what",
+        "football",
+        "have",
+        "that",
+        "ball",
+        "tennis"
+      ],
+      "example_questions": [
+        "How do World Cup commentating competitors know every name of every player? They can't see the names on the backs of shirts from the box.",
+        "Why do boxers and wrestlers use belts and not trophies or another form of award? Most sports use trophies and cups but boxing and wrestling use belts."
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 142,
+      "resolved_rate": 0.655,
+      "avg_answers": 1.11,
+      "top_words": [
+        "when",
+        "first",
+        "what",
+        "they",
+        "start",
+        "before",
+        "were",
+        "that"
+      ],
+      "example_questions": [
+        "When as a human race did we start laughing? What made us laugh for the first time? Was it a tickle?",
+        "When did we start sleeping in bed? When did we start sleeping with a duvet and fluffy pillow? What is the first recorded incident of a bed?"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 142,
+      "resolved_rate": 0.845,
+      "avg_answers": 1.39,
+      "top_words": [
+        "have",
+        "they",
+        "what",
+        "when",
+        "with",
+        "does",
+        "that",
+        "some"
+      ],
+      "example_questions": [
+        "Why do bagels have that hole in the middle where all the filling falls through?",
+        "Why is a boxing ring square?"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 138,
+      "resolved_rate": 0.717,
+      "avg_answers": 1.11,
+      "top_words": [
+        "there",
+        "does",
+        "when",
+        "where",
+        "from",
+        "earth",
+        "what",
+        "have"
+      ],
+      "example_questions": [
+        "Why do different beaches have different granularities of sand? In Cornwall, different beaches within miles had radically different sand - fine powdery vs coarse sharp vs pebbles.",
+        "Why are barges square instead of having pointed edges like ships? It would be easier to go through the water - the energy required to pull them against the tide was massive. Why are they called barges?"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 135,
+      "resolved_rate": 0.8,
+      "avg_answers": 1.35,
+      "top_words": [
+        "when",
+        "moon",
+        "does",
+        "that",
+        "stars",
+        "what",
+        "there",
+        "light"
+      ],
+      "example_questions": [
+        "When looking at a star directly, it appears less clear than when looking slightly to one side. Why does looking indirectly at a star make it clearer?",
+        "How do you measure the brightness of something?"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 134,
+      "resolved_rate": 0.746,
+      "avg_answers": 1.31,
+      "top_words": [
+        "have",
+        "when",
+        "they",
+        "that",
+        "there",
+        "eggs",
+        "like",
+        "supermarket"
+      ],
+      "example_questions": [
+        "In the show Legends (set in 1990), there's a kitchen scene with ketchup bottles and other period products. Do production companies make these items themselves or get the manufacturer to produce them?",
+        "Why are they called Reddy Salted Crisps? Why do I need to know when they've been salted?"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 134,
+      "resolved_rate": 0.739,
+      "avg_answers": 1.25,
+      "top_words": [
+        "they",
+        "birds",
+        "when",
+        "have",
+        "pigeons",
+        "know",
+        "that",
+        "there"
+      ],
+      "example_questions": [
+        "Why do magpies like shiny things, why do they pick them up and fly away with them?",
+        "Why don't pigeons swim? I saw ducks in a park diving and splashing in the water, and all the pigeons were just standing around watching."
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 127,
+      "resolved_rate": 0.709,
+      "avg_answers": 1.18,
+      "top_words": [
+        "when",
+        "your",
+        "does",
+        "that",
+        "what",
+        "feel",
+        "like",
+        "have"
+      ],
+      "example_questions": [
+        "Why can I cycle for two hours in Texas without getting sunburned, but if I stand outside for 10 minutes mowing the lawn, I get sunburned?",
+        "Why do you urinate when you're nervous?"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 122,
+      "resolved_rate": 0.77,
+      "avg_answers": 1.22,
+      "top_words": [
+        "they",
+        "what",
+        "when",
+        "have",
+        "that",
+        "does",
+        "happens",
+        "someone"
+      ],
+      "example_questions": [
+        "What happens to the metal after you've been cremated? After a knee replacement with titanium, what happens to that metal?",
+        "Where do you draw the line between grave robbing and archaeology? How long does a grave have to be before you can dig it up and count yourself as an archaeologist?"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 122,
+      "resolved_rate": 0.787,
+      "avg_answers": 1.38,
+      "top_words": [
+        "water",
+        "when",
+        "does",
+        "that",
+        "rain",
+        "from",
+        "what",
+        "into"
+      ],
+      "example_questions": [
+        "When a river meets the sea, you can often see a visible line where freshwater meets saltwater. Why does this happen and why doesn't it just homogenise immediately?",
+        "Why do I get ear infections on holiday every time I go swimming in chlorinated pools? If chlorine is a cleaner, why am I getting infections from swimming in effectively pool soap?"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 121,
+      "resolved_rate": 0.793,
+      "avg_answers": 1.28,
+      "top_words": [
+        "space",
+        "would",
+        "earth",
+        "what",
+        "they",
+        "when",
+        "that",
+        "have"
+      ],
+      "example_questions": [
+        "What would happen to a fly in zero gravity? If it went up in a space rocket into zero gravity, would it fly or would it float around?",
+        "If you woke up five light years away from Earth and had a telescope powerful enough to see Earth, would you be seeing Earth from five years ago?"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 119,
+      "resolved_rate": 0.739,
+      "avg_answers": 1.29,
+      "top_words": [
+        "colour",
+        "white",
+        "green",
+        "black",
+        "they",
+        "when",
+        "what",
+        "blue"
+      ],
+      "example_questions": [
+        "What colour is an artificial testicle? I had an orchidectomy and didn't ask what colour the prosthetic was. I want to know if it's like a glow-in-the-dark LED or something.",
+        "Why is a black box called a black box when it's usually orange? Were they black to start with? Is the orange case a design change? Is there a black box inside the orange box?"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 117,
+      "resolved_rate": 0.726,
+      "avg_answers": 1.31,
+      "top_words": [
+        "when",
+        "does",
+        "water",
+        "drink",
+        "that",
+        "wine",
+        "bottle",
+        "have"
+      ],
+      "example_questions": [
+        "Why does flat, previously carbonated water taste different from tap water even after all the bubbles have gone?",
+        "At the cinema or children's play area, there are signs saying you can't bring in your own food or drink. Is there any legal grounding to this?"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 117,
+      "resolved_rate": 0.778,
+      "avg_answers": 1.15,
+      "top_words": [
+        "they",
+        "when",
+        "where",
+        "what",
+        "flies",
+        "come",
+        "there",
+        "them"
+      ],
+      "example_questions": [
+        "How can Mark paint his puppet theatres with coach enamel in hot weather without getting bugs landing on the wet paint? When he paints outside early evening when it's cooler, he gets bugs on it. If he paints inside with extraction fans, the theatres are too big to paint inside.",
+        "Do flies sweat?"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 114,
+      "resolved_rate": 0.833,
+      "avg_answers": 1.39,
+      "top_words": [
+        "cold",
+        "when",
+        "does",
+        "water",
+        "temperature",
+        "what",
+        "that",
+        "degrees"
+      ],
+      "example_questions": [
+        "The temperature outside is 16 degrees centigrade and warm, but my office air conditioning is set to 16 degrees and it's freezing, and my car is set to 16 degrees and it's also freezing. What's going on?",
+        "If average body temperature is 36.5 degrees, why do we find it unbearably hot when it's 30 degrees outside?"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 112,
+      "resolved_rate": 0.812,
+      "avg_answers": 1.49,
+      "top_words": [
+        "they",
+        "when",
+        "have",
+        "that",
+        "what",
+        "would",
+        "does",
+        "building"
+      ],
+      "example_questions": [
+        "When building tall structures like The Shard, how do they get the cranes down if the counterweighted concrete is still at the top?",
+        "If my six-year-old child fell off a high building, and I immediately jumped off after them - because I'm heavier, I would fall faster and could catch them. Then just before hitting the ground, if I threw him upwards, would that save him? Would I need to sacrifice myself?"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 112,
+      "resolved_rate": 0.732,
+      "avg_answers": 1.29,
+      "top_words": [
+        "have",
+        "what",
+        "wear",
+        "they",
+        "when",
+        "their",
+        "always",
+        "called"
+      ],
+      "example_questions": [
+        "Why are the metal zips on trousers called 'flies'?",
+        "Why is it a milliner makes a woman's hat and a hatter makes a man's hat?"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 109,
+      "resolved_rate": 0.789,
+      "avg_answers": 1.33,
+      "top_words": [
+        "time",
+        "does",
+        "year",
+        "have",
+        "they",
+        "when",
+        "days",
+        "there"
+      ],
+      "example_questions": [
+        "Why are magazines dated so far in the future? I subscribed in April and received the June edition. Why can't I get the April edition in April?",
+        "Why does the academic year start in September?"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 107,
+      "resolved_rate": 0.701,
+      "avg_answers": 1.21,
+      "top_words": [
+        "your",
+        "when",
+        "what",
+        "that",
+        "brain",
+        "does",
+        "eyes",
+        "have"
+      ],
+      "example_questions": [
+        "Why do you never see yourself in mirrors or reflections when dreaming?",
+        "When you dream and your eyes are closed, where do the images come from? How can you see in your dreams when you can't see with your eyes closed when you're awake? Because your eyes aren't working in a dream."
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 107,
+      "resolved_rate": 0.804,
+      "avg_answers": 1.31,
+      "top_words": [
+        "they",
+        "have",
+        "when",
+        "that",
+        "water",
+        "their",
+        "fish",
+        "what"
+      ],
+      "example_questions": [
+        "In London there are lots of equestrian statues - people mounted on horseback. Some have their feet in stirrups and some don't. Why?",
+        "I've been watching Blue Planet and all that, and I was just wondering if all the dolphins can all speak the same language, or squeak the same language, I should say. So you mean if a dolphin got transported from the Great Barrier Reef to the coast just off Scotland, would they understand each other?"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 106,
+      "resolved_rate": 0.755,
+      "avg_answers": 1.5,
+      "top_words": [
+        "left",
+        "right",
+        "side",
+        "have",
+        "hand",
+        "does",
+        "when",
+        "clockwise"
+      ],
+      "example_questions": [
+        "Why is the Royal Box always to one side of the auditorium? It's always on the right-hand side as you face the stage. And why isn't it bang in the middle? Because surely the best view would be right from the very middle of the gallery or something, rather than on the side.",
+        "Why do we stand on the right on escalators but keep left in corridors on the London Underground? Why the difference?"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 105,
+      "resolved_rate": 0.819,
+      "avg_answers": 1.31,
+      "top_words": [
+        "what",
+        "they",
+        "that",
+        "does",
+        "there",
+        "blood",
+        "from",
+        "same"
+      ],
+      "example_questions": [
+        "Why are all pills and tablets white when a lot of stuff is made from natural plant sources?",
+        "My medicine packaging says 'do not crush, take whole'. Why? Why can't we crush our medicine?"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 103,
+      "resolved_rate": 0.748,
+      "avg_answers": 1.19,
+      "top_words": [
+        "trees",
+        "tree",
+        "they",
+        "have",
+        "that",
+        "plants",
+        "what",
+        "there"
+      ],
+      "example_questions": [
+        "How do daffodils get planted in the middle of nowhere, miles from any houses or villages? If I want daffodils in my garden I have to buy and plant bulbs, so they're not spread by seed.",
+        "Why don't I get hundreds of apples growing in the shadow of my apple tree? Every year that apple tree drops hundreds of apples."
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 101,
+      "resolved_rate": 0.663,
+      "avg_answers": 1.32,
+      "top_words": [
+        "they",
+        "numbers",
+        "number",
+        "there",
+        "have",
+        "what",
+        "four",
+        "when"
+      ],
+      "example_questions": [
+        "Why in music do we count 'one, two, three, four' and then play on four, but in dance we count 'one, two, three, four, five, six, seven, eight' and throw on eight?",
+        "How come dice have dots and not numbers? You can count dots but you might not know numbers if you were illiterate."
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 100,
+      "resolved_rate": 0.75,
+      "avg_answers": 1.19,
+      "top_words": [
+        "what",
+        "that",
+        "where",
+        "when",
+        "there",
+        "london",
+        "have",
+        "from"
+      ],
+      "example_questions": [
+        "When towns like Southend were made cities during the Queen's Jubilee, would they have to rename their football team?",
+        "Were musicians/soldiers given special protection in Napoleonic-era battles and not fired upon, similar to how flag bearers were protected?"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 92,
+      "resolved_rate": 0.728,
+      "avg_answers": 1.23,
+      "top_words": [
+        "what",
+        "have",
+        "would",
+        "they",
+        "when",
+        "that",
+        "their",
+        "baby"
+      ],
+      "example_questions": [
+        "Is ticklishness genetic? His daughter who looks like him has extremely tickly feet, the other daughter has no feeling in her feet at all. His father has very tickly feet, his mother has none.",
+        "Using modern science, how close could you get to estimating someone's exact date of birth (not just age) if they couldn't tell you?"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 92,
+      "resolved_rate": 0.75,
+      "avg_answers": 1.34,
+      "top_words": [
+        "when",
+        "your",
+        "skin",
+        "with",
+        "have",
+        "does",
+        "they",
+        "that"
+      ],
+      "example_questions": [
+        "Why do mirrors give differing reflections? At home, Surrey looks slimmer in mirrors, but in Marks and Spencer's mirrors, he looks bigger.",
+        "Why is the top of my shin bone on both legs so jagged when all my other bones are smooth? Was I born with it or is it from falling as a child?"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 92,
+      "resolved_rate": 0.826,
+      "avg_answers": 1.29,
+      "top_words": [
+        "when",
+        "they",
+        "plane",
+        "what",
+        "aircraft",
+        "have",
+        "does",
+        "planes"
+      ],
+      "example_questions": [
+        "Why do they weigh our luggage at the airport but not weigh the passengers? Surely we need to know the weight of passengers for fuel calculation and weight distribution.",
+        "Can pilots use the seatbelt sign for reasons other than turbulence? On a recent flight with many kids running around, the seatbelt light came on with no announcement. Did the pilot put it on just to control the kids?"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 84,
+      "resolved_rate": 0.75,
+      "avg_answers": 1.38,
+      "top_words": [
+        "when",
+        "does",
+        "they",
+        "have",
+        "what",
+        "washing",
+        "work",
+        "there"
+      ],
+      "example_questions": [
+        "Why are slugs targeting my dishwasher specifically and not other appliances like the toaster or kettle? They've destroyed two dishwashers by getting into the electrics.",
+        "When you finish on the toilet and wash your hands, you want to exit but the door has a handle and you don't want to touch it because it's full of germs. Some have a wooden handle you push, some have metal. Which is better to touch? Does bacteria thrive better on metal or wood?"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 82,
+      "resolved_rate": 0.622,
+      "avg_answers": 1.11,
+      "top_words": [
+        "when",
+        "sleep",
+        "wake",
+        "asleep",
+        "have",
+        "eyes",
+        "that",
+        "does"
+      ],
+      "example_questions": [
+        "Why does his nose not run when he sleeps, despite having terrible hay fever that makes it run all day?",
+        "What is that noise you hear when you yawn? Like a white noise that diminishes what you can hear around you."
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 80,
+      "resolved_rate": 0.675,
+      "avg_answers": 1.14,
+      "top_words": [
+        "smell",
+        "does",
+        "when",
+        "that",
+        "your",
+        "what",
+        "they",
+        "nose"
+      ],
+      "example_questions": [
+        "Why does a brand new empty vinegar bottle smell of vinegar even though it's never had vinegar in it?",
+        "Some smells bring back horrible fears. One of them is the dentist smell. All dentists seem to smell the same. But I've never known what that smell actually is."
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 80,
+      "resolved_rate": 0.613,
+      "avg_answers": 0.97,
+      "top_words": [
+        "what",
+        "they",
+        "have",
+        "there",
+        "that",
+        "question",
+        "answer",
+        "many"
+      ],
+      "example_questions": [
+        "How many unique jokes are there on Penguin bar packets? I count six or eight so far but get repeats.",
+        "In Home Alone, in the scene where Michael Colton is in the kitchen eating pizza with a movie playing in the background, what's the name of that movie with the phrase 'keep your change, filthy animal'?"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 74,
+      "resolved_rate": 0.554,
+      "avg_answers": 1.07,
+      "top_words": [
+        "hair",
+        "does",
+        "grow",
+        "when",
+        "your",
+        "that",
+        "head",
+        "grey"
+      ],
+      "example_questions": [
+        "When and why did it become socially unacceptable for women to be hairy?",
+        "Why do people with black hair grow ginger beards?"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 73,
+      "resolved_rate": 0.74,
+      "avg_answers": 1.32,
+      "top_words": [
+        "have",
+        "that",
+        "humans",
+        "what",
+        "human",
+        "evolutionary",
+        "like",
+        "evolved"
+      ],
+      "example_questions": [
+        "Why don't people ride zebras? They look like horses and donkeys, part of the same genus, but no one ever rides them.",
+        "Why do human beings across the globe respond to what they identify as a beat in music by dancing to it? Even if it's not an evolutionary explanation, why is it so core to human beings?"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 71,
+      "resolved_rate": 0.817,
+      "avg_answers": 1.27,
+      "top_words": [
+        "babies",
+        "when",
+        "they",
+        "baby",
+        "what",
+        "does",
+        "that",
+        "their"
+      ],
+      "example_questions": [
+        "What is the science behind shushing and white noise soothing babies? Why does it work for some people and not others?",
+        "Her 14-week-old daughter yawns when Stephanie yawns, but when the daughter yawns, it doesn't make Stephanie yawn. At what age do you start catching yawns?"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 58,
+      "resolved_rate": 0.621,
+      "avg_answers": 1.17,
+      "top_words": [
+        "cats",
+        "they",
+        "does",
+        "have",
+        "like",
+        "when",
+        "dogs",
+        "that"
+      ],
+      "example_questions": [
+        "Does a cat's meow have an accent? Will a cat from Manchester sound different from a cat in Spain?",
+        "Do cats need to have sunshine to get their daily dose of vitamin D? My cat never goes outside."
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 37,
+      "resolved_rate": 0.676,
+      "avg_answers": 1.16,
+      "top_words": [
+        "spider",
+        "spiders",
+        "they",
+        "does",
+        "webs",
+        "what",
+        "when",
+        "like"
+      ],
+      "example_questions": [
+        "How long does it take cobwebs to decompose?",
+        "Can spiders use other spiders' webs? Different species, can they walk across it without getting caught?"
+      ]
+    }
+  ]
+}

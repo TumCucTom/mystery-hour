@@ -1,0 +1,159 @@
+{
+  "answer_distribution": {
+    "0": {
+      "total": 827,
+      "resolved": 5
+    },
+    "1": {
+      "total": 3190,
+      "resolved": 2664
+    },
+    "2": {
+      "total": 1769,
+      "resolved": 1559
+    },
+    "3": {
+      "total": 305,
+      "resolved": 254
+    },
+    "4": {
+      "total": 30,
+      "resolved": 26
+    },
+    "5": {
+      "total": 11,
+      "resolved": 9
+    },
+    "6": {
+      "total": 2,
+      "resolved": 0
+    }
+  },
+  "total_answers": 6134,
+  "total_overturned": 693,
+  "longest_unresolved": [
+    {
+      "episode": "ep_000",
+      "question": "Why is the Royal Box always to one side of the auditorium? It's always on the right-hand side as you face the stage. And",
+      "n_answers": 6,
+      "answers": [
+        "One of the answers will be ease of ingress and egress, so they can get in and ou",
+        "If the royals are there, don't they want everyone to see them going down to the ",
+        "Is it so that the performers can acknowledge them more easily? Because, you know",
+        "I'd be surprised if it didn't go back to George III.",
+        "It was on the other side (referring to John Wilkes Booth's position when he assa",
+        "Why you'd think that the most plumb seats in the place would be the ones with th"
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_153",
+      "question": "What is the hardest sporting feat an individual can achieve? For example, a 59 in golf, a nine-dart finish in darts, or ",
+      "n_answers": 6,
+      "answers": [
+        "I would say a 59 in golf is the hardest. A hole-in-one is more work, and there h",
+        "My brother is a golf professional. He says golf is the second most difficult spo",
+        "An iron distance triathlon is the hardest achievement. The first person to have ",
+        "I believe the biggest privately owned house in the country is Wentworth Woodhous",
+        "An 18 under par 18 hole round would be the ultimate achievement but it's impossi",
+        "A 155 break in snooker is theoretically possible with a free ball, which would a"
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_235",
+      "question": "What animal grows the most relative to its birth weight? (Biggest differential between birth weight and fully grown size",
+      "n_answers": 5,
+      "answers": [
+        "It's a marlin - they hatch from grams and can grow to 2,000 pounds (multiple of ",
+        "Take a fish - go for the biggest fish in the ocean: whale shark",
+        "Red kangaroo - they have a month gestation, give birth to young the size of a gr",
+        "Coral reef - it's a single animal made up of billions of tiny polyps and can be ",
+        "Whale shark - they give birth to 30cm babies but grow to 30 metres (Baby shark, "
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_559",
+      "question": "Who is 'the fat lady' in 'the fat lady sings'? Is it a specific opera singer or character?",
+      "n_answers": 5,
+      "answers": [
+        "It's probably opera - most female opera singers are fairly well upholstered hist",
+        "It's about US elections. The 'fat lady' is Texas, which was typically the last r",
+        "Most operas end with a soprano singing a long aria before she dies - think of La",
+        "In 1933, a baseball commissioner moved the national anthem from the beginning to",
+        "It's not 'the fat lady sings' but 'the fat lady sinks' - the fat lady was the sa"
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_410",
+      "question": "Can a swan actually break a human arm with its wings?",
+      "n_answers": 4,
+      "answers": [
+        "A man on the Thames got too near rushes and a swan attacked him, breaking his ar",
+        "A swan cannot break the bones of a human with its wing - it's a myth. Seen on a ",
+        "A swan broke my mum's arm some years back by grabbing her arm, and she has suffe",
+        "A swan probably could break your arm with its wings. I have 15 years experience "
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_417",
+      "question": "Why do seagulls stand on one leg?",
+      "n_answers": 4,
+      "answers": [
+        "You can swap legs when it gets cold, so it doubles the amount of time you can st",
+        "Birds can shut off one side of their body from the other - they put one side to ",
+        "Semi-hemispheric sleep will be part of the answer, but it may hold true for flam",
+        "Flamingos live in an acoustic environment and lift their legs up to stop sedimen"
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_544",
+      "question": "Why do we say the word 'up' when we do the washing up or dress up? It doesn't really make sense. Why does it not just 'd",
+      "n_answers": 4,
+      "answers": [
+        "You wash up in the sink and you put it up onto the draining board to dry (before",
+        "Washing up is called washing up because washing up liquid is called washing up l",
+        "Before we had synthetic washing liquid, we used natural soaps from rivers and an",
+        "The 'up' in those expressions is merely a figure of speech relating to physical "
+      ],
+      "topics": []
+    },
+    {
+      "episode": "ep_546",
+      "question": "My daughter's dog always sleeps in the car, but wakes up and jumps at the window as soon as I turn into my road - every ",
+      "n_answers": 4,
+      "answers": [
+        "It's smell - dogs recognise their own scent and the scent of home.",
+        "Dogs recognise the place through a combination of scents and sounds. They have a",
+        "It's the dog's awareness of YOUR anticipation. You give off chemicals when you k",
+        "It's definitely scent - plus sounds. She has ten dogs in her car and they all st"
+      ],
+      "topics": []
+    }
+  ],
+  "summary": {
+    "pct_multi_answer": 75.6,
+    "avg_answers_per_question": 1.28
+  },
+  "answer_length_stats": {
+    "short": {
+      "count": 177,
+      "resolved": 133,
+      "rate": 0.751
+    },
+    "medium": {
+      "count": 2448,
+      "resolved": 1930,
+      "rate": 0.788
+    },
+    "long": {
+      "count": 5205,
+      "resolved": 4630,
+      "rate": 0.89
+    }
+  }
+}

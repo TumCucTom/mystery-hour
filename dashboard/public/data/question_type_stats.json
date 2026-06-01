@@ -1,0 +1,80 @@
+{
+  "why": {
+    "total": 3058,
+    "resolved": 2260,
+    "resolved_rate_pct": 73.9,
+    "avg_answers": 1.29
+  },
+  "how": {
+    "total": 855,
+    "resolved": 670,
+    "resolved_rate_pct": 78.4,
+    "avg_answers": 1.29
+  },
+  "what": {
+    "total": 774,
+    "resolved": 568,
+    "resolved_rate_pct": 73.4,
+    "avg_answers": 1.32
+  },
+  "other": {
+    "total": 297,
+    "resolved": 178,
+    "resolved_rate_pct": 59.9,
+    "avg_answers": 1.07
+  },
+  "where": {
+    "total": 257,
+    "resolved": 174,
+    "resolved_rate_pct": 67.7,
+    "avg_answers": 1.25
+  },
+  "when": {
+    "total": 222,
+    "resolved": 163,
+    "resolved_rate_pct": 73.4,
+    "avg_answers": 1.27
+  },
+  "if": {
+    "total": 182,
+    "resolved": 145,
+    "resolved_rate_pct": 79.7,
+    "avg_answers": 1.35
+  },
+  "is": {
+    "total": 151,
+    "resolved": 114,
+    "resolved_rate_pct": 75.5,
+    "avg_answers": 1.19
+  },
+  "who": {
+    "total": 125,
+    "resolved": 87,
+    "resolved_rate_pct": 69.6,
+    "avg_answers": 1.14
+  },
+  "can": {
+    "total": 112,
+    "resolved": 86,
+    "resolved_rate_pct": 76.8,
+    "avg_answers": 1.31
+  },
+  "does": {
+    "total": 50,
+    "resolved": 36,
+    "resolved_rate_pct": 72.0,
+    "avg_answers": 1.2
+  },
+  "which": {
+    "total": 39,
+    "resolved": 27,
+    "resolved_rate_pct": 69.2,
+    "avg_answers": 1.21
+  },
+  "would": {
+    "total": 12,
+    "resolved": 9,
+    "resolved_rate_pct": 75.0,
+    "avg_answers": 1.42
+  }
+}
