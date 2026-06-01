@@ -1,0 +1,260 @@
+{
+  "unique_first_names": 436,
+  "unique_locations": 642,
+  "top_first_names": [
+    [
+      "John",
+      44
+    ],
+    [
+      "David",
+      35
+    ],
+    [
+      "Paul",
+      31
+    ],
+    [
+      "Mark",
+      28
+    ],
+    [
+      "Steve",
+      27
+    ],
+    [
+      "Simon",
+      26
+    ],
+    [
+      "Chris",
+      24
+    ],
+    [
+      "Andy",
+      19
+    ],
+    [
+      "Richard",
+      18
+    ],
+    [
+      "Mike",
+      18
+    ],
+    [
+      "Martin",
+      17
+    ],
+    [
+      "Nick",
+      16
+    ],
+    [
+      "Dan",
+      15
+    ],
+    [
+      "Gary",
+      15
+    ],
+    [
+      "Neil",
+      14
+    ],
+    [
+      "Sean",
+      14
+    ],
+    [
+      "Matt",
+      13
+    ],
+    [
+      "Dave",
+      12
+    ],
+    [
+      "Peter",
+      12
+    ],
+    [
+      "Sam",
+      11
+    ],
+    [
+      "Jamie",
+      11
+    ],
+    [
+      "Joe",
+      11
+    ],
+    [
+      "Graham",
+      10
+    ],
+    [
+      "Jack",
+      10
+    ],
+    [
+      "Tim",
+      9
+    ]
+  ],
+  "top_locations": [
+    [
+      "Croydon",
+      18
+    ],
+    [
+      "Bromley",
+      16
+    ],
+    [
+      "Ealing",
+      14
+    ],
+    [
+      "Watford",
+      13
+    ],
+    [
+      "Bristol",
+      11
+    ],
+    [
+      "Wimbledon",
+      11
+    ],
+    [
+      "Brighton",
+      10
+    ],
+    [
+      "Sheffield",
+      10
+    ],
+    [
+      "Manchester",
+      9
+    ],
+    [
+      "Guildford",
+      9
+    ],
+    [
+      "Slough",
+      9
+    ],
+    [
+      "Birmingham",
+      8
+    ],
+    [
+      "Glasgow",
+      8
+    ],
+    [
+      "Hackney",
+      8
+    ],
+    [
+      "Nottingham",
+      8
+    ],
+    [
+      "Epsom",
+      7
+    ],
+    [
+      "Liverpool",
+      7
+    ],
+    [
+      "Dublin",
+      7
+    ],
+    [
+      "Cambridge",
+      7
+    ],
+    [
+      "Leeds",
+      7
+    ],
+    [
+      "Oxford",
+      7
+    ],
+    [
+      "Romford",
+      7
+    ],
+    [
+      "Orpington",
+      7
+    ],
+    [
+      "Reading",
+      7
+    ],
+    [
+      "Lewisham",
+      7
+    ],
+    [
+      "Walthamstow",
+      7
+    ],
+    [
+      "Forest Hill",
+      7
+    ],
+    [
+      "Crawley",
+      6
+    ],
+    [
+      "Ipswich",
+      6
+    ],
+    [
+      "Enfield",
+      6
+    ]
+  ],
+  "generated_samples": [
+    "Jane from Watford",
+    "David from Dorking",
+    "John from Ferrybridge",
+    "Richard from Aylesbury",
+    "Paul from St. James",
+    "John from Reading",
+    "Sheila from Guildford",
+    "Stefan from Eltham",
+    "Matt from Coningsdale",
+    "Bonnie from Filey",
+    "Chris from Hatfield",
+    "Patrick from Melton Mowbray",
+    "Joe from Enfield",
+    "Alex from Ealing",
+    "Ian from Canterbury",
+    "Stan from Newham",
+    "Elaine from Huddersfield",
+    "Owen from Bristol",
+    "Clive from Torquay",
+    "Simon from Coventry",
+    "Paul from Croydon",
+    "Oscar from Harlow",
+    "Helen from Warwick",
+    "Ashley from Bracknell",
+    "Andre from Kilmarnock",
+    "Paul from Northwood",
+    "Anthony from Thetford",
+    "Jed from Broxbourne",
+    "Chris from Brentford",
+    "David from Hammersmith"
+  ]
+}

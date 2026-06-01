@@ -1,0 +1,1922 @@
+{
+  "Farnham": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "Why is the Royal Box always to one side of the auditorium? It's always on the right-hand side as you",
+        "ep": "ep_000",
+        "over": false
+      },
+      {
+        "q": "Why are all pills and tablets white when a lot of stuff is made from natural plant sources?",
+        "ep": "ep_023",
+        "over": false
+      },
+      {
+        "q": "How do weather forecasters know exactly how many centimetres of rain we're going to get? My jug meas",
+        "ep": "ep_034",
+        "over": false
+      }
+    ]
+  },
+  "Winchester": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "When an organ is playing in a cathedral and you get to the end of whatever they're playing, you've g",
+        "ep": "ep_000",
+        "over": false
+      },
+      {
+        "q": "Why are the majority of fruits round or at least globular?",
+        "ep": "ep_107",
+        "over": false
+      },
+      {
+        "q": "Do sign languages have an equivalent of 'um' and 'er'? Is there a sort of pause or filler sign?",
+        "ep": "ep_195",
+        "over": false
+      }
+    ]
+  },
+  "Manchester": {
+    "total": 9,
+    "overturned": 0,
+    "resolved": 7,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.7778,
+    "qs": [
+      {
+        "q": "Why in music do we count 'one, two, three, four' and then play on four, but in dance we count 'one, ",
+        "ep": "ep_000",
+        "over": false
+      },
+      {
+        "q": "Does a cat's meow have an accent? Will a cat from Manchester sound different from a cat in Spain?",
+        "ep": "ep_002",
+        "over": false
+      },
+      {
+        "q": "Why do building sites have walls with small double-glazed windows that never get connected to anythi",
+        "ep": "ep_050",
+        "over": false
+      }
+    ]
+  },
+  "Hammersmith": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Do dogs have different blood types like humans do?",
+        "ep": "ep_000",
+        "over": false
+      },
+      {
+        "q": "Why in the UK is 18 the legal age to be an adult? Is it a biological thing or a socially constructed",
+        "ep": "ep_385",
+        "over": true
+      },
+      {
+        "q": "Regarding Harry Roberts getting out of jail after shooting the three policemen - he's been in jail s",
+        "ep": "ep_487",
+        "over": false
+      }
+    ]
+  },
+  "Southampton": {
+    "total": 5,
+    "overturned": 5,
+    "resolved": 3,
+    "overturned_rate": 1.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "Where did the Mexican wave originate and why is it called Mexican?",
+        "ep": "ep_002",
+        "over": true
+      },
+      {
+        "q": "Is it cost effective to make a 1 penny piece? Does it cost more to make than what it's actually wort",
+        "ep": "ep_050",
+        "over": true
+      },
+      {
+        "q": "If the source of a river is a trickle like a spring, and the mouth is massive, where does all the wa",
+        "ep": "ep_101",
+        "over": true
+      }
+    ]
+  },
+  "Epsom": {
+    "total": 7,
+    "overturned": 2,
+    "resolved": 4,
+    "overturned_rate": 0.2857,
+    "resolved_rate": 0.5714,
+    "qs": [
+      {
+        "q": "Does the heart of a caterpillar stay in it as it goes through the chrysalis stage to become a butter",
+        "ep": "ep_002",
+        "over": false
+      },
+      {
+        "q": "If four cars arrive at a mini roundabout simultaneously, who has right of way?",
+        "ep": "ep_221",
+        "over": true
+      },
+      {
+        "q": "Do we actually swallow while we're asleep?",
+        "ep": "ep_221",
+        "over": true
+      }
+    ]
+  },
+  "Barnet": {
+    "total": 5,
+    "overturned": 1,
+    "resolved": 4,
+    "overturned_rate": 0.2,
+    "resolved_rate": 0.8,
+    "qs": [
+      {
+        "q": "Why do they weigh our luggage at the airport but not weigh the passengers? Surely we need to know th",
+        "ep": "ep_003",
+        "over": false
+      },
+      {
+        "q": "What is the melody of the big ben chime? It's so iconic but it's repeated all over different towns w",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "Why do you urinate when you're nervous?",
+        "ep": "ep_343",
+        "over": false
+      }
+    ]
+  },
+  "Brighton": {
+    "total": 10,
+    "overturned": 0,
+    "resolved": 6,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "From old war films, I think it might just be Nazis but I'm not sure - in men's uniforms, the trouser",
+        "ep": "ep_012",
+        "over": false
+      },
+      {
+        "q": "How is the difficulty of a Sudoku determined? If you complete the nightmare level, is the number of ",
+        "ep": "ep_042",
+        "over": false
+      },
+      {
+        "q": "Why do we grimace when we're picking up heavy objects or when we're in pain? Some people do and some",
+        "ep": "ep_053",
+        "over": false
+      }
+    ]
+  },
+  "Bromley": {
+    "total": 16,
+    "overturned": 3,
+    "resolved": 13,
+    "overturned_rate": 0.1875,
+    "resolved_rate": 0.8125,
+    "qs": [
+      {
+        "q": "My daughter had a hamster. Why does it spend its whole life trying to escape? You give it everything",
+        "ep": "ep_012",
+        "over": false
+      },
+      {
+        "q": "Why do people use the word 'Roger' to mean 'yes' or 'acknowledged' on VHF radio?",
+        "ep": "ep_025",
+        "over": false
+      },
+      {
+        "q": "Why were Native Americans once known as 'Red Indians'?",
+        "ep": "ep_091",
+        "over": false
+      }
+    ]
+  },
+  "Bristol": {
+    "total": 11,
+    "overturned": 2,
+    "resolved": 9,
+    "overturned_rate": 0.1818,
+    "resolved_rate": 0.8182,
+    "qs": [
+      {
+        "q": "Why don't crisp manufacturers use the same colour scheme for their flavours across all brands?",
+        "ep": "ep_013",
+        "over": false
+      },
+      {
+        "q": "When and why did people from Newcastle start being referred to as Geordies?",
+        "ep": "ep_023",
+        "over": false
+      },
+      {
+        "q": "When boiling pasta in a saucepan without the lid on, it boils over. If you place a wooden spoon acro",
+        "ep": "ep_195",
+        "over": true
+      }
+    ]
+  },
+  "Liverpool": {
+    "total": 7,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.7143,
+    "qs": [
+      {
+        "q": "Why is fresh ginger the only ingredient measured in 'thumb-sized' or 'thumbnail-sized' amounts? Why ",
+        "ep": "ep_013",
+        "over": false
+      },
+      {
+        "q": "Why doesn't a pedestrian crossing button change the traffic lights to red instantly, even when no ot",
+        "ep": "ep_025",
+        "over": false
+      },
+      {
+        "q": "Why do we use green as the fourth primary colour when red, yellow, blue are primaries and green, pur",
+        "ep": "ep_034",
+        "over": false
+      }
+    ]
+  },
+  "Dublin": {
+    "total": 7,
+    "overturned": 1,
+    "resolved": 7,
+    "overturned_rate": 0.1429,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why do we stand on the right side of travelators and walk on the left? Since we drive on the left an",
+        "ep": "ep_019",
+        "over": true
+      },
+      {
+        "q": "How do WhatsApp make their money?",
+        "ep": "ep_070",
+        "over": false
+      },
+      {
+        "q": "Do the people who do voiceovers in commercials actually speak like that in real life, or do they put",
+        "ep": "ep_098",
+        "over": false
+      }
+    ]
+  },
+  "Dorking": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 2,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "Why have humans evolved to enjoy music? Even when we were apes, we may have always liked music.",
+        "ep": "ep_019",
+        "over": false
+      },
+      {
+        "q": "How can beef-flavoured crisps be labelled 'no artificial flavours suitable for vegetarians'?",
+        "ep": "ep_053",
+        "over": false
+      },
+      {
+        "q": "When I wash a red T-shirt with white T-shirts and the dye runs, why doesn't the dye come out of the ",
+        "ep": "ep_471",
+        "over": false
+      }
+    ]
+  },
+  "Birmingham": {
+    "total": 8,
+    "overturned": 0,
+    "resolved": 6,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why does Mo sleep through his wife's alarm but not his own, and vice versa at weekends? They have th",
+        "ep": "ep_019",
+        "over": false
+      },
+      {
+        "q": "Where does the distinctive tune/sequence of whistles that referees blow at half-time and full-time c",
+        "ep": "ep_082",
+        "over": false
+      },
+      {
+        "q": "Answer about national anthem",
+        "ep": "ep_116",
+        "over": false
+      }
+    ]
+  },
+  "Crawley": {
+    "total": 6,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "Why do men lose hair where they want it (head) but grow hair where they don't want it (ears, nose, s",
+        "ep": "ep_020",
+        "over": false
+      },
+      {
+        "q": "Why do some foods make you feel sick? Not in the repulsive way but halfway through a slice of cheese",
+        "ep": "ep_128",
+        "over": false
+      },
+      {
+        "q": "If you get stung by a stinging nettle, you can always find a dock leaf nearby. How is that? Why woul",
+        "ep": "ep_323",
+        "over": false
+      }
+    ]
+  },
+  "Ipswich": {
+    "total": 6,
+    "overturned": 1,
+    "resolved": 4,
+    "overturned_rate": 0.1667,
+    "resolved_rate": 0.6667,
+    "qs": [
+      {
+        "q": "How distantly related can you be to someone before you have no genetic link? When does a measurable ",
+        "ep": "ep_020",
+        "over": false
+      },
+      {
+        "q": "Why is one side of a bar of soap soft and the other side hard?",
+        "ep": "ep_116",
+        "over": true
+      },
+      {
+        "q": "Why don't we run clockwise? Whether it's Olympic events, horse racing, or dog racing, everything is ",
+        "ep": "ep_298",
+        "over": false
+      }
+    ]
+  },
+  "Northampton": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "What is the science behind shushing and white noise soothing babies? Why does it work for some peopl",
+        "ep": "ep_020",
+        "over": false
+      },
+      {
+        "q": "Whenever I buy a tailored item or clothing, the pockets are always stitched together. Why?",
+        "ep": "ep_147",
+        "over": false
+      },
+      {
+        "q": "Under globalised capitalism, is it inevitable that one person is going to end up owning everything? ",
+        "ep": "ep_384",
+        "over": false
+      }
+    ]
+  },
+  "Cambridge": {
+    "total": 7,
+    "overturned": 1,
+    "resolved": 5,
+    "overturned_rate": 0.1429,
+    "resolved_rate": 0.7143,
+    "qs": [
+      {
+        "q": "Why does nothing else boggle? Why is it only the mind that boggles?",
+        "ep": "ep_023",
+        "over": false
+      },
+      {
+        "q": "Where did the idea come from that fish guts could play a part in beer production?",
+        "ep": "ep_090",
+        "over": false
+      },
+      {
+        "q": "What makes an assassination different from a murder? How important do you have to be to be 'assassin",
+        "ep": "ep_120",
+        "over": false
+      }
+    ]
+  },
+  "Wimbledon": {
+    "total": 11,
+    "overturned": 0,
+    "resolved": 9,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8182,
+    "qs": [
+      {
+        "q": "At the very bottom of the ocean, deep down, is the water there thicker or more viscous than the wate",
+        "ep": "ep_023",
+        "over": false
+      },
+      {
+        "q": "Why do MPs and the Speaker refer to each other as 'honourable' and 'right honourable'? Where does it",
+        "ep": "ep_195",
+        "over": false
+      },
+      {
+        "q": "Can you see cold-blooded animals through infrared cameras?",
+        "ep": "ep_255",
+        "over": false
+      }
+    ]
+  },
+  "Basingstoke": {
+    "total": 5,
+    "overturned": 2,
+    "resolved": 3,
+    "overturned_rate": 0.4,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "If I'm cooking dinner and the potatoes are still hard, should I turn the heat up even though the wat",
+        "ep": "ep_025",
+        "over": true
+      },
+      {
+        "q": "Why do we call them Steg and Hendos? What is the origin of 'stag' and 'hen' for stag and hen nights?",
+        "ep": "ep_070",
+        "over": false
+      },
+      {
+        "q": "When and where does throwing pennies into wishing wells originate?",
+        "ep": "ep_357",
+        "over": false
+      }
+    ]
+  },
+  "Cardiff": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8,
+    "qs": [
+      {
+        "q": "Why does my ridiculously loud snore never wake me up, but my girlfriend's much quieter snore can wak",
+        "ep": "ep_028",
+        "over": false
+      },
+      {
+        "q": "Why are aircraft hangars called hangers when there's nothing hanging in them?",
+        "ep": "ep_050",
+        "over": false
+      },
+      {
+        "q": "Are there any viruses that are actually beneficial to us? Whether they attack other cells, dying cel",
+        "ep": "ep_234",
+        "over": false
+      }
+    ]
+  },
+  "Rochester": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why do women and girls put their hand over their mouth when surprised, but men and boys don't? I've ",
+        "ep": "ep_028",
+        "over": false
+      },
+      {
+        "q": "N/A - Answer about trumpet",
+        "ep": "ep_147",
+        "over": false
+      },
+      {
+        "q": "Why don't we get that glorious petrichor smell when we're watering the garden during a long hot spel",
+        "ep": "ep_167",
+        "over": false
+      }
+    ]
+  },
+  "Glasgow": {
+    "total": 8,
+    "overturned": 2,
+    "resolved": 5,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.625,
+    "qs": [
+      {
+        "q": "Why is it that when you have an abandoned building, trees and things grow out of it over days and we",
+        "ep": "ep_029",
+        "over": false
+      },
+      {
+        "q": "Why are drinks sweet mostly and not savory? Why don't you get savory drinks?",
+        "ep": "ep_048",
+        "over": false
+      },
+      {
+        "q": "Why do Scottish people call a hair parting a shed?",
+        "ep": "ep_050",
+        "over": false
+      }
+    ]
+  },
+  "Enfield": {
+    "total": 6,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6667,
+    "qs": [
+      {
+        "q": "Why do trees planted by councils have hoses or spouts sticking out of the ground next to them? My mo",
+        "ep": "ep_031",
+        "over": false
+      },
+      {
+        "q": "Answer about national anthem",
+        "ep": "ep_116",
+        "over": false
+      },
+      {
+        "q": "Who decided to think of a 24-hour clock? Why 24 hours divided into 60 minutes, and who came up with ",
+        "ep": "ep_255",
+        "over": false
+      }
+    ]
+  },
+  "Hendon": {
+    "total": 6,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6667,
+    "qs": [
+      {
+        "q": "How do spiders know which web is theirs? My four-year-old son Sonny asked me this.",
+        "ep": "ep_031",
+        "over": false
+      },
+      {
+        "q": "Why do men lose their hair (get bald patches) but women generally don't? Apart from alopecia.",
+        "ep": "ep_298",
+        "over": false
+      },
+      {
+        "q": "Why are all racers anti-clockwise? I've been watching the speed skating in the Olympics, and they go",
+        "ep": "ep_342",
+        "over": false
+      }
+    ]
+  },
+  "Camberley": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 1,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.2,
+    "qs": [
+      {
+        "q": "Why do oak trees drop so many acorns but there aren't millions of oak trees everywhere? What's happe",
+        "ep": "ep_031",
+        "over": false
+      },
+      {
+        "q": "How would our tides change if we had two or three moons like some other planets?",
+        "ep": "ep_098",
+        "over": false
+      },
+      {
+        "q": "Where does the extra day come from if 52 weeks \u00d7 7 days = 364? (Answering Alan from Perthly's questi",
+        "ep": "ep_365",
+        "over": false
+      }
+    ]
+  },
+  "Norwich": {
+    "total": 6,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "At a James concert at Colchester Castle, the band's daisy logo on the back screen went from 2D to 3D",
+        "ep": "ep_031",
+        "over": false
+      },
+      {
+        "q": "Why don't maggots drown? We tried to drown them with a kettle and they just reproduce.",
+        "ep": "ep_036",
+        "over": false
+      },
+      {
+        "q": "If a cat's whiskers are the right width for the cat so it knows which hole to go through, and they w",
+        "ep": "ep_048",
+        "over": false
+      }
+    ]
+  },
+  "Sheffield": {
+    "total": 10,
+    "overturned": 2,
+    "resolved": 9,
+    "overturned_rate": 0.2,
+    "resolved_rate": 0.9,
+    "qs": [
+      {
+        "q": "What do you do with a lost homing pigeon in your garden? (Question 1 - crowdsourced)",
+        "ep": "ep_032",
+        "over": false
+      },
+      {
+        "q": "If you keep homing pigeons and move from Cornwall to Glasgow, do the pigeons follow you to Glasgow o",
+        "ep": "ep_032",
+        "over": false
+      },
+      {
+        "q": "How do we know the perceived and published colourings of dinosaurs are accurate?",
+        "ep": "ep_053",
+        "over": false
+      }
+    ]
+  },
+  "Watford": {
+    "total": 13,
+    "overturned": 1,
+    "resolved": 9,
+    "overturned_rate": 0.0769,
+    "resolved_rate": 0.6923,
+    "qs": [
+      {
+        "q": "Why do all dead flies lie with their legs up in the air?",
+        "ep": "ep_032",
+        "over": false
+      },
+      {
+        "q": "Why is Hull in the East Riding called the Land of Green Ginger?",
+        "ep": "ep_036",
+        "over": false
+      },
+      {
+        "q": "How come dreams always play out like a film or a story rather than being just a split second scene?",
+        "ep": "ep_050",
+        "over": false
+      }
+    ]
+  },
+  "Croydon": {
+    "total": 18,
+    "overturned": 3,
+    "resolved": 15,
+    "overturned_rate": 0.1667,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "Relative to its size, what is the loudest animal? If we were all the same size, what would make the ",
+        "ep": "ep_033",
+        "over": true
+      },
+      {
+        "q": "Do animals favour their left or right side in the same way humans do?",
+        "ep": "ep_042",
+        "over": false
+      },
+      {
+        "q": "Has a snooker referee ever accidentally dropped the object ball into the middle of a pack of reds? A",
+        "ep": "ep_046",
+        "over": false
+      }
+    ]
+  },
+  "Leeds": {
+    "total": 8,
+    "overturned": 1,
+    "resolved": 6,
+    "overturned_rate": 0.125,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Who popularized the picture frame? Why do I need to spend \u00a330 to put a \u00a310 picture up on my wall?",
+        "ep": "ep_033",
+        "over": false
+      },
+      {
+        "q": "Why do we bend forward after exercise?",
+        "ep": "ep_042",
+        "over": false
+      },
+      {
+        "q": "When people were digging for coal or iron ore, how on earth did they know that what they were lookin",
+        "ep": "ep_140",
+        "over": false
+      }
+    ]
+  },
+  "Streatham": {
+    "total": 5,
+    "overturned": 2,
+    "resolved": 5,
+    "overturned_rate": 0.4,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "In an emergency, could somebody with a taser do the same job as a defibrillator?",
+        "ep": "ep_033",
+        "over": false
+      },
+      {
+        "q": "Why do record players have two speeds - 45 and 33 and a third revolutions per minute?",
+        "ep": "ep_252",
+        "over": false
+      },
+      {
+        "q": "Why is it that so many sports trophies, and I guess probably other trophies too, are in the shape of",
+        "ep": "ep_376",
+        "over": true
+      }
+    ]
+  },
+  "Coventry": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "How does milk inside a human or animal not turn inside the body when the body is much higher tempera",
+        "ep": "ep_036",
+        "over": false
+      },
+      {
+        "q": "Why does air from pursed lips (like blowing out birthday candles) feel cool, but saying 'ha' with an",
+        "ep": "ep_101",
+        "over": true
+      },
+      {
+        "q": "Why do you never see any aeroplanes in satellite photographs of Earth?",
+        "ep": "ep_272",
+        "over": false
+      }
+    ]
+  },
+  "Hackney": {
+    "total": 8,
+    "overturned": 1,
+    "resolved": 7,
+    "overturned_rate": 0.125,
+    "resolved_rate": 0.875,
+    "qs": [
+      {
+        "q": "How do spiders get into the bath and how do they get out? They come up through the pipe but they don",
+        "ep": "ep_036",
+        "over": false
+      },
+      {
+        "q": "Why does garlic turn bluey-greeny/turquoise coloured when left in a lemon, honey, ginger and garlic ",
+        "ep": "ep_053",
+        "over": false
+      },
+      {
+        "q": "Why is there no such thing as a size B battery? Why does it go straight from A to C?",
+        "ep": "ep_349",
+        "over": false
+      }
+    ]
+  },
+  "Oxford": {
+    "total": 7,
+    "overturned": 2,
+    "resolved": 5,
+    "overturned_rate": 0.2857,
+    "resolved_rate": 0.7143,
+    "qs": [
+      {
+        "q": "When historical podcasts talk about events in AD 74, how do they know the exact month and day if the",
+        "ep": "ep_046",
+        "over": false
+      },
+      {
+        "q": "Why was Napoleon known by his first name, whereas most other dictators in history like Hitler and St",
+        "ep": "ep_098",
+        "over": false
+      },
+      {
+        "q": "Before the advent of emails and Twitter, what was the @ button used for on the keyboard?",
+        "ep": "ep_227",
+        "over": false
+      }
+    ]
+  },
+  "Romford": {
+    "total": 7,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.7143,
+    "qs": [
+      {
+        "q": "Why is the numerical layout on a phone (1-2-3 going down) different from a calculator (7-8-9 going d",
+        "ep": "ep_046",
+        "over": false
+      },
+      {
+        "q": "Why do the three most famous British nursery rhymes all have the same tune? ABC song, Baa Baa Black ",
+        "ep": "ep_323",
+        "over": false
+      },
+      {
+        "q": "Why does brown toast go cold quicker than white toast?",
+        "ep": "ep_384",
+        "over": false
+      }
+    ]
+  },
+  "Richmond": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why do certain foods and drinks like limoncello or banana liqueurs taste better on holiday and not a",
+        "ep": "ep_048",
+        "over": false
+      },
+      {
+        "q": "When we had all the snow a couple of weeks ago, it happened every single time I got out of the car -",
+        "ep": "ep_338",
+        "over": false
+      },
+      {
+        "q": "Why do bus stops have letters on the top and what do they mean?",
+        "ep": "ep_406",
+        "over": false
+      }
+    ]
+  },
+  "Maidstone": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 2,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "What determines the height a bird flies at? What stops a small bird like a pigeon from flying as hig",
+        "ep": "ep_048",
+        "over": false
+      },
+      {
+        "q": "Does anyone own the rights to the Big Ben bongs?",
+        "ep": "ep_362",
+        "over": false
+      },
+      {
+        "q": "Why don't alcoholic drinks have nutritional information (calories, sugar content, ingredients) like ",
+        "ep": "ep_374",
+        "over": false
+      }
+    ]
+  },
+  "Orpington": {
+    "total": 7,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.1429,
+    "resolved_rate": 0.4286,
+    "qs": [
+      {
+        "q": "Does music affect the mood of animals? Does it affect dogs?",
+        "ep": "ep_050",
+        "over": false
+      },
+      {
+        "q": "When we think of the first rainbow, why does it arc? Why is it a bow?",
+        "ep": "ep_107",
+        "over": false
+      },
+      {
+        "q": "Why is a kangaroo court called a kangaroo court?",
+        "ep": "ep_167",
+        "over": false
+      }
+    ]
+  },
+  "Ealing": {
+    "total": 15,
+    "overturned": 6,
+    "resolved": 11,
+    "overturned_rate": 0.4,
+    "resolved_rate": 0.7333,
+    "qs": [
+      {
+        "q": "In game shows, why is the backstage holding room called the green room?",
+        "ep": "ep_050",
+        "over": false
+      },
+      {
+        "q": "If fruit doesn't taste very good, even though it's ripe and in season, will it have the same nutriti",
+        "ep": "ep_094",
+        "over": true
+      },
+      {
+        "q": "Where is the deepest part of the ocean, and how do they know that? Surely not every nautical mile of",
+        "ep": "ep_127",
+        "over": true
+      }
+    ]
+  },
+  "Wigan": {
+    "total": 4,
+    "overturned": 2,
+    "resolved": 4,
+    "overturned_rate": 0.5,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Can you ever forget how to swim after you've learned? If you haven't swum for 30 or 40 years but you",
+        "ep": "ep_066",
+        "over": false
+      },
+      {
+        "q": "Why are the numbers on a dartboard in the order that they're in?",
+        "ep": "ep_101",
+        "over": true
+      },
+      {
+        "q": "With 30 million vehicles on UK roads and 120 million tyres, where does all the rubber go? Roads aren",
+        "ep": "ep_341",
+        "over": false
+      }
+    ]
+  },
+  "Camden": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "Why can I see the Northern Lights through my phone camera but not with my naked eye?",
+        "ep": "ep_070",
+        "over": false
+      },
+      {
+        "q": "In adult relationships, why do we still label ourselves boyfriend and girlfriend and not man-friend ",
+        "ep": "ep_384",
+        "over": false
+      },
+      {
+        "q": "Water is made of hydrogen and oxygen - can we manufacture water? If so, why don't we use it to solve",
+        "ep": "ep_487",
+        "over": false
+      }
+    ]
+  },
+  "Guildford": {
+    "total": 9,
+    "overturned": 1,
+    "resolved": 5,
+    "overturned_rate": 0.1111,
+    "resolved_rate": 0.5556,
+    "qs": [
+      {
+        "q": "Why is toothpaste always minty?",
+        "ep": "ep_070",
+        "over": false
+      },
+      {
+        "q": "Can you eat any egg from any animal (snake, lizard, bird) without getting poisoned? If you found egg",
+        "ep": "ep_224",
+        "over": false
+      },
+      {
+        "q": "Dollar capsules and washing machines - why do they work? Why doesn't the colour go onto other clothi",
+        "ep": "ep_338",
+        "over": false
+      }
+    ]
+  },
+  "Gillingham": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "What happens to a spider's thread when it comes back up? The spider can't eat it because it would be",
+        "ep": "ep_082",
+        "over": false
+      },
+      {
+        "q": "Why can't you digest sweetcorn? Why does it come out whole?",
+        "ep": "ep_277",
+        "over": false
+      },
+      {
+        "q": "How do circus posters get inside shops that are closed?",
+        "ep": "ep_407",
+        "over": false
+      }
+    ]
+  },
+  "York": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 4,
+    "overturned_rate": 0.25,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "My daughter Grace, age 8, would like to know if there's a proven cure for hiccups. She suffers from ",
+        "ep": "ep_095",
+        "over": false
+      },
+      {
+        "q": "How does a dog know which person to go to when two people with identical whistles from the same shop",
+        "ep": "ep_098",
+        "over": false
+      },
+      {
+        "q": "My friend is pregnant and past her due date. She wants the baby out. We've been discussing inducing ",
+        "ep": "ep_372",
+        "over": false
+      }
+    ]
+  },
+  "Woking": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 2,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "Why does the pitch of tinnitus change when I press different parts of my head with different pressur",
+        "ep": "ep_098",
+        "over": false
+      },
+      {
+        "q": "Why do you do that little shiver or judder, particularly after having a wee?",
+        "ep": "ep_116",
+        "over": false
+      },
+      {
+        "q": "Why do tennis balls come in a cheap plastic tube where they have a metal ring like on a can of cashe",
+        "ep": "ep_362",
+        "over": true
+      }
+    ]
+  },
+  "Peckham": {
+    "total": 6,
+    "overturned": 1,
+    "resolved": 5,
+    "overturned_rate": 0.1667,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "If a UK passport holder goes to Europe and overstays their 90 days, what is the penalty? If they get",
+        "ep": "ep_107",
+        "over": false
+      },
+      {
+        "q": "Who named people black or white? Why are the majority of Africans or Caribbean called black? When di",
+        "ep": "ep_107",
+        "over": false
+      },
+      {
+        "q": "If you were on the International Space Station and you hit a golf ball out into space, would it ever",
+        "ep": "ep_403",
+        "over": false
+      }
+    ]
+  },
+  "Wembley": {
+    "total": 6,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "Why is it so hard to remember dreams after you've just had them? Even as I was waking up, I was tryi",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "When a new pope has been elected, why does he take the name of a previous pope plus a number like Po",
+        "ep": "ep_377",
+        "over": false
+      },
+      {
+        "q": "On the Queen's Birthday Honours List or New Year's Honours List, how do they decide who gets what? W",
+        "ep": "ep_426",
+        "over": false
+      }
+    ]
+  },
+  "Sutton": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 2,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "Where should you keep your toothbrush? Is it dangerous to keep it in the bathroom because of poo par",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "How far does pollution travel?",
+        "ep": "ep_128",
+        "over": false
+      },
+      {
+        "q": "What's the origin of the word 'lap'? Where did it come from when we say 'sit on my lap'?",
+        "ep": "ep_438",
+        "over": false
+      }
+    ]
+  },
+  "Epping": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why don't we eat turkey eggs and especially leading up to Christmas? Is it because there are lots of",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "If you speak in a foreign language and you have a stutter in English, will you stutter in the foreig",
+        "ep": "ep_441",
+        "over": false
+      },
+      {
+        "q": "What condiment goes specifically with chicken? Beef has horseradish, pork has apple, duck has orange",
+        "ep": "ep_448",
+        "over": true
+      }
+    ]
+  },
+  "Southgate": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "I'm over 50 and my hair is growing in my ears, noses, and eyebrows. Why is it that we lose hair from",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "What determines why some people are great singers and some people really sound like a bag of cats?",
+        "ep": "ep_191",
+        "over": false
+      },
+      {
+        "q": "Where does the phrase 'big cheese' come from? Why is the main person in a company called the big che",
+        "ep": "ep_361",
+        "over": false
+      }
+    ]
+  },
+  "Chelmsford": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why is it that when you're driving along on dual carriageways or motorways, birds swoop down across ",
+        "ep": "ep_113",
+        "over": false
+      },
+      {
+        "q": "If we're receiving a radio signal, how do you know how many people are receiving or listening to tha",
+        "ep": "ep_198",
+        "over": false
+      },
+      {
+        "q": "Do trees clean the air in winter when they don't have any leaves? If there's no photosynthesis, how ",
+        "ep": "ep_297",
+        "over": true
+      }
+    ]
+  },
+  "Surbiton": {
+    "total": 6,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.1667,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "Is the UK the only country in the world which has a national anthem dedicated to a living individual",
+        "ep": "ep_116",
+        "over": false
+      },
+      {
+        "q": "Does the Queen use her handbag to signal her staff with different messages, like a bit like a semaph",
+        "ep": "ep_348",
+        "over": false
+      },
+      {
+        "q": "Can somebody copyright their voice?",
+        "ep": "ep_357",
+        "over": false
+      }
+    ]
+  },
+  "Harlow": {
+    "total": 5,
+    "overturned": 1,
+    "resolved": 4,
+    "overturned_rate": 0.2,
+    "resolved_rate": 0.8,
+    "qs": [
+      {
+        "q": "Why don't you get red champagne?",
+        "ep": "ep_116",
+        "over": false
+      },
+      {
+        "q": "Why are there only four different types of naturally coloured hair - brunette, blonde, ginger, and g",
+        "ep": "ep_323",
+        "over": false
+      },
+      {
+        "q": "Why are UK country lanes bendy and windy, while roads in America and Australia are straight?",
+        "ep": "ep_341",
+        "over": false
+      }
+    ]
+  },
+  "Marlow": {
+    "total": 6,
+    "overturned": 2,
+    "resolved": 5,
+    "overturned_rate": 0.3333,
+    "resolved_rate": 0.8333,
+    "qs": [
+      {
+        "q": "Why is the number 8 in rugby just a number when all other players have proper position names like fu",
+        "ep": "ep_120",
+        "over": false
+      },
+      {
+        "q": "Why is it that when we get married, I'll still be mister, but my fianc\u00e9e will become missy? And if w",
+        "ep": "ep_516",
+        "over": false
+      },
+      {
+        "q": "Why is it stags and hens when it should be stags and does?",
+        "ep": "ep_521",
+        "over": false
+      }
+    ]
+  },
+  "Nottingham": {
+    "total": 8,
+    "overturned": 2,
+    "resolved": 6,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "What does SPF mean on a bottle of sunscreen? Is it based on something or just a scale?",
+        "ep": "ep_129",
+        "over": false
+      },
+      {
+        "q": "Why do we only get growing pains for a relatively short amount of time compared to how long we grow ",
+        "ep": "ep_142",
+        "over": true
+      },
+      {
+        "q": "Why can you smell things when you breathe in through your nose but then you can't smell them when yo",
+        "ep": "ep_157",
+        "over": false
+      }
+    ]
+  },
+  "Chelsea": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "If camera lenses are round, why are photographs square?",
+        "ep": "ep_138",
+        "over": false
+      },
+      {
+        "q": "Is there any currency system left in the world which isn't under the control of a central bank? If t",
+        "ep": "ep_383",
+        "over": false
+      },
+      {
+        "q": "Where does the expression 'a bit of how's your father' come from? It's probably a music hall song, d",
+        "ep": "ep_384",
+        "over": false
+      }
+    ]
+  },
+  "Reading": {
+    "total": 7,
+    "overturned": 0,
+    "resolved": 6,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.8571,
+    "qs": [
+      {
+        "q": "When you start a series of anything, movie-wise, why is the first episode always called Pilot?",
+        "ep": "ep_139",
+        "over": false
+      },
+      {
+        "q": "Why don't continental shoe sizes consistently match UK sizes? Why doesn't a size 10 always equal EU ",
+        "ep": "ep_239",
+        "over": false
+      },
+      {
+        "q": "Where did the term Black Friday come from?",
+        "ep": "ep_270",
+        "over": false
+      }
+    ]
+  },
+  "Horsham": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 2,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "Why is it called chicken pox?",
+        "ep": "ep_139",
+        "over": false
+      },
+      {
+        "q": "Why don't flies affect my dogs like they affect cows and horses? The flies bother cows and horses pa",
+        "ep": "ep_166",
+        "over": false
+      },
+      {
+        "q": "How do they measure time in space?",
+        "ep": "ep_406",
+        "over": false
+      }
+    ]
+  },
+  "Tottenham": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "If I eat an apple and plant the pip, I get a tree and more apples. Same with an orange. But how do I",
+        "ep": "ep_147",
+        "over": false
+      },
+      {
+        "q": "Can dogs see in the dark?",
+        "ep": "ep_239",
+        "over": false
+      },
+      {
+        "q": "How does Shazam work? It identifies a tune even when two different artists start the same way before",
+        "ep": "ep_516",
+        "over": false
+      }
+    ]
+  },
+  "Essex": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why are you allowed to have all those small 100ml bottles of liquid at airport security but you can'",
+        "ep": "ep_157",
+        "over": false
+      },
+      {
+        "q": "How were magnets discovered?",
+        "ep": "ep_252",
+        "over": false
+      },
+      {
+        "q": "If I'm on a train and I have a ball and I chuck it up or forward, why does it not move differently? ",
+        "ep": "ep_270",
+        "over": false
+      }
+    ]
+  },
+  "Sidcup": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "What is the origin of the phrase 'slap-up meal'?",
+        "ep": "ep_164",
+        "over": false
+      },
+      {
+        "q": "What does the apostrophe in O'Brien stand for? Apostrophes always stand for something.",
+        "ep": "ep_349",
+        "over": false
+      },
+      {
+        "q": "Do conkers really keep spiders away?",
+        "ep": "ep_361",
+        "over": false
+      }
+    ]
+  },
+  "High Wycombe": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "Do military bandsmen recruited as musicians go through regular basic training like other soldiers, o",
+        "ep": "ep_164",
+        "over": false
+      },
+      {
+        "q": "Why do we get beauty spots?",
+        "ep": "ep_249",
+        "over": false
+      },
+      {
+        "q": "When does long haul become short haul? Is it based on time zone, distance, or flight time?",
+        "ep": "ep_393",
+        "over": false
+      }
+    ]
+  },
+  "Chigwell": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.6,
+    "qs": [
+      {
+        "q": "Does our cat know she's having babies? The cat is still doing everything she did before - jumping of",
+        "ep": "ep_167",
+        "over": false
+      },
+      {
+        "q": "Why does double A represent a smaller bra size rather than a larger one? Since it came after A chron",
+        "ep": "ep_277",
+        "over": false
+      },
+      {
+        "q": "Where does the saying 'Stick it in your pipe and smoke it' come from?",
+        "ep": "ep_393",
+        "over": false
+      }
+    ]
+  },
+  "Ilford": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why is the President's emergency briefcase called the nuclear football?",
+        "ep": "ep_205",
+        "over": false
+      },
+      {
+        "q": "How did the Victorians navigate when building Underground tunnels? They didn't have GPS, were hundre",
+        "ep": "ep_407",
+        "over": false
+      },
+      {
+        "q": "Where does the children's song 'The Big Ship Sails on the Alley Alley Oop' originate from, and what ",
+        "ep": "ep_521",
+        "over": false
+      }
+    ]
+  },
+  "Brentford": {
+    "total": 5,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "What determines the total amount of money that's in the world? How do we calculate how much money th",
+        "ep": "ep_227",
+        "over": false
+      },
+      {
+        "q": "Do dogs have the same blood as humans? If not, do they have different blood groups? Could you get a ",
+        "ep": "ep_446",
+        "over": false
+      },
+      {
+        "q": "If I threw a stone in space, would it stop? And part about the Big Bang - what caused the Earth to s",
+        "ep": "ep_487",
+        "over": false
+      }
+    ]
+  },
+  "Slough": {
+    "total": 9,
+    "overturned": 1,
+    "resolved": 6,
+    "overturned_rate": 0.1111,
+    "resolved_rate": 0.6667,
+    "qs": [
+      {
+        "q": "What is the difference between a concerto, a symphony, and a sonata?",
+        "ep": "ep_258",
+        "over": false
+      },
+      {
+        "q": "When were the first cremations recorded by mankind? I know the Vikings did it but were there earlier",
+        "ep": "ep_360",
+        "over": false
+      },
+      {
+        "q": "How strong do winds have to be in order for planes to be diverted?",
+        "ep": "ep_385",
+        "over": true
+      }
+    ]
+  },
+  "Greenwich": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Where did the term 'ruck' come from? (from rucksack)",
+        "ep": "ep_277",
+        "over": false
+      },
+      {
+        "q": "Why does it take longer to fly back from New York (9 hours) than to fly there (7.5 hours)?",
+        "ep": "ep_365",
+        "over": false
+      },
+      {
+        "q": "Does meat that we eat get rigor mortis?",
+        "ep": "ep_384",
+        "over": false
+      }
+    ]
+  },
+  "Lewisham": {
+    "total": 7,
+    "overturned": 2,
+    "resolved": 3,
+    "overturned_rate": 0.2857,
+    "resolved_rate": 0.4286,
+    "qs": [
+      {
+        "q": "When football clubs buy or sell a player, who performs the medical - the selling club, the buying cl",
+        "ep": "ep_297",
+        "over": false
+      },
+      {
+        "q": "What is the origin of the phrase 'mum's the word'?",
+        "ep": "ep_383",
+        "over": true
+      },
+      {
+        "q": "Will they ever reach a point where we've exhausted the maximum amount of music combinations or the m",
+        "ep": "ep_384",
+        "over": false
+      }
+    ]
+  },
+  "Fulham": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why would she be 55 in Iran but 54 in England? In Iran they count life in the womb, so she would be ",
+        "ep": "ep_298",
+        "over": false
+      },
+      {
+        "q": "What's the largest number that's ever been on the back of a football shirt? Are there maximum limits",
+        "ep": "ep_343",
+        "over": false
+      },
+      {
+        "q": "How are historical sums of money updated to their modern-day equivalent?",
+        "ep": "ep_508",
+        "over": false
+      }
+    ]
+  },
+  "Hounslow": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "The bigger animals in the zoo like giraffes and elephants, they don't stay past once they die. How d",
+        "ep": "ep_321",
+        "over": false
+      },
+      {
+        "q": "Why can you cook on a cooker with a naked flame without producing carbon monoxide, but the same gas ",
+        "ep": "ep_361",
+        "over": false
+      },
+      {
+        "q": "Why do ladies have a different sort frame to guys on push bikes? Why do women have a horizontal cros",
+        "ep": "ep_374",
+        "over": false
+      }
+    ]
+  },
+  "Eastbourne": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 2,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.5,
+    "qs": [
+      {
+        "q": "When we have a national day, there's all sorts of national days, who actually dictates them?",
+        "ep": "ep_338",
+        "over": false
+      },
+      {
+        "q": "Why do we say someone has been 'hanged' rather than 'hung' when executed?",
+        "ep": "ep_515",
+        "over": true
+      },
+      {
+        "q": "Why do we have balloons when celebrating something? It's not just children's birthdays - any celebra",
+        "ep": "ep_556",
+        "over": false
+      }
+    ]
+  },
+  "Marylebone": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Why are some of us squeamish and some of us aren't squeamish?",
+        "ep": "ep_343",
+        "over": false
+      },
+      {
+        "q": "Has Robert De Niro ever died in any film? Does he have a policy not to die?",
+        "ep": "ep_459",
+        "over": false
+      },
+      {
+        "q": "If you turn off the switch on your TV or kettle but don't pull the plug out, are you still using ele",
+        "ep": "ep_459",
+        "over": false
+      }
+    ]
+  },
+  "Battersea": {
+    "total": 4,
+    "overturned": 1,
+    "resolved": 3,
+    "overturned_rate": 0.25,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Do small insects see us coming in slow motion? Why do they get away really quickly?",
+        "ep": "ep_348",
+        "over": false
+      },
+      {
+        "q": "Why is a mistake called a 'boo-boo'?",
+        "ep": "ep_459",
+        "over": false
+      },
+      {
+        "q": "Who came up with the idea of a man's shirt size? Whoever decided that shirts should be measured by a",
+        "ep": "ep_527",
+        "over": false
+      }
+    ]
+  },
+  "Chiswick": {
+    "total": 5,
+    "overturned": 1,
+    "resolved": 5,
+    "overturned_rate": 0.2,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why does the TB jab leave such a horrendous scar when other jabs don't?",
+        "ep": "ep_357",
+        "over": false
+      },
+      {
+        "q": "How do spiders build initial webs spanning 5 feet between two wooden frames with nothing above them ",
+        "ep": "ep_448",
+        "over": true
+      },
+      {
+        "q": "Where does the expression 'bowling a maiden over' or 'scoring his maiden century' come from? Where d",
+        "ep": "ep_456",
+        "over": false
+      }
+    ]
+  },
+  "Walthamstow": {
+    "total": 7,
+    "overturned": 0,
+    "resolved": 5,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.7143,
+    "qs": [
+      {
+        "q": "If one was to drop a small nuclear bomb in the eye of a storm, would it vaporise all the water and j",
+        "ep": "ep_362",
+        "over": false
+      },
+      {
+        "q": "Why are there only numbers 10 and 11 on Downing Street? Are there any other houses?",
+        "ep": "ep_377",
+        "over": false
+      },
+      {
+        "q": "Where did the term 'wolf whistle' come from? Why do we call it that?",
+        "ep": "ep_423",
+        "over": false
+      }
+    ]
+  },
+  "Bishop's Stortford": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 4,
+    "overturned_rate": 0.0,
+    "resolved_rate": 1.0,
+    "qs": [
+      {
+        "q": "Why are there magnets in speakers? I used to take magnets out of speakers and hang them on a fishing",
+        "ep": "ep_383",
+        "over": false
+      },
+      {
+        "q": "Who decided what colors the snooker balls would be?",
+        "ep": "ep_395",
+        "over": false
+      },
+      {
+        "q": "How do they get champagne corks into a bottle? The pressure would make it difficult to shove in.",
+        "ep": "ep_446",
+        "over": false
+      }
+    ]
+  },
+  "Basildon": {
+    "total": 5,
+    "overturned": 2,
+    "resolved": 2,
+    "overturned_rate": 0.4,
+    "resolved_rate": 0.4,
+    "qs": [
+      {
+        "q": "Do UK prison walls have to be a minimum height? And if so, how is it calculated?",
+        "ep": "ep_385",
+        "over": false
+      },
+      {
+        "q": "Why do we say 'water cannon' (singular) rather than 'water cannons' (plural) when referring to multi",
+        "ep": "ep_456",
+        "over": true
+      },
+      {
+        "q": "Where does the phrase 'stone the crows' originate from?",
+        "ep": "ep_524",
+        "over": true
+      }
+    ]
+  },
+  "Windsor": {
+    "total": 4,
+    "overturned": 0,
+    "resolved": 3,
+    "overturned_rate": 0.0,
+    "resolved_rate": 0.75,
+    "qs": [
+      {
+        "q": "Are smells (good and bad) learned?",
+        "ep": "ep_413",
+        "over": false
+      },
+      {
+        "q": "How could you tell that there's no oxygen in space just by looking at the sky? And how does the sun ",
+        "ep": "ep_487",
+        "over": false
+      },
+      {
+        "q": "Where do double-barrelled surnames come from? I've never understood what the barrel is to do with it",
+        "ep": "ep_487",
+        "over": false
+      }
+    ]
+  },
+  "Forest Hill": {
+    "total": 7,
+    "overturned": 2,
+    "resolved": 6,
+    "overturned_rate": 0.2857,
+    "resolved_rate": 0.8571,
+    "qs": [
+      {
+        "q": "Why have people started saying zero instead of O when reading out phone numbers?",
+        "ep": "ep_476",
+        "over": false
+      },
+      {
+        "q": "Why can we eat red meat rare but white meat has to be thoroughly cooked?",
+        "ep": "ep_515",
+        "over": false
+      },
+      {
+        "q": "How close to the Earth does an asteroid have to come to be affected by our gravitational field?",
+        "ep": "ep_524",
+        "over": false
+      }
+    ]
+  }
+}
