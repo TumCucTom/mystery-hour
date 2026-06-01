@@ -1,9 +1,13 @@
 /**
  * Accuracy.js — "How did James (and callers) do?"
  * Split accuracy: James O'Brien vs expert callers vs all answers.
- * Era trend chart shows James's personal accuracy over time.
+ * Rolling-average line chart shows James's personal wrong rate over time,
+ * with a slider to control the window size.
  */
+import { Chart, CategoryScale, LinearScale, LineController, LineElement, PointElement, Title, Tooltip, Legend, Filler } from 'chart.js'
 import { loadJSON } from '../lib/data.js'
+
+Chart.register(CategoryScale, LinearScale, LineController, LineElement, PointElement, Title, Tooltip, Legend, Filler)
 
 const ERA_LABELS = [
   'Era 1\n(0–99)', 'Era 2\n(100–199)', 'Era 3\n(200–299)',
@@ -52,28 +56,38 @@ function renderPage(container, acc) {
       </div>
     </div>
 
-    <!-- James era trend chart -->
+    <!-- James rolling-average line chart -->
     <div class="card" style="margin-bottom:24px">
-      <h2 style="margin-bottom:16px">James's Accuracy Over Time</h2>
-      <div id="eraChart" style="display:flex;align-items:flex-end;gap:12px;height:200px;padding-bottom:40px;position:relative">
-        ${Object.entries(acc.era_breakdown || {}).sort((a,b) => parseInt(a[0])-parseInt(b[0])).map(([k, ed]) => {
-          const jRate = ed.james.total ? (ed.james.wrong / ed.james.total * 100) : 0
-          const barH = Math.max(jRate, 1.5)
-          const color = jRate > 18 ? 'var(--color-red)' : jRate > 14 ? 'var(--color-yellow)' : 'var(--color-green)'
-          return `<div style="flex:1;text-align:center;position:relative">
-            <div style="position:absolute;bottom:40px;left:0;right:0;text-align:center">
-              <div style="height:${barH}%;background:${color};border-radius:4px 4px 0 0;min-height:16px;display:flex;align-items:flex-start;justify-content:center;padding-top:4px">
-                <span style="font-size:12px;font-weight:700;color:#fff">${jRate.toFixed(1)}%</span>
-              </div>
-            </div>
-            <div style="position:absolute;bottom:0;left:0;right:0;font-size:11px;color:var(--color-muted)">${ERA_LABELS[parseInt(k)]?.split('\n')[0] || 'Era '+(parseInt(k)+1)}</div>
-          </div>`
-        }).join('')}
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;margin-bottom:8px">
+        <div>
+          <h2 style="margin:0 0 4px 0">James's Wrong Rate Over Time</h2>
+          <p style="margin:0;color:var(--color-muted);font-size:13px">
+            Rolling average over the last <strong id="winLabel" style="color:var(--color-text)">20</strong> episodes
+            — drag the slider to smooth or sharpen the curve.
+          </p>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;min-width:340px">
+          <span style="font-size:12px;color:var(--color-muted);white-space:nowrap">Window</span>
+          <input type="range" id="winSlider" min="1" max="100" value="20" step="1"
+            style="flex:1;accent-color:#e74c3c;cursor:pointer">
+          <span id="winValue" style="font-size:13px;font-weight:700;color:var(--color-red);min-width:32px;text-align:right">20</span>
+        </div>
       </div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:12px;color:var(--color-muted)">
-        ${Object.entries(acc.era_breakdown || {}).sort((a,b) => parseInt(a[0])-parseInt(b[0])).map(([k, ed]) =>
-          `<span>${ERA_LABELS[parseInt(k)]?.split('\n')[0]}: ${ed.james.total} J answers</span>`
-        ).join(' · ')}
+      <div style="height:320px;position:relative"><canvas id="rollingChart"></canvas></div>
+      <div style="display:flex;gap:16px;margin-top:12px;font-size:12px;color:var(--color-muted);flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:6px">
+          <div style="width:14px;height:3px;background:#e74c3c;border-radius:2px"></div>
+          James O'Brien (rolling)
+        </div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <div style="width:14px;height:2px;background:rgba(231,76,60,0.35);border-radius:2px"></div>
+          Per-episode raw rate
+        </div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <div style="width:14px;height:2px;background:#64748b;border-style:dashed"></div>
+          Overall mean
+        </div>
+        <span id="winStat" style="margin-left:auto"></span>
       </div>
     </div>
 
@@ -201,4 +215,123 @@ function renderPage(container, acc) {
   renderTable()
   eraFilter.addEventListener('change', renderTable)
   searchEl.addEventListener('input', renderTable)
+
+  // Rolling-average line chart for James's wrong rate
+  const eps = (acc.episode_stats || []).slice().sort((a, b) => a.idx - b.idx)
+  const labels = eps.map(e => e.idx)
+  const rawRate = eps.map(e => (e.james_total ? (e.james_wrong / e.james_total) * 100 : null))
+
+  // Overall mean (sum wrong / sum total across all 601 episodes)
+  const totWrong = eps.reduce((s, e) => s + (e.james_wrong || 0), 0)
+  const totTotal = eps.reduce((s, e) => s + (e.james_total || 0), 0)
+  const overallMean = totTotal ? (totWrong / totTotal) * 100 : 0
+
+  // Build the rolling series: at each index i, average the window [i-w+1 .. i]
+  // Uses sum(wrong) / sum(total) for a weighted rate, not a mean of rates.
+  function rolling(win) {
+    return eps.map((_, i) => {
+      const start = Math.max(0, i - win + 1)
+      let w = 0, t = 0
+      for (let j = start; j <= i; j++) { w += eps[j].james_wrong || 0; t += eps[j].james_total || 0 }
+      return t ? (w / t) * 100 : null
+    })
+  }
+
+  const ctx = container.querySelector('#rollingChart')
+  const chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'James (rolling)',
+          data: rolling(20),
+          borderColor: '#e74c3c',
+          backgroundColor: 'rgba(231, 76, 60, 0.12)',
+          borderWidth: 2.5,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          tension: 0.25,
+          fill: true,
+          spanGaps: true,
+        },
+        {
+          label: 'Raw rate',
+          data: rawRate,
+          borderColor: 'rgba(231, 76, 60, 0.35)',
+          borderWidth: 1,
+          pointRadius: 0,
+          pointHoverRadius: 3,
+          tension: 0,
+          spanGaps: true,
+        },
+        {
+          label: 'Overall mean',
+          data: eps.map(() => overallMean),
+          borderColor: '#64748b',
+          borderDash: [4, 4],
+          borderWidth: 1.5,
+          pointRadius: 0,
+          fill: false,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 200 },
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          padding: 10,
+          callbacks: {
+            title: items => `Episode ${items[0].label}`,
+            label: ctx => {
+              if (ctx.parsed.y == null) return `${ctx.dataset.label}: —`
+              return `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}%`
+            },
+          },
+        },
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Episode index', color: '#94a3b8' },
+          ticks: { color: '#94a3b8', maxTicksLimit: 12 },
+          grid: { color: 'rgba(148, 163, 184, 0.08)' },
+        },
+        y: {
+          title: { display: true, text: 'Wrong rate (%)', color: '#94a3b8' },
+          beginAtZero: true,
+          ticks: { color: '#94a3b8', callback: v => v + '%' },
+          grid: { color: 'rgba(148, 163, 184, 0.08)' },
+        },
+      },
+    },
+  })
+
+  const slider = container.querySelector('#winSlider')
+  const winLabel = container.querySelector('#winLabel')
+  const winValue = container.querySelector('#winValue')
+  const winStat = container.querySelector('#winStat')
+
+  function updateWindow() {
+    const w = parseInt(slider.value, 10)
+    chart.data.datasets[0].data = rolling(w)
+    chart.update('none')
+    winLabel.textContent = w
+    winValue.textContent = w
+    // Show the latest value for context
+    const last = chart.data.datasets[0].data[chart.data.datasets[0].data.length - 1]
+    const first = chart.data.datasets[0].data[w - 1] ?? null
+    const delta = (last != null && first != null) ? (last - first) : 0
+    const arrow = delta > 0.5 ? '↑' : delta < -0.5 ? '↓' : '→'
+    const color = delta > 0.5 ? 'var(--color-red)' : delta < -0.5 ? 'var(--color-green)' : 'var(--color-muted)'
+    winStat.innerHTML = `Latest: <strong style="color:${color}">${last?.toFixed(1) ?? '—'}%</strong>
+      <span style="color:${color}">${arrow}</span> ${Math.abs(delta).toFixed(1)}pp vs earliest window`
+  }
+
+  slider.addEventListener('input', updateWindow)
+  updateWindow()
 }
