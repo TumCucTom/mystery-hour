@@ -54,20 +54,18 @@ function renderPage(container, tta, chain) {
       <p style="color:var(--color-muted);font-size:14px;margin-bottom:16px">
         How many answers (back-and-forth exchanges) were needed? Shows both count and resolution rate.
       </p>
-      <div id="ansChart" style="display:flex;align-items:flex-end;gap:16px;height:280px;padding-bottom:40px;position:relative">
+      <div id="ansChart" class="tta-chart">
         ${Object.entries(nAnsBuckets).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).map(([k, v]) => {
           const rate = (v.rate || 0) * 100
           const heightPct = (v.total / 3190) * 100 // normalise to max
           const isZero = k === '0'
           return `
-          <div class="tta-bar-group" style="flex:1;text-align:center">
-            <div style="position:absolute;bottom:40px;left:0;right:0;text-align:center">
-              <div class="tta-bar${isZero ? ' tta-bar-unanswered' : ''}" style="height:${Math.max(heightPct, 2)}%;background:${rate > 80 ? 'var(--color-green)' : rate > 50 ? 'var(--color-yellow)' : 'var(--color-red)'};border-radius:4px 4px 0 0;display:flex;align-items:flex-end;justify-content:center;padding-bottom:4px;min-height:20px">
-                <span style="font-size:11px;font-weight:700;color:#fff;writing-mode:vertical-rl">${v.total.toLocaleString()}</span>
-              </div>
+          <div class="tta-bar-group">
+            <div class="tta-bar-rate" style="color:${rate > 80 ? 'var(--color-green)' : rate > 50 ? 'var(--color-yellow)' : 'var(--color-red)'}">${rate.toFixed(1)}%</div>
+            <div class="tta-bar${isZero ? ' tta-bar-unanswered' : ''}" style="height:${Math.max(heightPct, 2)}%;background:${isZero ? '#374151' : rate > 80 ? 'var(--color-green)' : rate > 50 ? 'var(--color-yellow)' : 'var(--color-red)'}">
+              <span class="tta-bar-count">${v.total.toLocaleString()}</span>
             </div>
-            <div style="position:absolute;top:-28px;left:50%;transform:translateX(-50%);font-size:13px;font-weight:700;color:${rate > 80 ? 'var(--color-green)' : 'var(--color-muted)'}">${rate.toFixed(1)}%</div>
-            <div style="position:absolute;bottom:0;left:0;right:0;font-size:12px;color:var(--color-muted)">${k === '0' ? '0 answers' : k === '6' ? '6+ answers' : k + (k === '1' ? ' answer' : ' answers')}</div>
+            <div class="tta-bar-label">${k === '0' ? '0 answers' : k === '6' ? '6+ answers' : k + (k === '1' ? ' answer' : ' answers')}</div>
           </div>`
         }).join('')}
       </div>
@@ -85,20 +83,19 @@ function renderPage(container, tta, chain) {
       <p style="color:var(--color-muted);font-size:14px;margin-bottom:16px">
         Has James gotten better or worse over time? Shows accuracy trend across 601 episodes.
       </p>
-      <div id="eraChart" style="display:flex;align-items:flex-end;gap:16px;height:200px;padding-bottom:40px;position:relative">
+      <div id="eraChart" class="tta-chart" style="height:220px">
         ${Object.entries(eraBuckets).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).map(([k, v]) => {
           const era = parseInt(k)
           const rate = (v.rate || 0) * 100
           const eraLabel = eraLabels[era] || `Era ${era + 1}`
           const barH = Math.max(rate, 2)
           return `
-          <div class="tta-bar-group" style="flex:1;text-align:center;position:relative">
-            <div style="position:absolute;bottom:40px;left:0;right:0;text-align:center">
-              <div style="height:${barH}%;background:${rate > 80 ? 'var(--color-green)' : rate > 70 ? '#fbbf24' : 'var(--color-red)'};border-radius:4px 4px 0 0;min-height:16px;display:flex;align-items:flex-start;justify-content:center;padding-top:4px">
-                <span style="font-size:12px;font-weight:700;color:#fff">${rate.toFixed(1)}%</span>
-              </div>
+          <div class="tta-bar-group">
+            <div class="tta-bar-rate" style="color:${rate > 80 ? 'var(--color-green)' : rate > 70 ? '#fbbf24' : 'var(--color-red)'}">${rate.toFixed(1)}%</div>
+            <div class="tta-bar" style="height:${barH}%;background:${rate > 80 ? 'var(--color-green)' : rate > 70 ? '#fbbf24' : 'var(--color-red)'}">
+              <span class="tta-bar-count" style="font-size:10px">${v.total}</span>
             </div>
-            <div style="position:absolute;bottom:0;left:0;right:0;font-size:11px;color:var(--color-muted);white-space:pre">${eraLabel.split('\n')[0]}</div>
+            <div class="tta-bar-label">${eraLabel.split('\n')[0]}</div>
           </div>`
         }).join('')}
       </div>

@@ -37,8 +37,8 @@ function renderPage(container, genData, allQa) {
     }
   }
 
-  const topFirstNames = (genData.top_first_names || []).map(([n]) => n)
-  const locations = Object.entries(locCounts).sort((a, b) => b[1] - a[1]).map(([l]) => l)
+  const topFirstNames = genData.top_first_names || []
+  const locations = Object.entries(locCounts).sort((a, b) => b[1] - a[1])
 
   container.innerHTML = `
     <div class="page-header">

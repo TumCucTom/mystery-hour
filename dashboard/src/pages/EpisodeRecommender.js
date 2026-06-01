@@ -43,7 +43,7 @@ function renderPage(container, recs, allQa) {
           </select>
         </div>
         <div id="epPreview" style="font-size:13px;color:var(--color-muted);padding-top:28px">
-          ${eps[0] ? `${(eps[0].topics||[]).slice(0,4).map(t => \`<span class="topic-tag">${escHtml(t)}</span>\`).join('')}` : ''}
+          ${eps[0] ? (eps[0].topics||[]).slice(0,4).map(t => `<span class="topic-tag">${escHtml(t)}</span>`).join('') : ''}
         </div>
       </div>
     </div>

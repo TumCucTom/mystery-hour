@@ -1,37 +1,26 @@
 /**
  * SemanticSearch.js — "Ask the Dataset"
- * Embedding-based semantic search over all 6,097 questions.
- * Loads question_vectors.json (pre-computed normalized embeddings)
- * and performs in-browser cosine similarity via dot product.
+ * Text search over all 6,097 questions. (We don't have a way to embed the
+ * query client-side, so this is ranked keyword search instead of true
+ * semantic search — still useful for finding specific topics.)
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = '/data'
-
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-}
-
-function normalize(vec) {
-  const norm = Math.sqrt(vec.reduce((s, v) => s + v * v, 0))
-  return norm > 0 ? vec.map(v => v / norm) : vec
-}
-
-function dot(a, b) {
-  return a.reduce((s, v, i) => s + v * b[i], 0)
 }
 
 export async function renderSemanticSearch(container, store) {
   container.innerHTML = `
     <div class="page-header">
       <h1>Ask the Dataset</h1>
-      <p>Type any question — find the most similar real Q&amp;A from 6,097 Mystery Hour questions.</p>
+      <p>Type any question — find similar real Q&amp;A from 6,097 Mystery Hour questions.</p>
     </div>
     <div class="card">
       <input type="text" id="semQuery" placeholder="e.g. Why do we dream?" autofocus
-        style="width:100%;padding:12px;font-size:16px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-bg)">
+        style="width:100%;padding:12px;font-size:16px;border-radius:8px;border:1px solid var(--color-border);background:var(--color-bg);color:var(--color-text)">
       <div id="semHint" style="font-size:13px;color:var(--color-muted);margin-top:8px">
-        Loading semantic index… <span class="spinner"></span>
+        Loading questions… <span class="spinner"></span>
       </div>
     </div>
     <div id="semResults"></div>
@@ -39,41 +28,36 @@ export async function renderSemanticSearch(container, store) {
 
   const resultsEl = container.querySelector('#semResults')
   const hintEl    = container.querySelector('#semHint')
-  const inputEl    = container.querySelector('#semQuery')
+  const inputEl   = container.querySelector('#semQuery')
 
-  // Load the pre-computed question vectors
   let questions = []
   try {
-    const data = await loadJSON('question_vectors.json')
-    questions = data.questions
-    hintEl.textContent = `Index loaded: ${questions.length} questions ready. Type to search!`
+    const data = await loadJSON('all_qa.json')
+    for (const ep of data.episodes || []) {
+      for (const q of (ep.questions || [])) {
+        questions.push({ question: q.question, caller: q.caller, episode: ep.episode, resolved: q.resolved, n_answers: (q.answers || []).length })
+      }
+    }
+    hintEl.textContent = `${questions.length} questions ready. Type to search!`
   } catch (e) {
-    hintEl.innerHTML = `<span style="color:var(--color-red)">Could not load semantic index (file may be too large).</span>`
+    hintEl.innerHTML = `<span style="color:var(--color-red)">Could not load questions.</span>`
     return
   }
 
-  // Build a simple in-memory index: for each question, store normalized embedding
-  // Already normalized in the JSON — just compute once on load.
-  // Do dot product search inline.
-
   let debounceTimer = null
-
   inputEl.addEventListener('input', () => {
     clearTimeout(debounceTimer)
     const q = inputEl.value.trim()
     if (!q || q.length < 3) {
       resultsEl.innerHTML = ''
+      hintEl.textContent = `${questions.length} questions ready. Type to search!`
       return
     }
     hintEl.textContent = 'Searching…'
     debounceTimer = setTimeout(() => search(q), 200)
   })
 
-  async function search(query) {
-    hintEl.textContent = 'Embedding query…'
-    // We need to embed the query. Since we don't have an API key for
-    // server-side embedding, fall back to text search with ranked results.
-    // Use TF-IDF style scoring: rank by number of matching significant words.
+  function search(query) {
     const queryWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 2)
     const scored = questions.map(item => {
       const qText = (item.question || '').toLowerCase()
@@ -84,7 +68,7 @@ export async function renderSemanticSearch(container, store) {
       return { item, score }
     }).filter(x => x.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 10)
+      .slice(0, 15)
 
     renderResults(scored.map(x => x.item))
   }
@@ -114,7 +98,6 @@ export async function renderSemanticSearch(container, store) {
       </div>
     `
 
-    // Add link interceptors
     resultsEl.querySelectorAll('a[data-link]').forEach(a => {
       a.addEventListener('click', e => {
         e.preventDefault()

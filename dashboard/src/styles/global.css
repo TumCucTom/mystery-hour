@@ -516,3 +516,55 @@ select {
 
 /* ── EpFingerprintCompare ──────────────────────── */
 .fp-bars { display: flex; flex-direction: column; gap: 4px; }
+
+/* ── Episode Similarity ──────────────────────────────── */
+.sim-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.sim-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.sim-card:hover { border-color: var(--color-primary); transform: translateY(-1px); }
+.sim-rank {
+  font-size: 20px; font-weight: 800; color: var(--color-muted);
+  min-width: 36px; text-align: center;
+}
+.sim-card:nth-child(1) .sim-rank { color: #fbbf24; }
+.sim-card:nth-child(2) .sim-rank { color: #94a3b8; }
+.sim-card:nth-child(3) .sim-rank { color: #d97706; }
+.sim-info { flex: 1; min-width: 0; }
+.sim-ep { font-weight: 700; font-size: 14px; margin-bottom: 6px; }
+.sim-ep a { color: var(--color-primary); text-decoration: none; }
+.sim-ep a:hover { text-decoration: underline; }
+.sim-bar-wrap { background: var(--color-border); border-radius: 4px; height: 8px; overflow: hidden; margin-bottom: 4px; }
+.sim-bar { height: 100%; background: linear-gradient(90deg, #60a5fa, #3b82f6); border-radius: 4px; transition: width 0.4s ease; }
+.sim-score { font-size: 12px; color: var(--color-muted); font-weight: 600; }
+
+/* ── Trend bars (call-heatmap) ───────────────────────── */
+.trend-list { display: flex; flex-direction: column; gap: 10px; }
+.trend-item {
+  display: grid; grid-template-columns: 200px 1fr; gap: 12px; align-items: center;
+  padding: 10px 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+.trend-label { font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.trend-bars { display: flex; flex-direction: column; gap: 4px; }
+.trend-bar-wrap { display: flex; align-items: center; gap: 8px; }
+.trend-bar { height: 10px; background: var(--color-primary); border-radius: 3px; min-width: 2px; }
+.trend-bar.trend-early { background: #94a3b8; }
+.trend-bar.trend-late { background: var(--color-primary); }
+.trend-pct { font-size: 11px; color: var(--color-muted); font-weight: 600; min-width: 50px; }
+
+/* ── Time-to-answer bar chart ────────────────────────── */
+.tta-chart { display: flex; align-items: flex-end; gap: 12px; height: 280px; padding: 40px 0 50px 0; position: relative; }
+.tta-bar-group { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; position: relative; min-width: 0; }
+.tta-bar { width: 100%; max-width: 80px; border-radius: 4px 4px 0 0; display: flex; align-items: flex-start; justify-content: center; padding-top: 6px; min-height: 20px; transition: filter 0.15s; }
+.tta-bar:hover { filter: brightness(1.15); }
+.tta-bar-count { font-size: 11px; font-weight: 700; color: #fff; }
+.tta-bar-rate { position: absolute; top: -24px; left: 50%; transform: translateX(-50%); font-size: 13px; font-weight: 700; white-space: nowrap; }
+.tta-bar-label { position: absolute; bottom: -32px; left: 50%; transform: translateX(-50%); font-size: 12px; color: var(--color-muted); white-space: nowrap; }

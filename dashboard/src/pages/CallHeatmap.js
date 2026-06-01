@@ -14,66 +14,54 @@ function escHtml(s) {
 export async function renderCallHeatmapPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading call patterns...</div>`
   try {
-    const [allQa, k80] = await Promise.all([
+    const [allQa, evo] = await Promise.all([
       loadJSON('all_qa.json'),
-      loadJSON('kmeans_k80_stats.json'),
+      loadJSON('cluster_evolution.json'),
     ])
-    renderPage(container, allQa, k80)
+    renderPage(container, allQa, evo)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Could not load data.</p></div>`
     console.error(e)
   }
 }
 
-function renderPage(container, allQa, k80) {
+function renderPage(container, allQa, evo) {
   const nEps = allQa.episodes.length
   const eraSize = Math.ceil(nEps / 6)
-  const eraNames = ['Era 1\n(early)', 'Era 2', 'Era 3', 'Era 4', 'Era 5', 'Era 6\n(recent)']
+  const eraQuestionCounts = evo.era_question_counts || Array(6).fill(0)
+  const eraNames = evo.era_labels || ['Era 1', 'Era 2', 'Era 3', 'Era 4', 'Era 5', 'Era 6']
 
-  // Get top 20 most common topics/clusters
-  const topicCounts = {}
-  for (const ep of allQa.episodes) {
-    for (const q of (ep.questions || [])) {
-      for (const t of (q.topics || [])) {
-        topicCounts[t] = (topicCounts[t] || 0) + 1
-      }
-    }
-  }
-  const topTopics = Object.entries(topicCounts)
-    .sort((a, b) => b[1] - a[1])
+  // Use the cluster_evolution data which has the actual era proportions
+  const evolution = evo.evolution || []
+  const topTopics = [...evolution]
+    .sort((a, b) => Math.max(...b.values) - Math.max(...a.values))
     .slice(0, 25)
-    .map(([t]) => t)
+    .map(r => r.label)
 
-  // Build era x topic matrix
-  const eraTopicMatrix = Array.from({ length: 6 }, () => ({}))
-  for (let ei = 0; ei < allQa.episodes.length; ei++) {
-    const era = Math.min(Math.floor(ei / eraSize), 5)
-    const ep = allQa.episodes[ei]
-    for (const q of (ep.questions || [])) {
-      for (const t of (q.topics || [])) {
-        eraTopicMatrix[era][t] = (eraTopicMatrix[era][t] || 0) + 1
-      }
+  // Build era x topic matrix from the cluster_evolution proportions
+  const normMatrix = Array.from({ length: 6 }, () => ({}))
+  const eraTotals = Array(6).fill(0)
+  for (const r of evolution) {
+    for (let ei = 0; ei < 6; ei++) {
+      normMatrix[ei][r.label] = r.values[ei] || 0
+      eraTotals[ei] = Math.max(eraTotals[ei], eraQuestionCounts[ei] || 0)
     }
   }
-
-  // Normalise by era total
-  const eraTotals = eraTopicMatrix.map(m => Object.values(m).reduce((s, v) => s + v, 0))
-  const normMatrix = eraTopicMatrix.map((m, ei) => {
-    const total = eraTotals[ei]
-    const row = {}
-    for (const t of topTopics) row[t] = total ? (m[t] || 0) / total : 0
-    return row
+  // Derive raw counts from proportions × era totals
+  const eraTopicMatrix = normMatrix.map((row, ei) => {
+    const total = eraTotals[ei] || 1
+    const counts = {}
+    for (const t of topTopics) {
+      counts[t] = Math.round((row[t] || 0) * total)
+    }
+    return counts
   })
 
   // Find max for colour scaling
-  const maxVal = Math.max(...normMatrix.map(row => Math.max(...Object.values(row))))
+  const maxVal = Math.max(...topTopics.flatMap(t => normMatrix.map(row => row[t] || 0)), 0.001)
 
-  // Episode volume per era
-  const eraEps = eraTopicMatrix.map((_, i) => {
-    const start = i * eraSize
-    const end = Math.min((i + 1) * eraSize, nEps)
-    return `${end - start} eps`
-  })
+  // Episode volume per era (use era_question_counts for accurate counts)
+  const eraEps = eraQuestionCounts.map(c => `${c} Q`)
 
   container.innerHTML = `
     <div class="page-header">
@@ -137,32 +125,27 @@ function renderPage(container, allQa, k80) {
     </div>
   `
 
-  // Compute rising/falling
-  const rising = topTopics
-    .map(t => {
-      const early = normMatrix[0][t] || 0
-      const late = normMatrix[5][t] || 0
-      return { topic: t, early, late, delta: late - early }
-    })
-    .filter(x => x.early > 0.01 || x.late > 0.01)
-    .sort((a, b) => b.delta - a.delta)
+  // Compute rising/falling from the actual evolution data
+  const sorted = [...evolution].sort((a, b) => b.delta - a.delta)
+  const rising = sorted.filter(r => r.delta > 0.001).slice(0, 8)
+  const falling = sorted.filter(r => r.delta < -0.001).reverse().slice(0, 8)
 
   const risingEl = container.querySelector('#risingTopics')
   const fallingEl = container.querySelector('#fallingTopics')
 
-  risingEl.innerHTML = rising.slice(0, 8).map(r => `
+  risingEl.innerHTML = rising.map(r => `
     <div class="trend-item">
-      <div class="trend-label">${escHtml(r.topic)}</div>
+      <div class="trend-label" title="${escHtml(r.label)}">${escHtml(r.label)}</div>
       <div class="trend-bars">
         <div class="trend-bar-wrap"><div class="trend-bar trend-early" style="width:${(r.early * 100).toFixed(1)}%"></div><span class="trend-pct">${(r.early * 100).toFixed(1)}%</span></div>
-        <div class="trend-bar-wrap"><div class="trend-bar trend-late" style="width:${(r.late * 100).toFixed(1)}%"></div><span class="trend-pct">${(r.late * 100).toFixed(1)}%%</span></div>
+        <div class="trend-bar-wrap"><div class="trend-bar trend-late" style="width:${(r.late * 100).toFixed(1)}%"></div><span class="trend-pct">${(r.late * 100).toFixed(1)}%</span></div>
       </div>
     </div>
   `).join('')
 
-  fallingEl.innerHTML = rising.slice(-8).reverse().map(r => `
+  fallingEl.innerHTML = falling.map(r => `
     <div class="trend-item">
-      <div class="trend-label">${escHtml(r.topic)}</div>
+      <div class="trend-label" title="${escHtml(r.label)}">${escHtml(r.label)}</div>
       <div class="trend-bars">
         <div class="trend-bar-wrap"><div class="trend-bar trend-early" style="width:${(r.early * 100).toFixed(1)}%"></div><span class="trend-pct">${(r.early * 100).toFixed(1)}%</span></div>
         <div class="trend-bar-wrap"><div class="trend-bar trend-late" style="width:${(r.late * 100).toFixed(1)}%"></div><span class="trend-pct">${(r.late * 100).toFixed(1)}%</span></div>

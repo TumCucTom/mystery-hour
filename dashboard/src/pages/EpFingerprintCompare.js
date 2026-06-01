@@ -72,7 +72,7 @@ function renderPage(container, fps, allQa) {
 
     const maxA = Math.max(...distA, 0.001)
     const maxB = Math.max(...distB, 0.001)
-    const allCids = new Set([...topA.map(([c]), ...topB.map(([c])]).map(Number))
+    const allCids = new Set([...topA.map(([c]) => c), ...topB.map(([c]) => c)].map(Number))
     const sortedCids = [...allCids].sort((a, b) => a - b)
 
     resultEl.innerHTML = `

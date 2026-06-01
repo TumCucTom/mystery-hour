@@ -6,7 +6,7 @@
 import { loadJSON } from '../lib/data.js'
 
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
-function escHtml(s) { return String(s).replace(/&g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') }
+function escHtml(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') }
 
 export async function renderWillResolvePage(container) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading predictor...</div>`
@@ -107,7 +107,7 @@ function renderPage(container, data, k80) {
               <div class="pred-row">
                 <span class="pred-key">${na === '0' ? '0 answers (unanswered)' : na === '1' ? '1 answer' : na === '2' ? '2 answers' : na === '3' ? '3 answers' : '4+ answers'}</span>
                 <div class="pred-bar-wrap"><div class="pred-bar" style="width:${(d.rate*100).toFixed(1)}%;background:${d.rate > 0.8 ? 'var(--color-green)' : d.rate > 0.6 ? 'var(--color-yellow)' : 'var(--color-red)'}"></div></div>
-                <span class="pred-val">${pct(d.resolved, d.n)}</span>
+                <span class="pred-val">${pct(d.n * d.rate, d.n)}</span>
               </div>`
             ).join('')}
           </div>
@@ -119,7 +119,7 @@ function renderPage(container, data, k80) {
               <div class="pred-row">
                 <span class="pred-key">Era ${parseInt(era)+1} (eps ${parseInt(era)*100}–${(parseInt(era)+1)*100-1})</span>
                 <div class="pred-bar-wrap"><div class="pred-bar" style="width:${(d.rate*100).toFixed(1)}%;background:${d.rate > 0.8 ? 'var(--color-green)' : d.rate > 0.6 ? 'var(--color-yellow)' : 'var(--color-red)'}"></div></div>
-                <span class="pred-val">${pct(d.resolved, d.n)}</span>
+                <span class="pred-val">${pct(d.n * d.rate, d.n)}</span>
               </div>`
             ).join('')}
           </div>
