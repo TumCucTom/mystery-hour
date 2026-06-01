@@ -8,7 +8,7 @@ export function renderClusters(page, store) {
 
   page.innerHTML = `
     <div class="page-header">
-      <h1>🔍 Topic Clusters</h1>
+      <h1>Topic Clusters</h1>
       <p>Questions grouped by semantic similarity — BAAI/bge-base-en-v1.5 embeddings + KMeans clustering.</p>
     </div>
     <div class="section" style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;margin:1rem 0">
@@ -23,10 +23,10 @@ export function renderClusters(page, store) {
     <div id="clusterDetail"></div>
   `
 
-  const kSelect = document.getElementById('kSelect')
-  const filter = document.getElementById('clusterFilter')
-  const grid = document.getElementById('clusterGrid')
-  const detail = document.getElementById('clusterDetail')
+  const kSelect = page.querySelector('#kSelect')
+  const filter = page.querySelector('#clusterFilter')
+  const grid = page.querySelector('#clusterGrid')
+  const detail = page.querySelector('#clusterDetail')
 
   let activeK = 80
   let activeClusters = clusters.k80 || []
@@ -38,7 +38,7 @@ export function renderClusters(page, store) {
       (c.topic_label || '').toLowerCase().includes(ft) ||
       (c.keywords || []).some(k => k.toLowerCase().includes(ft))
     )
-    document.getElementById('clusterCount').textContent = `${filtered.length} clusters`
+    page.querySelector('#clusterCount').textContent = `${filtered.length} clusters`
 
     grid.innerHTML = filtered.map(c => `
       <div class="cluster-card" data-cid="${c.cluster_id}">
@@ -66,15 +66,15 @@ export function renderClusters(page, store) {
     const card = e.target.closest('.cluster-card')
     if (!card) return
     const cid = parseInt(card.dataset.cid)
-    showCluster(activeClusters.find(c => c.cluster_id === cid))
+    showCluster(activeClusters.find(c => c.cluster_id === cid), detail)
   })
 
   render()
 }
 
-export function showCluster(c) {
+export function showCluster(c, detailEl) {
   if (!c) return
-  const detail = document.getElementById('clusterDetail')
+  const detail = detailEl || document.getElementById('clusterDetail')
   if (!detail) return
   detail.innerHTML = `
     <div class="card" style="margin-top:1.5rem">

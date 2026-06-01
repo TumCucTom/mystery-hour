@@ -4,7 +4,7 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = '/data'
 
 function escHtml(s) {
   return String(s)
@@ -20,7 +20,7 @@ function pct(n, d) {
 
 function renderAccuracy(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading accuracy data...</div>`
-  loadJSON(`${BASE}/james_accuracy.json`).then(acc => {
+  loadJSON('james_accuracy.json').then(acc => {
     renderPage(container, acc)
   }).catch(() => {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Failed to load accuracy data.</p></div>`
@@ -42,7 +42,7 @@ function renderPage(container, acc) {
 
   container.innerHTML = `
     <div class="page-header">
-      <h1>🎯 James's Accuracy Scorecard</h1>
+      <h1>James's Accuracy Scorecard</h1>
       <p>How often does James get caught out by callers?</p>
     </div>
 
@@ -68,13 +68,13 @@ function renderPage(container, acc) {
 
     <!-- Worst episodes bar chart -->
     <div class="card">
-      <h2>📉 Worst Episodes (most wrong answers)</h2>
+      <h2>Worst Episodes (most wrong answers)</h2>
       <canvas id="worstChart" height="60"></canvas>
     </div>
 
     <!-- Top overturned questions -->
     <div class="card">
-      <h2>🔄 Most Frequently Overturned Questions</h2>
+      <h2>Most Frequently Overturned Questions</h2>
       <div class="overturned-list">
         ${acc.overturned_details.slice(0, 20).map(item => `
           <div class="overturned-item">
@@ -83,7 +83,7 @@ function renderPage(container, acc) {
               <div class="overturned-q">${escHtml(item.question)}</div>
               <div class="overturned-meta">
                 <a href="/episodes?ep=${item.episode}" class="nav-link" data-link>${item.episode}</a>
-                · ${item.resolved ? '✅ Resolved' : '❌ Unresolved'}
+                · ${item.resolved ? 'Resolved' : 'Unresolved'}
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ function renderPage(container, acc) {
 
     <!-- Best episodes -->
     <div class="card">
-      <h2>🏆 Best Episodes (fewest wrong answers)</h2>
+      <h2>Best Episodes (fewest wrong answers)</h2>
       <div class="best-episodes">
         ${acc.best_episodes.slice(0, 10).map(e => `
           <div class="best-ep-item">
@@ -107,7 +107,7 @@ function renderPage(container, acc) {
 
     <!-- All episode stats table -->
     <div class="card">
-      <h2>📊 All Episodes — Wrong Answer Rate</h2>
+      <h2>All Episodes — Wrong Answer Rate</h2>
       <input type="text" id="accSearch" placeholder="Filter episodes…" style="margin-bottom:12px;padding:8px;border-radius:6px;border:1px solid var(--color-border);width:100%;max-width:300px">
       <div id="episodeTable" style="max-height:400px;overflow-y:auto"></div>
     </div>

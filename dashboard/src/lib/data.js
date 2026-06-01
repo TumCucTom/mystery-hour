@@ -3,7 +3,7 @@
  * Provides a clean async API for all pages.
  */
 
-const BASE = './data'
+const BASE = '/data'
 
 // Load a JSON file (cached after first load)
 const cache = {}

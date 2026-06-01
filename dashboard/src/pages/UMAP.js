@@ -1,7 +1,9 @@
 /**
  * UMAP.js — interactive 2D scatter plot of all questions
  */
-import Chart from 'https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js'
+import { Chart, CategoryScale, LinearScale, ScatterController, PointElement, Tooltip, Legend } from 'chart.js'
+
+Chart.register(CategoryScale, LinearScale, ScatterController, PointElement, Tooltip, Legend)
 
 const COLORS = [
   '#6c5ce7','#00b894','#e17055','#0984e3','#fdcb6e','#e84393',
@@ -15,7 +17,7 @@ const COLORS = [
 export function renderUMAP(page, store) {
   page.innerHTML = `
     <div class="page-header">
-      <h1>🗺️ Question Map</h1>
+      <h1>Question Map</h1>
       <p>6,097 questions projected to 2D using UMAP — colored by topic cluster. Hover for question.</p>
     </div>
     <div id="umap-legend" style="display:flex;flex-wrap:wrap;gap:0.4rem;padding:0.75rem 0;border-bottom:1px solid var(--border);margin-bottom:1rem"></div>

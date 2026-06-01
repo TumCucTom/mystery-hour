@@ -6,7 +6,7 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = '/data'
 
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -24,7 +24,7 @@ function dot(a, b) {
 export async function renderSemanticSearch(container, store) {
   container.innerHTML = `
     <div class="page-header">
-      <h1>🔍 Ask the Dataset</h1>
+      <h1>Ask the Dataset</h1>
       <p>Type any question — find the most similar real Q&amp;A from 6,097 Mystery Hour questions.</p>
     </div>
     <div class="card">
@@ -44,7 +44,7 @@ export async function renderSemanticSearch(container, store) {
   // Load the pre-computed question vectors
   let questions = []
   try {
-    const data = await loadJSON(`${BASE}/question_vectors.json`)
+    const data = await loadJSON('question_vectors.json')
     questions = data.questions
     hintEl.textContent = `Index loaded: ${questions.length} questions ready. Type to search!`
   } catch (e) {
@@ -105,7 +105,7 @@ export async function renderSemanticSearch(container, store) {
               <div class="result-meta">
                 <a href="/episodes?ep=${r.episode}" class="nav-link" data-link>${r.episode}</a>
                 ${r.caller ? ` · Caller: ${escHtml(r.caller)}` : ''}
-                · ${r.resolved ? '✅ Resolved' : '❌ Unresolved'}
+                · ${r.resolved ? 'Resolved' : 'Unresolved'}
                 · ${r.n_answers || 0} answer${(r.n_answers || 0) !== 1 ? 's' : ''}
               </div>
             </div>

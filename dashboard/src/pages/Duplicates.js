@@ -6,27 +6,27 @@ export function renderDuplicates(page, store) {
 
   page.innerHTML = `
     <div class="page-header">
-      <h1>🔁 Duplicate & Recurring Questions</h1>
+      <h1>Duplicate & Recurring Questions</h1>
       <p>Questions that have been asked multiple times — either exactly the same or semantically very similar.</p>
     </div>
 
     <div class="section">
-      <div class="section-title">⚡ Exact Repeats — Same Question, Multiple Episodes</div>
+      <div class="section-title">Exact Repeats — Same Question, Multiple Episodes</div>
       <div id="recurringList">
         <div class="loading"><div class="spinner"></div></div>
       </div>
     </div>
 
     <div class="section">
-      <div class="section-title">🔗 Semantically Similar Chains (embedding similarity &gt; 0.88)</div>
+      <div class="section-title">Semantically Similar Chains (embedding similarity &gt; 0.88)</div>
       <div id="dupList">
         <div class="loading"><div class="spinner"></div></div>
       </div>
     </div>
   `
 
-  const recEl = document.getElementById('recurringList')
-  const dupEl = document.getElementById('dupList')
+  const recEl = page.querySelector('#recurringList')
+  const dupEl = page.querySelector('#dupList')
 
   if (!recurring || !recurring.length) {
     recEl.innerHTML = '<p style="color:var(--text-muted)">None found.</p>'

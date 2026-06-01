@@ -34,7 +34,7 @@ function renderNav() {
   const nav = document.createElement('nav')
   nav.className = 'nav'
   nav.innerHTML = `
-    <span class="nav-logo">🔮 Mystery Hour</span>
+    <span class="nav-logo">Mystery Hour</span>
     <div class="nav-links">
       ${links.map(([href, label]) =>
         `<a class="nav-link${path === href ? ' active' : ''}" href="${href}">${label}</a>`

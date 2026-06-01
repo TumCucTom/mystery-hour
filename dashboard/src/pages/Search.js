@@ -4,7 +4,7 @@
 export function renderSearch(page, store) {
   page.innerHTML = `
     <div class="page-header">
-      <h1>🔎 Search Questions</h1>
+      <h1>Search Questions</h1>
       <p>Find questions across all 6,097 questions. Type anything — it's full-text search.</p>
     </div>
     <div style="max-width:700px;margin:0 auto 2rem">
@@ -13,13 +13,13 @@ export function renderSearch(page, store) {
     <div id="results"></div>
     <div style="margin-top:2rem;padding:1rem;background:var(--bg);border-radius:8px;max-width:700px;margin-left:auto;margin-right:auto">
       <p style="color:var(--text-muted);font-size:0.85rem">
-        💡 <strong>Try:</strong> "origin of the phrase" · "why do trains" · "why is the sky blue" · "how come we don't see pigeons in trees"
+        <strong>Try:</strong> "origin of the phrase" · "why do trains" · "why is the sky blue" · "how come we don't see pigeons in trees"
       </p>
     </div>
   `
 
-  const input = document.getElementById('qInput')
-  const resultsEl = document.getElementById('results')
+  const input = page.querySelector('#qInput')
+  const resultsEl = page.querySelector('#results')
   let debounce
 
   input.addEventListener('input', e => {

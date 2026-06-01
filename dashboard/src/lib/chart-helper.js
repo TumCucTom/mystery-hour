@@ -9,10 +9,11 @@ let chartCache = null
 async function getChart() {
   if (Chart) return Chart
   if (chartCache) return chartCache
-  // Load Chart.js from CDN dynamically
-  const { Chart: C } = await import('https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js')
+  const { Chart: C } = await import('chart.js')
   Chart = C
   chartCache = C
+  // Register required components to avoid "category is not a registered scale"
+  C.register(C.CategoryScale, C.LinearScale, C.BarController, C.BarElement, C.LineController, C.LineElement, C.PointElement, C.Title, C.Tooltip, C.Legend)
   return C
 }
 

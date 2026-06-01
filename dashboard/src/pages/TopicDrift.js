@@ -5,7 +5,7 @@
 import { loadJSON } from '../lib/data.js'
 import { makeStackedAreaChart } from '../lib/chart-helper.js'
 
-const BASE = './data'
+const BASE = '/data'
 
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -15,8 +15,8 @@ export async function renderTopicDriftPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading topic drift data...</div>`
   try {
     const [drift, fingerprints] = await Promise.all([
-      loadJSON(`${BASE}/topic_drift.json`),
-      loadJSON(`${BASE}/episode_fingerprints.json`),
+      loadJSON('topic_drift.json'),
+      loadJSON('episode_fingerprints.json'),
     ])
     renderPage(container, drift, fingerprints)
   } catch (e) {
@@ -50,7 +50,7 @@ function renderPage(container, drift, fingerprints) {
 
   container.innerHTML = `
     <div class="page-header">
-      <h1>📈 Topic Drift — 10 Years of Mystery Hour</h1>
+      <h1>Topic Drift — 10 Years of Mystery Hour</h1>
       <p>How question topics evolved across ${episodes.length} episodes. Each line = one cluster's share of questions.</p>
     </div>
 

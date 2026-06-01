@@ -7,7 +7,7 @@ export function renderEpisodes(page, store) {
 
   page.innerHTML = `
     <div class="page-header">
-      <h1>📻 All Episodes</h1>
+      <h1>All Episodes</h1>
       <p>${eps.length} episodes · click any to explore its full Q&A.</p>
     </div>
     <div style="margin:1rem 0">
@@ -17,8 +17,8 @@ export function renderEpisodes(page, store) {
     <div id="episodesDetail"></div>
   `
 
-  const epList = document.getElementById('epList')
-  const detailEl = document.getElementById('episodesDetail')
+  const epList = page.querySelector('#epList')
+  const detailEl = page.querySelector('#episodesDetail')
 
   function renderList(eps2) {
     epList.innerHTML = eps2.map(ep => `
@@ -48,7 +48,7 @@ export function renderEpisodes(page, store) {
   renderList(eps)
 
   // Search
-  document.getElementById('epSearch').addEventListener('input', e => {
+  page.querySelector('#epSearch').addEventListener('input', e => {
     const q = e.target.value.toLowerCase()
     const filtered = eps.filter(ep =>
       ep.episode.toLowerCase().includes(q) ||
