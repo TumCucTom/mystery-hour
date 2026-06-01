@@ -77,7 +77,7 @@ const NAV_SECTIONS = [
     links: [
       { href: '/episodes', label: 'Episodes', description: 'All 601 episodes' },
       { href: '/summaries', label: 'Summaries', description: 'Episode recaps' },
-      { href: '/ray-liotta', label: 'Ray Liotta', description: 'Best of the worst' },
+      { href: '/ray-liotta', label: 'Ray Liotta', description: 'Best of the best' },
       { href: '/hall-of-fame', label: 'Hall of Fame', description: 'Top episodes' },
       { href: '/episode-recommender', label: 'Recommender', description: 'Find similar eps' },
       { href: '/ep-compare', label: 'Compare', description: 'Side-by-side eps' },

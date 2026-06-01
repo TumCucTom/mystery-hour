@@ -27,7 +27,7 @@ const HOME_TILES = [
     pages: [
       { href: '/episodes', label: 'All 601 Episodes', desc: 'Browse the catalogue' },
       { href: '/hall-of-fame', label: 'Hall of Fame', desc: 'Top-rated episodes' },
-      { href: '/ray-liotta', label: 'Ray Liotta', desc: 'Best of the worst' },
+      { href: '/ray-liotta', label: 'Ray Liotta', desc: 'Best of the best' },
       { href: '/episode-recommender', label: 'Recommender', desc: 'Find similar eps' },
     ],
   },
