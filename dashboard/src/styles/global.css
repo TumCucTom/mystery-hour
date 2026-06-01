@@ -13,6 +13,16 @@
   --danger: #e74c3c;
   --radius: 8px;
   --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  /* Aliases used by new pages */
+  --color-primary: var(--primary);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-green: #2ecc71;
+  --color-yellow: #f39c12;
+  --color-red: #e74c3c;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -233,3 +243,102 @@ select {
   padding: 0.6rem; font-size: 0.82rem; max-width: 350px; pointer-events: none;
   display: none; z-index: 10; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
+
+/* ── Stats grid (reused) ─────────────────────────────────── */
+.stats-grid { display: grid; grid-template-columns: repeat(var(--cols,4), 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+.stat-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 1.25rem; text-align: center; }
+.stat-value { font-size: 2rem; font-weight: 800; color: var(--color-primary); line-height: 1.1; }
+.stat-label { font-size: 0.78rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+/* ── Hall of Fame ────────────────────────────────────────── */
+.hof-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.hof-card { display: flex; gap: 14px; padding: 16px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; transition: transform 0.15s, box-shadow 0.15s; }
+.hof-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+.hof-medal { font-size: 28px; flex-shrink: 0; width: 44px; text-align: center; }
+.hof-rank { font-size: 14px; font-weight: 700; color: var(--color-muted); }
+.hof-info { flex: 1; min-width: 0; }
+.hof-name { font-weight: 700; font-size: 15px; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hof-location { font-size: 12px; color: var(--color-muted); margin-bottom: 8px; }
+.hof-stats { display: flex; gap: 12px; margin-bottom: 8px; }
+.hof-stat { display: flex; flex-direction: column; align-items: center; }
+.hof-stat-val { font-size: 18px; font-weight: 700; line-height: 1; }
+.hof-stat-lbl { font-size: 10px; color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+.hof-topics { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.hof-episodes { display: flex; flex-wrap: wrap; gap: 4px; }
+.hof-ep-link { font-size: 11px; padding: 1px 6px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 4px; }
+
+/* ── Dunning-Kruger ───────────────────────────────────────── */
+.dk-insight { display: flex; gap: 14px; align-items: flex-start; padding: 20px; border-radius: 10px; }
+.dk-insight-icon { font-size: 24px; flex-shrink: 0; }
+.dk-insight-text { font-size: 14px; color: #e2e8f0; line-height: 1.6; }
+.dk-bars { display: flex; align-items: flex-end; gap: 24px; height: 100%; padding-bottom: 36px; position: relative; }
+.dk-bar-group { flex: 1; display: flex; flex-direction: column; align-items: center; position: relative; height: 100%; justify-content: flex-end; }
+.dk-bar-wrap { width: 100%; display: flex; align-items: flex-end; justify-content: center; flex: 1; }
+.dk-bar { min-height: 20px; width: 80%; max-width: 100px; border-radius: 6px 6px 0 0; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px; transition: height 0.5s ease; }
+.dk-bar-pct { font-size: 11px; font-weight: 700; color: #fff; white-space: nowrap; }
+.dk-bar-label { position: absolute; bottom: 0; left: 0; right: 0; text-align: center; font-size: 12px; color: var(--color-muted); padding: 4px 0; }
+.dk-bar-sub { position: absolute; bottom: 22px; left: 0; right: 0; text-align: center; font-size: 10px; color: var(--color-muted); }
+.dk-interpretation .dk-points { display: flex; flex-direction: column; gap: 16px; }
+.dk-point { display: flex; gap: 14px; align-items: flex-start; }
+.dk-point-icon { font-size: 24px; flex-shrink: 0; width: 36px; text-align: center; }
+.dk-point strong { display: block; margin-bottom: 4px; }
+
+/* ── Call Heatmap ─────────────────────────────────────────── */
+.heatmap-wrap { overflow-x: auto; }
+.heatmap-container { min-width: 600px; }
+.heatmap-row { display: flex; align-items: center; min-height: 32px; }
+.heatmap-header-row { position: sticky; top: 0; background: var(--color-surface); z-index: 2; }
+.heatmap-corner { width: 160px; flex-shrink: 0; }
+.heatmap-col-header { flex: 1; text-align: center; padding: 6px 4px; min-width: 80px; }
+.heatmap-era-name { font-size: 12px; font-weight: 700; color: var(--color-text); }
+.heatmap-era-eps { font-size: 10px; color: var(--color-muted); }
+.heatmap-row-label { width: 160px; flex-shrink: 0; font-size: 12px; color: var(--color-muted); padding: 4px 8px 4px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.heatmap-cell { flex: 1; min-width: 80px; height: 32px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.03); transition: filter 0.15s; cursor: default; }
+.heatmap-cell:hover { filter: brightness(1.3); }
+.heatmap-cell-count { font-size: 10px; color: rgba(255,255,255,0.8); font-weight: 600; }
+.heatmap-legend { display: flex; align-items: center; gap: 4px; margin-top: 12px; font-size: 12px; color: var(--color-muted); justify-content: flex-end; }
+.heatmap-legend-cell { width: 20px; height: 12px; border-radius: 2px; }
+.trend-list { display: flex; flex-direction: column; gap: 12px; }
+.trend-item { display: flex; flex-direction: column; gap: 4px; }
+.trend-label { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+.trend-bars { display: flex; flex-direction: column; gap: 3px; }
+.trend-bar-wrap { display: flex; align-items: center; gap: 8px; }
+.trend-bar { height: 8px; border-radius: 4px; min-width: 4px; }
+.trend-early { background: #60a5fa; }
+.trend-late { background: #f87171; }
+.trend-pct { font-size: 11px; color: var(--color-muted); min-width: 40px; }
+
+/* ── Caller Network ───────────────────────────────────────── */
+.net-row:hover { background: var(--color-surface); }
+
+/* ── Time to Answer ───────────────────────────────────────── */
+.tta-insights { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.tta-insight { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.tta-insight-num { font-size: 32px; font-weight: 800; color: var(--color-primary); line-height: 1; }
+.tta-insight-text { font-size: 14px; color: var(--color-muted); line-height: 1.5; }
+
+/* ── Top Locations Grid ───────────────────────────────────── */
+.top-locations-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.loc-chip { display: flex; align-items: center; gap: 8px; padding: 8px 14px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 20px; cursor: pointer; transition: all 0.15s; font-size: 13px; color: var(--color-text); }
+.loc-chip:hover { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+.loc-chip-active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+.loc-rank { font-size: 11px; color: var(--color-muted); min-width: 16px; }
+.loc-chip:hover .loc-rank { color: rgba(255,255,255,0.7); }
+.loc-name { font-weight: 600; }
+.loc-count { font-size: 12px; opacity: 0.7; }
+
+/* ── Geo Town ─────────────────────────────────────────────── */
+.geo-town-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.geo-town-badge { background: var(--color-primary); color: #fff; padding: 4px 14px; border-radius: 20px; font-size: 14px; font-weight: 700; }
+.geo-stats-row { display: flex; gap: 32px; }
+.geo-stat { display: flex; flex-direction: column; }
+.geo-stat-val { font-size: 24px; font-weight: 700; }
+.geo-stat-lbl { font-size: 12px; color: var(--color-muted); }
+
+/* ── UMAP Clusters ─────────────────────────────────────────── */
+.cluster-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px; padding: 14px; cursor: pointer; transition: box-shadow 0.15s; }
+.cluster-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+.cluster-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.cluster-count { font-size: 12px; color: var(--color-muted); }
+.cluster-terms { font-size: 12px; color: var(--color-muted); line-height: 1.4; }
+

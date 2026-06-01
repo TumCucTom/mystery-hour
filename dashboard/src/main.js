@@ -22,6 +22,13 @@ import { renderSeasonalPage } from './pages/Seasonal.js'
 import { renderQuestionQualityPage } from './pages/QuestionQuality.js'
 import { renderEpisodeSummariesPage } from './pages/EpisodeSummaries.js'
 import { renderRayLiottaPage } from './pages/RayLiotta.js'
+import { renderHallOfFamePage } from './pages/HallOfFame.js'
+import { renderDunningKrugerPage } from './pages/DunningKruger.js'
+import { renderCallHeatmapPage } from './pages/CallHeatmap.js'
+import { renderCallerNetworkPage } from './pages/CallerNetwork.js'
+import { renderUMAPClustersPage } from './pages/UMAPClusters.js'
+import { renderTimeToAnswerPage } from './pages/TimeToAnswer.js'
+import { renderUKMapPage } from './pages/UKMap.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -46,6 +53,13 @@ function renderNav() {
     ['/question-quality', 'Quality'],
     ['/summaries', 'Summaries'],
     ['/ray-liotta', 'Ray Liotta'],
+    ['/hall-of-fame', 'Hall of Fame'],
+    ['/dunning-kruger', 'Dunning-Kruger'],
+    ['/call-heatmap', 'Call Heatmap'],
+    ['/caller-network', 'Caller Network'],
+    ['/umap-clusters', 'Topic Universe'],
+    ['/time-to-answer', 'Time to Answer'],
+    ['/uk-map', 'UK Map'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -98,6 +112,13 @@ const routes = {
   '/question-quality': renderQuestionQualityPage,
   '/summaries': renderEpisodeSummariesPage,
   '/ray-liotta': renderRayLiottaPage,
+  '/hall-of-fame': renderHallOfFamePage,
+  '/dunning-kruger': renderDunningKrugerPage,
+  '/call-heatmap': renderCallHeatmapPage,
+  '/caller-network': renderCallerNetworkPage,
+  '/umap-clusters': renderUMAPClustersPage,
+  '/time-to-answer': renderTimeToAnswerPage,
+  '/uk-map': renderUKMapPage,
 }
 
 function route() {

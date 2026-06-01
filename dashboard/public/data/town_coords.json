@@ -1,0 +1,482 @@
+{
+  "Croydon": {
+    "lat": 51.3713049,
+    "lon": -0.101957,
+    "display": "Croydon, Greater London, England, CR0 1SZ, United Kingdom",
+    "count": 18
+  },
+  "Bromley": {
+    "lat": 51.4028046,
+    "lon": 0.0148142,
+    "display": "Bromley, Greater London, England, BR1 1EY, United Kingdom",
+    "count": 16
+  },
+  "Ealing": {
+    "lat": 51.5126553,
+    "lon": -0.3051952,
+    "display": "Ealing, Greater London, England, W5 5AW, United Kingdom",
+    "count": 15
+  },
+  "Watford": {
+    "lat": 51.6553875,
+    "lon": -0.3957425,
+    "display": "Watford, Hertfordshire, England, WD17 2DN, United Kingdom",
+    "count": 13
+  },
+  "Bristol": {
+    "lat": 51.4538022,
+    "lon": -2.5972985,
+    "display": "Bristol, City of Bristol, West of England, England, United Kingdom",
+    "count": 11
+  },
+  "Wimbledon": {
+    "lat": 51.4214787,
+    "lon": -0.2064027,
+    "display": "Wimbledon, Greater London, England, SW19 7NL, United Kingdom",
+    "count": 11
+  },
+  "Brighton": {
+    "lat": 50.8214626,
+    "lon": -0.1400561,
+    "display": "Brighton, Brighton and Hove, England, BN1 1HJ, United Kingdom",
+    "count": 10
+  },
+  "Sheffield": {
+    "lat": 53.3806626,
+    "lon": -1.4702278,
+    "display": "Sheffield, South Yorkshire, England, United Kingdom",
+    "count": 10
+  },
+  "Manchester": {
+    "lat": 53.4794892,
+    "lon": -2.2451148,
+    "display": "Manchester, Lancashire, Greater Manchester, England, M60 2UH, United Kingdom",
+    "count": 9
+  },
+  "Guildford": {
+    "lat": 51.2356068,
+    "lon": -0.5732063,
+    "display": "Guildford, Surrey, England, GU1 3DP, United Kingdom",
+    "count": 9
+  },
+  "Slough": {
+    "lat": 51.5111014,
+    "lon": -0.5940682,
+    "display": "Slough, England, United Kingdom",
+    "count": 9
+  },
+  "Birmingham": {
+    "lat": 52.4948994,
+    "lon": -1.8518439,
+    "display": "Birmingham, West Midlands, England, United Kingdom",
+    "count": 8
+  },
+  "Glasgow": {
+    "lat": 55.861155,
+    "lon": -4.2501687,
+    "display": "Glasgow, Glasgow City, Alba / Scotland, G2 1AL, United Kingdom",
+    "count": 8
+  },
+  "Leeds": {
+    "lat": 53.7974185,
+    "lon": -1.5437941,
+    "display": "Leeds, West Yorkshire, England, LS1 6AL, United Kingdom",
+    "count": 8
+  },
+  "Hackney": {
+    "lat": 51.5432402,
+    "lon": -0.0493621,
+    "display": "Hackney, London Borough of Hackney, Greater London, England, E9 6QW, United Kingdom",
+    "count": 8
+  },
+  "Nottingham": {
+    "lat": 52.9534193,
+    "lon": -1.1496461,
+    "display": "City of Nottingham, Nottinghamshire, East Midlands, England, United Kingdom",
+    "count": 8
+  },
+  "Epsom": {
+    "lat": 51.3326098,
+    "lon": -0.2678212,
+    "display": "Epsom, Epsom and Ewell, Surrey, England, KT19 8DX, United Kingdom",
+    "count": 7
+  },
+  "Liverpool": {
+    "lat": 53.3933411,
+    "lon": -2.9166389,
+    "display": "Liverpool, Liverpool City Region, England, United Kingdom",
+    "count": 7
+  },
+  "Dublin": {
+    "lat": 57.7386289,
+    "lon": -4.3255225,
+    "display": "Dublin, Ardross, Highland, Alba / Scotland, IV17 0YF, United Kingdom",
+    "count": 7
+  },
+  "Cambridge": {
+    "lat": 52.1975846,
+    "lon": 0.1391537,
+    "display": "Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom",
+    "count": 7
+  },
+  "Oxford": {
+    "lat": 51.7520131,
+    "lon": -1.2578499,
+    "display": "Oxford, Oxfordshire, England, United Kingdom",
+    "count": 7
+  },
+  "Romford": {
+    "lat": 51.5760462,
+    "lon": 0.1822646,
+    "display": "Romford, Greater London, England, RM1 1RX, United Kingdom",
+    "count": 7
+  },
+  "Orpington": {
+    "lat": 51.3796373,
+    "lon": 0.1053732,
+    "display": "Orpington, Greater London, England, BR6 0GE, United Kingdom",
+    "count": 7
+  },
+  "Reading": {
+    "lat": 51.4564242,
+    "lon": -0.9700664,
+    "display": "Reading, England, United Kingdom",
+    "count": 7
+  },
+  "Lewisham": {
+    "lat": 51.4624292,
+    "lon": -0.0101787,
+    "display": "Lewisham, Greater London, England, SE13 6BB, United Kingdom",
+    "count": 7
+  },
+  "Walthamstow": {
+    "lat": 51.5844701,
+    "lon": -0.0188186,
+    "display": "Walthamstow, Greater London, England, E17 3AL, United Kingdom",
+    "count": 7
+  },
+  "Forest Hill": {
+    "lat": 51.439108,
+    "lon": -0.0539538,
+    "display": "Forest Hill, London Borough of Lewisham, Greater London, England, SE23 3HE, United Kingdom",
+    "count": 7
+  },
+  "Crawley": {
+    "lat": 51.1103444,
+    "lon": -0.1801094,
+    "display": "Crawley, West Sussex, England, United Kingdom",
+    "count": 6
+  },
+  "Ipswich": {
+    "lat": 52.0579324,
+    "lon": 1.1528095,
+    "display": "Ipswich, Suffolk, England, IP1 1DD, United Kingdom",
+    "count": 6
+  },
+  "Enfield": {
+    "lat": 51.6520851,
+    "lon": -0.0810175,
+    "display": "Enfield, Greater London, England, EN2 6LD, United Kingdom",
+    "count": 6
+  },
+  "Hendon": {
+    "lat": 51.5897175,
+    "lon": -0.2216026,
+    "display": "Hendon, London Borough of Barnet, Greater London, England, NW4 1BP, United Kingdom",
+    "count": 6
+  },
+  "Norwich": {
+    "lat": 52.6285576,
+    "lon": 1.2923954,
+    "display": "Norwich, Norfolk, England, United Kingdom",
+    "count": 6
+  },
+  "Peckham": {
+    "lat": 51.4734122,
+    "lon": -0.0699321,
+    "display": "Peckham, London Borough of Southwark, Greater London, England, SE15 5DW, United Kingdom",
+    "count": 6
+  },
+  "Wembley": {
+    "lat": 51.5560695,
+    "lon": -0.2796034,
+    "display": "Wembley Stadium, South Way, Alperton, London Borough of Brent, Greater London, England, HA9 0QB, United Kingdom",
+    "count": 6
+  },
+  "Surbiton": {
+    "lat": 51.3937557,
+    "lon": -0.3033105,
+    "display": "Surbiton, Royal Borough of Kingston upon Thames, Greater London, England, KT6 4LQ, United Kingdom",
+    "count": 6
+  },
+  "Marlow": {
+    "lat": 51.5718706,
+    "lon": -0.7769654,
+    "display": "Marlow, Buckinghamshire, England, United Kingdom",
+    "count": 6
+  },
+  "Farnham": {
+    "lat": 51.2151749,
+    "lon": -0.7984854,
+    "display": "Farnham, Waverley, Surrey, England, United Kingdom",
+    "count": 5
+  },
+  "Southampton": {
+    "lat": 50.9025349,
+    "lon": -1.404189,
+    "display": "Southampton, England, United Kingdom",
+    "count": 5
+  },
+  "Barnet": {
+    "lat": 51.65309,
+    "lon": -0.2002261,
+    "display": "Chipping Barnet, Greater London, England, EN5 5SB, United Kingdom",
+    "count": 5
+  },
+  "Northampton": {
+    "lat": 52.2343297,
+    "lon": -0.9028043,
+    "display": "Northampton, West Northamptonshire, England, United Kingdom",
+    "count": 5
+  },
+  "Basingstoke": {
+    "lat": 51.262826,
+    "lon": -1.0861976,
+    "display": "Basingstoke, Basingstoke and Deane, Hampshire, England, United Kingdom",
+    "count": 5
+  },
+  "Cardiff": {
+    "lat": 51.4816546,
+    "lon": -3.1791934,
+    "display": "Cardiff, Cymru / Wales, CF10 2AF, United Kingdom",
+    "count": 5
+  },
+  "Camberley": {
+    "lat": 51.3392845,
+    "lon": -0.7460981,
+    "display": "Camberley, Surrey Heath, Surrey, England, GU15 3SA, United Kingdom",
+    "count": 5
+  },
+  "Streatham": {
+    "lat": 51.429769,
+    "lon": -0.1311105,
+    "display": "Streatham, London Borough of Lambeth, Greater London, England, SW16 1QR, United Kingdom",
+    "count": 5
+  },
+  "Camden": {
+    "lat": 51.5427966,
+    "lon": -0.1624803,
+    "display": "London Borough of Camden, Greater London, England, United Kingdom",
+    "count": 5
+  },
+  "Harlow": {
+    "lat": 51.7685568,
+    "lon": 0.0949036,
+    "display": "Harlow, Essex, England, United Kingdom",
+    "count": 5
+  },
+  "Sidcup": {
+    "lat": 51.4264002,
+    "lon": 0.101044,
+    "display": "Sidcup, Greater London, England, DA14 6FJ, United Kingdom",
+    "count": 5
+  },
+  "High Wycombe": {
+    "lat": 51.6317449,
+    "lon": -0.75596,
+    "display": "High Wycombe, Buckinghamshire, England, United Kingdom",
+    "count": 5
+  },
+  "Chigwell": {
+    "lat": 51.6176444,
+    "lon": 0.0757204,
+    "display": "Chigwell, Station Road, Grange Hill, Chigwell, Epping Forest, Essex, England, IG7 6QT, United Kingdom",
+    "count": 5
+  },
+  "Brentford": {
+    "lat": 51.4863958,
+    "lon": -0.3216623,
+    "display": "Brentford, Greater London, England, TW8 9DE, United Kingdom",
+    "count": 5
+  },
+  "Chiswick": {
+    "lat": 51.4923137,
+    "lon": -0.263818,
+    "display": "Chiswick, Greater London, England, W4 5PS, United Kingdom",
+    "count": 5
+  },
+  "Basildon": {
+    "lat": 51.5702375,
+    "lon": 0.4583573,
+    "display": "Basildon, Essex, England, SS14 1BE, United Kingdom",
+    "count": 5
+  },
+  "Winchester": {
+    "lat": 51.0612766,
+    "lon": -1.3131692,
+    "display": "Winchester, Hampshire, England, SO23 9LF, United Kingdom",
+    "count": 4
+  },
+  "Hammersmith": {
+    "lat": 51.4920377,
+    "lon": -0.2236401,
+    "display": "Hammersmith, London Borough of Hammersmith and Fulham, Greater London, England, W6 9YD, United Kingdom",
+    "count": 4
+  },
+  "Dorking": {
+    "lat": 51.2325184,
+    "lon": -0.3306724,
+    "display": "Dorking, Mole Valley, Surrey, England, United Kingdom",
+    "count": 4
+  },
+  "Rochester": {
+    "lat": 51.3883811,
+    "lon": 0.504925,
+    "display": "Rochester, Kent, England, United Kingdom",
+    "count": 4
+  },
+  "Coventry": {
+    "lat": 52.4081812,
+    "lon": -1.510477,
+    "display": "Coventry, West Midlands, England, CV1 1LL, United Kingdom",
+    "count": 4
+  },
+  "Richmond": {
+    "lat": 51.4405529,
+    "lon": -0.3076394,
+    "display": "London Borough of Richmond upon Thames, Greater London, England, United Kingdom",
+    "count": 4
+  },
+  "Maidstone": {
+    "lat": 51.2748258,
+    "lon": 0.5231646,
+    "display": "Maidstone, Kent, England, United Kingdom",
+    "count": 4
+  },
+  "Wigan": {
+    "lat": 53.546215,
+    "lon": -2.6319112,
+    "display": "Wigan, Greater Manchester, England, WN1 1NR, United Kingdom",
+    "count": 4
+  },
+  "Gillingham": {
+    "lat": 51.3871701,
+    "lon": 0.5461611,
+    "display": "Gillingham, Medway, England, United Kingdom",
+    "count": 4
+  },
+  "York": {
+    "lat": 53.9656579,
+    "lon": -1.0743052,
+    "display": "York, York and North Yorkshire, England, United Kingdom",
+    "count": 4
+  },
+  "Woking": {
+    "lat": 51.3201891,
+    "lon": -0.5564726,
+    "display": "Woking, Surrey, England, GU21 6HX, United Kingdom",
+    "count": 4
+  },
+  "Sutton": {
+    "lat": 51.3574426,
+    "lon": -0.1736053,
+    "display": "London Borough of Sutton, Greater London, England, United Kingdom",
+    "count": 4
+  },
+  "Epping": {
+    "lat": 51.6982689,
+    "lon": 0.1102918,
+    "display": "Epping, Ivy Chimneys, Epping Forest, Essex, England, United Kingdom",
+    "count": 4
+  },
+  "Southgate": {
+    "lat": 51.6323183,
+    "lon": -0.1277858,
+    "display": "Southgate, Chase Side, Oakwood, Southgate, London Borough of Enfield, Greater London, England, N14 5BH, United Kingdom",
+    "count": 4
+  },
+  "Chelmsford": {
+    "lat": 51.7345329,
+    "lon": 0.4730532,
+    "display": "Chelmsford, Essex, England, CM1 1EQ, United Kingdom",
+    "count": 4
+  },
+  "Chelsea": {
+    "lat": 51.4888554,
+    "lon": -0.1653781,
+    "display": "Chelsea, Royal Borough of Kensington and Chelsea, Greater London, England, SW3 4UT, United Kingdom",
+    "count": 4
+  },
+  "Horsham": {
+    "lat": 51.0630273,
+    "lon": -0.3295028,
+    "display": "Horsham, West Sussex, England, RH12 1HQ, United Kingdom",
+    "count": 4
+  },
+  "Tottenham": {
+    "lat": 51.5976955,
+    "lon": -0.0672892,
+    "display": "Tottenham, Greater London, England, N17 9TR, United Kingdom",
+    "count": 4
+  },
+  "Essex": {
+    "lat": 51.7704679,
+    "lon": 0.4646698,
+    "display": "Essex, England, United Kingdom",
+    "count": 4
+  },
+  "Ilford": {
+    "lat": 51.5582734,
+    "lon": 0.0711669,
+    "display": "Ilford, Greater London, England, IG1 1DL, United Kingdom",
+    "count": 4
+  },
+  "Greenwich": {
+    "lat": 51.4820845,
+    "lon": -0.0045417,
+    "display": "Greenwich, Greater London, England, SE10 9HF, United Kingdom",
+    "count": 4
+  },
+  "Fulham": {
+    "lat": 51.474408,
+    "lon": -0.206809,
+    "display": "Fulham, London Borough of Hammersmith and Fulham, Greater London, England, SW6 5HJ, United Kingdom",
+    "count": 4
+  },
+  "Hounslow": {
+    "lat": 51.4686132,
+    "lon": -0.3613471,
+    "display": "Hounslow, Greater London, England, TW3 1DA, United Kingdom",
+    "count": 4
+  },
+  "Eastbourne": {
+    "lat": 50.7664372,
+    "lon": 0.2781546,
+    "display": "Eastbourne, East Sussex, England, United Kingdom",
+    "count": 4
+  },
+  "Marylebone": {
+    "lat": 51.5196374,
+    "lon": -0.1519627,
+    "display": "Marylebone, City of Westminster, Greater London, England, W1U 4RQ, United Kingdom",
+    "count": 4
+  },
+  "Battersea": {
+    "lat": 51.4707933,
+    "lon": -0.172214,
+    "display": "Battersea, London Borough of Wandsworth, Greater London, England, SW11 3HW, United Kingdom",
+    "count": 4
+  },
+  "Bishop's Stortford": {
+    "lat": 51.8676279,
+    "lon": 0.1631961,
+    "display": "Bishop's Stortford, Thorley, East Hertfordshire, Hertfordshire, England, United Kingdom",
+    "count": 4
+  },
+  "Windsor": {
+    "lat": 51.4837886,
+    "lon": -0.6040419,
+    "display": "Windsor Castle, Chapter Mews, Clewer New Town, Clewer Village, Windsor, Windsor and Maidenhead, England, SL4 1RQ, United Kingdom",
+    "count": 4
+  }
+}
