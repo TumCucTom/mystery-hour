@@ -1,0 +1,76 @@
+{
+  "by_answer_count": {
+    "0": {
+      "total": 827,
+      "resolved": 5,
+      "rate": 0.006
+    },
+    "1": {
+      "total": 3190,
+      "resolved": 2664,
+      "rate": 0.835
+    },
+    "2": {
+      "total": 1769,
+      "resolved": 1559,
+      "rate": 0.881
+    },
+    "3": {
+      "total": 305,
+      "resolved": 254,
+      "rate": 0.833
+    },
+    "4": {
+      "total": 30,
+      "resolved": 26,
+      "rate": 0.867
+    },
+    "5": {
+      "total": 11,
+      "resolved": 9,
+      "rate": 0.818
+    },
+    "6": {
+      "total": 2,
+      "resolved": 0,
+      "rate": 0.0
+    }
+  },
+  "by_episode_era": {
+    "0": {
+      "total": 900,
+      "resolved": 649,
+      "rate": 0.721
+    },
+    "1": {
+      "total": 983,
+      "resolved": 745,
+      "rate": 0.758
+    },
+    "2": {
+      "total": 942,
+      "resolved": 733,
+      "rate": 0.778
+    },
+    "3": {
+      "total": 1049,
+      "resolved": 799,
+      "rate": 0.762
+    },
+    "4": {
+      "total": 1113,
+      "resolved": 790,
+      "rate": 0.71
+    },
+    "5": {
+      "total": 1132,
+      "resolved": 794,
+      "rate": 0.701
+    },
+    "6": {
+      "total": 15,
+      "resolved": 7,
+      "rate": 0.467
+    }
+  }
+}
