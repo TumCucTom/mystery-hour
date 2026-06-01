@@ -4,7 +4,7 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 
 function esc(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
@@ -13,7 +13,7 @@ function esc(s) {
 export async function renderRayLiottaPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading Ray Liotta awards...</div>`
   try {
-    const data = await loadJSON(`${BASE}/ray_liotta_awards.json`)
+    const data = await loadJSON('ray_liotta_awards.json')
     renderPage(container, data)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Failed to load: ${e.message}</p></div>`
@@ -25,7 +25,7 @@ function renderPage(container, data) {
 
   container.innerHTML = `
     <div class="page-header">
-      <h1>🏆 The Ray Liotta Awards</h1>
+      <h1>The Ray Liotta Awards</h1>
       <p>"I'm Ray Liotta and you're listening to James O'Brien on LBC. If you build it, they will come."</p>
     </div>
 
@@ -75,7 +75,7 @@ function renderPage(container, data) {
             <a href="/episodes?ep=${a.episode}" class="nav-link" data-link style="font-weight:700;font-size:16px">${esc(a.episode)}</a>
             ${a.caller && a.caller !== 'Unknown' ? `<span style="margin-left:12px;font-size:14px;color:var(--color-muted)">— <strong>${esc(a.caller)}</strong></span>` : ''}
           </div>
-          <span style="background:#e74c3c;color:white;padding:3px 12px;border-radius:12px;font-size:12px;flex-shrink:0">🎙️ Ray Liotta awarded</span>
+          <span style="background:#e74c3c;color:white;padding:3px 12px;border-radius:12px;font-size:12px;flex-shrink:0">Ray Liotta awarded</span>
         </div>
 
         ${a.qualification ? `

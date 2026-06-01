@@ -51,12 +51,29 @@ function renderNav() {
   nav.className = 'nav'
   nav.innerHTML = `
     <span class="nav-logo">Mystery Hour</span>
-    <div class="nav-links">
+    <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
       ${links.map(([href, label]) =>
         `<a class="nav-link${path === href ? ' active' : ''}" href="${href}">${label}</a>`
       ).join('')}
     </div>
   `
+  // Mobile hamburger toggle
+  const hamburger = nav.querySelector('#navHamburger')
+  const linksEl = nav.querySelector('#navLinks')
+  hamburger.addEventListener('click', () => {
+    linksEl.classList.toggle('open')
+    hamburger.classList.toggle('active')
+  })
+  // Close on link click
+  linksEl.addEventListener('click', e => {
+    if (e.target.classList.contains('nav-link')) {
+      linksEl.classList.remove('open')
+      hamburger.classList.remove('active')
+    }
+  })
   return nav
 }
 
