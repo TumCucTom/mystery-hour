@@ -12,8 +12,8 @@ export async function renderTriviaPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading trivia questions…</div>`
   try {
     const [allQa, meta] = await Promise.all([
-      import('../lib/data.js').then(m => m.loadJSON('./data/all_qa.json')),
-      import('../lib/data.js').then(m => m.loadJSON('./data/question_meta.json')),
+      import('../lib/data.js').then(m => m.loadJSON('all_qa.json')),
+      import('../lib/data.js').then(m => m.loadJSON('question_meta.json')),
     ])
     initGame(container, allQa, meta)
   } catch (e) {

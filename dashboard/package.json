@@ -8,7 +8,9 @@
     "preview": "vite preview",
     "update-data": "node scripts/update_data.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  },
   "devDependencies": {
     "vite": "^5.0.0"
   }

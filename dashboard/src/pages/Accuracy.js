@@ -3,6 +3,7 @@
  * Shows James's overturned/wrong answer rate overall and per episode.
  */
 import { loadJSON } from '../lib/data.js'
+import { makeBarChart } from '../lib/chart-helper.js'
 
 const BASE = '/data'
 
@@ -115,11 +116,7 @@ function renderPage(container, acc) {
 
   // Chart.js bar chart for worst episodes
   const ctx = container.querySelector('#worstChart').getContext('2d')
-  import('../lib/chart-helper.js').then(({makeBarChart}) => {
-    makeBarChart(ctx, worstChartData.map(d => d.episode), worstChartData.map(d => d.rate), 'Wrong answer rate (%)', 'rgba(231,76,60,0.7)')
-  }).catch(() => {
-    // Chart.js not available — skip chart
-  })
+  makeBarChart(ctx, worstChartData.map(d => d.episode), worstChartData.map(d => d.rate), 'Wrong answer rate (%)', 'rgba(231,76,60,0.7)').catch(() => {})
 
   // Episode table with filter
   const table = container.querySelector('#episodeTable')

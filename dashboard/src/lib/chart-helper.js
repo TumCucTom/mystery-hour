@@ -1,24 +1,13 @@
 /**
  * chart-helper.js — thin Chart.js wrapper for dashboard pages.
- * Dynamically loads Chart.js from CDN and returns chart instances.
  */
+import { Chart, CategoryScale, LinearScale, BarController, BarElement,
+         LineController, LineElement, PointElement, Title, Tooltip, Legend } from 'chart.js'
 
-let Chart = null
-let chartCache = null
-
-async function getChart() {
-  if (Chart) return Chart
-  if (chartCache) return chartCache
-  const { Chart: C } = await import('chart.js')
-  Chart = C
-  chartCache = C
-  // Register required components to avoid "category is not a registered scale"
-  C.register(C.CategoryScale, C.LinearScale, C.BarController, C.BarElement, C.LineController, C.LineElement, C.PointElement, C.Title, C.Tooltip, C.Legend)
-  return C
-}
+Chart.register(CategoryScale, LinearScale, BarController, BarElement,
+              LineController, LineElement, PointElement, Title, Tooltip, Legend)
 
 export async function makeLineChart(ctx, labels, datasets, yLabel = '') {
-  const Chart = await getChart()
   return new Chart(ctx, {
     type: 'line',
     data: { labels, datasets },
@@ -35,7 +24,6 @@ export async function makeLineChart(ctx, labels, datasets, yLabel = '') {
 }
 
 export async function makeBarChart(ctx, labels, data, label = '', color = 'rgba(52,152,219,0.7)') {
-  const Chart = await getChart()
   return new Chart(ctx, {
     type: 'bar',
     data: {
@@ -55,7 +43,6 @@ export async function makeBarChart(ctx, labels, data, label = '', color = 'rgba(
 }
 
 export async function makeStackedAreaChart(ctx, labels, datasets, yLabel = '') {
-  const Chart = await getChart()
   return new Chart(ctx, {
     type: 'line',
     data: { labels, datasets },
@@ -72,7 +59,6 @@ export async function makeStackedAreaChart(ctx, labels, datasets, yLabel = '') {
 }
 
 export async function makeScatterChart(ctx, points, label = '') {
-  const Chart = await getChart()
   return new Chart(ctx, {
     type: 'scatter',
     data: {
