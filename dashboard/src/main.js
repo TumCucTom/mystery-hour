@@ -1,5 +1,5 @@
 /**
- * main.js — entry point + client-side router
+ * main.js — entry point + client-side router + sidebar nav
  */
 import './styles/global.css'
 import { loadAll } from './lib/data.js'
@@ -46,84 +46,104 @@ import { renderEpFingerprintComparePage } from './pages/EpFingerprintCompare.js'
 import { renderUMAPResolvedPage } from './pages/UMAPResolved.js'
 import { renderWillResolvePage } from './pages/WillResolve.js'
 
-// ── Nav ───────────────────────────────────────────────────
-function renderNav() {
-  const path = location.pathname
-  const links = [
-    ['/', 'Overview'],
-    ['/clusters', 'Clusters'],
-    ['/episodes', 'Episodes'],
-    ['/search', 'Search'],
-    ['/accuracy', 'Accuracy'],
-    ['/ask', 'Ask'],
-    ['/topic-drift', 'Drift'],
-    ['/similar', 'Similar'],
-    ['/geographic', 'Map'],
-    ['/answer-dynamics', 'Answers'],
-    ['/question-type', 'Q Types'],
-    ['/duplicates', 'Duplicates'],
-    ['/umap', 'UMAP'],
-    ['/seasonal', 'Seasonal'],
-    ['/recurring-unanswered', 'Unanswered'],
-    ['/question-quality', 'Quality'],
-    ['/summaries', 'Summaries'],
-    ['/ray-liotta', 'Ray Liotta'],
-    ['/hall-of-fame', 'Hall of Fame'],
-    ['/dunning-kruger', 'Dunning-Kruger'],
-    ['/call-heatmap', 'Call Heatmap'],
-    ['/caller-network', 'Caller Network'],
-    ['/umap-clusters', 'Topic Universe'],
-    ['/time-to-answer', 'Time to Answer'],
-    ['/uk-map', 'UK Map'],
-    ['/recurring-deep', 'Unanswered Deep'],
-    ['/cluster-evolution', 'Evolution'],
-    ['/james-says', 'James Says'],
-    ['/name-generator', 'Name Gen'],
-    ['/overturned-map', 'Overturned'],
-    ['/topic-pairs', 'Topic Pairs'],
-    ['/caller-types', 'Caller Types'],
-    ['/cluster-worst', 'Worst Clusters'],
-    ['/anomalies', 'Anomalies'],
-    ['/unresolved-frontier', 'Unresolved'],
-    ['/sentiment', 'Sentiment'],
-    ['/confidence', 'Confidence'],
-    ['/episode-recommender', 'Recommender'],
-    ['/knn-similar', 'KNN Similar'],
-    ['/ep-compare', 'EP Compare'],
-    ['/umap-resolved', 'UMAP Split'],
-    ['/will-resolve', 'Will It Resolve?'],
-  ]
-  const nav = document.createElement('nav')
-  nav.className = 'nav'
-  nav.innerHTML = `
-    <span class="nav-logo">Mystery Hour</span>
-    <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-links" id="navLinks">
-      ${links.map(([href, label]) =>
-        `<a class="nav-link${path === href ? ' active' : ''}" href="${href}">${label}</a>`
-      ).join('')}
-    </div>
-  `
-  // Mobile hamburger toggle
-  const hamburger = nav.querySelector('#navHamburger')
-  const linksEl = nav.querySelector('#navLinks')
-  hamburger.addEventListener('click', () => {
-    linksEl.classList.toggle('open')
-    hamburger.classList.toggle('active')
-  })
-  // Close on link click
-  linksEl.addEventListener('click', e => {
-    if (e.target.classList.contains('nav-link')) {
-      linksEl.classList.remove('open')
-      hamburger.classList.remove('active')
-    }
-  })
-  return nav
-}
+// ── Nav config: groups of pages ─────────────────────────
+const NAV_SECTIONS = [
+  {
+    label: 'Home',
+    icon: '🏠',
+    links: [
+      { href: '/', label: 'Overview', description: 'Dashboard home' },
+    ],
+  },
+  {
+    label: 'Topics',
+    icon: '🧭',
+    links: [
+      { href: '/clusters', label: 'Clusters', description: '80 topic groups' },
+      { href: '/topic-drift', label: 'Topic Drift', description: 'How topics evolve' },
+      { href: '/topic-pairs', label: 'Topic Pairs', description: 'Co-occurrence matrix' },
+      { href: '/call-heatmap', label: 'Call Heatmap', description: 'Topics × era' },
+      { href: '/cluster-evolution', label: 'Evolution', description: 'Cluster over time' },
+      { href: '/umap-clusters', label: 'Topic Universe', description: 'UMAP of all questions' },
+      { href: '/umap', label: 'UMAP', description: 'Raw UMAP projection' },
+      { href: '/umap-resolved', label: 'UMAP Resolved', description: 'Resolved vs unresolved' },
+    ],
+  },
+  {
+    label: 'Episodes',
+    icon: '🎬',
+    links: [
+      { href: '/episodes', label: 'Episodes', description: 'All 601 episodes' },
+      { href: '/summaries', label: 'Summaries', description: 'Episode recaps' },
+      { href: '/ray-liotta', label: 'Ray Liotta', description: 'Best of the worst' },
+      { href: '/hall-of-fame', label: 'Hall of Fame', description: 'Top episodes' },
+      { href: '/episode-recommender', label: 'Recommender', description: 'Find similar eps' },
+      { href: '/ep-compare', label: 'Compare', description: 'Side-by-side eps' },
+    ],
+  },
+  {
+    label: 'Callers',
+    icon: '📞',
+    links: [
+      { href: '/geographic', label: 'Geographic', description: 'Where callers are' },
+      { href: '/uk-map', label: 'UK Map', description: 'Heatmap by town' },
+      { href: '/caller-types', label: 'Caller Types', description: 'Cluster by topic' },
+      { href: '/caller-network', label: 'Caller Network', description: 'Who calls together' },
+      { href: '/name-generator', label: 'Name Gen', description: 'Generate fake callers' },
+    ],
+  },
+  {
+    label: 'Questions',
+    icon: '❓',
+    links: [
+      { href: '/search', label: 'Search', description: 'Keyword search' },
+      { href: '/ask', label: 'Ask', description: 'Find similar Q&As' },
+      { href: '/similar', label: 'Similar Episodes', description: 'Cosine sim' },
+      { href: '/knn-similar', label: 'KNN Similar', description: 'Nearest neighbours' },
+      { href: '/question-quality', label: 'Quality', description: 'Best Qs ranked' },
+      { href: '/question-type', label: 'Q Types', description: 'Category breakdown' },
+      { href: '/duplicates', label: 'Duplicates', description: 'Repeated Qs' },
+      { href: '/recurring-unanswered', label: 'Unanswered', description: 'Recurring fails' },
+      { href: '/recurring-deep', label: 'Unanswered Deep', description: 'Deep dive' },
+    ],
+  },
+  {
+    label: 'James & Accuracy',
+    icon: '🎯',
+    links: [
+      { href: '/accuracy', label: 'Accuracy', description: 'Resolution rate' },
+      { href: '/answer-dynamics', label: 'Answers', description: 'How answers unfold' },
+      { href: '/time-to-answer', label: 'Time to Answer', description: 'Back-and-forth length' },
+      { href: '/confidence', label: 'Confidence', description: 'Hedging vs definitive' },
+      { href: '/sentiment', label: 'Sentiment', description: 'Tone of answers' },
+      { href: '/dunning-kruger', label: 'Dunning-Kruger', description: 'Calibration curve' },
+      { href: '/james-says', label: 'James Says', description: 'Predict the next call' },
+    ],
+  },
+  {
+    label: 'Anomalies',
+    icon: '🌀',
+    links: [
+      { href: '/anomalies', label: 'Anomalies', description: 'Outlier questions' },
+      { href: '/cluster-worst', label: 'Worst Clusters', description: 'James\'s weakest' },
+      { href: '/unresolved-frontier', label: 'Unresolved', description: 'Never-resolved topics' },
+      { href: '/overturned-map', label: 'Overturned', description: 'Wrong answers' },
+      { href: '/seasonal', label: 'Seasonal', description: 'Time patterns' },
+      { href: '/will-resolve', label: 'Will It Resolve?', description: 'Predict outcome' },
+    ],
+  },
+]
 
-// ── Router ─────────────────────────────────────────────────
+// Flat list for search
+const ALL_LINKS = NAV_SECTIONS.flatMap(s =>
+  s.links.map(l => ({ ...l, section: s.label, icon: s.icon }))
+)
+
+const ROUTE_LABELS = Object.fromEntries(
+  NAV_SECTIONS.flatMap(s => s.links.map(l => [l.href, l.label]))
+)
+
+// ── Routes ───────────────────────────────────────────────
 const routes = {
   '/': renderOverview,
   '/clusters': renderClusters,
@@ -169,41 +189,199 @@ const routes = {
   '/will-resolve': renderWillResolvePage,
 }
 
-function route() {
-  const fn = routes[location.pathname] || renderOverview
-  const page = document.createElement('main')
-  page.className = 'page'
-  fn(page, store)
-  document.getElementById('app').replaceChildren(nav, page)
+// ── Shell render ─────────────────────────────────────────
+function renderShell() {
+  const path = location.pathname
+  const currentSection = NAV_SECTIONS.find(s =>
+    s.links.some(l => l.href === path)
+  )
+
+  return `
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="topbar-menu" id="sidebarToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="/" class="topbar-logo" data-link>
+          <span class="topbar-logo-icon">🕵️</span>
+          <span class="topbar-logo-text">Mystery Hour</span>
+          <span class="topbar-logo-sub">Q&amp;A Explorer</span>
+        </a>
+        <div class="topbar-search">
+          <span class="topbar-search-icon">🔍</span>
+          <input type="text" id="quickJump" placeholder="Jump to a page…" autocomplete="off" />
+          <span class="topbar-search-hint">${navigator.platform.includes('Mac') ? '⌘K' : 'Ctrl+K'}</span>
+        </div>
+        <div class="topbar-stats">
+          <span class="topbar-stat"><strong>${store.data?.nEpisodes || 0}</strong> eps</span>
+          <span class="topbar-stat"><strong>${(store.data?.totalQuestions || 0).toLocaleString()}</strong> Qs</span>
+        </div>
+      </header>
+
+      <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+          ${NAV_SECTIONS.map(section => `
+            <div class="sidebar-section${currentSection?.label === section.label ? ' active-section' : ''}">
+              <div class="sidebar-section-label">
+                <span class="sidebar-section-icon">${section.icon}</span>
+                <span>${section.label}</span>
+              </div>
+              <ul class="sidebar-links">
+                ${section.links.map(link => `
+                  <li>
+                    <a href="${link.href}"
+                       class="sidebar-link${path === link.href ? ' active' : ''}"
+                       data-link
+                       title="${link.description || link.label}">
+                      <span class="sidebar-link-label">${link.label}</span>
+                    </a>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+          `).join('')}
+        </nav>
+      </aside>
+
+      <main class="content" id="content"></main>
+    </div>
+  `
 }
 
-// ── Global state ───────────────────────────────────────────
+// ── Quick jump (search) ──────────────────────────────────
+function setupQuickJump() {
+  const input = document.getElementById('quickJump')
+  if (!input) return
+  let dropdown = null
+  let selectedIdx = 0
+
+  function close() {
+    if (dropdown) { dropdown.remove(); dropdown = null }
+    selectedIdx = 0
+  }
+
+  function open(results) {
+    close()
+    dropdown = document.createElement('div')
+    dropdown.className = 'quick-jump-dropdown'
+    dropdown.innerHTML = results.map((r, i) => `
+      <a href="${r.href}" class="quick-jump-item${i === 0 ? ' selected' : ''}" data-link data-idx="${i}">
+        <span class="quick-jump-icon">${r.icon}</span>
+        <span class="quick-jump-section">${r.section}</span>
+        <span class="quick-jump-label">${r.label}</span>
+        <span class="quick-jump-desc">${r.description || ''}</span>
+      </a>
+    `).join('')
+    input.parentElement.appendChild(dropdown)
+
+    dropdown.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault()
+        history.pushState(null, '', a.href)
+        close()
+        input.value = ''
+        route()
+      })
+    })
+  }
+
+  function search(q) {
+    if (!q || q.length < 1) { close(); return }
+    const ql = q.toLowerCase()
+    const results = ALL_LINKS
+      .filter(l =>
+        l.label.toLowerCase().includes(ql) ||
+        (l.description || '').toLowerCase().includes(ql) ||
+        l.section.toLowerCase().includes(ql)
+      )
+      .slice(0, 8)
+    if (results.length) open(results)
+    else close()
+  }
+
+  input.addEventListener('input', e => search(e.target.value.trim()))
+  input.addEventListener('focus', e => { if (e.target.value.trim()) search(e.target.value.trim()) })
+  input.addEventListener('blur', () => setTimeout(close, 150))
+  input.addEventListener('keydown', e => {
+    if (!dropdown) return
+    const items = dropdown.querySelectorAll('a')
+    if (e.key === 'ArrowDown') { e.preventDefault(); selectedIdx = Math.min(selectedIdx + 1, items.length - 1) }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); selectedIdx = Math.max(selectedIdx - 1, 0) }
+    else if (e.key === 'Enter') { e.preventDefault(); items[selectedIdx]?.click() }
+    else if (e.key === 'Escape') { close(); input.blur() }
+    items.forEach((el, i) => el.classList.toggle('selected', i === selectedIdx))
+    items[selectedIdx]?.scrollIntoView({ block: 'nearest' })
+  })
+
+  // Global ⌘K / Ctrl+K
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault()
+      input.focus()
+      input.select()
+    }
+  })
+}
+
+// ── Sidebar toggle (mobile) ──────────────────────────────
+function setupSidebarToggle() {
+  const toggle = document.getElementById('sidebarToggle')
+  const sidebar = document.getElementById('sidebar')
+  if (!toggle || !sidebar) return
+  toggle.addEventListener('click', () => {
+    sidebar.classList.toggle('open')
+    toggle.classList.toggle('active')
+  })
+  // Close on link click (mobile)
+  sidebar.querySelectorAll('a[data-link]').forEach(a => {
+    a.addEventListener('click', () => {
+      sidebar.classList.remove('open')
+      toggle.classList.remove('active')
+    })
+  })
+}
+
+// ── Router ───────────────────────────────────────────────
+function route() {
+  const fn = routes[location.pathname] || renderOverview
+  const content = document.getElementById('content')
+  if (!content) return
+  content.innerHTML = ''
+  const page = document.createElement('div')
+  page.className = 'page'
+  fn(page, store)
+  content.appendChild(page)
+  window.scrollTo(0, 0)
+  // Refresh active link
+  document.querySelectorAll('.sidebar-link').forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === location.pathname)
+  })
+}
+
+// ── Global state ─────────────────────────────────────────
 const store = { data: null, loaded: false }
 
 // ── Init ─────────────────────────────────────────────────
 async function init() {
   const app = document.getElementById('app')
-  app.innerHTML = `<div class="loading"><div class="spinner"></div>Loading 6,097 questions...</div>`
-  nav = renderNav()
+  app.innerHTML = `<div class="loading-shell"><div class="spinner"></div><p>Loading 6,097 questions…</p></div>`
 
   try {
     store.data = await loadAll()
     store.loaded = true
   } catch (e) {
-    app.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Failed to load data: ${e.message}</p></div>`
+    app.innerHTML = `<div class="loading-shell"><div class="spinner"></div><p style="color:var(--danger)">Failed to load data: ${e.message}</p></div>`
     console.error(e)
     return
   }
 
-  nav = renderNav()
-  document.getElementById('app').innerHTML = ''
+  app.innerHTML = renderShell()
+  setupSidebarToggle()
+  setupQuickJump()
   route()
 
-  // Listen for navigation
   window.addEventListener('popstate', route)
 }
-
-let nav = null
 
 // Intercept link clicks for SPA routing
 document.addEventListener('click', e => {

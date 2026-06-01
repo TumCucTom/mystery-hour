@@ -1,173 +1,175 @@
 /**
- * Overview.js — main dashboard overview page
+ * Overview.js — hub home page
+ * Hero stats + 6 large tiles, one per subject area, each linking to top pages.
  */
 import { Chart, CategoryScale, LinearScale, BarController, BarElement, Title, Tooltip, Legend } from 'chart.js'
 
 Chart.register(CategoryScale, LinearScale, BarController, BarElement, Title, Tooltip, Legend)
 
-export function renderOverview(page, store) {
-  const { data } = store
-  const {
-    nEpisodes, totalQuestions, totalAnswers, resolvedPct,
-    overturnedCount, topLocations, episodeStats, ansDist, resolvedByAns,
-    nClusters80, clusters
-  } = data
+const HOME_TILES = [
+  {
+    section: 'Topics',
+    icon: '🧭',
+    blurb: 'What questions are about — clusters, drift, co-occurrence, UMAP.',
+    color: '#6c5ce7',
+    pages: [
+      { href: '/clusters', label: '80 Topic Clusters', desc: 'Browse k-means groups' },
+      { href: '/topic-drift', label: 'Topic Drift', desc: 'How themes evolve' },
+      { href: '/topic-pairs', label: 'Topic Pairs', desc: 'Co-occurrence matrix' },
+      { href: '/umap-clusters', label: 'Topic Universe', desc: 'All Qs in 2D' },
+    ],
+  },
+  {
+    section: 'Episodes',
+    icon: '🎬',
+    blurb: 'Explore individual shows — best, worst, most similar.',
+    color: '#e74c3c',
+    pages: [
+      { href: '/episodes', label: 'All 601 Episodes', desc: 'Browse the catalogue' },
+      { href: '/hall-of-fame', label: 'Hall of Fame', desc: 'Top-rated episodes' },
+      { href: '/ray-liotta', label: 'Ray Liotta', desc: 'Best of the worst' },
+      { href: '/episode-recommender', label: 'Recommender', desc: 'Find similar eps' },
+    ],
+  },
+  {
+    section: 'Callers',
+    icon: '📞',
+    blurb: 'Who calls in, where they are, what they ask about.',
+    color: '#2ecc71',
+    pages: [
+      { href: '/uk-map', label: 'UK Heatmap', desc: 'Caller geography' },
+      { href: '/caller-types', label: 'Caller Types', desc: 'Cluster by topic' },
+      { href: '/caller-network', label: 'Caller Network', desc: 'Who calls together' },
+      { href: '/name-generator', label: 'Name Gen', desc: 'Make fake callers' },
+    ],
+  },
+  {
+    section: 'Questions',
+    icon: '❓',
+    blurb: 'Search, similarity, quality, and recurring themes.',
+    color: '#f39c12',
+    pages: [
+      { href: '/search', label: 'Search', desc: 'Keyword search' },
+      { href: '/ask', label: 'Ask the Dataset', desc: 'Find similar Q&As' },
+      { href: '/knn-similar', label: 'KNN Similar', desc: 'Nearest neighbours' },
+      { href: '/question-quality', label: 'Quality', desc: 'Best Qs ranked' },
+    ],
+  },
+  {
+    section: 'James & Accuracy',
+    icon: '🎯',
+    blurb: 'How often James is right, how confident he sounds, how answers unfold.',
+    color: '#00b894',
+    pages: [
+      { href: '/accuracy', label: 'Accuracy', desc: 'Resolution rate' },
+      { href: '/time-to-answer', label: 'Time to Answer', desc: 'Back-and-forth length' },
+      { href: '/confidence', label: 'Confidence', desc: 'Hedging vs definitive' },
+      { href: '/dunning-kruger', label: 'Dunning-Kruger', desc: 'Calibration curve' },
+    ],
+  },
+  {
+    section: 'Anomalies',
+    icon: '🌀',
+    blurb: 'Outliers, never-resolved topics, patterns and predictions.',
+    color: '#e84393',
+    pages: [
+      { href: '/anomalies', label: 'Anomalies', desc: 'Outlier questions' },
+      { href: '/unresolved-frontier', label: 'Unresolved', desc: 'Never-resolved topics' },
+      { href: '/overturned-map', label: 'Overturned', desc: 'Wrong answers' },
+      { href: '/will-resolve', label: 'Will It Resolve?', desc: 'Predict outcome' },
+    ],
+  },
+]
 
-  // Stats row
+export function renderOverview(page, store) {
+  const d = store.data
   const stats = [
-    ['nEpisodes', nEpisodes, 'Episodes'],
-    ['totalQuestions', totalQuestions.toLocaleString(), 'Questions'],
-    ['totalAnswers', totalAnswers.toLocaleString(), 'Answers'],
-    ['resolvedPct', `${resolvedPct}%`, 'Resolved'],
-    ['overturnedCount', overturnedCount.toLocaleString(), 'Overturned'],
-    ['nClusters80', nClusters80, 'Clusters'],
+    { num: d.nEpisodes, label: 'Episodes' },
+    { num: (d.totalQuestions || 0).toLocaleString(), label: 'Questions' },
+    { num: (d.totalAnswers || 0).toLocaleString(), label: 'Answers' },
+    { num: `${d.resolvedPct}%`, label: 'Resolved' },
+    { num: (d.overturnedCount || 0).toLocaleString(), label: 'Overturned' },
+    { num: d.nClusters80, label: 'Clusters' },
   ]
 
   page.innerHTML = `
-    <div class="page-header">
-      <h1>Mystery Hour Q&A Explorer</h1>
-      <p>${nEpisodes} episodes · ${totalQuestions.toLocaleString()} questions · ${totalAnswers.toLocaleString()} answers · ${resolvedPct}% resolved</p>
-    </div>
-
-    <div class="card-grid">
-      ${stats.map(([key, num, label]) => `
-        <div class="stat-card" data-stat="${key}">
-          <div class="stat-number">${num}</div>
-          <div class="stat-label">${label}</div>
-        </div>`).join('')}
-    </div>
-
-    <div class="section">
-      <div class="section-title">Questions per Episode</div>
-      <div class="chart-wrap">
-        <canvas id="epChart" height="70"></canvas>
-      </div>
-    </div>
-
-    <div class="two-col">
-      <div class="section">
-        <div class="section-title">Top Caller Locations</div>
-        <div class="chart-wrap">
-          <canvas id="locChart" height="300"></canvas>
+    <section class="home-hero">
+      <div class="home-hero-text">
+        <h1>Welcome to the Mystery Hour Q&amp;A Explorer</h1>
+        <p>An interactive look at 6,097 questions, 9,049 answers, and 20+ years of James's
+        attempts to explain the world from a BBC radio phone-in.</p>
+        <div class="home-hero-stats">
+          ${stats.map(s => `
+            <div class="home-stat">
+              <div class="home-stat-num">${s.num}</div>
+              <div class="home-stat-label">${s.label}</div>
+            </div>
+          `).join('')}
         </div>
       </div>
-
-      <div class="section">
-        <div class="section-title">Answer Count Distribution</div>
-        <div class="chart-wrap">
-          <canvas id="ansChart" height="300"></canvas>
-        </div>
+      <div class="home-hero-chart">
+        <canvas id="epChart" height="180"></canvas>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
-      <div class="section-title">Top Topic Clusters</div>
-      <div id="clusterGrid" class="cluster-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))"></div>
+    <h2 class="home-section-title">Explore by subject</h2>
+    <p class="home-section-blurb">Six angles on the same 601 episodes. Pick wherever your curiosity lands.</p>
+
+    <div class="home-tile-grid">
+      ${HOME_TILES.map(tile => `
+        <div class="home-tile" style="--tile-accent: ${tile.color}">
+          <div class="home-tile-header">
+            <div class="home-tile-icon">${tile.icon}</div>
+            <div class="home-tile-title">
+              <h3>${tile.section}</h3>
+              <p>${tile.blurb}</p>
+            </div>
+          </div>
+          <ul class="home-tile-pages">
+            ${tile.pages.map(p => `
+              <li>
+                <a href="${p.href}" class="home-tile-link" data-link>
+                  <span class="home-tile-link-arrow">→</span>
+                  <span class="home-tile-link-body">
+                    <span class="home-tile-link-label">${p.label}</span>
+                    <span class="home-tile-link-desc">${p.desc}</span>
+                  </span>
+                </a>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      `).join('')}
     </div>
   `
 
-  // Cluster cards
-  const clusterGrid = page.querySelector('#clusterGrid')
-  const topClusters = (clusters.k80 || []).slice(0, 30)
-  if (clusterGrid) {
-    clusterGrid.innerHTML = topClusters.map(c => `
-    <div class="cluster-card" data-cluster="${c.cluster_id}">
-      <div class="cluster-id">Cluster ${c.cluster_id} · ${c.size} Qs</div>
-      <div class="cluster-topic">${escHtml(c.topic_label || '—')}</div>
-      <div class="cluster-meta">
-        <span class="badge ${c.resolved_rate > 0.7 ? 'badge-success' : 'badge-warning'}">${Math.round(c.resolved_rate*100)}% resolved</span>
-        <span>avg ${c.avg_answers} answers</span>
-      </div>
-      <div class="cluster-kw">${(c.keywords || []).slice(0, 5).join(' · ')}</div>
-    </div>
-  `).join('')
-
-    clusterGrid.addEventListener('click', e => {
-    const card = e.target.closest('.cluster-card')
-    if (!card) return
-    const id = card.dataset.cluster
-    history.pushState(null, '', `/clusters?highlight=${id}`)
-    import('/src/pages/Clusters.js').then(m => m.renderClusters(document.getElementById('app'), store))
-  })
-  }
-
-  // Init charts after DOM is ready
+  // Mini chart: questions per episode
   requestAnimationFrame(() => {
-    // Questions per episode chart
-    const epLabels = episodeStats.map((_, i) => i)
-    const epQCounts = episodeStats.map(ep => ep.n_questions)
-    const epCtx = page.querySelector('#epChart')
-    if (epCtx) {
-      new Chart(epCtx, {
-        type: 'bar',
-        data: {
-          labels: epLabels,
-          datasets: [{
-            label: 'Questions',
-            data: epQCounts,
-            backgroundColor: 'rgba(255,107,53,0.6)',
-            borderColor: 'rgba(255,107,53,0.9)',
-            borderWidth: 1,
-          }]
+    const ctx = page.querySelector('#epChart')
+    if (!ctx) return
+    const epStats = d.episodeStats || []
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: epStats.map((_, i) => i),
+        datasets: [{
+          label: 'Questions per episode',
+          data: epStats.map(ep => ep.n_questions),
+          backgroundColor: 'rgba(108, 92, 231, 0.7)',
+          borderColor: 'rgba(108, 92, 231, 1)',
+          borderWidth: 0,
+          borderRadius: 2,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { enabled: false } },
+        scales: {
+          x: { display: false },
+          y: { display: false },
         },
-        options: {
-          responsive: true,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { title: { display: true, text: 'Episode index', color: '#8a8680' }, ticks: { display: false }, grid: { display: false } },
-            y: { title: { display: true, text: 'Questions', color: '#8a8680' }, ticks: { stepSize: 1 }, grid: { color: '#3a3a3a' } }
-          }
-        }
-      })
-    }
-
-    // Locations chart
-    const topLocs = (topLocations || []).slice(0, 20)
-    const locCtx = page.querySelector('#locChart')
-    if (locCtx) {
-      new Chart(locCtx, {
-        type: 'bar',
-        data: {
-          labels: topLocs.map(([loc]) => loc),
-          datasets: [{ label: 'Callers', data: topLocs.map(([, c]) => c), backgroundColor: 'rgba(255,107,53,0.6)', borderColor: 'rgba(255,107,53,1)', borderWidth: 1 }]
-        },
-        options: {
-          indexAxis: 'y',
-          responsive: true,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { title: { display: true, text: 'Caller count', color: '#8a8680' }, grid: { color: '#3a3a3a' } },
-            y: { grid: { display: false } }
-          }
-        }
-      })
-    }
-
-    // Answer distribution chart
-    const ansLabels = Object.keys(ansDist || {}).sort((a, b) => a - b).map(k => k === '10' ? '10+' : k)
-    const ansCounts = Object.keys(ansDist || {}).sort((a, b) => a - b).map(k => ansDist[k])
-    const ansCtx = page.querySelector('#ansChart')
-    if (ansCtx) {
-      new Chart(ansCtx, {
-        type: 'bar',
-        data: {
-          labels: ansLabels,
-          datasets: [{ label: '# Questions', data: ansCounts, backgroundColor: 'rgba(78,205,196,0.6)', borderColor: 'rgba(78,205,196,1)', borderWidth: 1 }]
-        },
-        options: {
-          responsive: true,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { title: { display: true, text: 'Answer count', color: '#8a8680' }, grid: { display: false } },
-            y: { title: { display: true, text: 'Questions', color: '#8a8680' }, grid: { color: '#3a3a3a' } }
-          }
-        }
-      })
-    }
+      },
+    })
   })
-}
-
-function escHtml(s) {
-  if (!s) return ''
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
 }
