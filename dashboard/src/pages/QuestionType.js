@@ -3,17 +3,17 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
 
 export async function renderQuestionTypePage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
-    const qt = await loadJSON(`${BASE}/question_type_stats.json`)
+    const qt = await loadJSON('question_type_stats.json')
     renderPage(container, qt)
   } catch (e) {
-    container.innerHTML = `<div style="color:#e74c3c;padding:20px">Could not load question type data.</p>`
+    container.innerHTML = `<div style="color:#e74c3c;padding:20px">Could not load question type data.</div>`
   }
 }
 

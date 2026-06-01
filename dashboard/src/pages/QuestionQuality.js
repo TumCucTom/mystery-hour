@@ -4,14 +4,14 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
 
 export async function renderQuestionQualityPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading question quality data...</div>`
   try {
-    const qqs = await loadJSON(`${BASE}/question_quality_scores.json`)
+    const qqs = await loadJSON('question_quality_scores.json')
     renderPage(container, qqs)
   } catch (e) {
     // Show placeholder if file not yet generated

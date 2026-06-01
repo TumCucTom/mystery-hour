@@ -4,13 +4,13 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 
 export async function renderRecurringUnansweredPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
-    const ru = await loadJSON(`${BASE}/recurring_unanswered.json`)
+    const ru = await loadJSON('recurring_unanswered.json')
     renderPage(container, ru)
   } catch (e) {
     container.innerHTML = `<div style="color:#e74c3c;padding:20px">Could not load recurring unanswered data.</div>`

@@ -31,7 +31,7 @@ function renderPage(container, svgData, allQa) {
   // Build full town lookup from all_qa
   const townData = {}
   for (const ep of allQa.episodes) {
-    for (const q of (ep['questions'] or [])) {
+    for (const q of (ep['questions'] || [])) {
       const caller = q.caller || ''
       if (!caller.includes(' from ')) continue
       const loc = caller.split(' from ').pop().trim()
@@ -54,7 +54,7 @@ function renderPage(container, svgData, allQa) {
 
   container.innerHTML = `
     <div class="page-header">
-      <h1>🗺️ UK Caller Heatmap</h1>
+      <h1>UK Caller Heatmap</h1>
       <p>Where in the UK do Mystery Hour callers come from? Circle size = call volume, colour = resolution rate.</p>
     </div>
 

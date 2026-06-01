@@ -3,13 +3,13 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 
 export async function renderEpisodeSummariesPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading episode summaries...</div>`
   try {
-    const data = await loadJSON(`${BASE}/episode_summaries.json`)
+    const data = await loadJSON('episode_summaries.json')
     renderPage(container, data)
   } catch (e) {
     container.innerHTML = `

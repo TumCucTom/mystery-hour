@@ -3,14 +3,14 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
 
 export async function renderSeasonalPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
-    const seasonal = await loadJSON(`${BASE}/seasonal_patterns.json`)
+    const seasonal = await loadJSON('seasonal_patterns.json')
     renderPage(container, seasonal)
   } catch (e) {
     container.innerHTML = `<div style="color:#e74c3c;padding:20px">Could not load seasonal data.</div>`

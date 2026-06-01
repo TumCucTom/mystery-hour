@@ -3,7 +3,7 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = './data'
+const BASE = ''
 
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
@@ -12,8 +12,8 @@ export async function renderAnswerDynamicsPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
     const [chains, james] = await Promise.all([
-      loadJSON(`${BASE}/answer_chains.json`),
-      loadJSON(`${BASE}/james_accuracy.json`),
+      loadJSON('answer_chains.json'),
+      loadJSON('james_accuracy.json'),
     ])
     renderPage(container, chains, james)
   } catch (e) {
@@ -33,7 +33,7 @@ function renderPage(container, chains, james) {
 
     <!-- Key stats -->
     <div class="stats-grid" style="--cols:4">
-      <div class="stat-card"><div class="stat-value">${s.total_answers.toLocaleString()}</div><div class="stat-label">Total Answers</div></div>
+      <div class="stat-card"><div class="stat-value">${chains.total_answers.toLocaleString()}</div><div class="stat-label">Total Answers</div></div>
       <div class="stat-card"><div class="stat-value">${s.avg_answers_per_question}</div><div class="stat-label">Avg Answers per Question</div></div>
       <div class="stat-card"><div class="stat-value">${s.pct_multi_answer}%</div><div class="stat-label">Questions with Multiple Answers</div></div>
       <div class="stat-card"><div class="stat-value" style="color:var(--color-red)">${chains.total_overturned}</div><div class="stat-label">Overturned Answers</div></div>
