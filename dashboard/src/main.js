@@ -28,6 +28,7 @@ import { renderCallHeatmapPage } from './pages/CallHeatmap.js'
 import { renderCallerNetworkPage } from './pages/CallerNetwork.js'
 import { renderUMAPClustersPage } from './pages/UMAPClusters.js'
 import { renderTimeToAnswerPage } from './pages/TimeToAnswer.js'
+import { renderUKMapPage } from './pages/UKMap.js'
 
 // ── Nav ───────────────────────────────────────────────────
 function renderNav() {
@@ -58,6 +59,7 @@ function renderNav() {
     ['/caller-network', 'Caller Network'],
     ['/umap-clusters', 'Topic Universe'],
     ['/time-to-answer', 'Time to Answer'],
+    ['/uk-map', 'UK Map'],
   ]
   const nav = document.createElement('nav')
   nav.className = 'nav'
@@ -99,6 +101,7 @@ const routes = {
   '/caller-network': renderCallerNetworkPage,
   '/umap-clusters': renderUMAPClustersPage,
   '/time-to-answer': renderTimeToAnswerPage,
+  '/uk-map': renderUKMapPage,
 }
 
 function route() {
