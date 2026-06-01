@@ -129,13 +129,13 @@ function renderPage(container, data) {
         ${a.question ? `
           <div class="rl-section rl-q">
             <span class="rl-section-label">Q</span>
-            <span class="rl-q-body">${esc(truncate(a.question, 300))}</span>
+            <span class="rl-q-body">${esc(truncate(a.question, 400))}</span>
           </div>` : ''}
 
         ${a.answer ? `
           <div class="rl-section rl-a">
             <span class="rl-section-label">A</span>
-            <span class="rl-a-body">${esc(truncate(a.answer, 300))}</span>
+            <span class="rl-a-body">${esc(truncate(a.answer, 500))}</span>
           </div>` : ''}
       </div>
     `).join('')
