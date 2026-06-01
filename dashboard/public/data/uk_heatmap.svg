@@ -1,6 +1,6 @@
 <svg viewBox="0 0 530 620" xmlns="http://www.w3.org/2000/svg" style="background:#0d1b2a;border-radius:12px;display:block;width:100%">
   <title>UK Mystery Hour Callers</title>
-  <path d="M 50,520 L 65,512 L 72,505 L 78,498 L 82,490 L 85,482 L 95,472 L 108,462 L 122,454 L 138,446 L 155,440 L 172,434 L 190,428 L 205,420 L 218,412 L 230,404 L 242,396 L 252,388 L 260,380 L 268,372 L 276,364 L 284,356 L 292,348 L 300,340 L 308,332 L 315,324 L 322,316 L 328,308 L 334,300 L 340,292 L 346,284 L 352,276 L 358,268 L 364,260 L 370,252 L 376,244 L 382,236 L 388,228 L 394,220 L 400,212 L 406,204 L 412,196 L 418,188 L 424,180 L 430,172 L 436,164 L 442,156 L 448,148 L 454,140 L 458,132 L 462,124 L 466,116 L 470,108 L 474,100 L 477,92 L 480,84 L 482,76 L 484,68 L 486,60 L 484,52 L 482,44 L 478,38 L 472,34 L 464,30 L 456,28 L 448,26 L 440,28 L 432,30 L 424,32 L 416,30 L 408,28 L 400,30 L 392,32 L 384,34 L 376,36 L 368,38 L 360,44 L 352,52 L 344,60 L 336,68 L 328,76 L 320,84 L 312,92 L 308,100 L 304,108 L 300,116 L 296,124 L 292,132 L 288,140 L 284,148 L 280,156 L 276,164 L 272,172 L 268,180 L 264,188 L 260,196 L 256,204 L 252,200 L 248,196 L 244,200 L 240,210 L 236,218 L 232,226 L 228,234 L 224,242 L 220,250 L 216,258 L 212,266 L 208,274 L 204,282 L 200,290 L 196,298 L 192,306 L 188,314 L 184,322 L 180,330 L 176,338 L 172,346 L 168,354 L 164,362 L 160,370 L 156,378 L 152,386 L 148,396 L 144,406 L 140,416 L 136,426 L 132,436 L 128,446 L 124,456 L 120,466 L 116,476 L 112,486 L 108,496 L 104,508 L 100,520 L 96,532 L 92,544 L 88,556 L 82,548 L 76,542 L 70,536 L 64,530 L 58,526 Z" fill="rgba(15,40,70,0.85)" stroke="#1e4976" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Grid lines -->
   <line x1="0" y1="501.6" x2="530" y2="501.6" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
   <line x1="0" y1="388.9" x2="530" y2="388.9" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
   <line x1="0" y1="276.2" x2="530" y2="276.2" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
@@ -9,104 +9,89 @@
   <line x1="234.4" y1="0" x2="234.4" y2="620" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
   <line x1="336.3" y1="0" x2="336.3" y2="620" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
   <line x1="438.3" y1="0" x2="438.3" y2="620" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4,4"/>
-  <circle cx="433.1" cy="537.1" r="22.0" fill="#4ade80" fill-opacity="1.00" stroke="#4ade80" stroke-width="1" data-town="Croydon" data-count="18" data-rate="87.5%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="439.0" cy="535.3" r="19.6" fill="#fbbf24" fill-opacity="0.94" stroke="#fbbf24" stroke-width="1" data-town="Bromley" data-count="16" data-rate="78.9%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="422.7" cy="529.1" r="18.4" fill="#fbbf24" fill-opacity="0.90" stroke="#fbbf24" stroke-width="1" data-town="Ealing" data-count="15" data-rate="77.8%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="418.1" cy="521.1" r="15.9" fill="#fbbf24" fill-opacity="0.84" stroke="#fbbf24" stroke-width="1" data-town="Watford" data-count="13" data-rate="64.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="305.9" cy="532.4" r="13.5" fill="#fbbf24" fill-opacity="0.78" stroke="#fbbf24" stroke-width="1" data-town="Bristol" data-count="11" data-rate="75.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="427.8" cy="534.2" r="13.5" fill="#4ade80" fill-opacity="0.78" stroke="#4ade80" stroke-width="1" data-town="Wimbledon" data-count="11" data-rate="84.6%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="431.1" cy="568.1" r="12.3" fill="#fbbf24" fill-opacity="0.74" stroke="#fbbf24" stroke-width="1" data-town="Brighton" data-count="10" data-rate="69.2%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="363.3" cy="423.8" r="12.3" fill="#4ade80" fill-opacity="0.74" stroke="#4ade80" stroke-width="1" data-town="Sheffield" data-count="10" data-rate="92.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="323.9" cy="418.2" r="11.1" fill="#fbbf24" fill-opacity="0.71" stroke="#fbbf24" stroke-width="1" data-town="Manchester" data-count="9" data-rate="68.8%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="409.1" cy="544.7" r="11.1" fill="#f87171" fill-opacity="0.71" stroke="#f87171" stroke-width="1" data-town="Guildford" data-count="9" data-rate="55.6%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="408.0" cy="529.2" r="11.1" fill="#fbbf24" fill-opacity="0.71" stroke="#fbbf24" stroke-width="1" data-town="Slough" data-count="9" data-rate="75.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="343.9" cy="473.7" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Birmingham" data-count="8" data-rate="63.6%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="221.7" cy="284.0" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Glasgow" data-count="8" data-rate="62.5%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="359.6" cy="400.3" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Leeds" data-count="8" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="435.8" cy="527.4" r="9.9" fill="#4ade80" fill-opacity="0.68" stroke="#4ade80" stroke-width="1" data-town="Hackney" data-count="8" data-rate="88.9%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="379.7" cy="447.9" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Nottingham" data-count="8" data-rate="70.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="424.6" cy="539.3" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Epsom" data-count="7" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="289.6" cy="423.1" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Liverpool" data-count="7" data-rate="71.4%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="217.8" cy="178.2" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Dublin" data-count="7" data-rate="100.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="445.4" cy="490.5" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Cambridge" data-count="7" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="374.2" cy="515.6" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Oxford" data-count="7" data-rate="62.5%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="447.6" cy="525.5" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Romford" data-count="7" data-rate="77.8%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="443.6" cy="536.6" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Orpington" data-count="7" data-rate="60.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="388.8" cy="532.3" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Reading" data-count="7" data-rate="91.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="437.8" cy="531.9" r="8.6" fill="#f87171" fill-opacity="0.65" stroke="#f87171" stroke-width="1" data-town="Lewisham" data-count="7" data-rate="33.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="437.3" cy="525.1" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Walthamstow" data-count="7" data-rate="70.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="435.5" cy="533.3" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Forest Hill" data-count="7" data-rate="85.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="429.1" cy="551.8" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Crawley" data-count="6" data-rate="88.9%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="497.0" cy="498.4" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Ipswich" data-count="6" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="434.1" cy="521.2" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Enfield" data-count="6" data-rate="71.4%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="427.0" cy="524.8" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Hendon" data-count="6" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="504.1" cy="466.2" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Norwich" data-count="6" data-rate="85.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="434.7" cy="531.3" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Peckham" data-count="6" data-rate="83.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="424.0" cy="526.7" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Wembley" data-count="6" data-rate="85.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="422.8" cy="535.8" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Surbiton" data-count="6" data-rate="62.5%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="398.7" cy="525.8" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Marlow" data-count="6" data-rate="90.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="397.6" cy="545.9" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Farnham" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="366.7" cy="563.5" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Southampton" data-count="5" data-rate="71.4%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="428.1" cy="521.2" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Barnet" data-count="5" data-rate="75.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="392.3" cy="488.4" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Northampton" data-count="5" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="382.9" cy="543.2" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Basingstoke" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="276.3" cy="530.9" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Cardiff" data-count="5" data-rate="83.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="400.2" cy="538.9" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Camberley" data-count="5" data-rate="33.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="431.6" cy="533.8" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Streatham" data-count="5" data-rate="100.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="430.0" cy="527.4" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Camden" data-count="5" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="443.1" cy="514.7" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Harlow" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="443.4" cy="534.0" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Sidcup" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="399.7" cy="522.4" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="High Wycombe" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="442.1" cy="523.2" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Chigwell" data-count="5" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="421.9" cy="530.6" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Brentford" data-count="5" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="424.8" cy="530.3" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Chiswick" data-count="5" data-rate="100.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="461.6" cy="525.9" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Basildon" data-count="5" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="371.3" cy="554.5" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Winchester" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="426.9" cy="530.3" r="5.0" fill="#4ade80" fill-opacity="0.55" stroke="#4ade80" stroke-width="1" data-town="Hammersmith" data-count="4" data-rate="80.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="421.4" cy="544.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Dorking" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="464.0" cy="536.1" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Rochester" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="361.3" cy="478.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Coventry" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="422.6" cy="533.2" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Richmond" data-count="4" data-rate="77.8%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="464.9" cy="542.5" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Maidstone" data-count="4" data-rate="66.7%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="304.1" cy="414.5" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Wigan" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="466.1" cy="536.2" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Gillingham" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="383.5" cy="390.8" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="York" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="409.9" cy="540.0" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Woking" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="429.4" cy="537.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Sutton" data-count="4" data-rate="57.1%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="443.9" cy="518.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Epping" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="431.8" cy="522.4" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Southgate" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="462.4" cy="516.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Chelmsford" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="429.8" cy="530.4" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Chelsea" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="421.5" cy="554.4" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Horsham" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="434.8" cy="524.3" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Tottenham" data-count="4" data-rate="75.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="461.9" cy="514.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Essex" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="441.9" cy="526.5" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Ilford" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="438.0" cy="530.8" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Greenwich" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="427.7" cy="531.3" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Fulham" data-count="4" data-rate="75.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="419.9" cy="531.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Hounslow" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="452.4" cy="571.2" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Eastbourne" data-count="4" data-rate="33.3%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="430.5" cy="528.7" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Marylebone" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="429.5" cy="531.5" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Battersea" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="446.6" cy="509.1" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Bishop's Stortford" data-count="4" data-rate="0.0%" class="heat-circle" style="cursor:pointer"/>
-  <circle cx="407.5" cy="530.7" r="5.0" fill="#4ade80" fill-opacity="0.55" stroke="#4ade80" stroke-width="1" data-town="Windsor" data-count="4" data-rate="83.3%" class="heat-circle" style="cursor:pointer"/>
-  <g transform="translate(12, 12)">
-    <rect width="120" height="80" fill="rgba(13,27,42,0.9)" rx="6" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-    <text x="8" y="16" fill="#94a3b8" font-size="10" font-weight="600">CALL COUNT</text>
-    <circle cx="14" cy="30" r="5" fill="#60a5fa" fill-opacity="0.7"/>
-    <text x="32" y="33" fill="#94a3b8" font-size="10">4+</text>
-    <circle cx="14" cy="46" r="12" fill="#60a5fa" fill-opacity="0.7"/>
-    <text x="32" y="49" fill="#94a3b8" font-size="10">10+</text>
-    <circle cx="14" cy="62" r="22" fill="#60a5fa" fill-opacity="0.7"/>
-    <text x="32" y="65" fill="#94a3b8" font-size="10">18</text>
-  </g>
-  <g transform="translate(12, 104)">
-    <rect width="120" height="60" fill="rgba(13,27,42,0.9)" rx="6" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-    <text x="8" y="16" fill="#94a3b8" font-size="10" font-weight="600">RESOLUTION RATE</text>
-    <rect x="8" y="24" width="12" height="12" rx="2" fill="#4ade80"/>
-    <text x="26" y="33" fill="#94a3b8" font-size="10">80%+</text>
-    <rect x="8" y="40" width="12" height="12" rx="2" fill="#fbbf24"/>
-    <text x="26" y="49" fill="#94a3b8" font-size="10">60-79%</text>
-    <rect x="8" y="56" width="12" height="12" rx="2" fill="#f87171"/>
-    <text x="26" y="65" fill="#94a3b8" font-size="10"><60%</text>
-  </g>
+  <!-- Mainland UK -->
+  <path d="M 148.1,549.2 L 176.4,551.4 L 200.0,542.2 L 242.9,526.0 L 285.7,515.2 L 328.6,504.4 L 350.0,509.8 L 371.4,512.5 L 397.1,512.5 L 414.3,507.1 L 427.1,501.7 L 444.3,493.6 L 452.9,477.4 L 457.1,461.2 L 448.6,442.3 L 465.7,434.2 L 470.0,418.0 L 457.1,401.8 L 448.6,393.7 L 444.3,380.2 L 405.7,385.6 L 397.1,391.0 L 388.6,385.6 L 401.4,353.2 L 388.6,337.0 L 375.7,320.8 L 367.1,310.0 L 341.4,283.0 L 332.9,266.8 L 315.7,250.6 L 307.1,234.4 L 285.7,229.0 L 277.1,212.8 L 290.0,202.0 L 315.7,191.2 L 320.0,169.6 L 311.4,148.0 L 307.1,137.2 L 264.3,121.0 L 260.0,99.4 L 200.0,94.0 L 187.1,88.6 L 178.6,99.4 L 165.7,115.6 L 157.1,131.8 L 144.3,158.8 L 140.0,175.0 L 131.4,191.2 L 127.1,207.4 L 140.0,229.0 L 157.1,239.8 L 170.0,256.0 L 182.9,277.6 L 187.1,288.4 L 238.6,285.7 L 242.9,293.8 L 255.7,304.6 L 264.3,326.2 L 268.6,353.2 L 264.3,364.0 L 255.7,374.8 L 242.9,391.0 L 221.4,401.8 L 191.4,418.0 L 170.0,439.6 L 165.7,461.2 L 200.0,472.0 L 230.0,482.8 L 260.0,488.2 L 268.6,482.8 L 264.3,477.4 L 212.9,488.2 L 200.0,499.0 L 182.9,509.8 L 165.7,520.6 L 152.9,536.8 L 148.1,549.2 Z" fill="rgba(30,55,90,0.5)" stroke="#5fa8d3" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Northern Ireland -->
+  <path d="M 71.4,272.2 L 135.7,266.8 L 161.4,299.2 L 161.4,310.0 L 135.7,331.6 L 92.9,331.6 L 71.4,310.0 L 71.4,272.2 Z" fill="rgba(30,55,90,0.5)" stroke="#5fa8d3" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Town circles -->
+  <circle cx="388.5" cy="478.9" r="22.0" fill="#4ade80" fill-opacity="1.00" stroke="#4ade80" stroke-width="1" data-town="Croydon" data-count="18" data-rate="22%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="393.5" cy="477.2" r="19.6" fill="#fbbf24" fill-opacity="0.94" stroke="#fbbf24" stroke-width="1" data-town="Bromley" data-count="16" data-rate="20%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="379.8" cy="471.3" r="18.4" fill="#fbbf24" fill-opacity="0.90" stroke="#fbbf24" stroke-width="1" data-town="Ealing" data-count="15" data-rate="18%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="375.9" cy="463.6" r="15.9" fill="#fbbf24" fill-opacity="0.84" stroke="#fbbf24" stroke-width="1" data-town="Watford" data-count="13" data-rate="16%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="281.5" cy="474.5" r="13.5" fill="#fbbf24" fill-opacity="0.78" stroke="#fbbf24" stroke-width="1" data-town="Bristol" data-count="11" data-rate="14%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="384.0" cy="476.2" r="13.5" fill="#4ade80" fill-opacity="0.78" stroke="#4ade80" stroke-width="1" data-town="Wimbledon" data-count="11" data-rate="14%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="386.9" cy="508.6" r="12.3" fill="#fbbf24" fill-opacity="0.74" stroke="#fbbf24" stroke-width="1" data-town="Brighton" data-count="10" data-rate="12%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="329.8" cy="370.4" r="12.3" fill="#4ade80" fill-opacity="0.74" stroke="#4ade80" stroke-width="1" data-town="Sheffield" data-count="10" data-rate="12%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="296.6" cy="365.1" r="11.1" fill="#fbbf24" fill-opacity="0.71" stroke="#fbbf24" stroke-width="1" data-town="Manchester" data-count="9" data-rate="11%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="368.3" cy="486.3" r="11.1" fill="#f87171" fill-opacity="0.71" stroke="#f87171" stroke-width="1" data-town="Guildford" data-count="9" data-rate="11%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="367.4" cy="471.4" r="11.1" fill="#fbbf24" fill-opacity="0.71" stroke="#fbbf24" stroke-width="1" data-town="Slough" data-count="9" data-rate="11%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="313.5" cy="418.3" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Birmingham" data-count="8" data-rate="10%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="210.7" cy="236.5" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Glasgow" data-count="8" data-rate="10%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="326.7" cy="347.9" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Leeds" data-count="8" data-rate="10%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="390.7" cy="469.7" r="9.9" fill="#4ade80" fill-opacity="0.68" stroke="#4ade80" stroke-width="1" data-town="Hackney" data-count="8" data-rate="10%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="343.6" cy="393.5" r="9.9" fill="#fbbf24" fill-opacity="0.68" stroke="#fbbf24" stroke-width="1" data-town="Nottingham" data-count="8" data-rate="10%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="381.4" cy="481.0" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Epsom" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="267.9" cy="369.8" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Liverpool" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="207.5" cy="135.1" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Dublin" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="398.8" cy="434.3" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Cambridge" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="338.9" cy="458.4" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Oxford" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="400.7" cy="467.9" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Romford" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="397.4" cy="478.5" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Orpington" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="351.3" cy="474.4" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Reading" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="392.4" cy="474.0" r="8.6" fill="#f87171" fill-opacity="0.65" stroke="#f87171" stroke-width="1" data-town="Lewisham" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="392.1" cy="467.4" r="8.6" fill="#fbbf24" fill-opacity="0.65" stroke="#fbbf24" stroke-width="1" data-town="Walthamstow" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="390.5" cy="475.3" r="8.6" fill="#4ade80" fill-opacity="0.65" stroke="#4ade80" stroke-width="1" data-town="Forest Hill" data-count="7" data-rate="9%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="385.1" cy="493.0" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Crawley" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="442.3" cy="441.9" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Ipswich" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="389.4" cy="463.8" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Enfield" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="383.4" cy="467.2" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Hendon" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="448.2" cy="411.1" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Norwich" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="389.9" cy="473.4" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Peckham" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="380.9" cy="469.0" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Wembley" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="379.9" cy="477.7" r="7.4" fill="#fbbf24" fill-opacity="0.61" stroke="#fbbf24" stroke-width="1" data-town="Surbiton" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="359.6" cy="468.1" r="7.4" fill="#4ade80" fill-opacity="0.61" stroke="#4ade80" stroke-width="1" data-town="Marlow" data-count="6" data-rate="7%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="358.6" cy="487.4" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Farnham" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="332.7" cy="504.3" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Southampton" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="384.3" cy="463.7" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Barnet" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="354.2" cy="432.3" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Northampton" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="346.3" cy="484.8" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Basingstoke" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="256.6" cy="473.0" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Cardiff" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="360.9" cy="480.7" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Camberley" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="387.2" cy="475.8" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Streatham" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="385.9" cy="469.7" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Camden" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="396.9" cy="457.5" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Harlow" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="397.2" cy="476.0" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Sidcup" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="360.5" cy="464.9" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="High Wycombe" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="396.1" cy="465.6" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Chigwell" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="379.1" cy="472.7" r="6.2" fill="#f87171" fill-opacity="0.58" stroke="#f87171" stroke-width="1" data-town="Brentford" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="381.6" cy="472.4" r="6.2" fill="#4ade80" fill-opacity="0.58" stroke="#4ade80" stroke-width="1" data-town="Chiswick" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="412.5" cy="468.2" r="6.2" fill="#fbbf24" fill-opacity="0.58" stroke="#fbbf24" stroke-width="1" data-town="Basildon" data-count="5" data-rate="6%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="336.6" cy="495.7" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Winchester" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="383.3" cy="472.4" r="5.0" fill="#4ade80" fill-opacity="0.55" stroke="#4ade80" stroke-width="1" data-town="Hammersmith" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="378.7" cy="486.4" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Dorking" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="414.5" cy="478.0" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Rochester" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="328.1" cy="423.0" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Coventry" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="379.7" cy="475.2" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Richmond" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="415.3" cy="484.2" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Maidstone" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="280.1" cy="361.5" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Wigan" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="416.3" cy="478.1" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Gillingham" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="346.8" cy="338.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="York" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="369.0" cy="481.7" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Woking" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="385.4" cy="479.7" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Sutton" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="397.6" cy="461.3" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Epping" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="387.4" cy="464.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Southgate" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="413.1" cy="459.3" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Chelmsford" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="385.8" cy="472.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Chelsea" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="378.7" cy="495.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Horsham" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="390.0" cy="466.7" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Tottenham" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="412.8" cy="457.4" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Essex" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="395.9" cy="468.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Ilford" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="392.7" cy="473.0" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Greenwich" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="384.0" cy="473.4" r="5.0" fill="#fbbf24" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1" data-town="Fulham" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="377.4" cy="473.7" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Hounslow" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="404.8" cy="511.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Eastbourne" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="386.3" cy="470.9" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Marylebone" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="385.5" cy="473.6" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Battersea" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="399.9" cy="452.1" r="5.0" fill="#f87171" fill-opacity="0.55" stroke="#f87171" stroke-width="1" data-town="Bishop's Stortford" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
+  <circle cx="367.0" cy="472.9" r="5.0" fill="#4ade80" fill-opacity="0.55" stroke="#4ade80" stroke-width="1" data-town="Windsor" data-count="4" data-rate="5%" class="heat-circle" style="cursor:pointer"/>
 </svg>

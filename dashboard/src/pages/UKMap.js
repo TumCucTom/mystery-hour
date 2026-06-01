@@ -62,6 +62,38 @@ function renderPage(container, svgData, allQa) {
       <div class="map-container">
         <div class="map-svg-wrap" id="mapWrap">
           ${svgData}
+          <div class="map-legend" id="mapLegend">
+            <div class="legend-section">
+              <div class="legend-title">Call count</div>
+              <div class="legend-row">
+                <span class="legend-circle" style="width:10px;height:10px"></span>
+                <span>4+</span>
+              </div>
+              <div class="legend-row">
+                <span class="legend-circle" style="width:18px;height:18px"></span>
+                <span>10+</span>
+              </div>
+              <div class="legend-row">
+                <span class="legend-circle" style="width:24px;height:24px"></span>
+                <span>18</span>
+              </div>
+            </div>
+            <div class="legend-section">
+              <div class="legend-title">Resolution rate</div>
+              <div class="legend-row">
+                <span class="legend-swatch" style="background:#4ade80"></span>
+                <span>80%+</span>
+              </div>
+              <div class="legend-row">
+                <span class="legend-swatch" style="background:#fbbf24"></span>
+                <span>60–79%</span>
+              </div>
+              <div class="legend-row">
+                <span class="legend-swatch" style="background:#f87171"></span>
+                <span>&lt;60%</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="map-sidebar" id="mapSidebar">
@@ -77,7 +109,7 @@ function renderPage(container, svgData, allQa) {
     <style>
     .map-layout { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: start; }
     @media (max-width: 900px) { .map-layout { grid-template-columns: 1fr; } }
-    .map-svg-wrap { background: #0d1b2a; border-radius: 12px; overflow: hidden; }
+    .map-svg-wrap { position: relative; background: #0d1b2a; border-radius: 12px; overflow: hidden; }
     .map-svg-wrap svg { display: block; width: 100%; height: auto; }
     .heat-circle { transition: fill-opacity 0.15s, r 0.15s; }
     .heat-circle:hover { fill-opacity: 1 !important; r: attr(r * 1.3); }
@@ -87,6 +119,33 @@ function renderPage(container, svgData, allQa) {
     .map-stat { display: flex; flex-direction: column; }
     .map-stat-val { font-size: 20px; font-weight: 700; }
     .map-stat-lbl { font-size: 11px; color: var(--color-muted); text-transform: uppercase; }
+    .map-legend {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(13, 27, 42, 0.96);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 11px;
+      color: #cbd5e1;
+      z-index: 5;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .legend-section { display: flex; flex-direction: column; gap: 4px; }
+    .legend-title { font-weight: 600; text-transform: uppercase; font-size: 10px; color: #94a3b8; letter-spacing: 0.5px; margin-bottom: 2px; }
+    .legend-row { display: flex; align-items: center; gap: 10px; min-height: 18px; }
+    .legend-circle {
+      display: inline-block;
+      background: #60a5fa;
+      opacity: 0.7;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .legend-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
     </style>
   `
 
