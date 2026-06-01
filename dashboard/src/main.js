@@ -13,7 +13,6 @@ import { renderAccuracyPage } from './pages/Accuracy.js'
 import { renderSemanticSearch } from './pages/SemanticSearch.js'
 import { renderTopicDriftPage } from './pages/TopicDrift.js'
 import { renderEpisodeSimilarityPage } from './pages/EpisodeSimilarity.js'
-import { renderTriviaPage } from './pages/Trivia.js'
 import { renderGeographicPage } from './pages/Geographic.js'
 import { renderAnswerDynamicsPage } from './pages/AnswerDynamics.js'
 import { renderQuestionTypePage } from './pages/QuestionType.js'
@@ -54,7 +53,6 @@ function renderNav() {
     ['/umap', 'UMAP'],
     ['/seasonal', 'Seasonal'],
     ['/recurring-unanswered', 'Unanswered'],
-    ['/trivia', 'Trivia'],
     ['/question-quality', 'Quality'],
     ['/summaries', 'Summaries'],
     ['/ray-liotta', 'Ray Liotta'],
@@ -118,7 +116,6 @@ const routes = {
   '/umap': renderUMAP,
   '/seasonal': renderSeasonalPage,
   '/recurring-unanswered': renderRecurringUnansweredPage,
-  '/trivia': renderTriviaPage,
   '/question-quality': renderQuestionQualityPage,
   '/summaries': renderEpisodeSummariesPage,
   '/ray-liotta': renderRayLiottaPage,
