@@ -78,14 +78,6 @@ function renderPage(container, svgData, townData) {
         <div id="worstList"></div>
       </div>
     </div>
-
-    <style>
-    .map-layout { display: grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: start; }
-    @media (max-width: 900px) { .map-layout { grid-template-columns: 1fr; } }
-    .map-svg-wrap { background: #0d1b2a; border-radius: 12px; overflow: hidden; }
-    .map-svg-wrap svg { display: block; width: 100%; height: auto; }
-    .map-sidebar { position: sticky; top: 80px; }
-    </style>
   `
 
   const mapWrap = container.querySelector('#mapWrap')
@@ -115,8 +107,14 @@ function renderPage(container, svgData, townData) {
       if (d) {
         const rate = pct(d.overturned, d.total)
         const resolvedRate = pct(d.resolved, d.total)
-        row.insertAdjacentHTML('afterend', `
-          <div class="ov-detail" style="padding:12px;background:rgba(248,113,113,0.1);border-bottom:1px solid var(--color-border)">
+        // Remove any existing detail panel for this town before adding the new one
+        const existing = row.parentNode.querySelector('.ov-detail[data-town="'+town+'"]')
+        if (existing) existing.remove()
+        const detail = document.createElement('div')
+        detail.className = 'ov-detail'
+        detail.dataset.town = town
+        detail.style.cssText = 'padding:12px;background:rgba(248,113,113,0.1);border-bottom:1px solid var(--color-border)'
+        detail.innerHTML = `
             <div style="font-size:12px;margin-bottom:6px;color:#f87171;font-weight:700">Overturned: ${rate} (${d.overturned}/${d.total})</div>
             <div style="font-size:12px;color:#4ade80;margin-bottom:6px">Resolved: ${resolvedRate}</div>
             <div style="font-size:11px;color:var(--color-muted)">Questions:</div>
@@ -126,9 +124,9 @@ function renderPage(container, svgData, townData) {
                 ${escHtml(q.q)}…
               </div>
             `).join('')}
-          </div>
-        `)
-        row.scrollIntoView()
+        `
+        row.insertAdjacentElement('afterend', detail)
+        detail.scrollIntoView()
       }
     })
   })

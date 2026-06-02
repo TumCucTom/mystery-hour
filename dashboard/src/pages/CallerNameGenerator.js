@@ -4,7 +4,6 @@
  * Generates plausible fake "FirstName from Town" callers.
  */
 import { loadJSON } from '../lib/data.js'
-import { loadAll } from '../lib/data.js'
 
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -39,11 +38,12 @@ function renderPage(container, genData, allQa) {
 
   const topFirstNames = genData.top_first_names || []
   const locations = Object.entries(locCounts).sort((a, b) => b[1] - a[1])
+  const totalCallers = Object.values(locCounts).reduce((s, n) => s + n, 0)
 
   container.innerHTML = `
     <div class="page-header">
       <h1>🎭 Caller Name Generator</h1>
-      <p>Trained on 1,242 real Mystery Hour callers. Generates plausible fake "FirstName from Town" callers.</p>
+      <p>Trained on ${totalCallers.toLocaleString()} real Mystery Hour callers. Generates plausible fake "FirstName from Town" callers.</p>
     </div>
 
     <div class="card" style="margin-bottom:24px;text-align:center;background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px solid #0f3460">
@@ -87,7 +87,7 @@ function renderPage(container, genData, allQa) {
       <div class="ng-explanation">
         <div class="ng-step">
           <div class="ng-step-num">1</div>
-          <div><strong>Training data</strong> — Extracted all 1,242 caller names from the dataset. John from Croydon, Steve from Brighton, etc.</div>
+          <div><strong>Training data</strong> — Extracted all ${totalCallers.toLocaleString()} caller names from the dataset. John from Croydon, Steve from Brighton, etc.</div>
         </div>
         <div class="ng-step">
           <div class="ng-step-num">2</div>
@@ -104,25 +104,20 @@ function renderPage(container, genData, allQa) {
   const nameEl = container.querySelector('#generatedName')
   const btnEl = container.querySelector('#generateBtn')
 
-  let seed = Date.now()
+  // Pre-build weighted lists once
+  const locsWeighted = []
+  for (const [loc, count] of Object.entries(locCounts)) {
+    for (let i = 0; i < count; i++) locsWeighted.push(loc)
+  }
+  const namesWeighted = []
+  for (const [name, count] of (genData.top_first_names || [])) {
+    for (let i = 0; i < count; i++) namesWeighted.push(name)
+  }
+
   function generate() {
-    seed++
-    const rng = (s) => { s = (s * 1664525 + 1013904223) & 0xffffffff; return (s >>> 0) / 0xffffffff }
-    const r = () => rng(seed * 31 + seed)
-
-    // Pick weighted location
-    const locsWeighted = []
-    for (const [loc, count] of Object.entries(locCounts)) {
-      for (let i = 0; i < count; i++) locsWeighted.push(loc)
-    }
-    const loc = locsWeighted[Math.floor(r() * locsWeighted.length)]
-
-    // Pick weighted first name
-    const namesWeighted = []
-    for (const [name, count] of (genData.top_first_names || [])) {
-      for (let i = 0; i < count; i++) namesWeighted.push(name)
-    }
-    const name = namesWeighted[Math.floor(r() * namesWeighted.length)] || topFirstNames[0]
+    // Use plain Math.random — independent draws for name and location
+    const loc = locsWeighted[Math.floor(Math.random() * locsWeighted.length)]
+    const name = namesWeighted[Math.floor(Math.random() * namesWeighted.length)] || topFirstNames[0]?.[0]
 
     nameEl.textContent = `${name} from ${loc}`
     nameEl.style.opacity = '0'

@@ -1,5 +1,5 @@
 /**
- * UMAP3D.js — interactive 3D scatter of all 6,097 questions
+ * UMAP3D.js — interactive 3D scatter of all 6,134 questions
  * Drag to rotate, scroll to zoom, right-click drag to pan.
  * Click a cluster in the legend to toggle visibility.
  */
@@ -21,7 +21,7 @@ export async function renderUMAP3D(page, store) {
   page.innerHTML = `
     <div class="page-header">
       <h1>🌐 Question Universe (3D)</h1>
-      <p>6,097 questions projected to 3D using UMAP. Drag to rotate, scroll to zoom — colour = topic cluster.</p>
+      <p>6,134 questions projected to 3D using UMAP. Drag to rotate, scroll to zoom — colour = topic cluster.</p>
     </div>
 
     <div id="umap-legend" style="display:flex;flex-wrap:wrap;gap:6px;padding:10px 0;border-bottom:1px solid var(--color-border);margin-bottom:12px;max-height:140px;overflow-y:auto"></div>

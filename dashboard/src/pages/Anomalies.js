@@ -29,9 +29,14 @@ function renderPage(container, data, clusterWorst) {
     cluster_info[c.cluster] = c
   }
 
+  // Generate 80 visually distinct HSL colours, deterministic per cluster id.
+  // Golden-angle hue rotation gives good separation across the wheel.
   const colour = (cid) => {
-    const cols = ['#f87171','#fb923c','#fbbf24','#a3e635','#34d399','#22d3ee','#60a5fa','#a78bfa','#f472b6']
-    return cols[(cid || 0) % cols.length]
+    const id = (cid || 0) % 80
+    const hue = (id * 137.508) % 360 // golden angle
+    const sat = 65 + (id % 3) * 5    // 65-75%
+    const light = 55 + ((id >> 1) % 3) * 4 // 55-63%
+    return `hsl(${hue.toFixed(0)}, ${sat}%, ${light}%)`
   }
 
   container.innerHTML = `

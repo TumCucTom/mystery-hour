@@ -42,7 +42,7 @@ function renderPage(container, data) {
   container.innerHTML = `
     <div class="page-header">
       <h1>🌀 Resolved vs Unresolved in UMAP Space</h1>
-      <p>6,097 questions in 2D UMAP projection — coloured by resolved status. Do resolved questions cluster separately?</p>
+      <p>6,134 questions in 2D UMAP projection — coloured by resolved status. Do resolved questions cluster separately?</p>
     </div>
 
     <div class="card" style="margin-bottom:24px;background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px solid #0f3460">

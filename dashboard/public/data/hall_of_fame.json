@@ -11,7 +11,14 @@
         "ep_546"
       ],
       "questions": 5,
-      "resolved": 4
+      "resolved": 4,
+      "expertise": [
+        "queen, royal, prince, throne, family",
+        "first, start, become, origin, decided",
+        "phrase, origin, saying, knock, originate",
+        "water, level, ocean, become, beach",
+        "origin, originate, nickname, phrase, military"
+      ]
     },
     {
       "name": "Andy from Brighton",
@@ -24,7 +31,14 @@
         "ep_164"
       ],
       "questions": 5,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "words, english, letter, letters, people",
+        "earth, world, around, stars, space",
+        "space, earth, gravity, happens, astronauts",
+        "language, english, different, accents, people",
+        "names, surnames, people, named, first"
+      ]
     },
     {
       "name": "Sean from Bishop's Stortford",
@@ -36,7 +50,14 @@
         "ep_448"
       ],
       "questions": 4,
-      "resolved": 4
+      "resolved": 4,
+      "expertise": [
+        "water, level, ocean, become, beach",
+        "doors, front, windows, houses, metal",
+        "football, tennis, players, balls, sports",
+        "bottles, alcohol, bottle, drinks, drink",
+        "first, start, become, origin, decided"
+      ]
     },
     {
       "name": "Elaine from Forest Hill",
@@ -48,7 +69,14 @@
         "ep_551"
       ],
       "questions": 4,
-      "resolved": 4
+      "resolved": 4,
+      "expertise": [
+        "people, babies, makes, evolutionary, feeling",
+        "sneeze, people, viruses, bites, others",
+        "number, numbers, phone, mobile, emergency",
+        "language, english, different, accents, people",
+        "mirror, light, people, blind, glasses"
+      ]
     },
     {
       "name": "Mark from Walthamstow",
@@ -60,7 +88,14 @@
         "ep_426"
       ],
       "questions": 4,
-      "resolved": 3
+      "resolved": 3,
+      "expertise": [
+        "minister, prime, number, downing, street",
+        "earth, world, around, stars, space",
+        "water, level, ocean, become, beach",
+        "london, county, counties, north, towns",
+        "space, earth, gravity, happens, astronauts"
+      ]
     },
     {
       "name": "Simon from Wembley",
@@ -72,7 +107,14 @@
         "ep_476"
       ],
       "questions": 4,
-      "resolved": 3
+      "resolved": 3,
+      "expertise": [
+        "difference, toast, chocolate, cream, different",
+        "number, numbers, phone, mobile, emergency",
+        "first, start, become, origin, decided",
+        "number, numbers, three, eight, seven",
+        "queen, royal, prince, throne, family"
+      ]
     },
     {
       "name": "Dan from Southfields",
@@ -83,7 +125,14 @@
         "ep_588"
       ],
       "questions": 3,
-      "resolved": 3
+      "resolved": 3,
+      "expertise": [
+        "space, earth, gravity, happens, astronauts",
+        "earth, world, around, stars, space",
+        "language, english, different, accents, people",
+        "sleep, asleep, sneeze, night, morning",
+        "earth, stars, planets, rotate, moons"
+      ]
     },
     {
       "name": "John from Bromley",
@@ -94,7 +143,14 @@
         "ep_551"
       ],
       "questions": 3,
-      "resolved": 3
+      "resolved": 3,
+      "expertise": [
+        "birds, pigeons, seagulls, around, pigeon",
+        "earth, world, around, stars, space",
+        "people, babies, makes, evolutionary, feeling",
+        "sneeze, people, viruses, bites, others",
+        "number, numbers, phone, mobile, emergency"
+      ]
     },
     {
       "name": "Nathan from Portsmouth",
@@ -105,7 +161,14 @@
         "ep_343"
       ],
       "questions": 3,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "traffic, roads, speed, roundabout, seatbelts",
+        "difference, toast, chocolate, cream, different",
+        "clockwise, speed, faster, track, around",
+        "football, tennis, players, balls, sports",
+        "police, happens, country, people, prison"
+      ]
     },
     {
       "name": "Steve from Hounslow",
@@ -116,7 +179,13 @@
         "ep_438"
       ],
       "questions": 3,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "lions, animals, catnip, respond, makes",
+        "chicken, chickens, turkey, sperm, white"
+      ]
     },
     {
       "name": "Johnny from Ipswich",
@@ -127,7 +196,14 @@
         "ep_377"
       ],
       "questions": 3,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "first, start, become, origin, decided",
+        "people, clapping, start, appreciation, shake",
+        "phrase, origin, saying, knock, originate",
+        "origin, originate, nickname, phrase, military",
+        "first, invented, people, discovered, start"
+      ]
     },
     {
       "name": "Sally from Epsom",
@@ -137,7 +213,14 @@
         "ep_221"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, level, ocean, become, beach",
+        "sleep, asleep, sneeze, night, morning",
+        "first, start, become, origin, decided",
+        "people, become, years, world, british",
+        "queen, royal, prince, throne, family"
+      ]
     },
     {
       "name": "Dan from Bristol",
@@ -147,7 +230,13 @@
         "ep_341"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "colour, white, green, black, colours",
+        "water, shampoo, shower, washing, towel",
+        "colour, yellow, white, black, orange",
+        "spider, spiders, another, across, conkers"
+      ]
     },
     {
       "name": "Mo from Birmingham",
@@ -157,7 +246,13 @@
         "ep_116"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "countries, country, royal, world, national",
+        "sleep, asleep, sneeze, night, morning",
+        "taste, fruit, stomach, sugar, human",
+        "radio, people, adverts, watershed, phones"
+      ]
     },
     {
       "name": "Taff from Cardiff",
@@ -167,7 +262,10 @@
         "ep_050"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "plane, aircraft, planes, pilot, landing"
+      ]
     },
     {
       "name": "Clive from Sheffield",
@@ -177,7 +275,11 @@
         "ep_053"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "birds, pigeons, seagulls, around, pigeon",
+        "trees, plants, leaves, plant, branches"
+      ]
     },
     {
       "name": "Anthony from Blackpool",
@@ -187,7 +289,8 @@
         "ep_091"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": []
     },
     {
       "name": "Rachel from Coventry",
@@ -197,7 +300,14 @@
         "ep_101"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "degrees, temperature, summer, colder, winter",
+        "sweat, water, temperature, hours, actually",
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "fridge, freezer, frozen, water, defrost"
+      ]
     },
     {
       "name": "Jennifer from Stilton",
@@ -207,7 +317,8 @@
         "ep_138"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": []
     },
     {
       "name": "Roy from Honiton",
@@ -217,7 +328,14 @@
         "ep_101"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "mirror, light, people, blind, glasses",
+        "words, english, letter, letters, people",
+        "people, babies, makes, evolutionary, feeling",
+        "actually, scratch, people, fingers, mouth",
+        "money, million, coins, currency, worth"
+      ]
     },
     {
       "name": "Kieran from Dublin",
@@ -227,7 +345,14 @@
         "ep_098"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "money, million, coins, currency, worth",
+        "language, english, different, accents, people",
+        "words, english, letter, letters, people",
+        "people, babies, makes, evolutionary, feeling",
+        "actually, scratch, people, fingers, mouth"
+      ]
     },
     {
       "name": "Charles from Bagshot",
@@ -237,7 +362,14 @@
         "ep_104"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "football, tennis, players, balls, sports",
+        "colour, white, green, black, colours",
+        "colour, yellow, white, black, orange",
+        "green, downs, referred, white, known",
+        "names, surnames, people, named, first"
+      ]
     },
     {
       "name": "Simon from Ikaria, Greece",
@@ -247,7 +379,14 @@
         "ep_205"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, shampoo, shower, washing, towel",
+        "water, level, ocean, become, beach",
+        "bottles, alcohol, bottle, drinks, drink",
+        "degrees, temperature, summer, colder, winter",
+        "water, drink, coffee, spoon, drinking"
+      ]
     },
     {
       "name": "Joe from Warrington",
@@ -257,7 +396,12 @@
         "ep_129"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "chicken, chickens, turkey, sperm, white",
+        "traffic, roads, speed, roundabout, seatbelts",
+        "clockwise, speed, faster, track, around"
+      ]
     },
     {
       "name": "Ben from Wickford",
@@ -267,7 +411,13 @@
         "ep_166"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "light, electricity, electric, batteries, battery",
+        "first, invented, people, discovered, start",
+        "brain, remember, memory, people, dreams",
+        "lightning, strikes, turbines, electrocuted, electricity"
+      ]
     },
     {
       "name": "Chris from Manchester",
@@ -277,7 +427,14 @@
         "ep_138"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, bubbles, bottle, different, glass",
+        "bottles, alcohol, bottle, drinks, drink",
+        "fridge, freezer, frozen, water, defrost",
+        "water, level, ocean, become, beach",
+        "degrees, temperature, summer, colder, winter"
+      ]
     },
     {
       "name": "Richard from Bath",
@@ -287,7 +444,14 @@
         "ep_239"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "right, handed, finger, people, different",
+        "football, tennis, players, balls, sports",
+        "colour, white, green, black, colours",
+        "number, numbers, bottom, telephone, keyboard",
+        "names, surnames, people, named, first"
+      ]
     },
     {
       "name": "Chris from Leeds",
@@ -297,7 +461,14 @@
         "ep_315"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "words, english, letter, letters, people",
+        "earth, world, around, stars, space",
+        "people, babies, makes, evolutionary, feeling",
+        "actually, scratch, people, fingers, mouth",
+        "difference, toast, chocolate, cream, different"
+      ]
     },
     {
       "name": "John from Bristol",
@@ -307,7 +478,13 @@
         "ep_198"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "london, county, counties, north, towns",
+        "plane, aircraft, planes, pilot, landing",
+        "water, drink, coffee, spoon, drinking",
+        "spider, spiders, another, across, conkers"
+      ]
     },
     {
       "name": "Paul from Northall",
@@ -317,7 +494,14 @@
         "ep_407"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "green, downs, referred, white, known",
+        "difference, toast, chocolate, cream, different",
+        "colour, white, green, black, colours",
+        "breakfast, toast, bacon, dinner, english",
+        "bottles, alcohol, bottle, drinks, drink"
+      ]
     },
     {
       "name": "Ben from Alton",
@@ -327,7 +511,14 @@
         "ep_521"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "clockwise, speed, faster, track, around",
+        "birds, pigeons, seagulls, around, pigeon",
+        "earth, world, around, stars, space",
+        "doors, front, windows, houses, metal",
+        "right, handed, finger, people, different"
+      ]
     },
     {
       "name": "Sam from Croydon",
@@ -337,7 +528,14 @@
         "ep_413"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "phrase, origin, saying, knock, originate",
+        "taste, fruit, stomach, sugar, human",
+        "origin, originate, nickname, phrase, military",
+        "fruit, supermarket, pepper, plastic, vegetable",
+        "right, handed, finger, people, different"
+      ]
     },
     {
       "name": "John from Reading",
@@ -347,7 +545,10 @@
         "ep_349"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "countries, country, royal, world, national"
+      ]
     },
     {
       "name": "Mark from Reading",
@@ -357,7 +558,14 @@
         "ep_321"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "colour, white, green, black, colours",
+        "colour, yellow, white, black, orange",
+        "flies, insects, flying, night, light",
+        "names, surnames, people, named, first",
+        "water, shampoo, shower, washing, towel"
+      ]
     },
     {
       "name": "Paul from Croydon",
@@ -367,7 +575,14 @@
         "ep_441"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "lightning, strikes, turbines, electrocuted, electricity",
+        "water, level, ocean, become, beach",
+        "difference, toast, chocolate, cream, different",
+        "trees, plants, leaves, plant, branches",
+        "bottles, alcohol, bottle, drinks, drink"
+      ]
     },
     {
       "name": "Vida from Fulham",
@@ -377,7 +592,14 @@
         "ep_343"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "number, numbers, phone, mobile, emergency",
+        "number, numbers, three, eight, seven",
+        "number, numbers, bottom, telephone, keyboard",
+        "minister, prime, number, downing, street",
+        "football, tennis, players, balls, sports"
+      ]
     },
     {
       "name": "Jake from Filey",
@@ -387,7 +609,8 @@
         "ep_385"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": []
     },
     {
       "name": "Oliver from Macclesfield",
@@ -397,7 +620,13 @@
         "ep_362"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "phrase, origin, saying, knock, originate",
+        "origin, originate, nickname, phrase, military",
+        "mirror, light, people, blind, glasses",
+        "first, start, become, origin, decided"
+      ]
     },
     {
       "name": "Dan from Euston",
@@ -407,7 +636,10 @@
         "ep_441"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "passport, passports, pencil, british, french"
+      ]
     },
     {
       "name": "Warren from Northwood",
@@ -417,7 +649,13 @@
         "ep_476"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "trousers, jacket, front, shirts, women",
+        "doors, front, windows, houses, metal",
+        "plane, aircraft, planes, pilot, landing",
+        "sweat, water, temperature, hours, actually"
+      ]
     },
     {
       "name": "Dave from Chichester",
@@ -427,7 +665,8 @@
         "ep_471"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": []
     },
     {
       "name": "Mark from Romford",
@@ -437,7 +676,14 @@
         "ep_423"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, level, ocean, become, beach",
+        "difference, toast, chocolate, cream, different",
+        "breakfast, toast, bacon, dinner, english",
+        "bottles, alcohol, bottle, drinks, drink",
+        "colour, yellow, white, black, orange"
+      ]
     },
     {
       "name": "Wayne from Basildon",
@@ -447,7 +693,14 @@
         "ep_456"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, level, ocean, become, beach",
+        "bottles, alcohol, bottle, drinks, drink",
+        "degrees, temperature, summer, colder, winter",
+        "water, drink, coffee, spoon, drinking",
+        "fridge, freezer, frozen, water, defrost"
+      ]
     },
     {
       "name": "Mike from High Wycombe",
@@ -457,7 +710,14 @@
         "ep_407"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "water, level, ocean, become, beach",
+        "first, start, become, origin, decided",
+        "plane, aircraft, planes, pilot, landing",
+        "people, become, years, world, british",
+        "queen, royal, prince, throne, family"
+      ]
     },
     {
       "name": "William from Yeovil",
@@ -467,7 +727,13 @@
         "ep_403"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "sneeze, people, viruses, bites, others",
+        "countries, country, royal, world, national"
+      ]
     },
     {
       "name": "Dave from Slough",
@@ -477,7 +743,11 @@
         "ep_438"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "difference, toast, chocolate, cream, different",
+        "breakfast, toast, bacon, dinner, english"
+      ]
     },
     {
       "name": "Paul from Northolt",
@@ -487,7 +757,14 @@
         "ep_588"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "fridge, freezer, frozen, water, defrost",
+        "animals, humans, species, mammals, human",
+        "bottles, alcohol, bottle, drinks, drink",
+        "water, drink, coffee, spoon, drinking",
+        "water, mouth, teeth, taste, drink"
+      ]
     },
     {
       "name": "Matt from Surbiton",
@@ -497,7 +774,14 @@
         "ep_529"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "bottles, alcohol, bottle, drinks, drink",
+        "green, downs, referred, white, known",
+        "colour, white, green, black, colours",
+        "colour, yellow, white, black, orange",
+        "beard, women, people, white, shave"
+      ]
     },
     {
       "name": "Martin from Tottenham",
@@ -507,7 +791,14 @@
         "ep_522"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "taste, fruit, stomach, sugar, human",
+        "first, start, become, origin, decided",
+        "first, invented, people, discovered, start",
+        "water, drink, coffee, spoon, drinking",
+        "smell, breathe, different, smells, sense"
+      ]
     },
     {
       "name": "Chris from Walthamstow",
@@ -517,7 +808,10 @@
         "ep_585"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "countries, country, royal, world, national"
+      ]
     },
     {
       "name": "Nick from Waltham Forest",
@@ -527,7 +821,12 @@
         "ep_546"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "colour, white, green, black, colours",
+        "colour, yellow, white, black, orange",
+        "lightning, strikes, turbines, electrocuted, electricity"
+      ]
     },
     {
       "name": "Colin from Gants Hill",
@@ -537,7 +836,14 @@
         "ep_586"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "difference, toast, chocolate, cream, different",
+        "different, clocks, month, february, months",
+        "earth, world, around, stars, space",
+        "money, million, coins, currency, worth",
+        "breakfast, toast, bacon, dinner, english"
+      ]
     },
     {
       "name": "Jeremy from Poplar",
@@ -547,7 +853,14 @@
         "ep_585"
       ],
       "questions": 2,
-      "resolved": 2
+      "resolved": 2,
+      "expertise": [
+        "birds, pigeons, seagulls, around, pigeon",
+        "earth, world, around, stars, space",
+        "london, county, counties, north, towns",
+        "first, start, become, origin, decided",
+        "clockwise, speed, faster, track, around"
+      ]
     },
     {
       "name": "Vivian from Cheltenham",
@@ -557,7 +870,14 @@
         "ep_270"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "growing, certain, years, older, genetic",
+        "lions, animals, catnip, respond, makes",
+        "chicken, chickens, turkey, sperm, white"
+      ]
     },
     {
       "name": "Ian from Farnham",
@@ -567,7 +887,14 @@
         "ep_034"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "green, downs, referred, white, known",
+        "colour, white, green, black, colours",
+        "trees, plants, leaves, plant, branches",
+        "bottles, alcohol, bottle, drinks, drink",
+        "clouds, raining, water, weather, cloud"
+      ]
     },
     {
       "name": "Carl from Liverpool",
@@ -577,7 +904,14 @@
         "ep_191"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "traffic, roads, speed, roundabout, seatbelts",
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "colour, white, green, black, colours",
+        "light, electricity, electric, batteries, battery"
+      ]
     },
     {
       "name": "Melissa from Edinburgh",
@@ -587,7 +921,14 @@
         "ep_315"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "words, english, letter, letters, people",
+        "people, babies, makes, evolutionary, feeling",
+        "sneeze, people, viruses, bites, others",
+        "language, english, different, accents, people",
+        "sound, people, noise, sounds, music"
+      ]
     },
     {
       "name": "Jamie from Romford",
@@ -597,7 +938,14 @@
         "ep_323"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "animals, humans, species, mammals, human",
+        "colour, white, green, black, colours",
+        "number, numbers, phone, mobile, emergency",
+        "people, become, years, world, british",
+        "number, numbers, bottom, telephone, keyboard"
+      ]
     },
     {
       "name": "Rob from Maidstone",
@@ -607,7 +955,14 @@
         "ep_426"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "people, clapping, start, appreciation, shake",
+        "flies, insects, flying, night, light",
+        "first, start, become, origin, decided",
+        "first, invented, people, discovered, start",
+        "words, english, letter, letters, people"
+      ]
     },
     {
       "name": "Lee from Manchester (the tattooed teacher)",
@@ -617,7 +972,14 @@
         "ep_142"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "language, english, different, accents, people",
+        "words, english, letter, letters, people",
+        "animals, humans, species, mammals, human",
+        "animals, humans, animal, human, actually",
+        "breakfast, toast, bacon, dinner, english"
+      ]
     },
     {
       "name": "Fraser from Aberdeen",
@@ -627,7 +989,14 @@
         "ep_277"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "trousers, jacket, front, shirts, women",
+        "water, bubbles, bottle, different, glass",
+        "sneeze, people, viruses, bites, others",
+        "degrees, temperature, summer, colder, winter",
+        "fridge, freezer, frozen, water, defrost"
+      ]
     },
     {
       "name": "Steve from Oxford",
@@ -637,7 +1006,14 @@
         "ep_348"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "taste, fruit, stomach, sugar, human",
+        "water, level, ocean, become, beach",
+        "space, earth, gravity, happens, astronauts",
+        "bottles, alcohol, bottle, drinks, drink",
+        "first, start, become, origin, decided"
+      ]
     },
     {
       "name": "Jackie from Thames Ditton",
@@ -647,7 +1023,12 @@
         "ep_588"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "green, downs, referred, white, known",
+        "round, guide, drugs, horse, years",
+        "names, surnames, people, named, first"
+      ]
     },
     {
       "name": "Matt from Leatherhead",
@@ -657,7 +1038,10 @@
         "ep_561"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "different, clocks, month, february, months"
+      ]
     },
     {
       "name": "Margaret from Woolwich",
@@ -667,7 +1051,14 @@
         "ep_529"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "bottles, alcohol, bottle, drinks, drink",
+        "water, bubbles, bottle, different, glass",
+        "water, level, ocean, become, beach",
+        "degrees, temperature, summer, colder, winter",
+        "water, drink, coffee, spoon, drinking"
+      ]
     },
     {
       "name": "Martin from Epping",
@@ -677,7 +1068,14 @@
         "ep_448"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "language, english, different, accents, people",
+        "chicken, chickens, turkey, sperm, white",
+        "words, english, letter, letters, people",
+        "colour, white, green, black, colours",
+        "breakfast, toast, bacon, dinner, english"
+      ]
     },
     {
       "name": "Jimmy from Isle of Dogs",
@@ -687,7 +1085,8 @@
         "ep_448"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": []
     },
     {
       "name": "Ian from Dorking",
@@ -697,7 +1096,14 @@
         "ep_518"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "green, downs, referred, white, known",
+        "colour, white, green, black, colours",
+        "trousers, jacket, front, shirts, women",
+        "bottles, alcohol, bottle, drinks, drink",
+        "fridge, freezer, frozen, water, defrost"
+      ]
     },
     {
       "name": "Godfrey from St. James",
@@ -707,7 +1113,14 @@
         "ep_521"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "earth, world, around, stars, space",
+        "animals, humans, animal, human, actually",
+        "space, earth, gravity, happens, astronauts",
+        "different, clocks, month, february, months",
+        "doors, front, windows, houses, metal"
+      ]
     },
     {
       "name": "John from Orpington",
@@ -717,7 +1130,10 @@
         "ep_578"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "names, surnames, people, named, first"
+      ]
     },
     {
       "name": "Dave from Lewisham",
@@ -727,7 +1143,14 @@
         "ep_585"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "earth, world, around, stars, space",
+        "water, level, ocean, become, beach",
+        "bottles, alcohol, bottle, drinks, drink",
+        "degrees, temperature, summer, colder, winter",
+        "water, drink, coffee, spoon, drinking"
+      ]
     },
     {
       "name": "Cathy from Eastbourne",
@@ -737,7 +1160,12 @@
         "ep_578"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "birthday, people, candles, celebrate, wedding",
+        "green, downs, referred, white, known",
+        "people, babies, makes, evolutionary, feeling"
+      ]
     },
     {
       "name": "Nick from Watford",
@@ -747,7 +1175,14 @@
         "ep_588"
       ],
       "questions": 2,
-      "resolved": 1
+      "resolved": 1,
+      "expertise": [
+        "fruit, supermarket, pepper, plastic, vegetable",
+        "taste, fruit, stomach, sugar, human",
+        "green, downs, referred, white, known",
+        "football, tennis, players, balls, sports",
+        "names, surnames, people, named, first"
+      ]
     }
   ],
   "total": 73

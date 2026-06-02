@@ -23,7 +23,10 @@ export async function renderClusterWorstPage(container) {
 function renderPage(container, data) {
   const ranked = data.ranked_clusters || []
   const worst = ranked[0]
-  const best = ranked[ranked.length - 1]
+  // "Best" needs a minimum sample threshold — a cluster with 7 questions and 0 overturned isn't a meaningful "best"
+  const MIN_BEST_SIZE = 20
+  const bestCandidates = ranked.filter(r => (r.total || 0) >= MIN_BEST_SIZE)
+  const best = bestCandidates[bestCandidates.length - 1]
 
   container.innerHTML = `
     <div class="page-header">
@@ -38,7 +41,7 @@ function renderPage(container, data) {
       </div>
       <div class="stat-card">
         <div class="stat-value" style="color:var(--color-green)">${pct(best?.overturned||0, best?.total||1)}</div>
-        <div class="stat-label">Best Cluster Overturn Rate</div>
+        <div class="stat-label">Best Cluster Overturn Rate <span style="font-size:10px;opacity:0.6">(≥${MIN_BEST_SIZE} Qs)</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-value">${ranked.filter(r => (r.overturned_rate||0) > 0.15).length}</div>

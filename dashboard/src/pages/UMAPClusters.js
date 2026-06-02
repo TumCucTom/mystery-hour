@@ -10,7 +10,7 @@ function escHtml(s) {
 }
 
 export async function renderUMAPClustersPage(container, store) {
-  container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading 6,097 question embeddings...</div>`
+  container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading 6,134 question embeddings...</div>`
   try {
     const [umap, meta, k80] = await Promise.all([
       loadJSON('umap_coords.json'),
@@ -131,7 +131,7 @@ function renderPage(container, umap, meta, k80) {
   container.innerHTML = `
     <div class="page-header">
       <h1>🌀 Topic Universe</h1>
-      <p>6,097 questions positioned by semantic similarity. Press play to watch the clusters bloom, or click any cluster to explore.</p>
+      <p>6,134 questions positioned by semantic similarity. Press play to watch the clusters bloom, or click any cluster to explore.</p>
     </div>
 
     <div class="card" style="margin-bottom:24px">
@@ -174,7 +174,7 @@ function renderPage(container, umap, meta, k80) {
           <div style="height:8px;background:var(--color-bg);border:1px solid var(--color-border);border-radius:999px;overflow:hidden">
             <div id="animProgressBar" style="height:100%;width:0%;background:linear-gradient(90deg,#8B5CF6,#FF7A1A);transition:width 250ms ease-out"></div>
           </div>
-          <div id="animProgress" style="font-size:13px;color:var(--color-text);margin-top:6px">0 / ${uniqueLabels.length} clusters · 0 / 6,097 questions revealed</div>
+          <div id="animProgress" style="font-size:13px;color:var(--color-text);margin-top:6px">0 / ${uniqueLabels.length} clusters · 0 / 6,134 questions revealed</div>
         </div>
       </div>
 

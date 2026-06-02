@@ -105,48 +105,6 @@ function renderPage(container, svgData, allQa) {
         <div id="mapTownResult"></div>
       </div>
     </div>
-
-    <style>
-    .map-layout { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: start; }
-    @media (max-width: 900px) { .map-layout { grid-template-columns: 1fr; } }
-    .map-svg-wrap { position: relative; background: #0d1b2a; border-radius: 12px; overflow: hidden; }
-    .map-svg-wrap svg { display: block; width: 100%; height: auto; }
-    .heat-circle { transition: fill-opacity 0.15s, r 0.15s; }
-    .heat-circle:hover { fill-opacity: 1 !important; r: attr(r * 1.3); }
-    .map-sidebar { position: sticky; top: 80px; }
-    .map-town-card { padding: 14px; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; }
-    .map-stat-row { display: flex; gap: 16px; margin-bottom: 10px; }
-    .map-stat { display: flex; flex-direction: column; }
-    .map-stat-val { font-size: 20px; font-weight: 700; }
-    .map-stat-lbl { font-size: 11px; color: var(--color-muted); text-transform: uppercase; }
-    .map-legend {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      background: rgba(13, 27, 42, 0.96);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 8px;
-      padding: 10px 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      font-size: 11px;
-      color: #cbd5e1;
-      z-index: 5;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    }
-    .legend-section { display: flex; flex-direction: column; gap: 4px; }
-    .legend-title { font-weight: 600; text-transform: uppercase; font-size: 10px; color: #94a3b8; letter-spacing: 0.5px; margin-bottom: 2px; }
-    .legend-row { display: flex; align-items: center; gap: 10px; min-height: 18px; }
-    .legend-circle {
-      display: inline-block;
-      background: #60a5fa;
-      opacity: 0.7;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-    .legend-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
-    </style>
   `
 
   const mapWrap = container.querySelector('#mapWrap')

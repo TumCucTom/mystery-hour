@@ -12,24 +12,24 @@ function pct(n, d) {
 export async function renderTimeToAnswerPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading answer dynamics...</div>`
   try {
-    const [tta, chain] = await Promise.all([
-      loadJSON('time_to_answer.json'),
-      loadJSON('chain_length.json'),
-    ])
-    renderPage(container, tta, chain)
+    const tta = await loadJSON('time_to_answer.json')
+    renderPage(container, tta)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Could not load data.</p></div>`
     console.error(e)
   }
 }
 
-function renderPage(container, tta, chain) {
+function renderPage(container, tta) {
   const nAnsBuckets = tta.by_answer_count || {}
   const eraBuckets = tta.by_episode_era || {}
-  const nEps = 601
-  const eraSize = Math.ceil(nEps / 6)
+  const zeroAns = (nAnsBuckets['0'] && nAnsBuckets['0'].total) || (nAnsBuckets[0] && nAnsBuckets[0].total) || 0
+  const eraKeys = Object.keys(eraBuckets).map(Number).sort((a, b) => a - b)
+  const nEras = eraKeys.length
+  const nEps = eraKeys.length > 0 ? Math.max(...eraKeys) + 1 : 601
+  const eraSize = Math.ceil(nEps / nEras)
   const eraLabels = []
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < nEras; i++) {
     const start = i * eraSize
     const end = Math.min((i + 1) * eraSize, nEps) - 1
     eraLabels.push(`Era ${i + 1}\n(ep ${start}–${end})`)
@@ -81,7 +81,7 @@ function renderPage(container, tta, chain) {
     <div class="card">
       <h2>Resolution Rate by Episode Era</h2>
       <p style="color:var(--color-muted);font-size:14px;margin-bottom:16px">
-        Has James gotten better or worse over time? Shows accuracy trend across 601 episodes.
+        Has James gotten better or worse over time? Shows accuracy trend across ${nEps} episodes.
       </p>
       <div id="eraChart" class="tta-chart" style="height:220px">
         ${Object.entries(eraBuckets).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).map(([k, v]) => {
@@ -128,7 +128,7 @@ function renderPage(container, tta, chain) {
         <div class="tta-insight">
           <div class="tta-insight-num">0.6%</div>
           <div class="tta-insight-text">
-            <strong>Unanswered = unresolved.</strong> 827 questions with zero answers in the data — almost all unresolved.
+            <strong>Unanswered = unresolved.</strong> ${zeroAns.toLocaleString()} questions with zero answers in the data — almost all unresolved.
             These were likely caller no-shows or questions cut from air.
           </div>
         </div>

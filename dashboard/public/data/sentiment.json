@@ -1,26 +1,54 @@
 {
   "sentiment_distribution": {
-    "uncertain": {
-      "total": 1756,
-      "resolved": 1418,
-      "overturned": 293,
-      "rate": 0.8075170842824602
-    },
     "positive": {
-      "total": 176,
-      "resolved": 149,
-      "overturned": 32,
-      "rate": 0.8465909090909091
+      "total": 597,
+      "resolved": 519,
+      "overturned": 83,
+      "rate": 0.869
     },
     "negative": {
-      "total": 120,
-      "resolved": 95,
-      "overturned": 18,
-      "rate": 0.7916666666666666
+      "total": 1005,
+      "resolved": 889,
+      "overturned": 150,
+      "rate": 0.885
+    },
+    "uncertain": {
+      "total": 1293,
+      "resolved": 1024,
+      "overturned": 183,
+      "rate": 0.792
+    },
+    "neutral": {
+      "total": 2412,
+      "resolved": 2080,
+      "overturned": 234,
+      "rate": 0.862
     }
   },
   "examples": [
     {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why is the Royal Box always to one side of the auditorium? It's always on the right-hand side as you",
+      "ep": "ep_000"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 0,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "Why is popcorn synonymous with going to the cinema? Where does that come from?",
+      "ep": "ep_000"
+    },
+    {
       "cat": "uncertain",
       "sent": {
         "pos": 1,
@@ -28,7 +56,52 @@
         "unc": 1,
         "score": 1
       },
-      "q": "Why is the Royal Box always to one side of the auditorium? It's always on the ri"
+      "q": "Why do we take our hats off when a hearse goes by? Why the hat, and where did it originate from?",
+      "ep": "ep_000"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 1,
+        "score": -1
+      },
+      "q": "Is there any sort of linguistic or grammatical or underlying reason for the order of names in famous",
+      "ep": "ep_000"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 0,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "What is the origin of 'something old, something new, something borrowed, something blue'?",
+      "ep": "ep_000"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Do dogs have different blood types like humans do?",
+      "ep": "ep_000"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 0,
+        "score": -1
+      },
+      "q": "Why don't people ride zebras? They look like horses and donkeys, part of the same genus, but no one ",
+      "ep": "ep_001"
     },
     {
       "cat": "uncertain",
@@ -38,57 +111,74 @@
         "unc": 2,
         "score": 1
       },
-      "q": "Why do we take our hats off when a hearse goes by? Why the hat, and where did it"
+      "q": "Why do the Irish elm pipes have to be played while sitting down? What was the origin of that? Unlike",
+      "ep": "ep_001"
     },
     {
-      "cat": "positive",
+      "cat": "uncertain",
       "sent": {
-        "pos": 1,
+        "pos": 0,
         "neg": 0,
-        "unc": 0,
-        "score": 1
+        "unc": 1,
+        "score": 0
       },
-      "q": "Why do they speak multiple languages in Asian countries? (e.g., China has Canton"
+      "q": "When snooker players lean over the table to take shots, they rhythmically raise and lower their midd",
+      "ep": "ep_001"
     },
     {
-      "cat": "positive",
+      "cat": "negative",
       "sent": {
-        "pos": 1,
-        "neg": 0,
+        "pos": 0,
+        "neg": 1,
         "unc": 0,
-        "score": 1
+        "score": -1
       },
-      "q": "Why do we stand on the right side of travelators and walk on the left? Since we "
+      "q": "In the show Legends (set in 1990), there's a kitchen scene with ketchup bottles and other period pro",
+      "ep": "ep_002"
     },
     {
       "cat": "uncertain",
       "sent": {
         "pos": 1,
-        "neg": 1,
+        "neg": 0,
         "unc": 1,
-        "score": 0
+        "score": 1
       },
-      "q": "Who invented the first suit and tie to make it acceptable? Why have we kept the "
+      "q": "When a river meets the sea, you can often see a visible line where freshwater meets saltwater. Why d",
+      "ep": "ep_002"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 2,
+        "unc": 0,
+        "score": -2
+      },
+      "q": "Is there a word which is unique in each language - with no relationship to any equivalent word in ot",
+      "ep": "ep_002"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 0,
+        "score": -1
+      },
+      "q": "Why do they weigh our luggage at the airport but not weigh the passengers? Surely we need to know th",
+      "ep": "ep_003"
     },
     {
       "cat": "negative",
       "sent": {
         "pos": 0,
         "neg": 3,
-        "unc": 2,
+        "unc": 0,
         "score": -3
       },
-      "q": "Why does it seem like posh people have more speech impediments (can't pronounce "
-    },
-    {
-      "cat": "uncertain",
-      "sent": {
-        "pos": 2,
-        "neg": 1,
-        "unc": 1,
-        "score": 1
-      },
-      "q": "Why do young children pick their noses and eat the results? Is there an evolutio"
+      "q": "How are cats able to eat an entire mouse while leaving the gallbladder completely intact? They don't",
+      "ep": "ep_003"
     },
     {
       "cat": "positive",
@@ -98,107 +188,96 @@
         "unc": 0,
         "score": 1
       },
-      "q": "Why do tattoos hurt more on my right side than my left side? My chest, back and "
+      "q": "The temperature outside is 16 degrees centigrade and warm, but my office air conditioning is set to ",
+      "ep": "ep_004"
     },
     {
       "cat": "uncertain",
       "sent": {
         "pos": 1,
-        "neg": 2,
+        "neg": 1,
         "unc": 2,
-        "score": -1
+        "score": 0
       },
-      "q": "Why can some dogs see what's on phone or TV and register what they're watching, "
+      "q": "Is ticklishness genetic? His daughter who looks like him has extremely tickly feet, the other daught",
+      "ep": "ep_004"
     },
     {
       "cat": "negative",
       "sent": {
-        "pos": 1,
+        "pos": 0,
         "neg": 2,
-        "unc": 1,
+        "unc": 0,
+        "score": -2
+      },
+      "q": "When towns like Southend were made cities during the Queen's Jubilee, would they have to rename thei",
+      "ep": "ep_004"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 0,
         "score": -1
       },
-      "q": "I put my son's smelly clothes in the freezer and the smell completely went - eve"
+      "q": "Why do we say '86 the chicken' when we have run out of chicken in hospitality? Where does 86 come fr",
+      "ep": "ep_005"
     },
     {
-      "cat": "positive",
+      "cat": "negative",
       "sent": {
-        "pos": 1,
-        "neg": 0,
-        "unc": 0,
-        "score": 1
-      },
-      "q": "What was the roller coaster James mentioned?"
-    },
-    {
-      "cat": "positive",
-      "sent": {
-        "pos": 1,
-        "neg": 0,
-        "unc": 0,
-        "score": 1
-      },
-      "q": "Do animals favour their left or right side in the same way humans do?"
-    },
-    {
-      "cat": "positive",
-      "sent": {
-        "pos": 1,
-        "neg": 0,
-        "unc": 0,
-        "score": 1
-      },
-      "q": "Is there a universal tempo for the spoken word? If you had the same conversation"
-    },
-    {
-      "cat": "uncertain",
-      "sent": {
-        "pos": 1,
-        "neg": 1,
+        "pos": 0,
+        "neg": 2,
         "unc": 1,
-        "score": 0
+        "score": -2
       },
-      "q": "My dad used to predict when a reel change was coming up during films - he'd say "
+      "q": "When putting clothes you've worn once (but aren't yet dirty enough for washing) back in the wardrobe",
+      "ep": "ep_005"
+    },
+    {
+      "cat": "positive",
+      "sent": {
+        "pos": 1,
+        "neg": 0,
+        "unc": 0,
+        "score": 1
+      },
+      "q": "Why do footballers always raise their arm before taking a corner kick?",
+      "ep": "ep_005"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 2,
+        "unc": 0,
+        "score": -2
+      },
+      "q": "Why do you never see yourself in mirrors or reflections when dreaming?",
+      "ep": "ep_006"
     },
     {
       "cat": "positive",
       "sent": {
         "pos": 2,
         "neg": 0,
-        "unc": 0,
+        "unc": 1,
         "score": 2
       },
-      "q": "Why do film credits always follow the same structure regardless of whether it's "
-    },
-    {
-      "cat": "positive",
-      "sent": {
-        "pos": 1,
-        "neg": 0,
-        "unc": 0,
-        "score": 1
-      },
-      "q": "Why do we call it a piggy bank?"
-    },
-    {
-      "cat": "positive",
-      "sent": {
-        "pos": 1,
-        "neg": 0,
-        "unc": 0,
-        "score": 1
-      },
-      "q": "When opening a new jar of pickled gherkins, one or two always poke out of the vi"
+      "q": "Are there any other types of geese that nest in trees?",
+      "ep": "ep_006"
     },
     {
       "cat": "uncertain",
       "sent": {
         "pos": 0,
-        "neg": 3,
-        "unc": 3,
-        "score": -3
+        "neg": 0,
+        "unc": 1,
+        "score": 0
       },
-      "q": "In cricket, why are fast bowlers not getting faster? The fastest ball ever recor"
+      "q": "Why are TV adverts louder than the programs they interrupt? Is there no technical control at the poi",
+      "ep": "ep_006"
     },
     {
       "cat": "positive",
@@ -208,17 +287,74 @@
         "unc": 0,
         "score": 1
       },
-      "q": "Why is there only one species of people when other animals (dogs, cats, flies) h"
+      "q": "What's all that about? Where's that coming from? [Easter eggs, bunnies, chocolate eggs being deliver",
+      "ep": "ep_007"
     },
     {
-      "cat": "positive",
+      "cat": "negative",
       "sent": {
-        "pos": 1,
-        "neg": 0,
+        "pos": 0,
+        "neg": 1,
         "unc": 0,
-        "score": 1
+        "score": -1
       },
-      "q": "Why do we describe it as having beef with people? My daughter uses this term at "
+      "q": "Why does the date of Easter change each year?",
+      "ep": "ep_007"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 0,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "Why Easter falls on different days of the year?",
+      "ep": "ep_007"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 1,
+        "score": -1
+      },
+      "q": "What happened to the bank vaults in former banks?",
+      "ep": "ep_007"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 0,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "Why do we call Dutch people 'Dutch' when the country is called the Netherlands or Holland, which sou",
+      "ep": "ep_008"
+    },
+    {
+      "cat": "uncertain",
+      "sent": {
+        "pos": 0,
+        "neg": 0,
+        "unc": 1,
+        "score": 0
+      },
+      "q": "Why are there so many words for a bread roll in the UK? (muffin, barm, cob, bap, batch, stottie, etc",
+      "ep": "ep_008"
+    },
+    {
+      "cat": "negative",
+      "sent": {
+        "pos": 0,
+        "neg": 1,
+        "unc": 0,
+        "score": -1
+      },
+      "q": "Why in British Sign Language is the sign for clapping not a mime of clapping, but instead waving han",
+      "ep": "ep_008"
     }
   ]
 }

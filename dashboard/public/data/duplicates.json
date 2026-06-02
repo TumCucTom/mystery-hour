@@ -1,68 +1,5 @@
 [
   {
-    "chain_size": 18,
-    "indices": [
-      1531,
-      1979,
-      3374,
-      3379,
-      3382,
-      3384,
-      3385,
-      3387,
-      3389,
-      3390,
-      3411,
-      3869,
-      3874,
-      3875,
-      4092,
-      4693,
-      4699,
-      5499
-    ],
-    "examples": [
-      {
-        "episode": "ep_164",
-        "question": null
-      },
-      {
-        "episode": "ep_210",
-        "question": null
-      },
-      {
-        "episode": "ep_355",
-        "question": null
-      }
-    ]
-  },
-  {
-    "chain_size": 7,
-    "indices": [
-      2646,
-      2648,
-      2651,
-      2652,
-      2653,
-      2654,
-      2655
-    ],
-    "examples": [
-      {
-        "episode": "ep_282",
-        "question": ""
-      },
-      {
-        "episode": "ep_282",
-        "question": ""
-      },
-      {
-        "episode": "ep_282",
-        "question": ""
-      }
-    ]
-  },
-  {
     "chain_size": 6,
     "indices": [
       1088,
@@ -3340,7 +3277,7 @@
       },
       {
         "episode": "ep_249",
-        "question": "How do we get d\u00e9j\u00e0 vu?"
+        "question": "How do we get déjà vu?"
       }
     ]
   },

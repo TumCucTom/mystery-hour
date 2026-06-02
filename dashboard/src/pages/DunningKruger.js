@@ -23,6 +23,7 @@ export async function renderDunningKrugerPage(container, store) {
 function renderPage(container, data) {
   const lenBuckets = data.answer_length_buckets || {}
   const nAnsBuckets = data.n_answers_buckets || {}
+  const zeroAns = (nAnsBuckets['0'] && nAnsBuckets['0'].total) || 0
 
   // Chart data for answer length buckets
   const lenLabels = { low: 'Short answers\n(<15 words)', medium: 'Medium answers\n(15-35 words)', high: 'Long answers\n(35+ words)' }
@@ -132,7 +133,7 @@ function renderPage(container, data) {
         <div class="dk-point">
           <span class="dk-point-icon">❓</span>
           <div>
-            <strong>Unanswered = unresolved.</strong> 827 questions had zero answers in the dataset — almost none resolved. These were likely cut from air or never reached a caller.
+            <strong>Unanswered = unresolved.</strong> ${zeroAns.toLocaleString()} questions had zero answers in the dataset — almost none resolved. These were likely cut from air or never reached a caller.
           </div>
         </div>
       </div>

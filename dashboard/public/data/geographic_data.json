@@ -2,10 +2,10 @@
   "summary": {
     "total_geolocated": 1616,
     "unique_locations": 732,
-    "urban_calls": 136,
-    "rural_calls": 1492,
-    "urban_resolved_rate": 0.713,
-    "rural_resolved_rate": 0.735
+    "urban_calls": 160,
+    "rural_calls": 1456,
+    "urban_resolved_rate": 0.719,
+    "rural_resolved_rate": 0.741
   },
   "top_locations": [
     {
@@ -24,7 +24,7 @@
       "location": "Ealing",
       "count": 18,
       "resolved_rate": 0.778,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Manchester",
@@ -42,7 +42,7 @@
       "location": "Watford",
       "count": 14,
       "resolved_rate": 0.643,
-      "region": "UK"
+      "region": "Hertfordshire"
     },
     {
       "location": "Sheffield",
@@ -54,13 +54,13 @@
       "location": "Brighton",
       "count": 13,
       "resolved_rate": 0.692,
-      "region": "UK"
+      "region": "East Sussex"
     },
     {
       "location": "Wimbledon",
       "count": 13,
       "resolved_rate": 0.846,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Reading",
@@ -72,13 +72,13 @@
       "location": "Basildon",
       "count": 12,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Essex"
     },
     {
       "location": "Slough",
       "count": 12,
       "resolved_rate": 0.75,
-      "region": "UK"
+      "region": "Berkshire"
     },
     {
       "location": "Birmingham",
@@ -90,7 +90,7 @@
       "location": "Orpington",
       "count": 10,
       "resolved_rate": 0.6,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Nottingham",
@@ -102,19 +102,19 @@
       "location": "Marlow",
       "count": 10,
       "resolved_rate": 0.9,
-      "region": "UK"
+      "region": "Buckinghamshire"
     },
     {
       "location": "Walthamstow",
       "count": 10,
       "resolved_rate": 0.7,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Epsom",
       "count": 9,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Leeds",
@@ -126,19 +126,19 @@
       "location": "Cambridge",
       "count": 9,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Cambridgeshire"
     },
     {
       "location": "Crawley",
       "count": 9,
       "resolved_rate": 0.889,
-      "region": "UK"
+      "region": "West Sussex"
     },
     {
       "location": "Hackney",
       "count": 9,
       "resolved_rate": 0.889,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Richmond",
@@ -150,25 +150,25 @@
       "location": "Romford",
       "count": 9,
       "resolved_rate": 0.778,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Guildford",
       "count": 9,
       "resolved_rate": 0.556,
-      "region": "UK"
+      "region": "Surrey"
     },
     {
       "location": "Lewisham",
       "count": 9,
       "resolved_rate": 0.333,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Barnet",
       "count": 8,
       "resolved_rate": 0.75,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Glasgow",
@@ -180,25 +180,25 @@
       "location": "Oxford",
       "count": 8,
       "resolved_rate": 0.625,
-      "region": "Oxfordshire"
+      "region": "UK"
     },
     {
       "location": "Tottenham",
       "count": 8,
       "resolved_rate": 0.75,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Fulham",
       "count": 8,
       "resolved_rate": 0.75,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Surbiton",
       "count": 8,
       "resolved_rate": 0.625,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Southampton",
@@ -210,7 +210,7 @@
       "location": "Islington",
       "count": 7,
       "resolved_rate": 0.714,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Liverpool",
@@ -221,14 +221,14 @@
     {
       "location": "Dublin",
       "count": 7,
-      "resolved_rate": 1.0,
-      "region": "UK"
+      "resolved_rate": 1,
+      "region": "Ireland"
     },
     {
       "location": "Wembley",
       "count": 7,
       "resolved_rate": 0.857,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Enfield",
@@ -245,8 +245,8 @@
     {
       "location": "Streatham",
       "count": 7,
-      "resolved_rate": 1.0,
-      "region": "UK"
+      "resolved_rate": 1,
+      "region": "Greater London"
     },
     {
       "location": "Sutton",
@@ -258,19 +258,19 @@
       "location": "Finchley",
       "count": 7,
       "resolved_rate": 0.857,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
-      "location": "Forest Hill",
+      "location": "Forest hill",
       "count": 7,
       "resolved_rate": 0.857,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Farnham",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Hampshire"
     },
     {
       "location": "Ipswich",
@@ -282,7 +282,7 @@
       "location": "Basingstoke",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Hampshire"
     },
     {
       "location": "Cardiff",
@@ -294,13 +294,13 @@
       "location": "Hendon",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Camberley",
       "count": 6,
       "resolved_rate": 0.333,
-      "region": "UK"
+      "region": "Surrey"
     },
     {
       "location": "Colchester",
@@ -318,72 +318,72 @@
       "location": "Peckham",
       "count": 6,
       "resolved_rate": 0.833,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Harlow",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Essex"
     },
     {
       "location": "Eastbourne",
       "count": 6,
       "resolved_rate": 0.333,
-      "region": "UK"
+      "region": "East Sussex"
     },
     {
       "location": "Sidcup",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
-      "location": "High Wycombe",
+      "location": "High wycombe",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Buckinghamshire"
     },
     {
       "location": "Windsor",
       "count": 6,
       "resolved_rate": 0.833,
-      "region": "UK"
+      "region": "Berkshire"
     },
     {
       "location": "Camberwell",
       "count": 6,
       "resolved_rate": 0.667,
-      "region": "UK"
+      "region": "Greater London"
     },
     {
       "location": "Chiswick",
       "count": 6,
-      "resolved_rate": 1.0,
-      "region": "UK"
+      "resolved_rate": 1,
+      "region": "Greater London"
     },
     {
       "location": "Hammersmith",
       "count": 5,
       "resolved_rate": 0.8,
-      "region": "UK"
+      "region": "Greater London"
     }
   ],
   "region_counts": {
-    "UK": 1324,
-    "Greater London": 61,
+    "UK": 704,
+    "Greater London": 347,
+    "Surrey": 42,
+    "Hampshire": 35,
+    "Berkshire": 35,
+    "Kent": 35,
+    "Essex": 29,
+    "West Sussex": 27,
+    "East Sussex": 26,
+    "Scotland": 26,
     "Greater Manchester": 24,
-    "West Midlands": 17,
-    "Bristol": 16,
-    "South Yorkshire": 15,
-    "West Yorkshire": 13,
-    "Berkshire": 12,
-    "Scotland": 12,
-    "Essex": 11,
-    "Hampshire": 10,
-    "Kent": 10,
-    "Nottinghamshire": 10,
-    "Devon": 9,
-    "Oxfordshire": 8
+    "Buckinghamshire": 22,
+    "West Midlands": 21,
+    "Hertfordshire": 20,
+    "South Yorkshire": 19
   }
 }

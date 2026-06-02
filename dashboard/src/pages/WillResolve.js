@@ -24,8 +24,9 @@ function renderPage(container, data, k80) {
   const { era_rates, na_rates, urban_rate, rural_rate, overall_resolved_rate } = data
   const n_samples = data.n_samples || 6134
 
-  // Get clusters for dropdown
+  // Get clusters for dropdown — keep their resolved_rate for prediction
   const clusters = (k80?.clusters || []).sort((a, b) => (b.size || 0) - (a.size || 0)).slice(0, 20)
+  const clusterRateById = Object.fromEntries(clusters.map(c => [String(c.cluster_id), c.resolved_rate]))
 
   container.innerHTML = `
     <div class="page-header">
@@ -155,6 +156,7 @@ function renderPage(container, data, k80) {
     const eraKey = eraEl.value
     const naKey = naEl.value
     const isUrban = urbanEl.value
+    const clusterKey = clusterEl.value
 
     // Simple: use the observed rate for the combination
     // We use the observed P(resolved | n_answers) as the base
@@ -164,9 +166,12 @@ function renderPage(container, data, k80) {
     const eraRate = (era_rates || {})[eraKey]?.rate || base
     const naRate = (na_rates || {})[naKey]?.rate || base
     const locRate = isUrban === 'urban' ? urban_rate : isUrban === 'rural' ? rural_rate : base
+    const clusterRate = clusterKey && clusterRateById[clusterKey] != null ? clusterRateById[clusterKey] : base
 
-    // Weighted combination (n_answers is most predictive, then era, then location)
-    const score = naRate * 0.6 + eraRate * 0.3 + locRate * 0.1
+    // Weighted combination (n_answers is most predictive, then era, then topic, then location)
+    const score = clusterKey
+      ? naRate * 0.45 + clusterRate * 0.25 + eraRate * 0.2 + locRate * 0.1
+      : naRate * 0.6 + eraRate * 0.3 + locRate * 0.1
     const clamped = Math.max(0.01, Math.min(0.99, score))
 
     const pct = (clamped * 100).toFixed(1)
@@ -182,6 +187,7 @@ function renderPage(container, data, k80) {
       <div style="font-size:13px;color:var(--color-muted)">
         Based on: ${naKey} answers (<strong style="color:${naRate>0.7?'var(--color-green)':'var(--color-red)'}">${(naRate*100).toFixed(0)}%</strong>)
         · Era ${parseInt(eraKey)+1} (<strong>${(eraRate*100).toFixed(0)}%</strong>)
+        ${clusterKey ? `· Topic (<strong>${(clusterRate*100).toFixed(0)}%</strong>)` : ''}
         ${isUrban !== 'any' ? `· ${isUrban} caller (<strong>${(locRate*100).toFixed(0)}%</strong>)` : ''}
       </div>
     `

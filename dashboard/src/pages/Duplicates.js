@@ -47,22 +47,31 @@ export function renderDuplicates(page, store) {
   if (!duplicates || !duplicates.length) {
     dupEl.innerHTML = '<p style="color:var(--text-muted)">None found.</p>'
   } else {
-    dupEl.innerHTML = duplicates.slice(0, 50).map((d, i) => `
-      <div class="card" style="margin:0.5rem 0">
-        <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem">
-          <span class="badge badge-muted">Chain ${i + 1}</span>
-          <span class="badge badge-muted">${d.chain_size} similar questions</span>
-        </div>
-        ${(d.examples || []).map(ex => ex ? `
-          <div class="q-item" style="margin:0.3rem 0">
-            <div class="q-text">${escHtml(ex.question || '').substring(0, 150)}</div>
-            <div class="q-meta">
-              <span style="font-weight:600">${ex.episode || ''}</span>
-            </div>
+    const chains = duplicates
+      .map((d, i) => ({ d, i, validExamples: (d.examples || []).filter(ex => ex && ex.question) }))
+      .filter(c => c.validExamples.length > 0)
+      .slice(0, 50)
+
+    if (!chains.length) {
+      dupEl.innerHTML = '<p style="color:var(--text-muted)">No chains with example text found.</p>'
+    } else {
+      dupEl.innerHTML = chains.map(({ d, i, validExamples }) => `
+        <div class="card" style="margin:0.5rem 0">
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem">
+            <span class="badge badge-muted">Chain ${i + 1}</span>
+            <span class="badge badge-muted">${d.chain_size} similar questions</span>
           </div>
-        ` : '').join('')}
-      </div>
-    `).join('')
+          ${validExamples.map(ex => `
+            <div class="q-item" style="margin:0.3rem 0">
+              <div class="q-text">${escHtml(ex.question).substring(0, 150)}</div>
+              <div class="q-meta">
+                <span style="font-weight:600">${escHtml(ex.episode || '')}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `).join('')
+    }
   }
 }
 

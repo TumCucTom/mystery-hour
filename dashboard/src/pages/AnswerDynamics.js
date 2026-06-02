@@ -11,17 +11,14 @@ function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
 export async function renderAnswerDynamicsPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
-    const [chains, james] = await Promise.all([
-      loadJSON('answer_chains.json'),
-      loadJSON('james_accuracy.json'),
-    ])
-    renderPage(container, chains, james)
+    const chains = await loadJSON('answer_chains.json')
+    renderPage(container, chains)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Could not load answer dynamics data.</p></div>`
   }
 }
 
-function renderPage(container, chains, james) {
+function renderPage(container, chains) {
   const s   = chains.summary
   const als = chains.answer_length_stats
 

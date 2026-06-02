@@ -139,14 +139,6 @@ function renderPage(container, data) {
           </div>` : ''}
       </div>
     `).join('')
-
-    listEl.querySelectorAll('a[data-link]').forEach(a => {
-      a.addEventListener('click', e => {
-        e.preventDefault()
-        history.pushState(null, '', a.href)
-        window.dispatchEvent(new PopStateEvent('popstate'))
-      })
-    })
   }
 
   searchEl.addEventListener('input', render)

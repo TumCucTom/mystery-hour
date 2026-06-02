@@ -4,7 +4,6 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 
 export async function renderRecurringUnansweredPage(container, store) {
@@ -50,8 +49,4 @@ function renderPage(container, ru) {
       </div>
     </div>
   `
-
-  container.querySelectorAll('a[data-link]').forEach(a => {
-    a.addEventListener('click', e => { e.preventDefault(); history.pushState(null,'',a.href); window.dispatchEvent(new PopStateEvent('popstate')) })
-  })
 }

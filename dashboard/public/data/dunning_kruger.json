@@ -17,25 +17,20 @@
     }
   },
   "n_answers_buckets": {
-    "5": {
-      "total": 13,
-      "resolved": 9,
-      "rate": 0.692
-    },
-    "2": {
-      "total": 1767,
-      "resolved": 1558,
-      "rate": 0.882
-    },
-    "1": {
-      "total": 3171,
-      "resolved": 2652,
-      "rate": 0.836
-    },
     "0": {
-      "total": 811,
+      "total": 827,
       "resolved": 5,
       "rate": 0.006
+    },
+    "1": {
+      "total": 3190,
+      "resolved": 2664,
+      "rate": 0.835
+    },
+    "2": {
+      "total": 1769,
+      "resolved": 1559,
+      "rate": 0.881
     },
     "3": {
       "total": 305,
@@ -46,6 +41,16 @@
       "total": 30,
       "resolved": 26,
       "rate": 0.867
+    },
+    "5": {
+      "total": 11,
+      "resolved": 9,
+      "rate": 0.818
+    },
+    "6": {
+      "total": 2,
+      "resolved": 0,
+      "rate": 0
     }
   },
   "sample_questions": [

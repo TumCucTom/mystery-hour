@@ -3,7 +3,6 @@
  * Given an episode, find the 3 most similar episodes using UMAP centroid cosine similarity.
  */
 import { loadJSON } from '../lib/data.js'
-import { loadAll } from '../lib/data.js'
 
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -77,7 +76,7 @@ function renderPage(container, recs, allQa) {
       </div>
 
       <h2 style="margin-bottom:12px">🎯 Top 3 Similar Episodes</h2>
-      ${recList.map((r, i) => {
+      ${recList.slice(0, 3).map((r, i) => {
         const rep = epMap[r.ep]
         const rtopics = (rep?.topics || []).slice(0, 4)
         return `
@@ -92,14 +91,10 @@ function renderPage(container, recs, allQa) {
           </div>
           <div class="rec-sim">${(r.sim * 100).toFixed(1)}%</div>
         </div>`
-      }).join('')}
+      }).join('') || `<div style="color:var(--color-muted);padding:24px;text-align:center">No similar episodes found — similarity scores are all zero for this episode.</div>`}
     `
 
     previewEl.innerHTML = topics.map(t => `<span class="topic-tag">${escHtml(t)}</span>`).join('') || '—'
-
-    resultsEl.querySelectorAll('a[data-link]').forEach(a => {
-      a.addEventListener('click', e => { e.preventDefault(); history.pushState(null,'',a.href); window.dispatchEvent(new PopStateEvent('popstate')) })
-    })
   }
 
   showRecs(selectEl.value)

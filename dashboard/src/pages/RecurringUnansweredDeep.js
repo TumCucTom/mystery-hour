@@ -16,18 +16,15 @@ function pct(n, d) {
 export async function renderRecurringUnansweredDeepPage(container, store) {
   container.innerHTML = `<div class="loading"><div class="spinner"></div>Loading...</div>`
   try {
-    const [deep, ru] = await Promise.all([
-      loadJSON('recurring_unanswered_deep.json'),
-      loadJSON('recurring_unanswered.json'),
-    ])
-    renderPage(container, deep, ru)
+    const deep = await loadJSON('recurring_unanswered_deep.json')
+    renderPage(container, deep)
   } catch (e) {
     container.innerHTML = `<div class="loading"><div class="spinner"></div><p style="color:#e74c3c">Failed to load data.</p></div>`
     console.error(e)
   }
 }
 
-function renderPage(container, deep, ru) {
+function renderPage(container, deep) {
   const groups = deep.groups || []
   const summary = deep.summary || {}
 
@@ -109,9 +106,6 @@ function renderPage(container, deep, ru) {
     listEl.querySelectorAll('[data-sort]').forEach(btn => {
       btn.style.opacity = btn.dataset.sort === sortBy ? '1' : '0.5'
       btn.addEventListener('click', () => renderGroups(btn.dataset.sort))
-    })
-    listEl.querySelectorAll('a[data-link]').forEach(a => {
-      a.addEventListener('click', e => { e.preventDefault(); history.pushState(null, '', a.href); window.dispatchEvent(new PopStateEvent('popstate')) })
     })
   }
 

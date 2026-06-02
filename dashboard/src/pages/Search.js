@@ -5,7 +5,7 @@ export function renderSearch(page, store) {
   page.innerHTML = `
     <div class="page-header">
       <h1>Search Questions</h1>
-      <p>Find questions across all 6,097 questions. Type anything — it's full-text search.</p>
+      <p>Find questions across all 6,134 questions. Type anything — it's full-text search.</p>
     </div>
     <div style="max-width:700px;margin:0 auto 2rem">
       <input type="text" class="search-input" id="qInput" placeholder="e.g. why do we take our hats off when a hearse goes by..." autofocus>
@@ -25,18 +25,18 @@ export function renderSearch(page, store) {
   input.addEventListener('input', e => {
     clearTimeout(debounce)
     const q = e.target.value.trim()
-    if (!q) { resultsEl.innerHTML = ''; return }
+    if (q.length < 2) { resultsEl.innerHTML = ''; return }
     debounce = setTimeout(() => doSearch(q), 200)
   })
 
   async function doSearch(q) {
     resultsEl.innerHTML = '<div class="loading"><div class="spinner"></div>Searching...</div>'
+    const qLower = q.toLowerCase()
     const results = store.data.meta.filter(m => {
       const qt = (m.question || '').toLowerCase()
       const caller = (m.caller || '').toLowerCase()
-      return qt.includes(q.toLowerCase()) || caller.includes(q.toLowerCase())
+      return qt.includes(qLower) || caller.includes(qLower)
     }).slice(0, 30).map(m => ({
-      idx: store.data.meta.indexOf(m),
       question: m.question,
       caller: m.caller,
       episode: m.episode,
@@ -52,7 +52,7 @@ export function renderSearch(page, store) {
     resultsEl.innerHTML = `
       <p style="color:var(--text-muted);margin-bottom:1rem;font-size:0.85rem">${results.length} result${results.length === 1 ? '' : 's'}</p>
       ${results.map(r => `
-        <div class="q-item" data-episode="${r.episode}" style="cursor:pointer">
+        <a href="/episodes?ep=${r.episode}" class="q-item q-link" data-link>
           <div class="q-text">${escHtml(r.question)}</div>
           <div class="q-meta">
             <span>${escHtml(r.caller || 'anonymous')}</span>
@@ -60,28 +60,13 @@ export function renderSearch(page, store) {
             <span class="badge ${r.resolved ? 'badge-success' : 'badge-warning'}">${r.resolved ? 'Resolved' : 'Unresolved'}</span>
             <span>${r.n_answers} answers</span>
           </div>
-        </div>
+        </a>
       `).join('')}
+      <style>
+      .q-link { display: block; text-decoration: none; color: inherit; cursor: pointer; }
+      .q-link:hover { border-color: var(--primary); }
+      </style>
     `
-
-    resultsEl.querySelectorAll('[data-episode]').forEach(item => {
-      item.addEventListener('click', () => {
-        const epId = item.dataset.episode
-        history.pushState(null, '', `/episodes?ep=${epId}`)
-        import('./Episodes.js').then(m => {
-          document.getElementById('app').innerHTML = ''
-          m.renderEpisodes(document.getElementById('app'), store)
-          // scroll to episode
-          const ep = store.data.episodes.find(e => e.episode === epId)
-          if (ep) {
-            setTimeout(() => {
-              const el = document.getElementById('episodesDetail') || document.querySelector(`[data-ep="${epId}"]`)
-              if (el) el.scrollIntoView()
-            }, 100)
-          }
-        })
-      })
-    })
   }
 }
 

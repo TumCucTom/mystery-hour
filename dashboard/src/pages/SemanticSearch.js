@@ -1,6 +1,6 @@
 /**
  * SemanticSearch.js — "Ask the Dataset"
- * Text search over all 6,097 questions. (We don't have a way to embed the
+ * Text search over all 6,134 questions. (We don't have a way to embed the
  * query client-side, so this is ranked keyword search instead of true
  * semantic search — still useful for finding specific topics.)
  */
@@ -14,7 +14,7 @@ export async function renderSemanticSearch(container, store) {
   container.innerHTML = `
     <div class="page-header">
       <h1>Ask the Dataset</h1>
-      <p>Type any question — find similar real Q&amp;A from 6,097 Mystery Hour questions.</p>
+      <p>Type any question — find similar real Q&amp;A from 6,134 Mystery Hour questions.</p>
     </div>
     <div class="card">
       <input type="text" id="semQuery" placeholder="e.g. Why do we dream?" autofocus
@@ -80,30 +80,28 @@ export async function renderSemanticSearch(container, store) {
       return
     }
     resultsEl.innerHTML = `
-      <div class="results-list">
+      <div class="sem-results">
         ${results.map((r, i) => `
-          <div class="result-item card">
-            <div class="result-rank">#${i + 1}</div>
-            <div class="result-body">
-              <div class="result-question">${escHtml(r.question)}</div>
-              <div class="result-meta">
+          <div class="q-item sem-result">
+            <div class="sem-rank">#${i + 1}</div>
+            <div class="sem-body">
+              <div class="q-text">${escHtml(r.question)}</div>
+              <div class="q-meta">
                 <a href="/episodes?ep=${r.episode}" class="nav-link" data-link>${r.episode}</a>
-                ${r.caller ? ` · Caller: ${escHtml(r.caller)}` : ''}
-                · ${r.resolved ? 'Resolved' : 'Unresolved'}
-                · ${r.n_answers || 0} answer${(r.n_answers || 0) !== 1 ? 's' : ''}
+                ${r.caller ? `<span>Caller: ${escHtml(r.caller)}</span>` : ''}
+                <span>${r.resolved ? 'Resolved' : 'Unresolved'}</span>
+                <span>${r.n_answers || 0} answer${(r.n_answers || 0) !== 1 ? 's' : ''}</span>
               </div>
             </div>
           </div>
         `).join('')}
       </div>
+      <style>
+      .sem-results { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
+      .sem-result { display: grid; grid-template-columns: 48px 1fr; gap: 12px; align-items: start; }
+      .sem-rank { font-weight: 700; color: var(--color-muted); font-size: 14px; padding-top: 2px; }
+      .sem-body { min-width: 0; }
+      </style>
     `
-
-    resultsEl.querySelectorAll('a[data-link]').forEach(a => {
-      a.addEventListener('click', e => {
-        e.preventDefault()
-        history.pushState(null, '', a.href)
-        window.dispatchEvent(new PopStateEvent('popstate'))
-      })
-    })
   }
 }

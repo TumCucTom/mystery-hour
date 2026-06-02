@@ -18,25 +18,26 @@ export function renderEpisodes(page, store) {
   `
 
   const epList = page.querySelector('#epList')
-  const detailEl = page.querySelector('#episodesDetail')
 
   function renderList(eps2) {
-    epList.innerHTML = eps2.map(ep => `
-      <div class="card" style="display:grid;grid-template-columns:70px 1fr auto;gap:1rem;align-items:center;cursor:pointer;margin:0.4rem 0" data-ep="${ep.episode}">
+    epList.innerHTML = eps2.map(ep => {
+      const empty = ep.n_questions === 0
+      return `
+      <div class="card ep-card${empty ? ' ep-empty' : ''}" style="display:grid;grid-template-columns:70px 1fr auto;gap:1rem;align-items:center;${empty ? 'opacity:0.55;' : 'cursor:pointer;'}margin:0.4rem 0" data-ep="${ep.episode}">
         <div style="font-size:1.6rem;font-weight:800;color:var(--primary);text-align:center">${ep.episode.replace('ep_','')}</div>
         <div>
           <div style="font-weight:700;font-size:0.95rem">${ep.episode}</div>
-          <div style="font-size:0.78rem;color:var(--text-muted)">${(ep.topics || []).join(', ') || 'various topics'}</div>
+          <div style="font-size:0.78rem;color:var(--text-muted)">${empty ? '⚠ no questions transcribed' : ((ep.topics || []).join(', ') || 'various topics')}</div>
         </div>
         <div style="text-align:right;font-size:0.82rem">
           <div style="font-weight:700">${ep.n_questions}</div>
-          <div style="color:var(--text-muted)">questions</div>
-          <div style="color:var(--text-muted)">${ep.resolved} resolved</div>
+          <div style="color:var(--text-muted)">question${ep.n_questions === 1 ? '' : 's'}</div>
+          ${empty ? '' : `<div style="color:var(--text-muted)">${ep.resolved} resolved</div>`}
         </div>
-      </div>
-    `).join('')
+      </div>`
+    }).join('')
 
-    epList.querySelectorAll('[data-ep]').forEach(card => {
+    epList.querySelectorAll('.ep-card:not(.ep-empty)').forEach(card => {
       card.addEventListener('click', () => {
         const epId = card.dataset.ep
         history.pushState(null, '', `/episodes?ep=${epId}`)
@@ -57,10 +58,17 @@ export function renderEpisodes(page, store) {
     renderList(filtered)
   })
 
-  // URL param
+  // URL param — deep-link state
   const params = new URLSearchParams(location.search)
   const epParam = params.get('ep')
-  if (epParam) showEpisode(store, epParam)
+  if (epParam) {
+    const targetCard = epList.querySelector(`[data-ep="${epParam}"]`)
+    if (targetCard) {
+      targetCard.style.borderColor = 'var(--primary)'
+      targetCard.style.boxShadow = '0 0 0 2px var(--primary-light, rgba(99,102,241,0.3))'
+    }
+    showEpisode(store, epParam)
+  }
 }
 
 export function showEpisode(store, epId) {

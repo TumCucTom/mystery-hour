@@ -1,6 +1,6 @@
 /**
  * Confidence.js — "James's Confidence Calibration"
- * Hedging vs definitive word usage across 6 episode eras. Is James getting more/less certain?
+ * Hedging vs definitive word usage across episode eras. Is James getting more/less certain?
  */
 import { loadJSON } from '../lib/data.js'
 
@@ -22,9 +22,14 @@ function renderPage(container, data) {
   const eras = data.eras || []
   const maxH = Math.max(...eras.map(e => e.hedging_ratio || 0), 0.001)
   const maxD = Math.max(...eras.map(e => e.definitive_ratio || 0), 0.001)
-  const overallEarly = eras.slice(0,3).reduce((s,e) => s+(e.hedging_ratio||0), 0)/3
-  const overallLate = eras.slice(3).reduce((s,e) => s+(e.hedging_ratio||0),0)/3
+  const nEras = eras.length
+  const midEra = Math.ceil(nEras / 2)
+  const overallEarly = eras.slice(0, midEra).reduce((s, e) => s + (e.hedging_ratio || 0), 0) / midEra
+  const lateCount = nEras - midEra
+  const overallLate = lateCount > 0 ? eras.slice(midEra).reduce((s, e) => s + (e.hedging_ratio || 0), 0) / lateCount : 0
   const delta = overallLate - overallEarly
+  const earlyRange = `1–${midEra}`
+  const lateRange = lateCount > 0 ? `${midEra + 1}–${nEras}` : ''
 
   container.innerHTML = `
     <div class="page-header">
@@ -34,9 +39,9 @@ function renderPage(container, data) {
 
     <div class="card" style="margin-bottom:24px;background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px solid #0f3460">
       <p style="color:#94a3b8;margin:0;font-size:14px">
-        <strong style="color:#fff">Early episodes (Eras 1-3):</strong> hedging ratio
+        <strong style="color:#fff">Early episodes (Eras ${earlyRange}):</strong> hedging ratio
         <strong style="color:#fff">${(overallEarly*100).toFixed(1)}%</strong> ·
-        <strong style="color:#fff">Recent episodes (Eras 4-6):</strong> hedging ratio
+        <strong style="color:#fff">Recent episodes (Eras ${lateRange}):</strong> hedging ratio
         <strong style="color:${delta > 0 ? '#f87171' : '#4ade80'}">${(overallLate*100).toFixed(1)}%</strong>
         — James is <strong style="color:#fff">${delta > 0 ? 'MORE uncertain' : 'MORE confident'}</strong> in recent years.
       </p>

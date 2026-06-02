@@ -177,7 +177,11 @@ function renderPage(container, acc) {
   // Speaker leaderboard — collapse name variants for the same person
   const sb = container.querySelector('#speakerBoard')
   const merged = mergeSpeakers(acc.speaker_leaderboard || [])
-  const speakers = merged.filter(s => s.total >= 10).slice(0, 20)
+  // Sort by wrong rate descending, then by wrong count as tiebreaker
+  const speakers = merged
+    .filter(s => s.total >= 5)
+    .sort((a, b) => (b.rate - a.rate) || (b.wrong - a.wrong))
+    .slice(0, 20)
   sb.innerHTML = `
     <table style="width:100%;border-collapse:collapse;font-size:13px">
       <thead>

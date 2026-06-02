@@ -101,34 +101,36 @@ function renderPage(container, data) {
     <!-- All phrases ranked -->
     <div class="card">
       <h2>All Significant Phrases</h2>
-      <input type="text" id="phraseSearch" placeholder="Filter phrases…" style="margin-bottom:12px;padding:8px;border-radius:6px;border:1px solid var(--color-border);width:100%;max-width:300px;background:var(--color-bg);color:var(--color-text)">
-      <div class="phrase-chart" id="phraseList">
-        ${all.slice(0, 30).map(p => {
-          const rate = p.rate || 0
-          const color = rate >= 0.8 ? 'var(--color-green)' : rate >= 0.6 ? 'var(--color-yellow)' : 'var(--color-red)'
-          return `
-          <div class="phrase-row">
-            <div class="phrase-word">"${escHtml(p.phrase)}"</div>
-            <div class="phrase-bar-wrap">
-              <div class="phrase-bar" style="width:${(rate * 100).toFixed(1)}%;background:${color}"></div>
-            </div>
-            <div class="phrase-stats">
-              <span class="phrase-rate" style="color:${color}">${(rate * 100).toFixed(0)}%</span>
-              <span class="phrase-count">${p.total}×</span>
-            </div>
-          </div>`
-        }).join('')}
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap">
+        <input type="text" id="phraseSearch" placeholder="Filter phrases…" style="padding:8px;border-radius:6px;border:1px solid var(--color-border);flex:1;min-width:180px;max-width:300px;background:var(--color-bg);color:var(--color-text)">
+        <span style="font-size:13px;color:var(--color-muted)">Sort:</span>
+        <button class="topic-tag phr-sort" data-sort="total" style="cursor:pointer">Frequency</button>
+        <button class="topic-tag phr-sort" data-sort="rate" style="cursor:pointer">Accuracy</button>
+        <button class="topic-tag phr-sort" data-sort="rate-asc" style="cursor:pointer">Least accurate</button>
       </div>
+      <div class="phrase-chart" id="phraseList"></div>
     </div>
   `
 
   const searchEl = container.querySelector('#phraseSearch')
   const listEl = container.querySelector('#phraseList')
+  const sortBtns = container.querySelectorAll('.phr-sort')
 
-  searchEl.addEventListener('input', () => {
-    const q = searchEl.value.toLowerCase()
-    const filtered = q ? all.filter(p => p.phrase.includes(q)) : all.slice(0, 30)
-    listEl.innerHTML = filtered.map(p => {
+  let currentSort = 'total'
+
+  function sortPhrases(list, key) {
+    const sorted = list.slice()
+    if (key === 'total') sorted.sort((a, b) => (b.total || 0) - (a.total || 0))
+    else if (key === 'rate') sorted.sort((a, b) => (b.rate || 0) - (a.rate || 0) || (b.total || 0) - (a.total || 0))
+    else if (key === 'rate-asc') sorted.sort((a, b) => (a.rate || 0) - (b.rate || 0) || (b.total || 0) - (a.total || 0))
+    return sorted
+  }
+
+  function renderList() {
+    const q = searchEl.value.toLowerCase().trim()
+    const base = q ? all.filter(p => p.phrase.toLowerCase().includes(q)) : all
+    const sorted = sortPhrases(base, currentSort).slice(0, 30)
+    listEl.innerHTML = sorted.map(p => {
       const rate = p.rate || 0
       const color = rate >= 0.8 ? 'var(--color-green)' : rate >= 0.6 ? 'var(--color-yellow)' : 'var(--color-red)'
       return `
@@ -143,5 +145,10 @@ function renderPage(container, data) {
         </div>
       </div>`
     }).join('')
-  })
+    sortBtns.forEach(b => { b.style.opacity = b.dataset.sort === currentSort ? '1' : '0.5' })
+  }
+
+  searchEl.addEventListener('input', renderList)
+  sortBtns.forEach(b => b.addEventListener('click', () => { currentSort = b.dataset.sort; renderList() }))
+  renderList()
 }

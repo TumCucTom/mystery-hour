@@ -45,64 +45,101 @@ function renderPage(container, fpData) {
   container.innerHTML = `
     <div class="page-header">
       <h1>Episode Similarity</h1>
-      <p>Find episodes with similar Q&amp;A topic profiles. Select an episode to see its most similar neighbours.</p>
+      <p>Find episodes with similar Q&amp;A topic profiles. Type or pick an episode to see its most similar neighbours.</p>
     </div>
 
     <div class="card" style="margin-bottom:24px">
-      <label for="epSelect" style="font-weight:600;margin-bottom:8px;display:block">Select an episode:</label>
-      <select id="epSelect" style="width:100%;padding:10px;font-size:15px;border-radius:8px;background:var(--color-bg);border:1px solid var(--color-border);color:var(--color-text)">
-        ${episodes.map(ep => `<option value="${ep}">${ep}</option>`).join('')}
-      </select>
+      <div style="display:grid;grid-template-columns:1fr 220px;gap:16px;align-items:end">
+        <div>
+          <label for="epSearch" style="font-weight:600;margin-bottom:8px;display:block">Episode</label>
+          <input type="text" id="epSearch" autocomplete="off" placeholder="Type ep_ number or pick below…"
+            style="width:100%;padding:10px;font-size:15px;border-radius:8px;background:var(--color-bg);border:1px solid var(--color-border);color:var(--color-text);box-sizing:border-box">
+          <select id="epSelect" size="6"
+            style="width:100%;margin-top:8px;padding:6px;font-size:14px;border-radius:8px;background:var(--color-bg);border:1px solid var(--color-border);color:var(--color-text);display:none">
+          </select>
+        </div>
+        <div>
+          <label for="simThreshold" style="font-weight:600;margin-bottom:8px;display:block">Min similarity: <span id="thresholdLabel">0%</span></label>
+          <input type="range" id="simThreshold" min="0" max="100" value="0" step="5" style="width:100%">
+        </div>
+      </div>
     </div>
 
     <div id="simResults"></div>
   `
 
+  const searchEl = container.querySelector('#epSearch')
   const selectEl = container.querySelector('#epSelect')
+  const thresholdEl = container.querySelector('#simThreshold')
+  const thresholdLabelEl = container.querySelector('#thresholdLabel')
   const resultsEl = container.querySelector('#simResults')
+
+  let currentEp = episodes[0]
+
+  function rebuildOptions(filter) {
+    const f = (filter || '').toLowerCase()
+    const matches = episodes.filter(ep => !f || ep.toLowerCase().includes(f))
+    selectEl.innerHTML = matches.slice(0, 50).map(ep => `<option value="${ep}">${ep}</option>`).join('')
+    selectEl.style.display = matches.length && filter ? 'block' : 'none'
+  }
 
   function showSimilar(epId) {
     const dist = epDist[epId]
     if (!dist) return
+    currentEp = epId
+
+    const minSim = parseInt(thresholdEl.value, 10) / 100
 
     // Compute similarity to all other episodes
-    const scored = episodes
+    const all = episodes
       .filter(ep => ep !== epId)
       .map(ep => ({ ep, sim: cosineSim(dist, epDist[ep]) }))
       .sort((a, b) => b.sim - a.sim)
-      .slice(0, 12)
+
+    const scored = all.filter(s => s.sim >= minSim).slice(0, 12)
 
     resultsEl.innerHTML = `
       <div class="card">
         <h2>Most similar episodes to <a href="/episodes?ep=${epId}" class="nav-link" data-link>${epId}</a></h2>
-        <div class="sim-grid">
-          ${scored.map((s, i) => `
-            <div class="sim-card">
-              <div class="sim-rank">#${i + 1}</div>
-              <div class="sim-info">
-                <div class="sim-ep">
-                  <a href="/episodes?ep=${s.ep}" class="nav-link" data-link>${s.ep}</a>
+        ${scored.length ? `
+          <div class="sim-grid">
+            ${scored.map((s, i) => `
+              <div class="sim-card">
+                <div class="sim-rank">#${i + 1}</div>
+                <div class="sim-info">
+                  <div class="sim-ep">
+                    <a href="/episodes?ep=${s.ep}" class="nav-link" data-link>${s.ep}</a>
+                  </div>
+                  <div class="sim-bar-wrap">
+                    <div class="sim-bar" style="width:${(s.sim * 100).toFixed(1)}%"></div>
+                  </div>
+                  <div class="sim-score">${(s.sim * 100).toFixed(1)}% similar</div>
                 </div>
-                <div class="sim-bar-wrap">
-                  <div class="sim-bar" style="width:${(s.sim * 100).toFixed(1)}%"></div>
-                </div>
-                <div class="sim-score">${(s.sim * 100).toFixed(1)}% similar</div>
               </div>
-            </div>
-          `).join('')}
-        </div>
+            `).join('')}
+          </div>
+        ` : `<p style="color:var(--color-muted);text-align:center;padding:24px">No episodes ≥${(minSim*100).toFixed(0)}% similar. Lower the threshold or pick another episode.</p>`}
       </div>
     `
-
-    resultsEl.querySelectorAll('a[data-link]').forEach(a => {
-      a.addEventListener('click', e => {
-        e.preventDefault()
-        history.pushState(null, '', a.href)
-        window.dispatchEvent(new PopStateEvent('popstate'))
-      })
-    })
   }
 
-  showSimilar(selectEl.value)
-  selectEl.addEventListener('change', () => showSimilar(selectEl.value))
+  searchEl.value = currentEp
+  rebuildOptions('')
+
+  searchEl.addEventListener('input', () => {
+    rebuildOptions(searchEl.value.trim())
+    const exact = episodes.find(ep => ep === searchEl.value.trim())
+    if (exact) showSimilar(exact)
+  })
+  selectEl.addEventListener('change', () => {
+    searchEl.value = selectEl.value
+    selectEl.style.display = 'none'
+    showSimilar(selectEl.value)
+  })
+  thresholdEl.addEventListener('input', () => {
+    thresholdLabelEl.textContent = `${thresholdEl.value}%`
+    showSimilar(currentEp)
+  })
+
+  showSimilar(currentEp)
 }

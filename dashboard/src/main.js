@@ -367,7 +367,7 @@ const store = { data: null, loaded: false }
 // ── Init ─────────────────────────────────────────────────
 async function init() {
   const app = document.getElementById('app')
-  app.innerHTML = `<div class="loading-shell"><div class="spinner"></div><p>Loading 6,097 questions…</p></div>`
+  app.innerHTML = `<div class="loading-shell"><div class="spinner"></div><p>Loading 6,134 questions…</p></div>`
 
   try {
     store.data = await loadAll()

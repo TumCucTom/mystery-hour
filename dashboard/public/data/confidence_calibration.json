@@ -1,70 +1,70 @@
 {
   "eras": [
     {
+      "hedging_count": 198,
+      "definitive_count": 68,
+      "total_answers": 1071,
+      "resolved": 657,
+      "total_q": 911,
       "era": 1,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 266,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 649,
-      "total_q": 900,
-      "accuracy": 0.7211
+      "hedging_ratio": 0.18487394957983194,
+      "definitive_ratio": 0.06349206349206349,
+      "accuracy": 0.721185510428101
     },
     {
+      "hedging_count": 284,
+      "definitive_count": 81,
+      "total_answers": 1249,
+      "resolved": 752,
+      "total_q": 990,
       "era": 2,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 328,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 745,
-      "total_q": 983,
-      "accuracy": 0.7579
+      "hedging_ratio": 0.22738190552441953,
+      "definitive_ratio": 0.06485188150520416,
+      "accuracy": 0.7595959595959596
     },
     {
+      "hedging_count": 242,
+      "definitive_count": 91,
+      "total_answers": 1265,
+      "resolved": 742,
+      "total_q": 959,
       "era": 3,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 327,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 733,
-      "total_q": 942,
-      "accuracy": 0.7781
+      "hedging_ratio": 0.19130434782608696,
+      "definitive_ratio": 0.07193675889328063,
+      "accuracy": 0.7737226277372263
     },
     {
+      "hedging_count": 244,
+      "definitive_count": 92,
+      "total_answers": 1470,
+      "resolved": 813,
+      "total_q": 1067,
       "era": 4,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 450,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 799,
-      "total_q": 1049,
-      "accuracy": 0.7617
+      "hedging_ratio": 0.16598639455782313,
+      "definitive_ratio": 0.06258503401360545,
+      "accuracy": 0.7619493908153702
     },
     {
+      "hedging_count": 198,
+      "definitive_count": 87,
+      "total_answers": 1410,
+      "resolved": 791,
+      "total_q": 1112,
       "era": 5,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 365,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 790,
-      "total_q": 1113,
-      "accuracy": 0.7098
+      "hedging_ratio": 0.14042553191489363,
+      "definitive_ratio": 0.06170212765957447,
+      "accuracy": 0.7113309352517986
     },
     {
+      "hedging_count": 170,
+      "definitive_count": 91,
+      "total_answers": 1365,
+      "resolved": 762,
+      "total_q": 1095,
       "era": 6,
-      "hedging_count": 0,
-      "definitive_count": 0,
-      "total_answers": 343,
-      "hedging_ratio": 0.0,
-      "definitive_ratio": 0.0,
-      "resolved": 801,
-      "total_q": 1147,
-      "accuracy": 0.6983
+      "hedging_ratio": 0.12454212454212454,
+      "definitive_ratio": 0.06666666666666667,
+      "accuracy": 0.6958904109589041
     }
   ]
 }

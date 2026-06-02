@@ -5,7 +5,6 @@
  * ranges as a proxy for time progression and show topic cluster popularity.
  */
 import { loadJSON } from '../lib/data.js'
-import { loadAll } from '../lib/data.js'
 
 function escHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -27,29 +26,28 @@ export async function renderCallHeatmapPage(container, store) {
 
 function renderPage(container, allQa, evo) {
   const nEps = allQa.episodes.length
-  const eraSize = Math.ceil(nEps / 6)
-  const eraQuestionCounts = evo.era_question_counts || Array(6).fill(0)
-  const eraNames = evo.era_labels || ['Era 1', 'Era 2', 'Era 3', 'Era 4', 'Era 5', 'Era 6']
+  const evolution = evo.evolution || []
+  // Era count is driven by the data, not hardcoded
+  const nEras = (evolution[0]?.values || []).length || (evo.era_labels || []).length || 6
+  const eraQuestionCounts = evo.era_question_counts || Array(nEras).fill(0)
+  const eraNames = evo.era_labels || Array.from({ length: nEras }, (_, i) => `Era ${i + 1}`)
 
   // Use the cluster_evolution data which has the actual era proportions
-  const evolution = evo.evolution || []
   const topTopics = [...evolution]
     .sort((a, b) => Math.max(...b.values) - Math.max(...a.values))
     .slice(0, 25)
     .map(r => r.label)
 
   // Build era x topic matrix from the cluster_evolution proportions
-  const normMatrix = Array.from({ length: 6 }, () => ({}))
-  const eraTotals = Array(6).fill(0)
+  const normMatrix = Array.from({ length: nEras }, () => ({}))
   for (const r of evolution) {
-    for (let ei = 0; ei < 6; ei++) {
+    for (let ei = 0; ei < nEras; ei++) {
       normMatrix[ei][r.label] = r.values[ei] || 0
-      eraTotals[ei] = Math.max(eraTotals[ei], eraQuestionCounts[ei] || 0)
     }
   }
   // Derive raw counts from proportions × era totals
   const eraTopicMatrix = normMatrix.map((row, ei) => {
-    const total = eraTotals[ei] || 1
+    const total = eraQuestionCounts[ei] || 0
     const counts = {}
     for (const t of topTopics) {
       counts[t] = Math.round((row[t] || 0) * total)
@@ -66,13 +64,13 @@ function renderPage(container, allQa, evo) {
   container.innerHTML = `
     <div class="page-header">
       <h1>📊 Call the Show — Topic Heatmap</h1>
-      <p>Topic cluster frequency across the show's history (601 episodes grouped into 6 eras).</p>
+      <p>Topic cluster frequency across the show's history (${nEps} episodes grouped into ${nEras} eras).</p>
     </div>
 
     <div class="card" style="margin-bottom:24px;background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px solid #0f3460">
       <p style="color:#94a3b8;font-size:14px;margin:0">
         <strong style="color:#fff">Note:</strong> Exact broadcast day/time isn't available. This heatmap shows how topic
-        clusters changed across <strong style="color:#fff">6 episode eras</strong> — from early episodes (2001–2004) to recent ones.
+        clusters changed across <strong style="color:#fff">${nEras} episode eras</strong> — from early episodes to recent ones.
         Darker cells = higher proportion of questions on that topic in that era.
       </p>
     </div>
@@ -85,12 +83,12 @@ function renderPage(container, allQa, evo) {
             <div class="heatmap-corner"></div>
             ${eraNames.map((name, i) => `
               <div class="heatmap-col-header">
-                <div class="heatmap-era-name">${name.replace('\n', ' ')}</div>
-                <div class="heatmap-era-eps">${eraEps[i]}</div>
+                <div class="heatmap-era-name">${escHtml(name.replace('\n', ' '))}</div>
+                <div class="heatmap-era-eps">${eraEps[i] || ''}</div>
               </div>
             `).join('')}
           </div>
-          ${topTopics.map((topic, ti) => {
+          ${topTopics.map((topic) => {
             const vals = normMatrix.map(row => row[topic] || 0)
             return `
             <div class="heatmap-row">
@@ -99,7 +97,7 @@ function renderPage(container, allQa, evo) {
                 const intensity = maxVal > 0 ? v / maxVal : 0
                 const rawCount = eraTopicMatrix[ei][topic] || 0
                 return `
-                <div class="heatmap-cell" style="background:rgba(59,130,246,${intensity.toFixed(3)})" title="${escHtml(topic)} (${eraNames[ei].replace('\n', ' ')}): ${rawCount} questions (${(v*100).toFixed(1)}%)">
+                <div class="heatmap-cell" style="background:rgba(59,130,246,${intensity.toFixed(3)})" title="${escHtml(topic)} (${escHtml(eraNames[ei].replace('\n', ' '))}): ${rawCount} questions (${(v*100).toFixed(1)}%)">
                   ${rawCount > 0 ? `<span class="heatmap-cell-count">${rawCount}</span>` : ''}
                 </div>
               `}).join('')}
@@ -116,11 +114,11 @@ function renderPage(container, allQa, evo) {
 
     <!-- Rising and falling topics -->
     <div class="card">
-      <h2>📈 Rising Topics (Era 1 → Era 6)</h2>
+      <h2>📈 Rising Topics (Era 1 → Era ${nEras})</h2>
       <div id="risingTopics" class="trend-list"></div>
     </div>
     <div class="card">
-      <h2>📉 Declining Topics (Era 1 → Era 6)</h2>
+      <h2>📉 Declining Topics (Era 1 → Era ${nEras})</h2>
       <div id="fallingTopics" class="trend-list"></div>
     </div>
   `

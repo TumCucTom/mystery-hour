@@ -491,7 +491,7 @@
       },
       {
         "ep": "ep_018",
-        "question": "Why do we write the pound sign before the number (\u00a35.50)? Currencies always have the sign first, but units like kilograms, miles, metres come after the number. Why the inconsistency?",
+        "question": "Why do we write the pound sign before the number (£5.50)? Currencies always have the sign first, but units like kilograms, miles, metres come after the number. Why the inconsistency?",
         "n_answers": 0
       },
       {
@@ -521,11 +521,6 @@
       {
         "ep": "ep_007",
         "question": "Are we born with a fear of heights (wobbly knee feeling) or is it developed? Is it nature or nurture?",
-        "n_answers": 0
-      },
-      {
-        "ep": "ep_010",
-        "question": "",
         "n_answers": 0
       },
       {
@@ -2412,7 +2407,7 @@
       },
       {
         "ep": "ep_215",
-        "question": "Why does it say 'pound sterling' on Scottish banknotes but not on Bank of England notes? I have a Bank of Scotland \u00a310 note and a Royal Bank of Scotland \u00a320 note that both say sterling, but a Bank of England \u00a320 note just says \u00a320.",
+        "question": "Why does it say 'pound sterling' on Scottish banknotes but not on Bank of England notes? I have a Bank of Scotland £10 note and a Royal Bank of Scotland £20 note that both say sterling, but a Bank of England £20 note just says £20.",
         "n_answers": 0
       }
     ]
@@ -2887,18 +2882,19 @@
   },
   {
     "cluster": 12,
-    "label": "",
-    "keywords": [],
+    "label": "island, people, raise, ring, finger",
+    "keywords": [
+      "island",
+      "people",
+      "raise",
+      "ring",
+      "finger"
+    ],
     "unresolved_count": 8,
     "questions": [
       {
         "ep": "ep_164",
         "question": "Why can some people raise their ring finger all the way up from a fist while others cannot?",
-        "n_answers": 1
-      },
-      {
-        "ep": "ep_355",
-        "question": "",
         "n_answers": 1
       },
       {
@@ -3024,11 +3020,6 @@
         "n_answers": 0
       },
       {
-        "ep": "ep_445",
-        "question": "",
-        "n_answers": 1
-      },
-      {
         "ep": "ep_480",
         "question": "Why is it hot in the Caribbean and cold in Europe or America? Why are some countries hotter than others?",
         "n_answers": 1
@@ -3037,8 +3028,14 @@
   },
   {
     "cluster": 74,
-    "label": "",
-    "keywords": [],
+    "label": "people, fresh, fruit, start, putting",
+    "keywords": [
+      "people",
+      "fresh",
+      "fruit",
+      "start",
+      "putting"
+    ],
     "unresolved_count": 5,
     "questions": [
       {
@@ -3053,18 +3050,8 @@
       },
       {
         "ep": "ep_282",
-        "question": "",
-        "n_answers": 0
-      },
-      {
-        "ep": "ep_282",
         "question": "When you run a really, really hot bath, and you get in, you put your toe in, why does it feel like freezing cold for a couple of seconds?",
         "n_answers": 1
-      },
-      {
-        "ep": "ep_282",
-        "question": "",
-        "n_answers": 0
       }
     ]
   },

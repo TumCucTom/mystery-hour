@@ -18,7 +18,7 @@ export function renderUMAP(page, store) {
   page.innerHTML = `
     <div class="page-header">
       <h1>Question Map</h1>
-      <p>6,097 questions projected to 2D using UMAP — colored by topic cluster. Hover for question.</p>
+      <p>6,134 questions projected to 2D using UMAP — colored by topic cluster. Hover for question.</p>
     </div>
     <div id="umap-legend" style="display:flex;flex-wrap:wrap;gap:0.4rem;padding:0.75rem 0;border-bottom:1px solid var(--border);margin-bottom:1rem"></div>
     <div id="scatter-wrap" style="position:relative;height:70vh;background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden">
@@ -75,7 +75,7 @@ async function loadUMAP() {
   const clusterRes = await fetch('/data/kmeans_k80_stats.json')
   const cStats = await clusterRes.json()
   const clusterLabel = {}
-  ;(cStats.clusters || []).forEach(c => { clusterLabel[c.cluster_id] = c.topic_label || c.keywords ? c.keywords[0] : `Cluster ${c.cluster_id}` })
+  ;(cStats.clusters || []).forEach(c => { clusterLabel[c.cluster_id] = c.topic_label || (c.keywords ? c.keywords[0] : `Cluster ${c.cluster_id}`) })
 
   // Legend
   const legendEl = document.getElementById('umap-legend')

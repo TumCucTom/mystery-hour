@@ -2,7 +2,7 @@
   "source": "transcripts + qa",
   "method": "voice_note_scan + qa_keyword_match",
   "trigger": "I'm Ray L... and you're listening to James O'Brien on LBC",
-  "count": 134,
+  "count": 131,
   "episodes": 115,
   "qa_matched": 131,
   "caller_filled": 131,
@@ -99,16 +99,6 @@
       "match_ratio": 0.8
     },
     {
-      "episode": "ep_040",
-      "offset": 30345,
-      "caller": null,
-      "qualification": "thing and so dave goes right i've got so he's straight back to get the fingers yeah then they gave me a tetanus yeah uh and then i um hyperventilated against not hyperventilated um had the uh what's it called the shock where you crash oh yeah um it will come to me in a minute like when you have an allergic yeah an anaphylactic that's it yeah i had that so yeah um yeah that was quite uh experienced as well and then so dave gets back with the fingers yeah and then mr sued the surgeon uh come and saw me and um performed a 10-hour operation and told me he'd give me a semi-functional hand rather than throwing my fingers in the bin um which is kind of what he's done um but my skin graft had to be done through sewing it to my stomach so they cut a flap and put my fingers into my stomach and sewed them there so i was really good at i'm a little teapot for a while and then um yeah they gradually just released them and then i've had hand therapy for um about six seven months after that and now i'm having neurological waves electrical pulses put down um because i get a lot of tingling feeling but it's all i'm having neurological waves and coming good with the feelings absolutely incredible isn't it and i love the way you mentioned the surgeon again tell me his name again mr sued at the what hospital would it be that is that that is absolutely incredible what an incredible amazing team when did it happen uh february uh 23 okay and so and it's an ongoing process the rehabilitator sounds like things are getting better all the time yeah so i know that's the way it is yeah i'm going to have to do that i go every four or five weeks to have the electrolysis thing to release the nerves from the scar tissue to give me more feeling and stop the tingling that's fantastic that's absolutely fantastic um and and now's dave dave's good yeah my son's working with him now so yeah it's all good that's fantastic steve i don't know it feels i think i think you have to get a yeah of course you do",
-      "question": null,
-      "answer": "thank you james oh thank you man do stay safe um i will yeah good that's incredible i mean that is absolutely incredible who even knew that that kind of uh medical technology exists you kind of suspected it did but straight from the horse's mouth that's incredible uh 12 38 is the time uh james is in gillingham gillingham gillingham it's gillingham james gillingham dorset question or answer it's a question please james carry on i shall fire away yeah um i'll be as delicate as i can about this uh i i live in the country take a dog for a walk regularly and i notice different herbivores yes produce different waste as in types like some produce pellets some produce pretty messy stuff like cows yes cow pats and then the sheep that produce pellets i think kind of like slightly bigger and i'm wondering why that is if they all eat the same um same stuff basically grass i would assume maybe a little bit extra here and there why why they produce such different types of um waste it's the digestive system isn't it so i think don't don't rabbits go through doesn't it go through a rabbit twice you've got me there and a cow and a cow choose the cud so they've all got completely different means of absorbing nutrients which means that they're going to produce measurably different waste and also water consumption as well i don't know i but i like it i i mean i don't want to sound weird but i think about this kind of stuff a little bit as well b",
-      "match_source": "fallback",
-      "match_ratio": 0.18
-    },
-    {
       "episode": "ep_055",
       "offset": 43854,
       "caller": "David (Dunstable)",
@@ -177,16 +167,6 @@
       "answer": "Churches DID have chimneys. They all used to heat their spaces with coal, usually through great big cast-iron pipes under grids in the floor. But when the coal boilers became obsolete, they abandoned the chimneys, and a lot of them were taken down because they cost a lot of money to maintain.",
       "match_source": "qa",
       "match_ratio": 0.83
-    },
-    {
-      "episode": "ep_083",
-      "offset": 51201,
-      "caller": null,
-      "qualification": "I have a HNC in aircraft engineering, and I did 22 years in the Royal Navy as a mechanical supervisor. Round of applause for Tommy. And a salute, I think, as well. Thank you, mate. Lovely stuff. 1257. Alex is in Bexley Heath. Alex, question or answer? Well, as part of an answer, I'll be honest and frank, I didn't actually get the question that the lady answered. Right. But what she said was that, which is more painful, being trod on the foot by a stiletto, or an elephant. Sort of. Yeah, sort of. But you crack on. I only caught the gist at the end. What were you doing? I mean, I'm not here for my own amusement. What was I doing? Well, I was actually clearing out a garage site, if I'll be honest, and I just turned the radio on and caught the tail end of this answer. All right. And it's where you actually said to the, you answered for her and said that t",
-      "question": "You've never listened to this programme before, have you? Yes, I have. Really?",
-      "answer": "I'm going to give the game to Sarah for her canine teeth question, I think, today. It could have been anyone. It was a very, very good mystery hour, which will be available as a podcast later today.",
-      "match_source": "fallback",
-      "match_ratio": 0.16
     },
     {
       "episode": "ep_098",
@@ -486,7 +466,7 @@
       "question": "How is it that horses are able to sleep standing up?",
       "answer": "Horses don't actually sleep unless they're lying completely flat out. They only need to do that two hours in every 24. When you see them in the field looking like they're sleeping with one leg bandy at the back, they have a mechanism in their hind legs that allows them to lock one leg - like a table. They'll only get proper REM sleep when laid completely flat out. When they're in a horse box, they don't go to sleep at all, they're continually managing their balance with their legs, which is why there are limits on how long you can have a horse in a trailer.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_211",
@@ -704,7 +684,7 @@
       "caller": "Theo (Leicester Square) - Political Journalist at LBC",
       "qualification": "Political journalist at LBC for six and a bit years. Political journalist for 10 years. That's fair enough, I think. Is that right? Does that allow it? I'm just taking... Actually, someone else has got a question for you. Oh, no. No, here you go. James is in Barnet. James, what would you like to ask the political editor? I'd like to ask him, why do we call left-wingers and right-wingers, I do have a little suggestion, but I'm not sure what the answer is, really. Theo, do you know? No, I don't. Wait there. Let me just... I mean, I assume it's because... Well, assume is never a good thing to do. Why are left-wing... Give me two minutes, James. No, you can't look stuff up. It's the only rule we have on Misra. It's to do with the French Parliament and the post-revolution French Parliament. I can't remember the details. Ad gauche and ad droit. The answer of the French Revolution, James. Yeah. From 1789. That's right, yeah. Don't look stuff up, Theo. Theo, I can see through you like a window, mate. Do not look stuff up because we were about to do something quite special and now you might have spoiled it. Well, but I haven't spoiled it. Well, in terms of... Someone comes on Mystery Hour and says maybe Theo could answer that and then... Well, I did the first one. And then Theo pops up and answers it. You know what the crowds are thinking. You know what the audience is thinking at this point in proceedings. Does he or doesn't he get one of those? Does he get one of what, sorry?",
       "question": "Why do we call people left-wingers and right-wingers?",
-      "answer": "The terms come from the post-revolution French Parliament in 1789. Those who sat on the left side of the chamber were the revolutionaries or radicals, and those on the right were the loyalists or royalists. '\u00c0 gauche' (left) and '\u00e0 droite' (right).",
+      "answer": "The terms come from the post-revolution French Parliament in 1789. Those who sat on the left side of the chamber were the revolutionaries or radicals, and those on the right were the loyalists or royalists. 'À gauche' (left) and 'à droite' (right).",
       "match_source": "qa",
       "match_ratio": 0.62
     },
@@ -756,7 +736,7 @@
       "question": "Why do humans have different body shapes? So, for example, you have pear-shaped, you have apple, you have square... But in nature, all animals, but in certain species, are the same shape. So if you take a bottlenose dolphin, all bottlenose dolphins are the same shape. You don't get one that's got a bigger bum than another one, or a smaller fin, waist, etc. I just didn't know if it was because of certain environments that we...",
       "answer": "Thank you. Thank you, Bella. Thank you, Bella's mum, who I can hear, I think I can hear chuckling away in the background.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_280",
@@ -899,16 +879,6 @@
       "match_ratio": 0.61
     },
     {
-      "episode": "ep_313",
-      "offset": 27484,
-      "caller": null,
-      "qualification": "I am at Tesco's in Walden, Worcester. Mate, I don't think I'm really... I'm going to get into trouble for this, all right? Because you shouldn't get this for just having driven an ambulance through my hometown. But given that no one else has just driven... An ambulance through my hometown, I'm giving you one of the greatest honours that I can bestow.",
-      "question": "I am at Tesco's in Walden, Worcester. Mate, I don't think I'm really... I'm going to get into trouble for this, all right?",
-      "answer": "And, of course, he also gets a round of applause. Thank you. No, thank you.",
-      "match_source": "fallback",
-      "match_ratio": 0.23
-    },
-    {
       "episode": "ep_314",
       "offset": 22730,
       "caller": "Carl (Bradford)",
@@ -956,7 +926,7 @@
       "question": "Where and when was the very first embassy?",
       "answer": "The first embassies were in the 13th century in Northern Italy. Milan was one of the first - city-states sending embassies to each other. Before the 13th century in Greek and Roman times, countries sent representatives but didn't have embassies as such.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_325",
@@ -1116,7 +1086,7 @@
       "question": "Gave an answer to Mike's question",
       "answer": "I actually lived in New Lodge in Hyde Park near the Serpentine and police station for a while, working with someone who was in charge of the New Bridge Theatre",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_359",
@@ -1126,7 +1096,7 @@
       "question": "Can the heart develop cancer?",
       "answer": "Yes, you can get cardiac tumours. It's incredibly rare because heart cells don't split like cells elsewhere in the body do. Because the cells don't split, it's hard for cancer to spread, but it is possible.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_364",
@@ -1186,7 +1156,7 @@
       "question": "Why are all crosswords symmetrical?",
       "answer": "They were originally called word crosses and appeared in New York in the early 1900s. They felt it was elegant to have symmetry and convention stuck. An immigrant passed it from the UK to America. In America and UK, all crosswords have symmetry, but everywhere else in Europe they don't.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_382",
@@ -1306,7 +1276,7 @@
       "question": "What's the origin of a judge's wig? Why do lawyers and judges wear wigs?",
       "answer": "It's not a disguise - you'd wear a balaclava for disguise. It came from the Restoration when Charles II brought wigs over. Lawyers started wearing them after the rest of the population and never stopped. After the French Revolution, because of the powder tax, people stopped wearing powdered wigs, but barristers and judges continued.",
       "match_source": "qa",
-      "match_ratio": 1.0
+      "match_ratio": 1
     },
     {
       "episode": "ep_404",
@@ -1334,7 +1304,7 @@
       "caller": "Alan (text) - Answer",
       "qualification": "If you wish. We've got the Ray Liotta stuff. I haven't played that. Hang on. You can have two for these, John, actually. You can have one of these.",
       "question": "How much cash does a street sweeper find on average in a year?",
-      "answer": "I am a street sweeper. Last year I found about \u00a316. If you find any significant amount, you'd have to hand it in because it would be theft by finding if you didn't.",
+      "answer": "I am a street sweeper. Last year I found about £16. If you find any significant amount, you'd have to hand it in because it would be theft by finding if you didn't.",
       "match_source": "qa",
       "match_ratio": 0.92
     },

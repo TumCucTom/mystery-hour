@@ -4,7 +4,6 @@
  */
 import { loadJSON } from '../lib/data.js'
 
-const BASE = ''
 function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
 function pct(n, d) { return d ? `${(n/d*100).toFixed(1)}%` : '—' }
 
@@ -32,6 +31,23 @@ export async function renderQuestionQualityPage(container, store) {
 function renderPage(container, qqs) {
   const scores = qqs.scores || []
   const s = qqs.summary || {}
+
+  const isStub = !scores.length ||
+    scores.every(r => r.interest == null || r.difficulty == null || r.novelty == null)
+  if (isStub) {
+    container.innerHTML = `
+      <div class="page-header">
+        <h1>⭐ Question Quality</h1>
+        <p>Each question rated on Interest, Difficulty, and Novelty (1-5 scale).</p>
+      </div>
+      <div class="card" style="text-align:center;padding:48px">
+        <div style="font-size:48px;margin-bottom:16px">⏳</div>
+        <div style="font-size:18px;font-weight:600;margin-bottom:8px">Question quality scores not yet generated</div>
+        <div style="font-size:14px;color:var(--color-muted)">Run <code>question_quality_scorer.py</code> with MiniMax API key to generate <code>question_quality_scores.json</code></div>
+      </div>
+    `
+    return
+  }
 
   const dist = (key, lo, hi) => scores.filter(r => r[key] >= lo && r[key] <= hi).length
   const total = scores.length || 1
@@ -86,8 +102,4 @@ function renderPage(container, qqs) {
       </div>
     </div>
   `
-
-  container.querySelectorAll('a[data-link]').forEach(a => {
-    a.addEventListener('click', e => { e.preventDefault(); history.pushState(null,'',a.href); window.dispatchEvent(new PopStateEvent('popstate')) })
-  })
 }

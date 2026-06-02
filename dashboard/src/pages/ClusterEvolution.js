@@ -1,6 +1,6 @@
 /**
  * ClusterEvolution.js — "Cluster Evolution"
- * Topic cluster rise and fall across 6 episode eras.
+ * Topic cluster rise and fall across episode eras.
  * Shows which topics grew and which declined over the show's history.
  */
 import { loadJSON } from '../lib/data.js'
@@ -35,7 +35,7 @@ function renderPage(container, data) {
   container.innerHTML = `
     <div class="page-header">
       <h1>📈 Cluster Evolution</h1>
-      <p>How have Mystery Hour's topic clusters risen and fallen across 6 episode eras?</p>
+      <p>How have Mystery Hour's topic clusters risen and fallen across the show's history?</p>
     </div>
 
     <div class="card" style="margin-bottom:24px;background:linear-gradient(135deg,#1a1a2e,#16213e);border:1px solid #0f3460">

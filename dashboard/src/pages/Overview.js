@@ -96,7 +96,7 @@ export function renderOverview(page, store) {
     <section class="home-hero">
       <div class="home-hero-text">
         <h1>Welcome to the Mystery Hour Q&amp;A Explorer</h1>
-        <p>An interactive look at 6,097 questions, 9,049 answers, and 20+ years of James's
+        <p>An interactive look at 6,134 questions, 7,830 answers, and 20+ years of James's
         attempts to explain the world from a BBC radio phone-in.</p>
         <div class="home-hero-stats">
           ${stats.map(s => `

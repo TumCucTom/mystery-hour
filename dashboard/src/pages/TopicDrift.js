@@ -34,18 +34,38 @@ function renderPage(container, drift, fingerprints) {
     'rgba(243,156,18,0.7)',
   ]
 
-  // X-axis: every 50th episode label
-  const xLabels = episodes.map((ep, i) => i % 50 === 0 ? ep.replace('ep_', '') : '')
+  // Parse episode numbers and fill gaps with null so missing eps show as breaks on the x-axis
+  const epNums = episodes.map(ep => parseInt(ep.replace(/[^\d]/g, ''), 10))
+  const minN = epNums[0]
+  const maxN = epNums[epNums.length - 1]
 
-  const datasets = drift.series.map((s, i) => ({
+  // Build a contiguous label set (every episode number) and map data accordingly
+  const contiguous = []
+  for (let n = minN; n <= maxN; n++) contiguous.push(n)
+  const epIndex = Object.fromEntries(epNums.map((n, i) => [n, i]))
+
+  // X-axis labels: every 50th episode number, blank otherwise
+  const xLabels = contiguous.map(n => n % 50 === 0 ? String(n) : '')
+
+  // Re-shape each series so missing eps are null
+  const reshaped = drift.series.map(s => ({
     label: s.label,
-    data: s.values,
+    data: contiguous.map(n => {
+      const idx = epIndex[n]
+      return idx == null ? null : (s.values[idx] ?? null)
+    }),
+  }))
+
+  const datasets = reshaped.map((s, i) => ({
+    label: s.label,
+    data: s.data,
     backgroundColor: COLORS[i % COLORS.length],
     borderColor: COLORS[i % COLORS.length].replace('0.7', '1'),
     fill: true,
     tension: 0.3,
     pointRadius: 0,
     borderWidth: 1.5,
+    spanGaps: false,
   }))
 
   container.innerHTML = `
